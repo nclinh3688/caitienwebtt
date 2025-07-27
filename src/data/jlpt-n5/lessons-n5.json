@@ -1,0 +1,23 @@
+[
+  {
+    "id": "N5-B01",
+    "title": "Bài 1: Tự giới thiệu",
+    "description": "Giới thiệu bản thân, nghề nghiệp, quốc tịch, mẫu câu cơ bản.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-1"
+  },
+  {
+    "id": "N5-B02",
+    "title": "Bài 2: Đồ vật, địa điểm",
+    "description": "Từ vựng về đồ vật, hỏi đáp vị trí, mẫu câu chỉ định.",
+    "status": "draft",
+    "path": "/courses/japanese/n5/lesson-2"
+  },
+  {
+    "id": "N5-B03",
+    "title": "Bài 3: Gia đình, bạn bè",
+    "description": "Từ vựng về gia đình, bạn bè, mẫu câu giới thiệu người thân.",
+    "status": "draft",
+    "path": "/courses/japanese/n5/lesson-3"
+  }
+] 

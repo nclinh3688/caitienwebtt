@@ -1,0 +1,1056 @@
+[
+  {
+    "id": 1,
+    "title": "Bài 1",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 1/1 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 1/1 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 1/1 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 1/1 - 5 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 1/1 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 1/1 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 1/1 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 1/1 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 1/1 - 9 - Mondai 2.mp3"
+      },
+      {
+        "id": 10,
+        "title": "Mondai 3",
+        "url": "/audio/Minna Bai 1/1 - 10 - Mondai 3.mp3"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Bài 2",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 2/2 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 2/2 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 2/2 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 2/2 - 5 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 2/2 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 2/2 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 2/2 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 2/2 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 2/2 - 9 - Mondai 2.mp3"
+      },
+      {
+        "id": 10,
+        "title": "Mondai 3",
+        "url": "/audio/Minna Bai 2/2 - 10 - Mondai 3.mp3"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Bài 3",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 3/3 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 3/3 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 3/3 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 3/3 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 3/3 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 3/3 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 3/3 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 3/3 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 3/3 - 9 - Mondai 2.mp3"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Bài 4",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 4/4 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 4/4 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 4/4 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 4/4 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 4/4 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 4/4 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 4/4 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 4/4 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 4/4 - 9 - Mondai 2.mp3"
+      },
+      {
+        "id": 10,
+        "title": "Mondai 3",
+        "url": "/audio/Minna Bai 4/4 - 10 - Mondai 3.mp3"
+      },
+      {
+        "id": 11,
+        "title": "Mondai 4",
+        "url": "/audio/Minna Bai 4/4 - 11 - Mondai 4.mp3"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Bài 5",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 5/5 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 5/5 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 5/5 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 5/5 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 5/5 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 5/5 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 5/5 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 5/5 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 5/5 - 9 - Mondai 2.mp3"
+      },
+      {
+        "id": 10,
+        "title": "Mondai 3",
+        "url": "/audio/Minna Bai 5/5 - 10 - Mondai 3.mp3"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Bài 6",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 6/6 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 6/6 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 6/6 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 6/6 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 6/6 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 6/6 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 6/6 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 6/6 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 6/6 - 9 - Mondai 2.mp3"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Bài 7",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 7/7 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 7/7 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 7/7 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 7/7 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 7/7 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 7/7 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 7/7 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 7/7 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 7/7 - 9 - Mondai 2.mp3"
+      },
+      {
+        "id": 10,
+        "title": "Mondai 3",
+        "url": "/audio/Minna Bai 7/7 - 10 - Mondai 3.mp3"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Bài 8",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 8/8 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 8/8 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 8/8 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 8/8 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 8/8 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 8/8 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 8/8 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 8/8 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 8/8 - 9 - Mondai 2.mp3"
+      },
+      {
+        "id": 10,
+        "title": "Mondai 3",
+        "url": "/audio/Minna Bai 8/8 - 10 - Mondai 3.mp3"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Bài 9",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 9/9 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 9/9 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 9/9 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 9/9 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 9/9 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 9/9 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 9/9 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 9/9 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 9/9 - 9 - Mondai 2.mp3"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Bài 10",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 10/10 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 10/10 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 10/10 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 10/10 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 10/10 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 10/10 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 10/10 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 10/10 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 10/10 - 9 - Mondai 2.mp3"
+      },
+      {
+        "id": 10,
+        "title": "Mondai 3",
+        "url": "/audio/Minna Bai 10/10 - 10 - Mondai 3.mp3"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Bài 11",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 11/11 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 11/11 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 11/11 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 11/11 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 11/11 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 11/11 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 11/11 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 11/11 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 11/11 - 9 - Mondai 2.mp3"
+      },
+      {
+        "id": 10,
+        "title": "Mondai 3",
+        "url": "/audio/Minna Bai 11/11 - 10 - Mondai 3.mp3"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Bài 12",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 12/12 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 12/12 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 12/12 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 12/12 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 12/12 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 12/12 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 12/12 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 12/12 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 12/12 - 9 - Mondai 2.mp3"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Bài 13",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 13/13 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 13/13 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 13/13 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 13/13 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 13/13 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 13/13 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 13/13 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 13/13 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 13/13 - 9 - Mondai 2.mp3"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Bài 14",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 14/14 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 14/14 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 14/14 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 14/14 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 14/14 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 14/14 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 14/14 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 14/14 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 14/14 - 9 - Mondai 2.mp3"
+      },
+      {
+        "id": 10,
+        "title": "Mondai 3",
+        "url": "/audio/Minna Bai 14/14 - 10 - Mondai 3.mp3"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Bài 15",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 15/15 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 15/15 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 15/15 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 15/15 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 15/15 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 15/15 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 15/15 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 15/15 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 15/15 - 9 - Mondai 2.mp3"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Bài 16",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 16/16 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 16/16 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 16/16 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 16/16 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 16/16 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 16/16 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 16/16 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 16/16 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 16/16 - 9 - Mondai 2.mp3"
+      },
+      {
+        "id": 10,
+        "title": "Mondai 3",
+        "url": "/audio/Minna Bai 16/16 - 10 - Mondai 3.mp3"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Bài 17",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 17/17 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 17/17 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 17/17 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 17/17 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 17/17 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 17/17 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 17/17 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 17/17 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 17/17 - 9 - Mondai 2.mp3"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Bài 18",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 18/18 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 18/18 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 18/18 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 18/18 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 18/18 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 18/18 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 18/18 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 18/18 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 18/18 - 9 - Mondai 2.mp3"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Bài 19",
+    "parts": [
+      {
+        "id": 1,
+        "title": "Kotoba",
+        "url": "/audio/Minna Bai 19/19 - 1 - Kotoba.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Bunkei",
+        "url": "/audio/Minna Bai 19/19 - 2 - Bunkei.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Reibun",
+        "url": "/audio/Minna Bai 19/19 - 3 - Reibun.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Kaiwa",
+        "url": "/audio/Minna Bai 19/19 - 4 - Kaiwa.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Renshuu C1",
+        "url": "/audio/Minna Bai 19/19 - 5 - Renshuu C1.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Renshuu C2",
+        "url": "/audio/Minna Bai 19/19 - 6 - Renshuu C2.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Renshuu C3",
+        "url": "/audio/Minna Bai 19/19 - 7 - Renshuu C3.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Mondai 1",
+        "url": "/audio/Minna Bai 19/19 - 8 - Mondai 1.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Mondai 2",
+        "url": "/audio/Minna Bai 19/19 - 9 - Mondai 2.mp3"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Bài 20",
+    "parts": []
+  },
+  {
+    "id": 21,
+    "title": "Bài 21",
+    "parts": []
+  },
+  {
+    "id": 22,
+    "title": "Bài 22",
+    "parts": []
+  },
+  {
+    "id": 23,
+    "title": "Bài 23",
+    "parts": []
+  },
+  {
+    "id": 24,
+    "title": "Bài 24",
+    "parts": []
+  },
+  {
+    "id": 25,
+    "title": "Bài 25",
+    "parts": []
+  }
+]

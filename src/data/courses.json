@@ -1,0 +1,44 @@
+[
+  {
+    "id": "japanese",
+    "name": "Tiếng Nhật",
+    "levels": [
+      { "id": "n5", "name": "N5" },
+      { "id": "n4", "name": "N4" },
+      { "id": "n3", "name": "N3" }
+    ]
+  },
+  {
+    "id": "english",
+    "name": "Tiếng Anh",
+    "levels": [
+      { "id": "a1", "name": "A1" },
+      { "id": "a2", "name": "A2" },
+      { "id": "b1", "name": "B1" }
+    ]
+  },
+  {
+    "id": "chinese",
+    "name": "Tiếng Trung",
+    "levels": [
+      { "id": "hsk1", "name": "HSK1" },
+      { "id": "hsk2", "name": "HSK2" }
+    ]
+  },
+  {
+    "id": "korean",
+    "name": "Tiếng Hàn",
+    "levels": [
+      { "id": "topik1", "name": "TOPIK I" },
+      { "id": "topik2", "name": "TOPIK II" }
+    ]
+  },
+  {
+    "id": "vietnamese",
+    "name": "Tiếng Việt",
+    "levels": [
+      { "id": "cb", "name": "Cơ bản" },
+      { "id": "nc", "name": "Nâng cao" }
+    ]
+  }
+] 

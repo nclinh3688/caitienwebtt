@@ -1,0 +1,18 @@
+{
+  "title": "Ue o Muite Arukou (Sukiyaki)",
+  "artist": "Kyu Sakamoto",
+  "audio": "/audio/ue-o-muite-arukou.mp3",
+  "video": "https://www.youtube.com/embed/C35DrtPlUbc",
+  "lyrics": [
+    { "start": 0, "end": 3, "jp": "上を向いて歩こう", "vn": "Tôi ngẩng đầu lên và bước đi" },
+    { "start": 4, "end": 7, "jp": "涙がこぼれないように", "vn": "Để nước mắt không rơi xuống" }
+  ],
+  "transcript": "Ue o muite arukou, namida ga koborenai you ni...",
+  "quiz": [
+    {
+      "question": "Câu '上を向いて歩こう' nghĩa là gì?",
+      "options": ["Tôi ngẩng đầu lên và bước đi", "Tôi khóc", "Tôi chạy nhanh"],
+      "answer": 0
+    }
+  ]
+} 

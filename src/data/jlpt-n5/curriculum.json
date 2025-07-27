@@ -1,0 +1,237 @@
+{
+  "course": "JLPT N5",
+  "description": "Lộ trình học JLPT N5 đa giác quan - Từ nhập môn đến thi thật",
+  "duration": "3 tháng (48 buổi)",
+  "structure": {
+    "intro_phase": {
+      "title": "Giai đoạn nhập môn",
+      "duration": "2 tuần (6 buổi)",
+      "lessons": [
+        {
+          "id": "intro-1",
+          "title": "Nhập môn 1",
+          "content": {
+            "main_topics": [
+              "Giới thiệu bảng chữ cái Hiragana",
+              "Cách viết cơ bản",
+              "Quy tắc đọc",
+              "Luyện viết 10 chữ đầu tiên"
+            ],
+            "exercises": [
+              "Viết theo mẫu",
+              "Ghép âm",
+              "Đọc từ đơn giản"
+            ],
+            "audio_materials": [
+              "Phát âm chuẩn từng chữ",
+              "Bài hát Hiragana"
+            ]
+          }
+        },
+        {
+          "id": "intro-2",
+          "title": "Nhập môn 2",
+          "content": {
+            "main_topics": [
+              "Ôn tập Hiragana buổi 1",
+              "Học thêm 10 chữ mới",
+              "Cách nối âm cơ bản",
+              "Từ vựng đơn giản với Hiragana"
+            ],
+            "exercises": [
+              "Điền chữ còn thiếu",
+              "Nối từ với hình",
+              "Đọc câu ngắn"
+            ],
+            "audio_materials": [
+              "Từ vựng cơ bản",
+              "Mẫu câu đơn giản"
+            ]
+          }
+        }
+      ]
+    },
+    "main_phase": {
+      "title": "Giai đoạn học chính",
+      "duration": "2 tháng (32 buổi)",
+      "units": [
+        {
+          "unit_number": 1,
+          "title": "Bài 1: Tự giới thiệu",
+          "lessons": [
+            {
+              "id": "B01-1",
+              "title": "Từ vựng & Ngữ pháp cơ bản",
+              "content": {
+                "vocabulary": {
+                  "theme": "Từ vựng về nghề nghiệp và quốc tịch",
+                  "word_count": 30,
+                  "practice": "Flashcards và trò chơi ghép từ"
+                },
+                "grammar": {
+                  "points": [
+                    "N1 は N2 です",
+                    "N1 は N2 じゃありません",
+                    "N1 は N2 ですか"
+                  ],
+                  "examples": [
+                    "わたしは学生です",
+                    "わたしは先生じゃありません",
+                    "あなたは会社員ですか"
+                  ]
+                }
+              },
+              "activities": [
+                "Luyện nói theo cặp",
+                "Viết đoạn giới thiệu ngắn",
+                "Nghe và điền từ còn thiếu"
+              ]
+            },
+            {
+              "id": "B01-2",
+              "title": "Hội thoại & Luyện nghe",
+              "content": {
+                "conversation": {
+                  "situation": "Gặp gỡ lần đầu",
+                  "key_phrases": [
+                    "はじめまして",
+                    "どうぞよろしくおねがいします"
+                  ],
+                  "practice": "Đóng vai theo tình huống"
+                },
+                "listening": {
+                  "topics": [
+                    "Giới thiệu bản thân",
+                    "Hỏi thông tin cơ bản"
+                  ],
+                  "exercise_types": [
+                    "Nghe và chọn đáp án đúng",
+                    "Điền thông tin vào form"
+                  ]
+                }
+              }
+            }
+          ],
+          "review": {
+            "exercises": [
+              "Bài tập tổng hợp ngữ pháp",
+              "Kiểm tra từ vựng",
+              "Luyện nghe hiểu"
+            ],
+            "mini_test": {
+              "duration": "15 phút",
+              "question_types": [
+                "Từ vựng",
+                "Ngữ pháp",
+                "Đọc hiểu ngắn"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "review_phase": {
+      "title": "Giai đoạn ôn tập và thi thử",
+      "duration": "2 tuần (10 buổi)",
+      "content": {
+        "review_sessions": [
+          {
+            "focus": "Từ vựng & Kanji",
+            "duration": "2 buổi",
+            "activities": [
+              "Ôn tập theo chủ đề",
+              "Luyện đề từ vựng",
+              "Kanji N5 thường gặp"
+            ]
+          },
+          {
+            "focus": "Ngữ pháp & Đọc hiểu",
+            "duration": "3 buổi",
+            "activities": [
+              "Ôn tập ngữ pháp theo dạng",
+              "Luyện đọc hiểu các dạng văn bản",
+              "Chiến thuật làm bài đọc"
+            ]
+          },
+          {
+            "focus": "Nghe hiểu",
+            "duration": "2 buổi",
+            "activities": [
+              "Luyện nghe theo dạng",
+              "Chiến thuật làm bài nghe",
+              "Làm đề nghe thử"
+            ]
+          }
+        ],
+        "mock_tests": [
+          {
+            "test_number": 1,
+            "duration": "2 giờ",
+            "sections": [
+              "Từ vựng - Ngữ pháp (25 phút)",
+              "Đọc hiểu (50 phút)",
+              "Nghe hiểu (45 phút)"
+            ]
+          },
+          {
+            "test_number": 2,
+            "duration": "2 giờ",
+            "sections": [
+              "Từ vựng - Ngữ pháp (25 phút)",
+              "Đọc hiểu (50 phút)",
+              "Nghe hiểu (45 phút)"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "learning_materials": {
+    "textbooks": [
+      "Minna no Nihongo N5",
+      "Try! N5",
+      "Tài liệu bổ trợ theo chủ đề"
+    ],
+    "digital_resources": {
+      "audio": [
+        "File nghe từng bài học",
+        "File luyện nghe JLPT",
+        "Bài hát học từ vựng"
+      ],
+      "video": [
+        "Video hội thoại mẫu",
+        "Video hướng dẫn viết Kanji",
+        "Video giải thích ngữ pháp"
+      ],
+      "interactive": [
+        "Flashcards từ vựng",
+        "Quiz trực tuyến",
+        "Bài tập tương tác"
+      ]
+    }
+  },
+  "assessment": {
+    "continuous": {
+      "vocabulary_tests": "Sau mỗi 3 bài",
+      "grammar_tests": "Sau mỗi 5 bài",
+      "listening_tests": "Sau mỗi 5 bài"
+    },
+    "milestone_tests": {
+      "mid_course": "Sau bài 10",
+      "pre_final": "Trước khi thi thử",
+      "mock_exam": "2 đề thi thử hoàn chỉnh"
+    }
+  },
+  "support_features": {
+    "study_tracking": {
+      "progress_chart": "Theo dõi % hoàn thành",
+      "weak_points": "Phân tích điểm yếu",
+      "review_suggestions": "Gợi ý ôn tập cá nhân"
+    },
+    "interaction": {
+      "q_and_a": "Hỏi đáp với giáo viên",
+      "group_practice": "Luyện tập nhóm",
+      "peer_review": "Nhận xét chéo bài tập"
+    }
+  }
+} 
