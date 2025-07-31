@@ -1,4 +1,4 @@
-// This is your database schema for the most powerful financial management system!
+// 🚀 SIÊU HỆ THỐNG HỌC NGÔN NGỮ - Language Learning Platform Schema
 generator client {
   provider = "prisma-client-js"
 }
@@ -8,7 +8,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-// User management with powerful features
+// 👤 User Management với Learning Profile
 model User {
   id            String    @id @default(cuid())
   name          String?
@@ -18,24 +18,28 @@ model User {
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
   
-  // User preferences and settings
-  currency      String    @default("USD")
-  timezone      String    @default("UTC")
-  language      String    @default("en")
-  theme         String    @default("light")
+  // Learning Preferences
+  nativeLanguage    String   @default("vi") // Vietnamese default
+  targetLanguages   String   @default("en") // Comma-separated languages learning
+  learningGoal      LearningGoal @default(GENERAL)
+  dailyGoalMinutes  Int      @default(30)
+  preferredTime     String?  // "morning", "afternoon", "evening"
   
-  // Financial profile
-  monthlyIncome Decimal?  @db.Decimal(12, 2)
+  // Gamification Profile
+  totalXP           Int      @default(0)
+  currentStreak     Int      @default(0)
+  longestStreak     Int      @default(0)
+  level             Int      @default(1)
+  gems              Int      @default(0)
   
   // Relations
-  accounts      Account[]
-  sessions      Session[]
-  transactions  Transaction[]
-  categories    Category[]
-  budgets       Budget[]
-  goals         Goal[]
-  notifications Notification[]
-  financialAccounts FinancialAccount[]
+  accounts          Account[]
+  sessions          Session[]
+  enrollments       Enrollment[]
+  progress          LessonProgress[]
+  vocabularyProgress VocabularyProgress[]
+  achievements      UserAchievement[]
+  streakHistory     StreakHistory[]
   
   @@map("users")
 }
@@ -70,184 +74,262 @@ model Session {
   @@map("sessions")
 }
 
-// Financial Accounts (Bank, Credit Card, etc.)
-model FinancialAccount {
-  id            String    @id @default(cuid())
-  userId        String
-  name          String
-  type          AccountType
-  balance       Decimal   @default(0) @db.Decimal(12, 2)
-  currency      String    @default("USD")
-  institution   String?
-  accountNumber String?
-  isActive      Boolean   @default(true)
-  color         String    @default("#3B82F6")
-  icon          String    @default("💳")
-  createdAt     DateTime  @default(now())
-  updatedAt     DateTime  @updatedAt
+// 📚 Course System - Powerful Language Courses
+model Course {
+  id              String    @id @default(cuid())
+  language        String    // "en", "ja", "ko", "fr", etc.
+  level           CourseLevel
+  title           String
+  description     String?
+  thumbnail       String?
+  estimatedHours  Int       @default(10)
+  isPublished     Boolean   @default(false)
+  order           Int       @default(0)
+  color           String    @default("#3B82F6")
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
   
-  user         User          @relation(fields: [userId], references: [id], onDelete: Cascade)
-  transactions Transaction[]
+  // Relations
+  units           Unit[]
+  enrollments     Enrollment[]
   
-  @@map("financial_accounts")
+  @@unique([language, level])
+  @@map("courses")
 }
 
-enum AccountType {
-  CHECKING
-  SAVINGS
-  CREDIT_CARD
-  INVESTMENT
-  LOAN
-  CASH
+// 📖 Unit System - Course Units
+model Unit {
+  id          String   @id @default(cuid())
+  courseId    String
+  title       String
+  description String?
+  order       Int      @default(0)
+  color       String   @default("#10B981")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  course      Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  lessons     Lesson[]
+  
+  @@map("units")
 }
 
-// Categories with powerful organization
-model Category {
-  id           String    @id @default(cuid())
-  userId       String
-  name         String
-  type         TransactionType
-  color        String    @default("#6B7280")
-  icon         String    @default("📂")
-  parentId     String?   
-  isDefault    Boolean   @default(false)
-  isActive     Boolean   @default(true)
-  createdAt    DateTime  @default(now())
-  updatedAt    DateTime  @updatedAt
-  
-  user         User          @relation(fields: [userId], references: [id], onDelete: Cascade)
-  parent       Category?     @relation("CategoryHierarchy", fields: [parentId], references: [id])
-  children     Category[]    @relation("CategoryHierarchy")
-  transactions Transaction[]
-  budgets      Budget[]
-  
-  @@map("categories")
-}
-
-// Powerful transaction system
-model Transaction {
-  id              String          @id @default(cuid())
-  userId          String
-  accountId       String
-  categoryId      String?
-  amount          Decimal         @db.Decimal(12, 2)
-  type            TransactionType
-  description     String
-  notes           String?
-  date            DateTime
-  isRecurring     Boolean         @default(false)
-  recurringRule   String?         // RRULE format for recurring transactions
-  tags            String[]        // Array of tags for powerful filtering
-  location        String?
-  merchant        String?
-  receiptUrl      String?
-  isVerified      Boolean         @default(false)
-  createdAt       DateTime        @default(now())
-  updatedAt       DateTime        @updatedAt
-  
-  user            User            @relation(fields: [userId], references: [id], onDelete: Cascade)
-  account         FinancialAccount @relation(fields: [accountId], references: [id], onDelete: Cascade)
-  category        Category?       @relation(fields: [categoryId], references: [id])
-  
-  @@map("transactions")
-}
-
-enum TransactionType {
-  INCOME
-  EXPENSE
-  TRANSFER
-}
-
-// Advanced budgeting system
-model Budget {
+// 📝 Lesson System - Interactive Lessons
+model Lesson {
   id          String      @id @default(cuid())
-  userId      String
-  categoryId  String
-  name        String
-  amount      Decimal     @db.Decimal(12, 2)
-  spent       Decimal     @default(0) @db.Decimal(12, 2)
-  period      BudgetPeriod
-  startDate   DateTime
-  endDate     DateTime
-  isActive    Boolean     @default(true)
-  alertAt     Int         @default(80) // Alert when 80% spent
-  color       String      @default("#10B981")
+  unitId      String
+  title       String
+  description String?
+  type        LessonType  @default(VOCABULARY)
+  content     String?     // JSON content for different lesson types
+  xpReward    Int         @default(10)
+  gemsReward  Int         @default(5)
+  order       Int         @default(0)
+  duration    Int         @default(5) // minutes
+  isLocked    Boolean     @default(false)
   createdAt   DateTime    @default(now())
   updatedAt   DateTime    @updatedAt
   
-  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
-  category    Category    @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  unit        Unit        @relation(fields: [unitId], references: [id], onDelete: Cascade)
+  progress    LessonProgress[]
+  vocabulary  LessonVocabulary[]
   
-  @@map("budgets")
+  @@map("lessons")
 }
 
-enum BudgetPeriod {
-  WEEKLY
-  MONTHLY
-  QUARTERLY
-  YEARLY
-  CUSTOM
+// 🎯 Enrollment - User Course Enrollment
+model Enrollment {
+  id              String    @id @default(cuid())
+  userId          String
+  courseId        String
+  enrolledAt      DateTime  @default(now())
+  completedAt     DateTime?
+  isCompleted     Boolean   @default(false)
+  currentUnitId   String?
+  currentLessonId String?
+  
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  course          Course    @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  
+  @@unique([userId, courseId])
+  @@map("enrollments")
 }
 
-// Financial goals system
-model Goal {
-  id            String    @id @default(cuid())
+// 📊 Learning Progress Tracking
+model LessonProgress {
+  id              String    @id @default(cuid())
+  userId          String
+  lessonId        String
+  status          ProgressStatus @default(NOT_STARTED)
+  score           Float?    @default(0)
+  attempts        Int       @default(0)
+  timeSpent       Int       @default(0) // seconds
+  completedAt     DateTime?
+  lastAccessedAt  DateTime  @default(now())
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lesson          Lesson    @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  
+  @@unique([userId, lessonId])
+  @@map("lesson_progress")
+}
+
+// 📚 Vocabulary System
+model Vocabulary {
+  id              String    @id @default(cuid())
+  word            String
+  pronunciation   String?
+  definition      String
+  example         String?
+  audioUrl        String?
+  imageUrl        String?
+  language        String
+  difficulty      DifficultyLevel @default(BEGINNER)
+  partOfSpeech    String?   // "noun", "verb", "adjective", etc.
+  tags            String?   // "common,business,travel" - comma separated
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  
+  // Relations
+  lessons         LessonVocabulary[]
+  userProgress    VocabularyProgress[]
+  
+  @@unique([word, language])
+  @@map("vocabulary")
+}
+
+// 🔗 Lesson-Vocabulary Relationship
+model LessonVocabulary {
+  id           String      @id @default(cuid())
+  lessonId     String
+  vocabularyId String
+  
+  lesson       Lesson      @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  vocabulary   Vocabulary  @relation(fields: [vocabularyId], references: [id], onDelete: Cascade)
+  
+  @@unique([lessonId, vocabularyId])
+  @@map("lesson_vocabulary")
+}
+
+// 🧠 Spaced Repetition System cho Vocabulary
+model VocabularyProgress {
+  id              String    @id @default(cuid())
+  userId          String
+  vocabularyId    String
+  masteryLevel    Int       @default(0) // 0-5 scale
+  correctCount    Int       @default(0)
+  incorrectCount  Int       @default(0)
+  lastReviewedAt  DateTime?
+  nextReviewAt    DateTime  @default(now())
+  easinessFactor  Float     @default(2.5) // SM-2 algorithm
+  interval        Int       @default(1) // days
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  
+  user            User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  vocabulary      Vocabulary @relation(fields: [vocabularyId], references: [id], onDelete: Cascade)
+  
+  @@unique([userId, vocabularyId])
+  @@map("vocabulary_progress")
+}
+
+// 🏆 Achievement System
+model Achievement {
+  id          String    @id @default(cuid())
+  key         String    @unique // "first_lesson", "7_day_streak", etc.
+  name        String
+  description String
+  icon        String    @default("🏆")
+  xpReward    Int       @default(50)
+  gemsReward  Int       @default(25)
+  rarity      AchievementRarity @default(COMMON)
+  createdAt   DateTime  @default(now())
+  
+  users       UserAchievement[]
+  
+  @@map("achievements")
+}
+
+model UserAchievement {
+  id            String      @id @default(cuid())
   userId        String
-  name          String
-  description   String?
-  targetAmount  Decimal   @db.Decimal(12, 2)
-  currentAmount Decimal   @default(0) @db.Decimal(12, 2)
-  targetDate    DateTime?
-  category      GoalCategory
-  color         String    @default("#8B5CF6")
-  icon          String    @default("🎯")
-  isCompleted   Boolean   @default(false)
-  createdAt     DateTime  @default(now())
-  updatedAt     DateTime  @updatedAt
+  achievementId String
+  unlockedAt    DateTime    @default(now())
   
-  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user          User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  achievement   Achievement @relation(fields: [achievementId], references: [id], onDelete: Cascade)
   
-  @@map("goals")
+  @@unique([userId, achievementId])
+  @@map("user_achievements")
 }
 
-enum GoalCategory {
-  EMERGENCY_FUND
-  VACATION
-  CAR
-  HOUSE
-  EDUCATION
-  RETIREMENT
-  DEBT_PAYOFF
-  OTHER
-}
-
-// Notification system
-model Notification {
-  id        String           @id @default(cuid())
+// 🔥 Streak Tracking System
+model StreakHistory {
+  id        String   @id @default(cuid())
   userId    String
-  title     String
-  message   String
-  type      NotificationType
-  isRead    Boolean          @default(false)
-  actionUrl String?
-  metadata  String?          // JSON data for rich notifications
-  createdAt DateTime         @default(now())
+  date      DateTime
+  xpEarned  Int      @default(0)
+  lessonsCompleted Int @default(0)
+  timeSpent Int      @default(0) // seconds
   
-  user      User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   
-  @@map("notifications")
+  @@unique([userId, date])
+  @@map("streak_history")
 }
 
-enum NotificationType {
-  BUDGET_ALERT
-  GOAL_MILESTONE
-  BILL_REMINDER
-  LOW_BALANCE
-  UNUSUAL_SPENDING
-  MONTHLY_REPORT
+// 📊 Enums
+enum LearningGoal {
+  GENERAL
+  TRAVEL
+  BUSINESS
+  ACADEMIC
+  CONVERSATION
+  EXAM_PREP
 }
 
-// Verification tokens for email verification
+enum CourseLevel {
+  BEGINNER
+  INTERMEDIATE
+  ADVANCED
+  NATIVE
+}
+
+enum LessonType {
+  VOCABULARY
+  GRAMMAR
+  LISTENING
+  SPEAKING
+  READING
+  WRITING
+  CONVERSATION
+  PRONUNCIATION
+  QUIZ
+}
+
+enum ProgressStatus {
+  NOT_STARTED
+  IN_PROGRESS
+  COMPLETED
+  MASTERED
+}
+
+enum DifficultyLevel {
+  BEGINNER
+  INTERMEDIATE
+  ADVANCED
+}
+
+enum AchievementRarity {
+  COMMON
+  RARE
+  EPIC
+  LEGENDARY
+}
+
+// Verification tokens
 model VerificationToken {
   identifier String
   token      String   @unique
