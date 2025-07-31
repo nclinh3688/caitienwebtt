@@ -10,14 +10,14 @@
     "id": "N5-B02",
     "title": "Bài 2: Đồ vật, địa điểm",
     "description": "Từ vựng về đồ vật, hỏi đáp vị trí, mẫu câu chỉ định.",
-    "status": "draft",
+    "status": "template_ready",
     "path": "/courses/japanese/n5/lesson-2"
   },
   {
     "id": "N5-B03",
-    "title": "Bài 3: Gia đình, bạn bè",
-    "description": "Từ vựng về gia đình, bạn bè, mẫu câu giới thiệu người thân.",
-    "status": "draft",
+    "title": "Bài 3: Địa điểm, số đếm",
+    "description": "Từ vựng về địa điểm, số đếm, mẫu câu hỏi vị trí và giá cả.",
+    "status": "template_ready",
     "path": "/courses/japanese/n5/lesson-3"
   }
 ] 

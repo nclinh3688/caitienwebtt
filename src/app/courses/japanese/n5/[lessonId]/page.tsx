@@ -5,8 +5,10 @@ import kaiwaLessons from '@/data/listening/kaiwa-lessons.json';
 import Link from 'next/link';
 import { FaBook, FaPen, FaHeadphones, FaClipboardList, FaMicrophone } from 'react-icons/fa';
 
-// Import the specific lesson data for B01. In a real app, this would be dynamic.
+// Import the specific lesson data for B01, B02, B03. In a real app, this would be dynamic.
 import lessonDataB01 from '@/data/jlpt-n5/B01.json';
+import lessonDataB02 from '@/data/jlpt-n5/B02.json';
+import lessonDataB03 from '@/data/jlpt-n5/B03.json';
 
 export default function LessonDetailPage() {
   const params = useParams();
@@ -20,8 +22,11 @@ export default function LessonDetailPage() {
   let currentLessonData = null;
   if (lessonId === '1') {
     currentLessonData = lessonDataB01;
+  } else if (lessonId === '2') {
+    currentLessonData = lessonDataB02;
+  } else if (lessonId === '3') {
+    currentLessonData = lessonDataB03;
   }
-  // Add more else if blocks for B02, B03, etc. as you create their JSON files
 
   if (!audioLesson || !currentLessonData) {
     return (
