@@ -1,0 +1,174 @@
+{
+  "id": "B02",
+  "title": "Bài 2: Đồ vật, địa điểm",
+  "description": "Từ vựng về đồ vật, hỏi đáp vị trí, mẫu câu chỉ định",
+  "vocabulary": [
+    {"content": "これ", "kanji": "", "reading": "これ", "meaning": "cái này"},
+    {"content": "それ", "kanji": "", "reading": "それ", "meaning": "cái đó"},
+    {"content": "あれ", "kanji": "", "reading": "あれ", "meaning": "cái kia"},
+    {"content": "この", "kanji": "", "reading": "この", "meaning": "~này"},
+    {"content": "その", "kanji": "", "reading": "その", "meaning": "~đó"},
+    {"content": "あの", "kanji": "", "reading": "あの", "meaning": "~kia"},
+    {"content": "ほん", "kanji": "本", "reading": "ほん", "meaning": "sách"},
+    {"content": "じしょ", "kanji": "辞書", "reading": "じしょ", "meaning": "từ điển"},
+    {"content": "ざっし", "kanji": "雑誌", "reading": "ざっし", "meaning": "tạp chí"},
+    {"content": "しんぶん", "kanji": "新聞", "reading": "しんぶん", "meaning": "báo"},
+    {"content": "ノート", "kanji": "", "reading": "ノート", "meaning": "sổ ghi chép"},
+    {"content": "てちょう", "kanji": "手帳", "reading": "てちょう", "meaning": "sổ tay"},
+    {"content": "なまえ", "kanji": "名前", "reading": "なまえ", "meaning": "tên"},
+    {"content": "じゅうしょ", "kanji": "住所", "reading": "じゅうしょ", "meaning": "địa chỉ"},
+    {"content": "でんわばんごう", "kanji": "電話番号", "reading": "でんわばんごう", "meaning": "số điện thoại"},
+    {"content": "えんぴつ", "kanji": "鉛筆", "reading": "えんぴつ", "meaning": "bút chì"},
+    {"content": "ボールペン", "kanji": "", "reading": "ボールペン", "meaning": "bút bi"},
+    {"content": "シャープペンシル", "kanji": "", "reading": "シャープペンシル", "meaning": "bút chì kim"},
+    {"content": "かぎ", "kanji": "鍵", "reading": "かぎ", "meaning": "chìa khóa"},
+    {"content": "とけい", "kanji": "時計", "reading": "とけい", "meaning": "đồng hồ"},
+    {"content": "かばん", "kanji": "鞄", "reading": "かばん", "meaning": "cặp"},
+    {"content": "カセットテープ", "kanji": "", "reading": "カセットテープ", "meaning": "băng cassette"},
+    {"content": "テープレコーダー", "kanji": "", "reading": "テープレコーダー", "meaning": "máy ghi âm"},
+    {"content": "テレビ", "kanji": "", "reading": "テレビ", "meaning": "tivi"},
+    {"content": "ラジオ", "kanji": "", "reading": "ラジオ", "meaning": "radio"},
+    {"content": "カメラ", "kanji": "", "reading": "カメラ", "meaning": "máy ảnh"},
+    {"content": "コンピューター", "kanji": "", "reading": "コンピューター", "meaning": "máy tính"},
+    {"content": "くるま", "kanji": "車", "reading": "くるま", "meaning": "xe hơi"},
+    {"content": "つくえ", "kanji": "机", "reading": "つくえ", "meaning": "bàn"},
+    {"content": "いす", "kanji": "椅子", "reading": "いす", "meaning": "ghế"},
+    {"content": "チョコレート", "kanji": "", "reading": "チョコレート", "meaning": "socola"},
+    {"content": "コーヒー", "kanji": "", "reading": "コーヒー", "meaning": "cà phê"},
+    {"content": "えいご", "kanji": "英語", "reading": "えいご", "meaning": "tiếng Anh"},
+    {"content": "にほんご", "kanji": "日本語", "reading": "にほんご", "meaning": "tiếng Nhật"},
+    {"content": "なん", "kanji": "何", "reading": "なん", "meaning": "gì"},
+    {"content": "そう", "kanji": "", "reading": "そう", "meaning": "đúng vậy"},
+    {"content": "ちがいます", "kanji": "違います", "reading": "ちがいます", "meaning": "sai, khác"},
+    {"content": "そうですか", "kanji": "", "reading": "そうですか", "meaning": "thế à"},
+    {"content": "あのう", "kanji": "", "reading": "あのう", "meaning": "này/ừm (để bắt đầu câu)"},
+    {"content": "ほんとうですか", "kanji": "本当ですか", "reading": "ほんとうですか", "meaning": "thật không ạ?"},
+    {"content": "そうですね", "kanji": "", "reading": "そうですね", "meaning": "đúng thế nhỉ"},
+    {"content": "ありがとうございます", "kanji": "", "reading": "ありがとうございます", "meaning": "cám ơn ạ"},
+    {"content": "どういたしまして", "kanji": "", "reading": "どういたしまして", "meaning": "không có gì"},
+    {"content": "これからおせわになります", "kanji": "これからお世話になります", "reading": "これからおせわになります", "meaning": "từ nay xin được sự chăm sóc"},
+    {"content": "こちらこそよろしくおねがいします", "kanji": "こちらこそよろしくお願いします", "reading": "こちらこそよろしくおねがいします", "meaning": "tôi mới là người mong được sự giúp đỡ"}
+  ],
+  "grammar": [
+    {
+      "content": "これ/それ/あれは～です",
+      "reading": "これ/それ/あれは～です",
+      "meaning": "Cái này/đó/kia là ~",
+      "example": "これはほんです。",
+      "translation_example": "Cái này là sách.",
+      "additional_notes": "Dùng để chỉ và giới thiệu đồ vật. これ: gần người nói, それ: gần người nghe, あれ: xa cả hai"
+    },
+    {
+      "content": "この/その/あの～は～です",
+      "reading": "この/その/あの～は～です",
+      "meaning": "~này/đó/kia là ~",
+      "example": "このほんはにほんごのほんです。",
+      "translation_example": "Cuốn sách này là sách tiếng Nhật.",
+      "additional_notes": "Dùng với danh từ, chỉ định cụ thể đồ vật"
+    },
+    {
+      "content": "～はなんですか",
+      "reading": "～はなんですか",
+      "meaning": "~ là gì?",
+      "example": "これはなんですか。",
+      "translation_example": "Cái này là gì?",
+      "additional_notes": "Hỏi về tên gọi của đồ vật"
+    },
+    {
+      "content": "～のです",
+      "reading": "～のです",
+      "meaning": "của ~",
+      "example": "これはわたしのほんです。",
+      "translation_example": "Đây là sách của tôi.",
+      "additional_notes": "Chỉ sự sở hữu. だれの để hỏi của ai"
+    }
+  ],
+  "conversation_examples": [
+    {
+      "title": "Giới thiệu đồ vật",
+      "dialogue": [
+        {"speaker": "A", "text": "これはなんですか。"},
+        {"speaker": "B", "text": "それはにほんごのほんです。"},
+        {"speaker": "A", "text": "そうですか。"},
+        {"speaker": "B", "text": "これはわたしのじしょです。"},
+        {"speaker": "A", "text": "いいじしょですね。"}
+      ]
+    },
+    {
+      "title": "Hỏi về sở hữu",
+      "dialogue": [
+        {"speaker": "A", "text": "それはだれのかばんですか。"},
+        {"speaker": "B", "text": "わたしのです。"},
+        {"speaker": "A", "text": "きれいなかばんですね。"},
+        {"speaker": "B", "text": "ありがとうございます。"}
+      ]
+    }
+  ],
+  "cultural_notes": [
+    "Trong tiếng Nhật, việc phân biệt khoảng cách (これ、それ、あれ) rất quan trọng",
+    "Khi được khen về đồ vật cá nhân, người Nhật thường cảm ơn khiêm tốn",
+    "Từ 'あのう' dùng để bắt đầu câu hỏi một cách lịch sự"
+  ],
+  "exercises": {
+    "exercise_a": {
+      "title": "Luyện tập mẫu câu",
+      "instructions": "Điền これ、それ、あれ vào chỗ trống",
+      "questions": [
+        {
+          "question": "____はほんです。",
+          "answer": "これ",
+          "explanation": "Chỉ đồ vật gần người nói"
+        }
+      ]
+    },
+    "exercise_b": {
+      "title": "Chuyển đổi câu",
+      "instructions": "Chuyển từ これ thành この + danh từ",
+      "questions": [
+        {
+          "question": "これはえんぴつです。→ ____えんぴつです。",
+          "answer": "この",
+          "explanation": "Chuyển từ đại từ chỉ định thành tính từ chỉ định"
+        }
+      ]
+    },
+    "exercise_c": {
+      "title": "Hội thoại",
+      "instructions": "Hoàn thành hội thoại",
+      "questions": [
+        {
+          "question": "A: これはなんですか。B: ____",
+          "answer": "それは〜です。",
+          "explanation": "Trả lời câu hỏi về tên đồ vật"
+        }
+      ]
+    }
+  },
+  "kanji_introduced": [
+    {
+      "kanji": "本",
+      "readings": ["ほん", "ボン"],
+      "meaning": "sách, gốc",
+      "examples": ["ほん（本）- sách", "にほん（日本）- Nhật Bản"]
+    },
+    {
+      "kanji": "語",
+      "readings": ["ご"],
+      "meaning": "ngôn ngữ",
+      "examples": ["にほんご（日本語）- tiếng Nhật", "えいご（英語）- tiếng Anh"]
+    },
+    {
+      "kanji": "何",
+      "readings": ["なん", "なに"],
+      "meaning": "gì, cái gì",
+      "examples": ["なん（何）- gì", "なんじ（何時）- mấy giờ"]
+    }
+  ],
+  "transcript": "A: これはなんですか。\nB: それはにほんごのほんです。\nA: そうですか。\nB: これはわたしのじしょです。\nA: いいじしょですね。\nB: ありがとうございます。",
+  "audio_files": {
+    "vocabulary": "/audio/n5/lesson2/vocabulary.mp3",
+    "conversation": "/audio/n5/lesson2/conversation.mp3",
+    "exercises": "/audio/n5/lesson2/exercises.mp3"
+  },
+  "estimated_study_time": "4-6 hours"
+}
