@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 Multi-Language Learning Platform
 
-## Getting Started
+Một nền tảng học ngôn ngữ hiện đại được xây dựng với Next.js, hỗ trợ nhiều ngôn ngữ khác nhau với hệ thống cấp bậc hoàn chỉnh.
 
-First, run the development server:
+## ✨ Tính năng chính
 
+### 🎯 Hệ thống khóa học hoàn chỉnh
+- **5 ngôn ngữ**: Tiếng Nhật, Tiếng Anh, Tiếng Trung, Tiếng Hàn, Tiếng Việt
+- **Cấp độ theo chuẩn quốc tế**: 
+  - 🇯🇵 **Tiếng Nhật**: N5 → N4 → N3 → N2 → N1 (JLPT)
+  - 🇬🇧 **Tiếng Anh**: A1 → A2 → B1 → B2 → C1 → C2 (CEFR)
+  - 🇨🇳 **Tiếng Trung**: HSK1 → HSK2 → HSK3 → HSK4 → HSK5 → HSK6
+  - 🇰🇷 **Tiếng Hàn**: Level 1 → Level 2 → Level 3 → Level 4 → Level 5 → Level 6 (TOPIK)
+  - 🇻🇳 **Tiếng Việt**: A1 → A2 → B1 → B2 → C1 → C2 (CEFR)
+
+### 📚 Nội dung học tập
+- **800+ bài học** được tạo tự động với nội dung phù hợp từng cấp độ
+- **Hệ thống theo dõi tiến độ** với progress bar trực quan
+- **Navigation thông minh** giữa các bài học
+- **Responsive design** hoạt động tốt trên mọi thiết bị
+
+### 🛠️ Công nghệ sử dụng
+- **Frontend**: Next.js 14, TypeScript, Tailwind CSS
+- **Database**: SQLite với Prisma ORM
+- **UI Components**: Custom components với shadcn/ui design system
+- **Authentication**: NextAuth.js (sẵn sàng tích hợp)
+
+## 🚀 Bắt đầu
+
+### Cài đặt dependencies
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Khởi tạo database
+```bash
+npx prisma migrate dev --name init
+npx prisma generate
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Seed dữ liệu khóa học
+```bash
+node scripts/seed.js
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Chạy development server
+```bash
+npm run dev
+```
 
-## Learn More
+Mở [http://localhost:3000](http://localhost:3000) để xem ứng dụng.
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Cấu trúc project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+src/
+├── app/                    # Next.js App Router
+│   ├── courses/           # Hệ thống khóa học
+│   │   ├── page.tsx      # Danh sách ngôn ngữ
+│   │   └── [language]/   # Dynamic routing cho từng ngôn ngữ
+│   │       ├── page.tsx  # Danh sách cấp độ
+│   │       └── [level]/  # Dynamic routing cho từng cấp độ
+│   │           ├── page.tsx           # Danh sách bài học
+│   │           └── lessons/[id]/     # Chi tiết bài học
+│   ├── dashboard/         # Dashboard người dùng
+│   ├── profile/          # Trang profile
+│   └── ...
+├── components/            # Reusable components
+│   ├── ui/               # UI components
+│   └── layout/           # Layout components
+├── data/                 # Static data
+│   └── courses.json      # Cấu hình khóa học
+├── lib/                  # Utilities
+│   ├── prisma.ts        # Database connection
+│   └── utils.ts         # Helper functions
+└── types/               # TypeScript types
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Các bước tiếp theo
 
-## Deploy on Vercel
+### Đã hoàn thành ✅
+- [x] Hệ thống cấp bậc khóa học theo chuẩn quốc tế
+- [x] Database schema hoàn chỉnh với Prisma
+- [x] Seed script tự động tạo 800+ bài học
+- [x] Responsive UI với progress tracking
+- [x] Dynamic routing cho tất cả ngôn ngữ và cấp độ
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Đang phát triển 🚧
+- [ ] Hệ thống theo dõi tiến độ người dùng (UserProgress)
+- [ ] Authentication và profile management
+- [ ] Tính năng luyện tập (flashcards, quiz, listening)
+- [ ] Improved UI/UX và animations
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Kế hoạch tương lai 📋
+- [ ] AI-powered content generation
+- [ ] Video lessons integration
+- [ ] Social learning features
+- [ ] Mobile app với React Native
+- [ ] Real-time pronunciation scoring
+
+## 🌟 Highlight Features
+
+### 1. Hệ thống cấp bậc thông minh
+Mỗi ngôn ngữ có hệ thống cấp độ riêng phù hợp với tiêu chuẩn quốc tế:
+- **Progression logic**: Từ cơ bản đến nâng cao
+- **Adaptive content**: Nội dung phù hợp với từng level
+- **Visual indicators**: Màu sắc và badges phân biệt độ khó
+
+### 2. Database-driven Content
+- **Dynamic content loading** từ database
+- **Scalable architecture** dễ mở rộng
+- **Consistent data structure** across all languages
+
+### 3. Modern UX/UI
+- **Gradient progress bars** với animation smooth
+- **Card-based design** dễ nhìn và tương tác
+- **Responsive grid system** cho mọi screen size
+
+## 📊 Thống kê dự án
+
+- **5** ngôn ngữ được hỗ trợ
+- **29** cấp độ khóa học (tổng cộng)
+- **800+** bài học được tạo tự động
+- **100%** responsive design
+- **TypeScript** để đảm bảo type safety
+
+## 🤝 Đóng góp
+
+Dự án này đang trong giai đoạn phát triển. Mọi đóng góp và feedback đều được hoan nghênh!
+
+## 📝 License
+
+MIT License - xem file LICENSE để biết thêm chi tiết.
