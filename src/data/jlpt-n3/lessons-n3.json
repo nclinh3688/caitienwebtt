@@ -1,1 +1,277 @@
-[]
+[
+  {
+    "id": "N3-B01",
+    "title": "Bài 1: Biểu đạt cảm xúc phức tạp - かんじょう",
+    "description": "Mô tả cảm xúc, tâm lý phức tạp và sâu sắc.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-1",
+    "vocabulary": ["かんどう", "あんしん", "しつぼう", "こうかい", "まんぞく"],
+    "grammar": ["ばかりか", "どころか", "うえに", "にもかかわらず"],
+    "kanji": ["感", "動", "失", "望", "満"],
+    "audio": "/audio/n3/lesson-1.mp3"
+  },
+  {
+    "id": "N3-B02",
+    "title": "Bài 2: Thái độ và quan điểm - たいど",
+    "description": "Bày tỏ thái độ, quan điểm cá nhân chi tiết.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-2",
+    "vocabulary": ["たいど", "いけん", "しゅちょう", "はんたい", "さんせい"],
+    "grammar": ["にとって", "について", "に対して", "として"],
+    "kanji": ["態", "度", "主", "張", "反"],
+    "audio": "/audio/n3/lesson-2.mp3"
+  },
+  {
+    "id": "N3-B03",
+    "title": "Bài 3: Phân tích và đánh giá - ぶんせき",
+    "description": "Phân tích tình huống, đánh giá kết quả.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-3",
+    "vocabulary": ["ぶんせき", "けんとう", "ひょうか", "はんだん", "けつろん"],
+    "grammar": ["といえば", "というのは", "わけではない", "とは限らない"],
+    "kanji": ["分", "析", "評", "価", "判"],
+    "audio": "/audio/n3/lesson-3.mp3"
+  },
+  {
+    "id": "N3-B04",
+    "title": "Bài 4: Nhượng bộ và đối lập - じょうほ",
+    "description": "Biểu đạt sự nhượng bộ, đối lập, tương phản.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-4",
+    "vocabulary": ["じょうほ", "たいりつ", "きょうちょう", "ちょうわ", "バランス"],
+    "grammar": ["にもかかわらず", "ものの", "とはいえ", "しかし"],
+    "kanji": ["譲", "歩", "対", "立", "調"],
+    "audio": "/audio/n3/lesson-4.mp3"
+  },
+  {
+    "id": "N3-B05",
+    "title": "Bài 5: Nguyên nhân và kết quả - げんいん",
+    "description": "Mối quan hệ nguyên nhân - kết quả phức tạp.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-5",
+    "vocabulary": ["げんいん", "けっか", "えいきょう", "こうか", "はたらき"],
+    "grammar": ["ために", "おかげで", "せいで", "によって"],
+    "kanji": ["原", "因", "影", "響", "効"],
+    "audio": "/audio/n3/lesson-5.mp3"
+  },
+  {
+    "id": "N3-B06",
+    "title": "Bài 6: Khả năng và hạn chế - のうりょく",
+    "description": "Mô tả khả năng, hạn chế của bản thân và người khác.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-6",
+    "vocabulary": ["のうりょく", "げんかい", "かのうせい", "きかい", "ちから"],
+    "grammar": ["ことができる", "わけにはいかない", "ざるを得ない", "ないではいられない"],
+    "kanji": ["能", "限", "界", "可", "機"],
+    "audio": "/audio/n3/lesson-6.mp3"
+  },
+  {
+    "id": "N3-B07",
+    "title": "Bài 7: Mức độ và so sánh - ていど",
+    "description": "Biểu đạt mức độ, so sánh chi tiết và chính xác.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-7",
+    "vocabulary": ["ていど", "はんい", "きじゅん", "すいじゅん", "レベル"],
+    "grammar": ["ほど", "くらい", "によって", "に比べて"],
+    "kanji": ["程", "範", "囲", "基", "準"],
+    "audio": "/audio/n3/lesson-7.mp3"
+  },
+  {
+    "id": "N3-B08",
+    "title": "Bài 8: Thời gian và quá trình - かてい",
+    "description": "Mô tả quá trình, sự tiến triển theo thời gian.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-8",
+    "vocabulary": ["かてい", "しんぽ", "はってん", "へんか", "けいか"],
+    "grammar": ["つつある", "ていく", "てくる", "にしたがって"],
+    "kanji": ["過", "程", "進", "歩", "発"],
+    "audio": "/audio/n3/lesson-8.mp3"
+  },
+  {
+    "id": "N3-B09",
+    "title": "Bài 9: Phương pháp và cách thức - ほうほう",
+    "description": "Mô tả phương pháp, cách thức thực hiện.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-9",
+    "vocabulary": ["ほうほう", "やりかた", "しゅだん", "てだて", "こつ"],
+    "grammar": ["によって", "をもって", "をとおして", "を通じて"],
+    "kanji": ["方", "法", "手", "段", "通"],
+    "audio": "/audio/n3/lesson-9.mp3"
+  },
+  {
+    "id": "N3-B10",
+    "title": "Bài 10: Mục đích và ý định - いと",
+    "description": "Biểu đạt mục đích, ý định phức tạp và sâu sắc.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-10",
+    "vocabulary": ["いと", "もくてき", "いしき", "りねん", "ほうしん"],
+    "grammar": ["ために", "ように", "つもりで", "べく"],
+    "kanji": ["意", "図", "理", "念", "方"],
+    "audio": "/audio/n3/lesson-10.mp3"
+  },
+  {
+    "id": "N3-B11",
+    "title": "Bài 11: Giả định và điều kiện - かてい",
+    "description": "Biểu đạt giả định, điều kiện phức tạp.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-11",
+    "vocabulary": ["かてい", "じょうけん", "ばあい", "ぜんてい", "りそう"],
+    "grammar": ["としたら", "とすれば", "にしても", "にせよ"],
+    "kanji": ["仮", "定", "前", "提", "理"],
+    "audio": "/audio/n3/lesson-11.mp3"
+  },
+  {
+    "id": "N3-B12",
+    "title": "Bài 12: Khuynh hướng và xu thế - けいこう",
+    "description": "Mô tả khuynh hướng, xu thế trong xã hội.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-12",
+    "vocabulary": ["けいこう", "すうせい", "りゅうこう", "どうこう", "ながれ"],
+    "grammar": ["がちだ", "きらいがある", "やすい", "にくい"],
+    "kanji": ["傾", "向", "勢", "流", "行"],
+    "audio": "/audio/n3/lesson-12.mp3"
+  },
+  {
+    "id": "N3-B13",
+    "title": "Bài 13: Suy luận và dự đoán - すいろん",
+    "description": "Suy luận logic, dự đoán dựa trên bằng chứng.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-13",
+    "vocabulary": ["すいろん", "よそく", "すいそく", "ろんり", "こんきょ"],
+    "grammar": ["はずだ", "わけだ", "にちがいない", "と思われる"],
+    "kanji": ["推", "論", "予", "測", "論"],
+    "audio": "/audio/n3/lesson-13.mp3"
+  },
+  {
+    "id": "N3-B14",
+    "title": "Bài 14: Trạng thái tâm lý - しんり",
+    "description": "Mô tả trạng thái tâm lý, cảm xúc nội tâm.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-14",
+    "vocabulary": ["しんり", "きぶん", "きもち", "こころ", "せいしん"],
+    "grammar": ["てならない", "てしかたがない", "ずにはいられない", "ないではいられない"],
+    "kanji": ["心", "理", "気", "分", "精"],
+    "audio": "/audio/n3/lesson-14.mp3"
+  },
+  {
+    "id": "N3-B15",
+    "title": "Bài 15: Nhận định và đánh giá - にんてい",
+    "description": "Đưa ra nhận định, đánh giá về sự việc.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-15",
+    "vocabulary": ["にんてい", "ひょうか", "はんてい", "しんさ", "けんとう"],
+    "grammar": ["といえる", "とされる", "とみなされる", "と考えられる"],
+    "kanji": ["認", "定", "判", "審", "査"],
+    "audio": "/audio/n3/lesson-15.mp3"
+  },
+  {
+    "id": "N3-B16",
+    "title": "Bài 16: Lợi ích và thiệt hại - りえき",
+    "description": "Cân nhắc lợi ích, thiệt hại của hành động.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-16",
+    "vocabulary": ["りえき", "そんがい", "とく", "そん", "メリット"],
+    "grammar": ["によって", "にとって", "にしては", "のわりに"],
+    "kanji": ["利", "益", "損", "害", "得"],
+    "audio": "/audio/n3/lesson-16.mp3"
+  },
+  {
+    "id": "N3-B17",
+    "title": "Bài 17: Quy tắc và ngoại lệ - きそく",
+    "description": "Nói về quy tắc, ngoại lệ trong các tình huống.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-17",
+    "vocabulary": ["きそく", "ほうりつ", "れいがい", "げんそく", "きてい"],
+    "grammar": ["に反して", "に従って", "を除いて", "は別として"],
+    "kanji": ["規", "則", "例", "外", "原"],
+    "audio": "/audio/n3/lesson-17.mp3"
+  },
+  {
+    "id": "N3-B18",
+    "title": "Bài 18: Thông tin và truyền thông - でんたつ",
+    "description": "Truyền đạt thông tin chính xác và hiệu quả.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-18",
+    "vocabulary": ["でんたつ", "れんらく", "ほうこく", "つうち", "じょうほう"],
+    "grammar": ["に関して", "について", "をめぐって", "に際して"],
+    "kanji": ["伝", "達", "連", "絡", "報"],
+    "audio": "/audio/n3/lesson-18.mp3"
+  },
+  {
+    "id": "N3-B19",
+    "title": "Bài 19: Ảnh hưởng và tác động - えいきょう",
+    "description": "Mô tả ảnh hưởng, tác động qua lại.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-19",
+    "vocabulary": ["えいきょう", "さどう", "こうか", "けっか", "さゆう"],
+    "grammar": ["によって", "に基づいて", "を背景に", "をきっかけに"],
+    "kanji": ["影", "響", "作", "用", "左"],
+    "audio": "/audio/n3/lesson-19.mp3"
+  },
+  {
+    "id": "N3-B20",
+    "title": "Bài 20: Kết luận và tóm tắt - けつろん",
+    "description": "Đưa ra kết luận, tóm tắt nội dung.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-20",
+    "vocabulary": ["けつろん", "まとめ", "ようやく", "けっきょく", "つまり"],
+    "grammar": ["ということだ", "というわけだ", "要するに", "結局"],
+    "kanji": ["結", "論", "要", "約", "局"],
+    "audio": "/audio/n3/lesson-20.mp3"
+  },
+  {
+    "id": "N3-B21",
+    "title": "Bài 21: Phát triển và cải thiện - はってん",
+    "description": "Mô tả sự phát triển, cải thiện theo thời gian.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-21",
+    "vocabulary": ["はってん", "かいぜん", "しんぽ", "こうじょう", "せいちょう"],
+    "grammar": ["につれて", "にともなって", "とともに", "にしたがって"],
+    "kanji": ["発", "展", "改", "善", "成"],
+    "audio": "/audio/n3/lesson-21.mp3"
+  },
+  {
+    "id": "N3-B22",
+    "title": "Bài 22: Thử thách và khó khăn - こんなん",
+    "description": "Đối mặt với thử thách, vượt qua khó khăn.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-22",
+    "vocabulary": ["こんなん", "しれん", "しょうがい", "こまる", "くろう"],
+    "grammar": ["にしては", "のわりに", "にもかかわらず", "を乗り越える"],
+    "kanji": ["困", "難", "試", "練", "障"],
+    "audio": "/audio/n3/lesson-22.mp3"
+  },
+  {
+    "id": "N3-B23",
+    "title": "Bài 23: Sự kiện và hiện tượng - げんしょう",
+    "description": "Mô tả sự kiện, hiện tượng xã hội phức tạp.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-23",
+    "vocabulary": ["げんしょう", "できごと", "じけん", "じたい", "ようす"],
+    "grammar": ["ということだ", "に関連して", "に起因して", "を背景に"],
+    "kanji": ["現", "象", "事", "件", "態"],
+    "audio": "/audio/n3/lesson-23.mp3"
+  },
+  {
+    "id": "N3-B24",
+    "title": "Bài 24: Tương lai và kế hoạch - しょうらい",
+    "description": "Kế hoạch tương lai, mục tiêu dài hạn.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-24",
+    "vocabulary": ["しょうらい", "みらい", "けいかく", "もくひょう", "ゆめ"],
+    "grammar": ["ことになっている", "ことにしている", "つもりである", "はずである"],
+    "kanji": ["将", "来", "未", "計", "画"],
+    "audio": "/audio/n3/lesson-24.mp3"
+  },
+  {
+    "id": "N3-B25",
+    "title": "Bài 25: Ôn tập tổng hợp N3 - そうふくしゅう",
+    "description": "Ôn tập toàn bộ kiến thức N3, chuẩn bị thi JLPT.",
+    "status": "published",
+    "path": "/courses/japanese/n3/lesson-25",
+    "vocabulary": ["そうふくしゅう", "じゅんび", "れんしゅう", "しけん", "ごうかく"],
+    "grammar": ["N3総復習", "文法総まとめ", "語彙確認", "読解練習"],
+    "kanji": ["総", "復", "習", "準", "備"],
+    "audio": "/audio/n3/lesson-25.mp3"
+  }
+]

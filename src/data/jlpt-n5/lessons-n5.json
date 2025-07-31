@@ -1,23 +1,277 @@
 [
   {
     "id": "N5-B01",
-    "title": "Bài 1: Tự giới thiệu",
-    "description": "Giới thiệu bản thân, nghề nghiệp, quốc tịch, mẫu câu cơ bản.",
+    "title": "Bài 1: Tự giới thiệu - はじめまして",
+    "description": "Giới thiệu bản thân, nghề nghiệp, quốc tịch. Cách chào hỏi lần đầu gặp.",
     "status": "published",
-    "path": "/courses/japanese/n5/lesson-1"
+    "path": "/courses/japanese/n5/lesson-1",
+    "vocabulary": ["はじめまして", "わたし", "です", "から", "きました"],
+    "grammar": ["です/である", "わたしは...です", "から"],
+    "kanji": ["私", "人", "日", "本"],
+    "audio": "/audio/n5/lesson-1.mp3"
   },
   {
     "id": "N5-B02",
-    "title": "Bài 2: Đồ vật, địa điểm",
+    "title": "Bài 2: Đồ vật và vị trí - これ・それ・あれ",
     "description": "Từ vựng về đồ vật, hỏi đáp vị trí, mẫu câu chỉ định.",
-    "status": "draft",
-    "path": "/courses/japanese/n5/lesson-2"
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-2",
+    "vocabulary": ["これ", "それ", "あれ", "なん", "どこ"],
+    "grammar": ["これ/それ/あれ", "なんですか", "どこですか"],
+    "kanji": ["何", "所", "学", "校"],
+    "audio": "/audio/n5/lesson-2.mp3"
   },
   {
     "id": "N5-B03",
-    "title": "Bài 3: Gia đình, bạn bè",
+    "title": "Bài 3: Gia đình và bạn bè - かぞく",
     "description": "Từ vựng về gia đình, bạn bè, mẫu câu giới thiệu người thân.",
-    "status": "draft",
-    "path": "/courses/japanese/n5/lesson-3"
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-3",
+    "vocabulary": ["かぞく", "ちち", "はは", "あに", "あね"],
+    "grammar": ["の (sở hữu)", "だれ", "います/あります"],
+    "kanji": ["父", "母", "兄", "姉", "家"],
+    "audio": "/audio/n5/lesson-3.mp3"
+  },
+  {
+    "id": "N5-B04",
+    "title": "Bài 4: Thời gian và lịch trình - じかん",
+    "description": "Cách nói giờ, ngày, tháng. Hỏi đáp về thời gian.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-4",
+    "vocabulary": ["いま", "なんじ", "ごぜん", "ごご", "ばん"],
+    "grammar": ["時刻の言い方", "から...まで", "に (thời gian)"],
+    "kanji": ["時", "分", "今", "午", "前"],
+    "audio": "/audio/n5/lesson-4.mp3"
+  },
+  {
+    "id": "N5-B05",
+    "title": "Bài 5: Đi lại và phương tiện - いきます",
+    "description": "Động từ đi lại, phương tiện giao thông, địa điểm.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-5",
+    "vocabulary": ["いきます", "きます", "かえります", "でんしゃ", "バス"],
+    "grammar": ["動詞ます形", "で (phương tiện)", "へ (hướng)"],
+    "kanji": ["行", "来", "帰", "電", "車"],
+    "audio": "/audio/n5/lesson-5.mp3"
+  },
+  {
+    "id": "N5-B06",
+    "title": "Bài 6: Mua sắm - かいもの",
+    "description": "Từ vựng mua sắm, hỏi giá cả, số lượng.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-6",
+    "vocabulary": ["かいます", "いくら", "えん", "やすい", "たかい"],
+    "grammar": ["数の数え方", "いくら", "を (目的格)"],
+    "kanji": ["買", "円", "安", "高", "金"],
+    "audio": "/audio/n5/lesson-6.mp3"
+  },
+  {
+    "id": "N5-B07",
+    "title": "Bài 7: Đồ ăn và nhà hàng - たべもの",
+    "description": "Từ vựng về đồ ăn, đặt món, thể hiện sở thích.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-7",
+    "vocabulary": ["たべます", "のみます", "すき", "きらい", "おいしい"],
+    "grammar": ["好き/嫌い", "を食べる/飲む", "どれ"],
+    "kanji": ["食", "飲", "好", "嫌", "美"],
+    "audio": "/audio/n5/lesson-7.mp3"
+  },
+  {
+    "id": "N5-B08",
+    "title": "Bài 8: Thể thao và sở thích - スポーツ",
+    "description": "Từ vựng về thể thao, sở thích, hoạt động giải trí.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-8",
+    "vocabulary": ["スポーツ", "やきゅう", "サッカー", "およぎます", "よみます"],
+    "grammar": ["を (動作の対象)", "が好き", "は上手/下手"],
+    "kanji": ["野", "球", "泳", "読", "上"],
+    "audio": "/audio/n5/lesson-8.mp3"
+  },
+  {
+    "id": "N5-B09",
+    "title": "Bài 9: Cuối tuần và ngày nghỉ - やすみ",
+    "description": "Hoạt động cuối tuần, kế hoạch, dự định.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-9",
+    "vocabulary": ["やすみ", "どようび", "にちようび", "あそびます", "ともだち"],
+    "grammar": ["ませんか (mời)", "ましょう (rủ rê)", "つもり"],
+    "kanji": ["休", "土", "日", "友", "達"],
+    "audio": "/audio/n5/lesson-9.mp3"
+  },
+  {
+    "id": "N5-B10",
+    "title": "Bài 10: Thời tiết - てんき",
+    "description": "Từ vựng về thời tiết, mùa, cảm giác về thời tiết.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-10",
+    "vocabulary": ["てんき", "あめ", "ゆき", "あつい", "さむい"],
+    "grammar": ["形容詞", "とても/ちょっと", "でしょう"],
+    "kanji": ["天", "気", "雨", "雪", "暑"],
+    "audio": "/audio/n5/lesson-10.mp3"
+  },
+  {
+    "id": "N5-B11",
+    "title": "Bài 11: Mô tả người - ひと",
+    "description": "Mô tả ngoại hình, tính cách của người.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-11",
+    "vocabulary": ["たかい", "ひくい", "きれい", "やさしい", "げんき"],
+    "grammar": ["い形容詞", "な形容詞", "どんな"],
+    "kanji": ["高", "低", "元", "気", "優"],
+    "audio": "/audio/n5/lesson-11.mp3"
+  },
+  {
+    "id": "N5-B12",
+    "title": "Bài 12: Sinh nhật và lễ hội - たんじょうび",
+    "description": "Chúc mừng sinh nhật, các lễ hội trong năm.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-12",
+    "vocabulary": ["たんじょうび", "プレゼント", "パーティー", "いわい", "おめでとう"],
+    "grammar": ["お祝い表現", "もらう/あげる", "いつ"],
+    "kanji": ["生", "日", "祝", "贈", "物"],
+    "audio": "/audio/n5/lesson-12.mp3"
+  },
+  {
+    "id": "N5-B13",
+    "title": "Bài 13: Bệnh tật và sức khỏe - びょうき",
+    "description": "Từ vựng về sức khỏe, triệu chứng bệnh.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-13",
+    "vocabulary": ["びょうき", "いたい", "あたま", "おなか", "いしゃ"],
+    "grammar": ["が痛い", "どうしました", "ので (lý do)"],
+    "kanji": ["病", "痛", "頭", "医", "者"],
+    "audio": "/audio/n5/lesson-13.mp3"
+  },
+  {
+    "id": "N5-B14",
+    "title": "Bài 14: Học tập - べんきょう",
+    "description": "Từ vựng về học tập, môn học, trường học.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-14",
+    "vocabulary": ["べんきょう", "がっこう", "せんせい", "しゅくだい", "テスト"],
+    "grammar": ["を勉強する", "に習う", "が上手/下手"],
+    "kanji": ["勉", "強", "先", "宿", "題"],
+    "audio": "/audio/n5/lesson-14.mp3"
+  },
+  {
+    "id": "N5-B15",
+    "title": "Bài 15: Công việc - しごと",
+    "description": "Từ vựng về nghề nghiệp, công ty, văn phòng.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-15",
+    "vocabulary": ["しごと", "かいしゃ", "はたらきます", "やすみます", "いそがしい"],
+    "grammar": ["で働く", "は忙しい", "から (lý do)"],
+    "kanji": ["仕", "事", "会", "社", "忙"],
+    "audio": "/audio/n5/lesson-15.mp3"
+  },
+  {
+    "id": "N5-B16",
+    "title": "Bài 16: Quá khứ - かこ",
+    "description": "Thì quá khứ của động từ và tính từ.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-16",
+    "vocabulary": ["きのう", "せんしゅう", "せんげつ", "いきました", "たべました"],
+    "grammar": ["過去形", "ました/でした", "ませんでした"],
+    "kanji": ["昨", "先", "週", "月", "過"],
+    "audio": "/audio/n5/lesson-16.mp3"
+  },
+  {
+    "id": "N5-B17",
+    "title": "Bài 17: Tương lai - みらい",
+    "description": "Kế hoạch tương lai, dự định, ước mơ.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-17",
+    "vocabulary": ["あした", "らいしゅう", "らいねん", "つもり", "よてい"],
+    "grammar": ["つもりです", "予定です", "でしょう"],
+    "kanji": ["明", "来", "年", "予", "定"],
+    "audio": "/audio/n5/lesson-17.mp3"
+  },
+  {
+    "id": "N5-B18",
+    "title": "Bài 18: Giao thông và hướng dẫn - こうつう",
+    "description": "Hỏi đường, chỉ đường, phương tiện giao thông.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-18",
+    "vocabulary": ["みち", "まっすぐ", "みぎ", "ひだり", "しんごう"],
+    "grammar": ["て形 + ください", "まで", "を通る"],
+    "kanji": ["道", "右", "左", "信", "号"],
+    "audio": "/audio/n5/lesson-18.mp3"
+  },
+  {
+    "id": "N5-B19",
+    "title": "Bài 19: Khách sạn và du lịch - りょこう",
+    "description": "Đặt phòng khách sạn, du lịch, thủ tục.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-19",
+    "vocabulary": ["りょこう", "ホテル", "よやく", "へや", "かぎ"],
+    "grammar": ["を予約する", "に泊まる", "が空いている"],
+    "kanji": ["旅", "行", "予", "約", "鍵"],
+    "audio": "/audio/n5/lesson-19.mp3"
+  },
+  {
+    "id": "N5-B20",
+    "title": "Bài 20: Điện thoại và liên lạc - でんわ",
+    "description": "Gọi điện thoại, nhắn tin, email.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-20",
+    "vocabulary": ["でんわ", "かけます", "でます", "メール", "しゃしん"],
+    "grammar": ["に電話する", "を送る", "から来る"],
+    "kanji": ["電", "話", "送", "写", "真"],
+    "audio": "/audio/n5/lesson-20.mp3"
+  },
+  {
+    "id": "N5-B21",
+    "title": "Bài 21: Lễ tết và truyền thống - おしょうがつ",
+    "description": "Lễ Tết Nhật Bản, truyền thống, văn hóa.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-21",
+    "vocabulary": ["おしょうがつ", "きもの", "まつり", "でんとう", "ぶんか"],
+    "grammar": ["に参加する", "を着る", "でお祝いする"],
+    "kanji": ["正", "月", "着", "祭", "文"],
+    "audio": "/audio/n5/lesson-21.mp3"
+  },
+  {
+    "id": "N5-B22",
+    "title": "Bài 22: Màu sắc và hình dạng - いろ",
+    "description": "Từ vựng về màu sắc, hình dạng, kích thước.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-22",
+    "vocabulary": ["いろ", "あか", "あお", "きいろ", "しろ"],
+    "grammar": ["い/な色", "の色", "が似合う"],
+    "kanji": ["色", "赤", "青", "黄", "白"],
+    "audio": "/audio/n5/lesson-22.mp3"
+  },
+  {
+    "id": "N5-B23",
+    "title": "Bài 23: Cảm xúc và tâm trạng - きもち",
+    "description": "Biểu đạt cảm xúc, tâm trạng, cảm giác.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-23",
+    "vocabulary": ["うれしい", "かなしい", "おこる", "こまる", "しんぱい"],
+    "grammar": ["感情表現", "ので", "と思う"],
+    "kanji": ["嬉", "悲", "怒", "困", "心"],
+    "audio": "/audio/n5/lesson-23.mp3"
+  },
+  {
+    "id": "N5-B24",
+    "title": "Bài 24: Động vật và thiên nhiên - どうぶつ",
+    "description": "Từ vựng về động vật, thiên nhiên, môi trường.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-24",
+    "vocabulary": ["どうぶつ", "いぬ", "ねこ", "とり", "さかな"],
+    "grammar": ["がいる/いない", "を飼う", "は可愛い"],
+    "kanji": ["動", "物", "犬", "猫", "鳥"],
+    "audio": "/audio/n5/lesson-24.mp3"
+  },
+  {
+    "id": "N5-B25",
+    "title": "Bài 25: Ôn tập tổng hợp - ふくしゅう",
+    "description": "Ôn tập toàn bộ kiến thức N5, bài kiểm tra tổng hợp.",
+    "status": "published",
+    "path": "/courses/japanese/n5/lesson-25",
+    "vocabulary": ["ふくしゅう", "まとめ", "テスト", "じゅんび", "がんばる"],
+    "grammar": ["総復習", "まとめ", "テスト対策"],
+    "kanji": ["復", "習", "準", "備", "頑"],
+    "audio": "/audio/n5/lesson-25.mp3"
   }
 ] 
