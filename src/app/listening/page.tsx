@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import lessons from '@/data/listening/kaiwa-lessons.json';
+import { AudioPlayer } from '@/components/ui/audio-player';
 
 // Define the type for a lesson for better type-checking
 interface Lesson {
@@ -12,11 +13,11 @@ interface Lesson {
 }
 
 export default function ListeningPage() {
-  const [currentAudio, setCurrentAudio] = useState<string | null>(null);
+  const [currentLesson, setCurrentLesson] = useState<Lesson | null>(null);
   const [playingLesson, setPlayingLesson] = useState<number | null>(null);
 
   const playAudio = (lesson: Lesson) => {
-    setCurrentAudio(lesson.url);
+    setCurrentLesson(lesson);
     setPlayingLesson(lesson.id);
   };
 
@@ -65,13 +66,25 @@ export default function ListeningPage() {
       {renderLessonList(n5Lessons, "N5 Kaiwa (Bài 1-25)")}
       {renderLessonList(n4Lessons, "N4 Kaiwa (Bài 26-50)")}
 
-      {currentAudio && (
-        <div className="fixed bottom-0 left-0 right-0 bg-gray-800 text-white p-4 shadow-lg">
-            <div className="container mx-auto flex justify-center">
-                 <audio controls autoPlay src={currentAudio} className="w-full max-w-2xl">
-                    Your browser does not support the audio element.
-                </audio>
-            </div>
+      {currentLesson && (
+        <div className="fixed bottom-0 left-0 right-0 bg-white p-4 shadow-lg border-t z-50">
+          <AudioPlayer
+            src={currentLesson.url}
+            title={currentLesson.title}
+            subtitle={`Cấp độ: ${currentLesson.level}`}
+            autoPlay={true}
+            showDownload={true}
+            showSubtitles={true}
+            subtitles={[
+              // Sample subtitles - in real app, load from separate file
+              { start: 0, end: 5, text: "はじめまして、田中と申します。" },
+              { start: 5, end: 10, text: "どうぞよろしくお願いします。" },
+            ]}
+            onProgress={(current, duration) => {
+              // Track progress for user analytics
+              console.log(`Progress: ${current}/${duration}`);
+            }}
+          />
         </div>
       )}
     </div>

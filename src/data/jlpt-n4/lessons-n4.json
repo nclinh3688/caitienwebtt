@@ -1,1 +1,277 @@
-[]
+[
+  {
+    "id": "N4-B01",
+    "title": "Bài 1: Sự khác biệt và so sánh - ちがい",
+    "description": "So sánh hai hoặc nhiều đối tượng, sự khác biệt.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-1",
+    "vocabulary": ["ちがい", "おなじ", "もっと", "いちばん", "より"],
+    "grammar": ["AよりB", "Aのほうが", "いちばん", "同じ"],
+    "kanji": ["違", "同", "比", "最", "方"],
+    "audio": "/audio/n4/lesson-1.mp3"
+  },
+  {
+    "id": "N4-B02",
+    "title": "Bài 2: Khả năng và kỹ năng - のうりょく",
+    "description": "Biểu đạt khả năng, kỹ năng, sự thành thạo.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-2",
+    "vocabulary": ["できる", "じょうず", "へた", "とくい", "にがて"],
+    "grammar": ["ことができる", "が上手/下手", "が得意/苦手"],
+    "kanji": ["能", "力", "得", "意", "苦"],
+    "audio": "/audio/n4/lesson-2.mp3"
+  },
+  {
+    "id": "N4-B03",
+    "title": "Bài 3: Trải nghiệm và kinh nghiệm - けいけん",
+    "description": "Nói về trải nghiệm, kinh nghiệm đã có.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-3",
+    "vocabulary": ["けいけん", "はじめて", "まえ", "ことがある", "ことがない"],
+    "grammar": ["たことがある", "たことがない", "初めて"],
+    "kanji": ["経", "験", "初", "前", "回"],
+    "audio": "/audio/n4/lesson-3.mp3"
+  },
+  {
+    "id": "N4-B04",
+    "title": "Bài 4: Kế hoạch và dự định - けいかく",
+    "description": "Lập kế hoạch, dự định cho tương lai.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-4",
+    "vocabulary": ["けいかく", "よてい", "つもり", "たい", "ほしい"],
+    "grammar": ["つもりです", "たいです", "ほしいです", "予定です"],
+    "kanji": ["計", "画", "希", "望", "願"],
+    "audio": "/audio/n4/lesson-4.mp3"
+  },
+  {
+    "id": "N4-B05",
+    "title": "Bài 5: Điều kiện và giả định - じょうけん",
+    "description": "Biểu đạt điều kiện, giả định, trường hợp.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-5",
+    "vocabulary": ["もし", "ば", "なら", "と", "たら"],
+    "grammar": ["ば/なら", "たら", "と (điều kiện)", "もし"],
+    "kanji": ["条", "件", "場", "合", "若"],
+    "audio": "/audio/n4/lesson-5.mp3"
+  },
+  {
+    "id": "N4-B06",
+    "title": "Bài 6: Lý do và nguyên nhân - りゆう",
+    "description": "Giải thích lý do, nguyên nhân của hành động.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-6",
+    "vocabulary": ["りゆう", "ので", "から", "ため", "せい"],
+    "grammar": ["ので/から", "ために", "せいで", "のは...からです"],
+    "kanji": ["理", "由", "原", "因", "為"],
+    "audio": "/audio/n4/lesson-6.mp3"
+  },
+  {
+    "id": "N4-B07",
+    "title": "Bài 7: Ý kiến và quan điểm - いけん",
+    "description": "Bày tỏ ý kiến, quan điểm cá nhân.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-7",
+    "vocabulary": ["いけん", "かんがえ", "おもう", "しんじる", "きがする"],
+    "grammar": ["と思う", "と考える", "と信じる", "気がする"],
+    "kanji": ["意", "見", "考", "信", "感"],
+    "audio": "/audio/n4/lesson-7.mp3"
+  },
+  {
+    "id": "N4-B08",
+    "title": "Bài 8: Trạng thái và tình huống - じょうたい",
+    "description": "Mô tả trạng thái, tình huống hiện tại.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-8",
+    "vocabulary": ["じょうたい", "ばあい", "とき", "あいだ", "うち"],
+    "grammar": ["ている (trạng thái)", "間に", "うちに", "場合"],
+    "kanji": ["状", "態", "間", "内", "最"],
+    "audio": "/audio/n4/lesson-8.mp3"
+  },
+  {
+    "id": "N4-B09",
+    "title": "Bài 9: Hướng dẫn và chỉ thị - しじ",
+    "description": "Đưa ra hướng dẫn, chỉ thị, lời khuyên.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-9",
+    "vocabulary": ["しじ", "めいれい", "おねがい", "ちゅうい", "けいこく"],
+    "grammar": ["てください", "ないでください", "ほうがいい", "べきです"],
+    "kanji": ["指", "示", "命", "令", "警"],
+    "audio": "/audio/n4/lesson-9.mp3"
+  },
+  {
+    "id": "N4-B10",
+    "title": "Bài 10: Thay đổi và biến hóa - へんか",
+    "description": "Mô tả sự thay đổi, biến hóa theo thời gian.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-10",
+    "vocabulary": ["へんか", "かわる", "なる", "する", "ちがう"],
+    "grammar": ["になる", "くなる", "に変わる", "ようになる"],
+    "kanji": ["変", "化", "替", "成", "変"],
+    "audio": "/audio/n4/lesson-10.mp3"
+  },
+  {
+    "id": "N4-B11",
+    "title": "Bài 11: Mục đích và ý định - もくてき",
+    "description": "Biểu đạt mục đích, ý định của hành động.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-11",
+    "vocabulary": ["もくてき", "ため", "よう", "つもり", "きぼう"],
+    "grammar": ["ために", "ように", "つもりで", "ばかり"],
+    "kanji": ["目", "的", "為", "様", "望"],
+    "audio": "/audio/n4/lesson-11.mp3"
+  },
+  {
+    "id": "N4-B12",
+    "title": "Bài 12: Truyền đạt thông tin - じょうほう",
+    "description": "Truyền đạt thông tin, tin tức, thông báo.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-12",
+    "vocabulary": ["じょうほう", "しらせる", "つたえる", "はなす", "きく"],
+    "grammar": ["と言う", "によると", "について", "に関して"],
+    "kanji": ["情", "報", "伝", "聞", "関"],
+    "audio": "/audio/n4/lesson-12.mp3"
+  },
+  {
+    "id": "N4-B13",
+    "title": "Bài 13: Cảm giác và cảm nhận - かんかく",
+    "description": "Mô tả cảm giác, cảm nhận qua 5 giác quan.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-13",
+    "vocabulary": ["かんかく", "みえる", "きこえる", "におう", "あじ"],
+    "grammar": ["が見える/聞こえる", "そうだ (truyền văn)", "ようだ"],
+    "kanji": ["感", "覚", "味", "匂", "音"],
+    "audio": "/audio/n4/lesson-13.mp3"
+  },
+  {
+    "id": "N4-B14",
+    "title": "Bài 14: Giải quyết vấn đề - もんだい",
+    "description": "Bàn về vấn đề và cách giải quyết.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-14",
+    "vocabulary": ["もんだい", "こまる", "なやむ", "かいけつ", "たすける"],
+    "grammar": ["て困る", "て悩む", "てしまう", "てくれる"],
+    "kanji": ["問", "題", "困", "悩", "解"],
+    "audio": "/audio/n4/lesson-14.mp3"
+  },
+  {
+    "id": "N4-B15",
+    "title": "Bài 15: Thói quen và thường lệ - しゅうかん",
+    "description": "Nói về thói quen, thường lệ hàng ngày.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-15",
+    "vocabulary": ["しゅうかん", "いつも", "たいてい", "ときどき", "たまに"],
+    "grammar": ["ことにしている", "ことになっている", "ものだ"],
+    "kanji": ["習", "慣", "普", "通", "常"],
+    "audio": "/audio/n4/lesson-15.mp3"
+  },
+  {
+    "id": "N4-B16",
+    "title": "Bài 16: Sự cần thiết và bắt buộc - ひつよう",
+    "description": "Biểu đạt sự cần thiết, bắt buộc phải làm.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-16",
+    "vocabulary": ["ひつよう", "だいじ", "たいせつ", "ぜったい", "かならず"],
+    "grammar": ["なければならない", "なくてはいけない", "べきだ"],
+    "kanji": ["必", "要", "大", "事", "絶"],
+    "audio": "/audio/n4/lesson-16.mp3"
+  },
+  {
+    "id": "N4-B17",
+    "title": "Bài 17: Cho phép và cấm đoán - きんし",
+    "description": "Xin phép, cho phép và cấm đoán.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-17",
+    "vocabulary": ["きんし", "きょか", "だめ", "いけない", "かまわない"],
+    "grammar": ["てもいい", "てはいけない", "てはだめ", "といけない"],
+    "kanji": ["禁", "止", "許", "可", "駄"],
+    "audio": "/audio/n4/lesson-17.mp3"
+  },
+  {
+    "id": "N4-B18",
+    "title": "Bài 18: Dự đoán và phỏng đoán - すいそく",
+    "description": "Dự đoán, phỏng đoán dựa trên dấu hiệu.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-18",
+    "vocabulary": ["すいそく", "きっと", "たぶん", "もしかしたら", "にちがいない"],
+    "grammar": ["でしょう", "だろう", "かもしれない", "に違いない"],
+    "kanji": ["推", "測", "恐", "違", "確"],
+    "audio": "/audio/n4/lesson-18.mp3"
+  },
+  {
+    "id": "N4-B19",
+    "title": "Bài 19: Hoàn thành và tiếp tục - かんりょう",
+    "description": "Nói về việc hoàn thành và tiếp tục công việc.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-19",
+    "vocabulary": ["かんりょう", "おわる", "はじめる", "つづける", "やめる"],
+    "grammar": ["てしまう", "ておく", "ていく/てくる", "はじめる"],
+    "kanji": ["完", "了", "始", "続", "終"],
+    "audio": "/audio/n4/lesson-19.mp3"
+  },
+  {
+    "id": "N4-B20",
+    "title": "Bài 20: Thử nghiệm và thử làm - しけん",
+    "description": "Thử nghiệm, thử làm điều gì đó.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-20",
+    "vocabulary": ["しけん", "ためす", "やってみる", "きいてみる", "みてみる"],
+    "grammar": ["てみる", "てみせる", "ためしに", "どうですか"],
+    "kanji": ["試", "験", "挑", "戦", "実"],
+    "audio": "/audio/n4/lesson-20.mp3"
+  },
+  {
+    "id": "N4-B21",
+    "title": "Bài 21: Chuẩn bị và sắp xếp - じゅんび",
+    "description": "Chuẩn bị, sắp xếp cho sự kiện.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-21",
+    "vocabulary": ["じゅんび", "ようい", "せいり", "かたづける", "なおす"],
+    "grammar": ["ておく", "ために", "前に", "あとで"],
+    "kanji": ["準", "備", "整", "理", "片"],
+    "audio": "/audio/n4/lesson-21.mp3"
+  },
+  {
+    "id": "N4-B22",
+    "title": "Bài 22: Tần suất và mức độ - ひんど",
+    "description": "Biểu đạt tần suất, mức độ thường xuyên.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-22",
+    "vocabulary": ["ひんど", "よく", "あまり", "ぜんぜん", "めったに"],
+    "grammar": ["副詞の頻度", "ほど", "くらい", "ばかり"],
+    "kanji": ["頻", "度", "程", "全", "然"],
+    "audio": "/audio/n4/lesson-22.mp3"
+  },
+  {
+    "id": "N4-B23",
+    "title": "Bài 23: Quan hệ và mối liên hệ - かんけい",
+    "description": "Mô tả quan hệ, mối liên hệ giữa các sự vật.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-23",
+    "vocabulary": ["かんけい", "つながり", "きずな", "なかま", "グループ"],
+    "grammar": ["と関係がある", "に関係する", "によって", "について"],
+    "kanji": ["関", "係", "結", "絆", "仲"],
+    "audio": "/audio/n4/lesson-23.mp3"
+  },
+  {
+    "id": "N4-B24",
+    "title": "Bài 24: Ước mơ và mục tiêu - ゆめ",
+    "description": "Nói về ước mơ, mục tiêu trong tương lai.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-24",
+    "vocabulary": ["ゆめ", "もくひょう", "きぼう", "あこがれ", "りそう"],
+    "grammar": ["になりたい", "ようになりたい", "といいな", "ばいいな"],
+    "kanji": ["夢", "標", "希", "憧", "理"],
+    "audio": "/audio/n4/lesson-24.mp3"
+  },
+  {
+    "id": "N4-B25",
+    "title": "Bài 25: Ôn tập tổng hợp N4 - ふくしゅう",
+    "description": "Ôn tập toàn bộ kiến thức N4, bài kiểm tra tổng hợp.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-25",
+    "vocabulary": ["ふくしゅう", "まとめ", "れんしゅう", "しけん", "ごうかく"],
+    "grammar": ["N4総復習", "文法まとめ", "語彙確認", "聴解練習"],
+    "kanji": ["復", "習", "練", "合", "格"],
+    "audio": "/audio/n4/lesson-25.mp3"
+  }
+]
