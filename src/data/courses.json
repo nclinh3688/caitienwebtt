@@ -3,42 +3,59 @@
     "id": "japanese",
     "name": "Tiếng Nhật",
     "levels": [
-      { "id": "n5", "name": "N5" },
-      { "id": "n4", "name": "N4" },
-      { "id": "n3", "name": "N3" }
+      { "id": "n5", "name": "N5", "description": "Cấp độ sơ cấp, nền tảng cho người mới bắt đầu" },
+      { "id": "n4", "name": "N4", "description": "Hiểu và sử dụng tiếng Nhật trong các tình huống hàng ngày" },
+      { "id": "n3", "name": "N3", "description": "Giao tiếp tự nhiên và đọc hiểu các đoạn văn dài" },
+      { "id": "n2", "name": "N2", "description": "Sử dụng thành thạo trong công việc và học thuật" },
+      { "id": "n1", "name": "N1", "description": "Cấp độ cao nhất, sử dụng tiếng Nhật như người bản xứ" }
     ]
   },
   {
     "id": "english",
     "name": "Tiếng Anh",
     "levels": [
-      { "id": "a1", "name": "A1" },
-      { "id": "a2", "name": "A2" },
-      { "id": "b1", "name": "B1" }
+      { "id": "a1", "name": "A1", "description": "Beginner - Người mới bắt đầu" },
+      { "id": "a2", "name": "A2", "description": "Elementary - Sơ cấp" },
+      { "id": "b1", "name": "B1", "description": "Intermediate - Trung cấp" },
+      { "id": "b2", "name": "B2", "description": "Upper Intermediate - Trung cấp cao" },
+      { "id": "c1", "name": "C1", "description": "Advanced - Nâng cao" },
+      { "id": "c2", "name": "C2", "description": "Proficient - Thành thạo" }
     ]
   },
   {
     "id": "chinese",
     "name": "Tiếng Trung",
     "levels": [
-      { "id": "hsk1", "name": "HSK1" },
-      { "id": "hsk2", "name": "HSK2" }
+      { "id": "hsk1", "name": "HSK1", "description": "Cấp độ sơ cấp - 150 từ vựng cơ bản" },
+      { "id": "hsk2", "name": "HSK2", "description": "Cấp độ sơ cấp cao - 300 từ vựng" },
+      { "id": "hsk3", "name": "HSK3", "description": "Cấp độ trung cấp - 600 từ vựng" },
+      { "id": "hsk4", "name": "HSK4", "description": "Cấp độ trung cấp cao - 1200 từ vựng" },
+      { "id": "hsk5", "name": "HSK5", "description": "Cấp độ nâng cao - 2500 từ vựng" },
+      { "id": "hsk6", "name": "HSK6", "description": "Cấp độ thành thạo - 5000+ từ vựng" }
     ]
   },
   {
     "id": "korean",
     "name": "Tiếng Hàn",
     "levels": [
-      { "id": "topik1", "name": "TOPIK I" },
-      { "id": "topik2", "name": "TOPIK II" }
+      { "id": "level1", "name": "Level 1", "description": "Sơ cấp - TOPIK I Level 1" },
+      { "id": "level2", "name": "Level 2", "description": "Sơ cấp cao - TOPIK I Level 2" },
+      { "id": "level3", "name": "Level 3", "description": "Trung cấp - TOPIK II Level 3" },
+      { "id": "level4", "name": "Level 4", "description": "Trung cấp cao - TOPIK II Level 4" },
+      { "id": "level5", "name": "Level 5", "description": "Nâng cao - TOPIK II Level 5" },
+      { "id": "level6", "name": "Level 6", "description": "Thành thạo - TOPIK II Level 6" }
     ]
   },
   {
     "id": "vietnamese",
     "name": "Tiếng Việt",
     "levels": [
-      { "id": "cb", "name": "Cơ bản" },
-      { "id": "nc", "name": "Nâng cao" }
+      { "id": "a1", "name": "A1", "description": "Sơ cấp - Người mới học tiếng Việt" },
+      { "id": "a2", "name": "A2", "description": "Sơ cấp cao - Hiểu các câu đơn giản" },
+      { "id": "b1", "name": "B1", "description": "Trung cấp - Giao tiếp trong cuộc sống hàng ngày" },
+      { "id": "b2", "name": "B2", "description": "Trung cấp cao - Hiểu văn bản phức tạp" },
+      { "id": "c1", "name": "C1", "description": "Nâng cao - Sử dụng linh hoạt và hiệu quả" },
+      { "id": "c2", "name": "C2", "description": "Thành thạo - Như người bản xứ" }
     ]
   }
 ] 

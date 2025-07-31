@@ -1,75 +1,120 @@
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
-import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import prisma from '@/lib/prisma';
+import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { notFound } from 'next/navigation';
 
-type PageProps = {
-  params: {
-    language: string;
-  };
+// Language display names mapping
+const languageDisplayNames: { [key: string]: string } = {
+  japanese: 'Tiếng Nhật',
+  chinese: 'Tiếng Trung', 
+  english: 'Tiếng Anh',
+  korean: 'Tiếng Hàn',
+  vietnamese: 'Tiếng Việt',
 };
 
-export default async function LanguageLevelsPage({ params }: PageProps) {
-  const { language } = params;
+// Level ordering for proper progression (low to high)
+const levelOrder: { [key: string]: string[] } = {
+  japanese: ['n5', 'n4', 'n3', 'n2', 'n1'],
+  english: ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'],
+  chinese: ['hsk1', 'hsk2', 'hsk3', 'hsk4', 'hsk5', 'hsk6'],
+  korean: ['level1', 'level2', 'level3', 'level4', 'level5', 'level6'],
+  vietnamese: ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'],
+};
 
-  // Get distinct levels for the selected language
-  const levels = await prisma.course.findMany({
+export default async function LanguageCoursesPage({ params }: { params: { language: string } }) {
+  const { language } = params;
+  
+  // Validate language parameter
+  if (!languageDisplayNames[language]) {
+    notFound();
+  }
+
+  // Get courses for this language from database
+  const courses = await prisma.course.findMany({
     where: {
       language: language,
     },
-    distinct: ['level'],
-    select: {
-      level: true,
-    },
-    orderBy: {
-      level: 'asc', // Order levels alphabetically or by a custom order if available
+    include: {
+      _count: {
+        select: {
+          lessons: true,
+        },
+      },
     },
   });
 
-  if (levels.length === 0) {
-    notFound(); // If no levels found for this language, show 404
+  if (courses.length === 0) {
+    return (
+      <div className="container mx-auto px-4 py-12 text-center">
+        <h1 className="text-4xl font-bold mb-4">{languageDisplayNames[language]}</h1>
+        <p className="text-muted-foreground">Chưa có khóa học nào cho ngôn ngữ này.</p>
+        <Link href="/courses" className="mt-4 inline-block text-blue-600 hover:underline">
+          ← Quay lại chọn ngôn ngữ
+        </Link>
+      </div>
+    );
   }
 
-  // Map level IDs to display names (you might want a more robust mapping later)
-  const levelDisplayNames: { [key: string]: string } = {
-    n5: 'N5 (Sơ cấp)',
-    n4: 'N4 (Sơ cấp)',
-    n3: 'N3 (Trung cấp)',
-    a1: 'A1 (Cơ bản)',
-    a2: 'A2 (Cơ bản)',
-    b1: 'B1 (Trung cấp)',
-    hsk1: 'HSK 1 (Sơ cấp)',
-    hsk2: 'HSK 2 (Sơ cấp)',
-    topik1: 'TOPIK I (Sơ cấp)',
-    topik2: 'TOPIK II (Trung cấp)',
-    cb: 'Cơ bản',
-    nc: 'Nâng cao',
-  };
-
-  // Capitalize the first letter of the language for display
-  const displayLanguage = language.charAt(0).toUpperCase() + language.slice(1);
+  // Sort courses by level order (low to high)
+  const orderedLevels = levelOrder[language] || [];
+  const sortedCourses = courses.sort((a, b) => {
+    const aIndex = orderedLevels.indexOf(a.level);
+    const bIndex = orderedLevels.indexOf(b.level);
+    return aIndex - bIndex;
+  });
 
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="text-center mb-10">
-        <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl text-foreground">
-          Chọn Cấp Độ cho {displayLanguage}
+        <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl text-foreground mb-4">
+          Khóa học {languageDisplayNames[language]}
         </h1>
-        <p className="mt-4 text-lg text-muted-foreground">
-          Khám phá các cấp độ học tập của {displayLanguage}.
+        <p className="text-lg text-muted-foreground">
+          Chọn cấp độ phù hợp với trình độ của bạn để bắt đầu học.
+        </p>
+        <p className="text-sm text-muted-foreground mt-2">
+          Các cấp độ được sắp xếp từ thấp đến cao: <strong>Sơ cấp → Trung cấp → Nâng cao → Thành thạo</strong>
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {levels.map((lvl) => (
-          <Link key={lvl.level} href={`/courses/${language}/${lvl.level}`} passHref>
-            <Card className="transform transition-transform duration-300 hover:scale-105 hover:shadow-xl cursor-pointer h-full flex flex-col items-center justify-center p-6">
-              <CardHeader className="text-center">
-                <CardTitle className="text-2xl font-bold text-foreground">{levelDisplayNames[lvl.level] || lvl.level.toUpperCase()}</CardTitle>
-                <CardDescription className="mt-2 text-base text-muted-foreground">Bắt đầu học cấp độ này.</CardDescription>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {sortedCourses.map((course, index) => (
+          <Link key={course.id} href={`/courses/${language}/${course.level}`} passHref>
+            <Card className="h-full flex flex-col transform transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer relative overflow-hidden">
+              {/* Progress indicator */}
+              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 to-purple-500" 
+                   style={{ width: `${((index + 1) / sortedCourses.length) * 100}%` }}></div>
+              
+              <CardHeader className="flex-grow">
+                <CardTitle className="text-2xl font-bold text-center mb-2">
+                  {course.level.toUpperCase()}
+                </CardTitle>
+                <CardDescription className="text-center text-base mb-4">
+                  {course.description}
+                </CardDescription>
+                
+                <div className="flex justify-between items-center text-sm text-muted-foreground">
+                  <span>{course._count.lessons} bài học</span>
+                  <span className="px-2 py-1 bg-primary/10 rounded-full text-primary">
+                    Cấp độ {index + 1}
+                  </span>
+                </div>
               </CardHeader>
+              
+              <div className="p-6 pt-0">
+                <div className="w-full bg-primary text-primary-foreground text-center py-2 rounded-lg font-semibold hover:bg-primary/90 transition-colors">
+                  Bắt đầu học
+                </div>
+              </div>
             </Card>
           </Link>
         ))}
+      </div>
+
+      <div className="text-center mt-12">
+        <Link href="/courses" className="text-primary hover:underline font-semibold">
+          ← Quay lại chọn ngôn ngữ
+        </Link>
       </div>
     </div>
   );
