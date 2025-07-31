@@ -32,11 +32,13 @@ export default function HomePage() {
               <h3 className="text-2xl font-semibold mb-3 text-gray-800">Luyện nghe chuyên sâu</h3>
               <p className="text-gray-600">Nghe các bài hội thoại N5, N4 với trình phát hiện đại, dễ dàng theo dõi.</p>
             </div>
-            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
-              <FaBook className="text-5xl text-blue-500 mx-auto mb-5" />
-              <h3 className="text-2xl font-semibold mb-3 text-gray-800">Từ điển tích hợp</h3>
-              <p className="text-gray-600">Tra cứu từ vựng, ngữ pháp và ví dụ một cách nhanh chóng và tiện lợi. <span className="text-gray-500">(Sắp ra mắt)</span></p>
-            </div>
+            <Link href="/dictionary" passHref>
+              <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer hover:border-blue-300 border border-gray-200">
+                <FaBook className="text-5xl text-blue-500 mx-auto mb-5" />
+                <h3 className="text-2xl font-semibold mb-3 text-gray-800">Từ điển tích hợp</h3>
+                <p className="text-gray-600">Tra cứu từ vựng, ngữ pháp và ví dụ một cách nhanh chóng và tiện lợi cho 5 ngôn ngữ khác nhau.</p>
+              </div>
+            </Link>
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
               <FaChalkboardTeacher className="text-5xl text-purple-500 mx-auto mb-5" />
               <h3 className="text-2xl font-semibold mb-3 text-gray-800">Khóa học có lộ trình</h3>

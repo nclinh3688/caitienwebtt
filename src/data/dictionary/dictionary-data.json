@@ -1,0 +1,353 @@
+[
+  {
+    "id": "jp_1",
+    "word": "こんにちは",
+    "pronunciation": "konnichiwa",
+    "language": "japanese",
+    "level": "n5",
+    "meanings": [
+      {
+        "partOfSpeech": "感嘆詞",
+        "definition": "Chào (dùng vào buổi trưa)",
+        "example": "こんにちは、田中さん。",
+        "translation": "Chào buổi trưa, anh Tanaka."
+      }
+    ]
+  },
+  {
+    "id": "jp_2",
+    "word": "ありがとう",
+    "pronunciation": "arigatou",
+    "language": "japanese",
+    "level": "n5",
+    "meanings": [
+      {
+        "partOfSpeech": "感嘆詞",
+        "definition": "Cảm ơn (thân mật)",
+        "example": "ありがとう、お母さん。",
+        "translation": "Cảm ơn mẹ."
+      }
+    ]
+  },
+  {
+    "id": "jp_3",
+    "word": "すみません",
+    "pronunciation": "sumimasen",
+    "language": "japanese",
+    "level": "n5",
+    "meanings": [
+      {
+        "partOfSpeech": "感嘆詞",
+        "definition": "Xin lỗi, excuse me",
+        "example": "すみません、駅はどこですか。",
+        "translation": "Xin lỗi, nhà ga ở đâu?"
+      }
+    ]
+  },
+  {
+    "id": "jp_4",
+    "word": "学生",
+    "pronunciation": "gakusei",
+    "language": "japanese",
+    "level": "n5",
+    "meanings": [
+      {
+        "partOfSpeech": "名詞",
+        "definition": "Học sinh, sinh viên",
+        "example": "私は大学の学生です。",
+        "translation": "Tôi là sinh viên đại học."
+      }
+    ]
+  },
+  {
+    "id": "jp_5",
+    "word": "美しい",
+    "pronunciation": "utsukushii",
+    "language": "japanese",
+    "level": "n4",
+    "meanings": [
+      {
+        "partOfSpeech": "い形容詞",
+        "definition": "Đẹp, xinh đẹp",
+        "example": "桜の花はとても美しいです。",
+        "translation": "Hoa anh đào rất đẹp."
+      }
+    ]
+  },
+  {
+    "id": "en_1",
+    "word": "hello",
+    "pronunciation": "həˈloʊ",
+    "language": "english",
+    "level": "a1",
+    "meanings": [
+      {
+        "partOfSpeech": "interjection",
+        "definition": "Chào hỏi",
+        "example": "Hello, how are you?",
+        "translation": "Chào, bạn khỏe không?"
+      }
+    ]
+  },
+  {
+    "id": "en_2",
+    "word": "beautiful",
+    "pronunciation": "ˈbjuːtɪfl",
+    "language": "english",
+    "level": "a1",
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "Đẹp, xinh đẹp",
+        "example": "She has beautiful eyes.",
+        "translation": "Cô ấy có đôi mắt đẹp."
+      }
+    ]
+  },
+  {
+    "id": "en_3",
+    "word": "study",
+    "pronunciation": "ˈstʌdi",
+    "language": "english",
+    "level": "a1",
+    "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definition": "Học, nghiên cứu",
+        "example": "I study English every day.",
+        "translation": "Tôi học tiếng Anh mỗi ngày."
+      },
+      {
+        "partOfSpeech": "noun",
+        "definition": "Việc học, nghiên cứu",
+        "example": "My study room is very quiet.",
+        "translation": "Phòng học của tôi rất yên tĩnh."
+      }
+    ]
+  },
+  {
+    "id": "en_4",
+    "word": "tremendous",
+    "pronunciation": "trəˈmendəs",
+    "language": "english",
+    "level": "b1",
+    "meanings": [
+      {
+        "partOfSpeech": "adjective",
+        "definition": "To lớn, khổng lồ, tuyệt vời",
+        "example": "There was a tremendous explosion.",
+        "translation": "Có một vụ nổ khổng lồ."
+      }
+    ]
+  },
+  {
+    "id": "ch_1",
+    "word": "你好",
+    "pronunciation": "nǐ hǎo",
+    "language": "chinese",
+    "level": "hsk1",
+    "meanings": [
+      {
+        "partOfSpeech": "感叹词",
+        "definition": "Chào hỏi",
+        "example": "你好，我是学生。",
+        "translation": "Chào, tôi là học sinh."
+      }
+    ]
+  },
+  {
+    "id": "ch_2",
+    "word": "谢谢",
+    "pronunciation": "xiè xie",
+    "language": "chinese",
+    "level": "hsk1",
+    "meanings": [
+      {
+        "partOfSpeech": "感叹词",
+        "definition": "Cảm ơn",
+        "example": "谢谢你的帮助。",
+        "translation": "Cảm ơn sự giúp đỡ của bạn."
+      }
+    ]
+  },
+  {
+    "id": "ch_3",
+    "word": "学习",
+    "pronunciation": "xué xí",
+    "language": "chinese",
+    "level": "hsk1",
+    "meanings": [
+      {
+        "partOfSpeech": "动词",
+        "definition": "Học tập",
+        "example": "我在学习中文。",
+        "translation": "Tôi đang học tiếng Trung."
+      }
+    ]
+  },
+  {
+    "id": "ch_4",
+    "word": "漂亮",
+    "pronunciation": "piào liang",
+    "language": "chinese",
+    "level": "hsk1",
+    "meanings": [
+      {
+        "partOfSpeech": "形容词",
+        "definition": "Đẹp, xinh",
+        "example": "她很漂亮。",
+        "translation": "Cô ấy rất đẹp."
+      }
+    ]
+  },
+  {
+    "id": "ch_5",
+    "word": "复杂",
+    "pronunciation": "fù zá",
+    "language": "chinese",
+    "level": "hsk2",
+    "meanings": [
+      {
+        "partOfSpeech": "形容词",
+        "definition": "Phức tạp",
+        "example": "这个问题很复杂。",
+        "translation": "Vấn đề này rất phức tạp."
+      }
+    ]
+  },
+  {
+    "id": "kr_1",
+    "word": "안녕하세요",
+    "pronunciation": "annyeonghaseyo",
+    "language": "korean",
+    "level": "topik1",
+    "meanings": [
+      {
+        "partOfSpeech": "감탄사",
+        "definition": "Chào (lịch sự)",
+        "example": "안녕하세요, 선생님.",
+        "translation": "Chào thầy."
+      }
+    ]
+  },
+  {
+    "id": "kr_2",
+    "word": "감사합니다",
+    "pronunciation": "gamsahamnida",
+    "language": "korean",
+    "level": "topik1",
+    "meanings": [
+      {
+        "partOfSpeech": "감탄사",
+        "definition": "Cảm ơn (lịch sự)",
+        "example": "도와주셔서 감사합니다.",
+        "translation": "Cảm ơn vì đã giúp đỡ."
+      }
+    ]
+  },
+  {
+    "id": "kr_3",
+    "word": "공부하다",
+    "pronunciation": "gongbuhada",
+    "language": "korean",
+    "level": "topik1",
+    "meanings": [
+      {
+        "partOfSpeech": "동사",
+        "definition": "Học",
+        "example": "저는 한국어를 공부합니다.",
+        "translation": "Tôi học tiếng Hàn."
+      }
+    ]
+  },
+  {
+    "id": "kr_4",
+    "word": "아름답다",
+    "pronunciation": "areumdapda",
+    "language": "korean",
+    "level": "topik1",
+    "meanings": [
+      {
+        "partOfSpeech": "형용사",
+        "definition": "Đẹp",
+        "example": "꽃이 아름답습니다.",
+        "translation": "Hoa đẹp."
+      }
+    ]
+  },
+  {
+    "id": "vn_1",
+    "word": "xin chào",
+    "pronunciation": "sin chào",
+    "language": "vietnamese",
+    "level": "cb",
+    "meanings": [
+      {
+        "partOfSpeech": "thán từ",
+        "definition": "Greeting, hello",
+        "example": "Xin chào, bạn khỏe không?",
+        "translation": "Hello, how are you?"
+      }
+    ]
+  },
+  {
+    "id": "vn_2",
+    "word": "cảm ơn",
+    "pronunciation": "gảm ơn",
+    "language": "vietnamese",
+    "level": "cb",
+    "meanings": [
+      {
+        "partOfSpeech": "thán từ",
+        "definition": "Thank you",
+        "example": "Cảm ơn bạn rất nhiều.",
+        "translation": "Thank you very much."
+      }
+    ]
+  },
+  {
+    "id": "vn_3",
+    "word": "học tập",
+    "pronunciation": "hóc tập",
+    "language": "vietnamese",
+    "level": "cb",
+    "meanings": [
+      {
+        "partOfSpeech": "động từ",
+        "definition": "To study, to learn",
+        "example": "Tôi đang học tập tiếng Anh.",
+        "translation": "I am studying English."
+      }
+    ]
+  },
+  {
+    "id": "vn_4",
+    "word": "xinh đẹp",
+    "pronunciation": "sin đẹp",
+    "language": "vietnamese",
+    "level": "cb",
+    "meanings": [
+      {
+        "partOfSpeech": "tính từ",
+        "definition": "Beautiful, pretty",
+        "example": "Cô ấy rất xinh đẹp.",
+        "translation": "She is very beautiful."
+      }
+    ]
+  },
+  {
+    "id": "vn_5",
+    "word": "phức tạp",
+    "pronunciation": "fúc tạp",
+    "language": "vietnamese",
+    "level": "nc",
+    "meanings": [
+      {
+        "partOfSpeech": "tính từ",
+        "definition": "Complex, complicated",
+        "example": "Vấn đề này rất phức tạp.",
+        "translation": "This problem is very complex."
+      }
+    ]
+  }
+]

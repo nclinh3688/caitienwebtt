@@ -35,6 +35,8 @@ export default function Header() {
           <nav className="hidden lg:flex items-center gap-1">
             <NavLink href="/dashboard">Dashboard</NavLink>
             <NavLink href="/courses">Khóa học</NavLink>
+            <NavLink href="/dictionary">Từ điển</NavLink>
+            <NavLink href="/listening">Luyện nghe</NavLink>
             <NavLink href="/test">Test</NavLink>
             <NavLink href="/community">Cộng đồng</NavLink>
             <NavLink href="/teachers">Giáo viên</NavLink>
@@ -90,6 +92,8 @@ export default function Header() {
             <nav className="flex flex-col space-y-2">
               <NavLink href="/dashboard">Dashboard</NavLink>
               <NavLink href="/courses">Khóa học</NavLink>
+              <NavLink href="/dictionary">Từ điển</NavLink>
+              <NavLink href="/listening">Luyện nghe</NavLink>
               <NavLink href="/test">Test</NavLink>
               <NavLink href="/community">Cộng đồng</NavLink>
               <NavLink href="/teachers">Giáo viên</NavLink>
