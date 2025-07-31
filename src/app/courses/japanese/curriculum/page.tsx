@@ -1,13 +1,17 @@
 'use client';
 
+import Image from 'next/image';
+
 export default function CurriculumPage() {
   return (
     <div className="max-w-[1200px] mx-auto px-4 py-8">
       {/* Header Image */}
       <div className="w-full mb-8">
-        <img
+        <Image
           src="/images/n5-roadmap-header.svg"
           alt="JLPT N5 Roadmap"
+          width={1200}
+          height={300}
           className="w-full rounded-lg"
         />
       </div>
@@ -107,9 +111,11 @@ export default function CurriculumPage() {
 
       {/* Footer Image */}
       <div className="w-full mt-8">
-        <img
+        <Image
           src="/images/n5-study-footer.svg"
           alt="JLPT N5 Study Materials"
+          width={1200}
+          height={300}
           className="w-full rounded-lg"
         />
       </div>
