@@ -3,30 +3,145 @@
     "id": 1,
     "title": "Bài 1: Giới thiệu bản thân",
     "level": "N5",
-    "url": "/audio/Minna Bai 1/kaiwa.mp3"
+    "url": "/audio/Minna Bai 1/kaiwa.mp3",
+    "description": "Học cách giới thiệu bản thân bằng tiếng Nhật trong tình huống gặp gỡ lần đầu",
+    "duration": "2:30",
+    "vocabulary": ["はじめまして", "よろしくお願いします", "です", "から", "きました"],
+    "transcript": [
+      {
+        "speaker": "A",
+        "japanese": "はじめまして。田中です。",
+        "vietnamese": "Rất vui được gặp bạn. Tôi là Tanaka.",
+        "time": "0:05"
+      },
+      {
+        "speaker": "B", 
+        "japanese": "はじめまして。スミスです。よろしくお願いします。",
+        "vietnamese": "Rất vui được gặp bạn. Tôi là Smith. Xin chào.",
+        "time": "0:10"
+      },
+      {
+        "speaker": "A",
+        "japanese": "こちらこそ、よろしくお願いします。",
+        "vietnamese": "Tôi cũng vậy, xin chào.",
+        "time": "0:15"
+      }
+    ]
   },
   {
     "id": 2,
     "title": "Bài 2: Hỏi thăm sức khỏe",
     "level": "N5",
-    "url": "/audio/Minna Bai 2/kaiwa.mp3"
+    "url": "/audio/Minna Bai 2/kaiwa.mp3",
+    "description": "Tìm hiểu cách hỏi thăm và trả lời về sức khỏe, tình hình cá nhân",
+    "duration": "2:45",
+    "vocabulary": ["げんき", "いかが", "はい", "おかげさまで", "ありがとう"],
+    "transcript": [
+      {
+        "speaker": "A",
+        "japanese": "おはようございます。お元気ですか。",
+        "vietnamese": "Chào buổi sáng. Bạn có khỏe không?",
+        "time": "0:03"
+      },
+      {
+        "speaker": "B",
+        "japanese": "はい、おかげさまで元気です。",
+        "vietnamese": "Vâng, nhờ ơn tôi khỏe.",
+        "time": "0:08"
+      },
+      {
+        "speaker": "A",
+        "japanese": "それは良かったです。",
+        "vietnamese": "Thật tốt quá.",
+        "time": "0:12"
+      }
+    ]
   },
   {
     "id": 3,
     "title": "Bài 3: Hỏi đường đi",
     "level": "N5",
-    "url": "/audio/Minna Bai 3/kaiwa.mp3"
+    "url": "/audio/Minna Bai 3/kaiwa.mp3",
+    "description": "Học cách hỏi đường và chỉ đường trong các tình huống thực tế",
+    "duration": "3:15",
+    "vocabulary": ["どこ", "えき", "みち", "まっすぐ", "みぎ", "ひだり"],
+    "transcript": [
+      {
+        "speaker": "A",
+        "japanese": "すみません、駅はどこですか。",
+        "vietnamese": "Xin lỗi, ga tàu ở đâu ạ?",
+        "time": "0:04"
+      },
+      {
+        "speaker": "B",
+        "japanese": "まっすぐ行って、右に曲がってください。",
+        "vietnamese": "Đi thẳng rồi rẽ phải.",
+        "time": "0:09"
+      },
+      {
+        "speaker": "A",
+        "japanese": "ありがとうございます。",
+        "vietnamese": "Cảm ơn bạn.",
+        "time": "0:14"
+      }
+    ]
   },
   {
     "id": 4,
     "title": "Bài 4: Mua sắm",
     "level": "N5",
-    "url": "/audio/Minna Bai 4/kaiwa.mp3"
+    "url": "/audio/Minna Bai 4/kaiwa.mp3",
+    "description": "Thực hành giao tiếp khi mua sắm tại cửa hàng",
+    "duration": "2:50",
+    "vocabulary": ["いくら", "えん", "ください", "やすい", "たかい"],
+    "transcript": [
+      {
+        "speaker": "A",
+        "japanese": "これはいくらですか。",
+        "vietnamese": "Cái này giá bao nhiêu?",
+        "time": "0:03"
+      },
+      {
+        "speaker": "B",
+        "japanese": "五百円です。",
+        "vietnamese": "500 yên ạ.",
+        "time": "0:07"
+      },
+      {
+        "speaker": "A",
+        "japanese": "じゃあ、これをください。",
+        "vietnamese": "Vậy tôi lấy cái này.",
+        "time": "0:11"
+      }
+    ]
   },
   {
     "id": 5,
     "title": "Bài 5: Đặt món ăn",
     "level": "N5",
-    "url": "/audio/Minna Bai 5/kaiwa.mp3"
+    "url": "/audio/Minna Bai 5/kaiwa.mp3",
+    "description": "Học cách đặt món ăn tại nhà hàng Nhật Bản",
+    "duration": "3:20",
+    "vocabulary": ["たべもの", "のみもの", "メニュー", "おいしい", "すみません"],
+    "transcript": [
+      {
+        "speaker": "A",
+        "japanese": "すみません、メニューをお願いします。",
+        "vietnamese": "Xin lỗi, cho tôi xem menu.",
+        "time": "0:04"
+      },
+      {
+        "speaker": "B",
+        "japanese": "はい、どうぞ。",
+        "vietnamese": "Vâng, xin mời.",
+        "time": "0:08"
+      },
+      {
+        "speaker": "A",
+        "japanese": "天ぷらをください。",
+        "vietnamese": "Tôi muốn tempura.",
+        "time": "0:12"
+      }
+    ]
   }
 ]
