@@ -2,10 +2,9 @@ import { NextResponse } from 'next/server';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import OpenAI from 'openai';
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY, // This is the default and can be omitted
-});
+// Initialize AI clients only when needed
+let genAI: GoogleGenerativeAI | null = null;
+let openai: OpenAI | null = null;
 
 export async function POST(request: Request) {
   try {
@@ -22,6 +21,11 @@ export async function POST(request: Request) {
       if (!process.env.OPENAI_API_KEY) {
         return NextResponse.json({ error: 'OPENAI_API_KEY is not set' }, { status: 500 });
       }
+      if (!openai) {
+        openai = new OpenAI({
+          apiKey: process.env.OPENAI_API_KEY,
+        });
+      }
       const completion = await openai.chat.completions.create({
         messages: [{
           role: "user",
@@ -33,6 +37,9 @@ export async function POST(request: Request) {
     } else { // Default to GEMINI
       if (!process.env.GEMINI_API_KEY) {
         return NextResponse.json({ error: 'GEMINI_API_KEY is not set' }, { status: 500 });
+      }
+      if (!genAI) {
+        genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
       }
       const model = genAI.getGenerativeModel({ model: "gemini-pro" });
       const prompt = `Giải thích khái niệm hoặc từ sau một cách ngắn gọn và dễ hiểu: "${text}"`;
