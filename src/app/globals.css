@@ -51,7 +51,10 @@
 
 @layer base {
   * {
-    @apply border-border;
+    border-color: rgb(229 231 235);
+  }
+  .dark * {
+    border-color: rgb(55 65 81);
   }
   body {
     @apply bg-background text-foreground;
