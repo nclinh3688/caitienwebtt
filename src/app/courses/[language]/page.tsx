@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import prisma from '@/lib/prisma';
+import getPrismaClient from '@/lib/prisma';
 
 type PageProps = {
   params: {
@@ -11,6 +11,7 @@ type PageProps = {
 
 export default async function LanguageLevelsPage({ params }: PageProps) {
   const { language } = params;
+  const prisma = getPrismaClient();
 
   // Get distinct levels for the selected language
   const levels = await prisma.course.findMany({

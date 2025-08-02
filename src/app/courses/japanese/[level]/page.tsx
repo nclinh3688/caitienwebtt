@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import prisma from '@/lib/prisma';
+import getPrismaClient from '@/lib/prisma';
 
 type PageProps = {
   params: {
@@ -11,6 +11,7 @@ type PageProps = {
 
 const LevelPage = async ({ params }: PageProps) => {
   const { level } = params;
+  const prisma = getPrismaClient();
 
   const course = await prisma.course.findUnique({
     where: {

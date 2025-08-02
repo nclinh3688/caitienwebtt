@@ -1,8 +1,9 @@
 import Link from 'next/link';
-import prisma from '@/lib/prisma';
+import getPrismaClient from '@/lib/prisma';
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 
 export default async function CoursesPage() {
+  const prisma = getPrismaClient();
   // Get unique languages from the database
   const languages = await prisma.course.findMany({
     distinct: ['language'],

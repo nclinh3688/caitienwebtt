@@ -1,4 +1,4 @@
-import prisma from '@/lib/prisma';
+import getPrismaClient from '@/lib/prisma';
 import path from 'path';
 import fs from 'fs/promises';
 
@@ -6,6 +6,7 @@ async function main() {
   console.log('Starting database seeding...');
 
   try {
+    const prisma = getPrismaClient();
     // Clear existing data (optional, for development)
     await prisma.lesson.deleteMany({});
     await prisma.course.deleteMany({});
@@ -73,6 +74,7 @@ async function main() {
     console.error('Error seeding database:', error);
     process.exit(1);
   } finally {
+    const prisma = getPrismaClient();
     await prisma.$disconnect();
   }
 }
