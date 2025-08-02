@@ -5,11 +5,10 @@ import { PrismaClient } from '@prisma/client';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import OpenAI from 'openai';
 
-const prisma = new PrismaClient();
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+// Initialize clients only when needed
+let prisma: PrismaClient | null = null;
+let genAI: GoogleGenerativeAI | null = null;
+let openai: OpenAI | null = null;
 
 export async function POST(request: Request) {
   try {
@@ -20,6 +19,11 @@ export async function POST(request: Request) {
     }
 
     const { userId } = await request.json();
+
+    // Initialize Prisma client
+    if (!prisma) {
+      prisma = new PrismaClient();
+    }
 
     // Find user
     const user = await prisma.user.findUnique({
@@ -174,6 +178,11 @@ async function generateRecommendation(skill: string, score: number): Promise<str
     let recommendation = '';
 
     if (aiProvider === 'OPENAI' && process.env.OPENAI_API_KEY) {
+      if (!openai) {
+        openai = new OpenAI({
+          apiKey: process.env.OPENAI_API_KEY,
+        });
+      }
       const completion = await openai.chat.completions.create({
         messages: [{ role: "user", content: prompt }],
         model: "gpt-3.5-turbo",
@@ -181,6 +190,9 @@ async function generateRecommendation(skill: string, score: number): Promise<str
       });
       recommendation = completion.choices[0].message.content || '';
     } else if (process.env.GEMINI_API_KEY) {
+      if (!genAI) {
+        genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+      }
       const model = genAI.getGenerativeModel({ model: "gemini-pro" });
       const result = await model.generateContent(prompt);
       const response = await result.response;
