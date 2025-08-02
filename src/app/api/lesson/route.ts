@@ -1,10 +1,9 @@
 import { NextResponse } from 'next/server';
-import { PrismaClient } from '@prisma/client';
-
-const prisma = new PrismaClient();
+import getPrismaClient from '@/lib/prisma';
 
 export async function GET() {
   try {
+    const prisma = getPrismaClient();
     const lessons = await prisma.lesson.findMany({
       select: {
         id: true,

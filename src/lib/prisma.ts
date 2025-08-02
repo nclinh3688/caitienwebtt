@@ -6,15 +6,18 @@ declare global {
   var prisma: PrismaClient | undefined;
 }
 
-let prisma: PrismaClient;
+let prisma: PrismaClient | undefined;
 
-if (process.env.NODE_ENV === 'production') {
-  prisma = new PrismaClient();
-} else {
-  if (!global.prisma) {
-    global.prisma = new PrismaClient();
+export default function getPrismaClient(): PrismaClient {
+  if (process.env.NODE_ENV === 'production') {
+    if (!prisma) {
+      prisma = new PrismaClient();
+    }
+    return prisma;
+  } else {
+    if (!global.prisma) {
+      global.prisma = new PrismaClient();
+    }
+    return global.prisma;
   }
-  prisma = global.prisma;
 }
-
-export default prisma;
