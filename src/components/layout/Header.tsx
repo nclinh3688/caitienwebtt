@@ -92,6 +92,17 @@ export default function Header() {
       ]
     },
     {
+      name: 'Cộng đồng',
+      href: '/community',
+      icon: <Users size={16} />,
+      dropdown: [
+        { name: 'Diễn đàn học tập', href: '/community/forum', icon: <Users size={16} />, description: 'Thảo luận, hỏi đáp' },
+        { name: 'Nhóm học tập', href: '/community/groups', icon: <Users size={16} />, description: 'Tham gia nhóm theo ngôn ngữ' },
+        { name: 'Chia sẻ kinh nghiệm', href: '/community/experiences', icon: <Star size={16} />, description: 'Bài viết từ học viên' },
+        { name: 'Sự kiện', href: '/community/events', icon: <Trophy size={16} />, description: 'Workshop, meetup' },
+      ]
+    },
+    {
       name: 'Giáo viên',
       href: '/teachers',
       icon: <Users size={16} />,
