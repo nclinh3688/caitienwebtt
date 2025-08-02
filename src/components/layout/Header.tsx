@@ -37,7 +37,6 @@ export default function Header() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-  const [isLogoLoaded, setIsLogoLoaded] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -119,13 +118,13 @@ export default function Header() {
     <motion.header
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`header-critical transition-all duration-300 ${
         isScrolled 
-          ? 'bg-white/90 backdrop-blur-md shadow-lg border-b border-gray-200/20' 
-          : 'bg-transparent'
+          ? 'shadow-lg' 
+          : ''
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="header-container">
         <div className="flex justify-between items-center h-16 lg:h-20">
           {/* Logo - Optimized with lazy loading */}
           <motion.div 
@@ -137,23 +136,15 @@ export default function Header() {
               <Suspense fallback={<div className="w-8 h-8 bg-gray-200 rounded animate-pulse" />}>
                 <Logo />
               </Suspense>
-              <div className="hidden sm:block">
-                <h1 className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-primary-600 to-secondary-500 bg-clip-text text-transparent">
-                  PHÚC KHIÊM Education
-                </h1>
-                <p className="text-xs lg:text-sm text-gray-600 font-medium">
-                  Học tập thông minh, tương lai tươi sáng
-                </p>
-              </div>
             </Link>
           </motion.div>
 
           {/* Desktop Navigation - Optimized */}
-          <nav className="hidden lg:flex items-center space-x-6">
+          <nav className="nav-desktop">
             {navigationItems.map((item) => (
               <div key={item.name} className="relative">
                 <button
-                  className={`group flex items-center space-x-2 px-3 py-2 rounded-lg font-medium transition-all duration-200 relative ${
+                  className={`nav-item ${
                     activeDropdown === item.name 
                       ? 'text-primary-600 bg-primary-50' 
                       : 'text-gray-700 hover:text-primary-600'
@@ -351,7 +342,7 @@ export default function Header() {
                 >
                   <Link 
                     href="/auth/signup" 
-                    className="bg-gradient-to-r from-primary-600 to-secondary-500 text-white px-4 py-2 rounded-lg hover:shadow-md transition-all duration-200 font-medium text-sm"
+                    className="btn-primary"
                   >
                     Học thử miễn phí
                   </Link>
@@ -509,7 +500,7 @@ export default function Header() {
                       </Link>
                       <Link 
                         href="/auth/signup" 
-                        className="block px-3 py-2 bg-gradient-to-r from-primary-600 to-secondary-500 text-white rounded-md hover:shadow-md transition-all duration-200 text-center text-sm"
+                        className="block px-3 py-2 btn-primary text-center"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         Học thử miễn phí
@@ -524,4 +515,4 @@ export default function Header() {
       </div>
     </motion.header>
   );
-}
+} 

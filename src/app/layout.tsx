@@ -76,8 +76,180 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#1e40af" />
         
+        {/* Critical CSS Inline for Performance */}
+        <style dangerouslySetInnerHTML={{
+          __html: `
+            /* Critical CSS for above-the-fold content */
+            :root {
+              --primary-50: #eff6ff;
+              --primary-100: #dbeafe;
+              --primary-500: #3b82f6;
+              --primary-600: #2563eb;
+              --primary-700: #1d4ed8;
+              --primary-800: #1e40af;
+              --primary-900: #1e3a8a;
+              --secondary-500: #f97316;
+              --secondary-600: #ea580c;
+              --secondary-700: #c2410c;
+              --bg-primary: #ffffff;
+              --text-primary: #0f172a;
+              --text-secondary: #475569;
+              --border-light: #e2e8f0;
+            }
+            
+            * {
+              box-sizing: border-box;
+              padding: 0;
+              margin: 0;
+            }
+            
+            html {
+              scroll-behavior: smooth;
+            }
+            
+            body {
+              color: var(--text-primary);
+              background: var(--bg-primary);
+              font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+              line-height: 1.6;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale;
+            }
+            
+            /* Critical header styles */
+            .header-critical {
+              position: fixed;
+              top: 0;
+              left: 0;
+              right: 0;
+              z-index: 50;
+              background: rgba(255, 255, 255, 0.9);
+              backdrop-filter: blur(8px);
+              border-bottom: 1px solid rgba(226, 232, 240, 0.2);
+              transition: all 0.3s ease;
+            }
+            
+            .header-container {
+              max-width: 80rem;
+              margin: 0 auto;
+              padding: 0 1rem;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              height: 4rem;
+            }
+            
+            .logo-container {
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+            }
+            
+            .logo-text {
+              font-size: 1.5rem;
+              font-weight: 700;
+              background: linear-gradient(135deg, var(--primary-600) 0%, var(--secondary-500) 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+            }
+            
+            .logo-subtitle {
+              font-size: 0.875rem;
+              color: var(--text-secondary);
+              font-weight: 500;
+            }
+            
+            /* Critical navigation styles */
+            .nav-desktop {
+              display: none;
+            }
+            
+            @media (min-width: 1024px) {
+              .nav-desktop {
+                display: flex;
+                align-items: center;
+                gap: 1.5rem;
+              }
+            }
+            
+            .nav-item {
+              display: flex;
+              align-items: center;
+              gap: 0.5rem;
+              padding: 0.5rem 1rem;
+              border-radius: 0.5rem;
+              font-weight: 500;
+              color: var(--text-primary);
+              text-decoration: none;
+              transition: all 0.2s ease;
+            }
+            
+            .nav-item:hover {
+              color: var(--primary-600);
+              background: var(--primary-50);
+            }
+            
+            /* Critical button styles */
+            .btn-primary {
+              background: linear-gradient(135deg, var(--primary-600) 0%, var(--secondary-500) 100%);
+              color: white;
+              padding: 0.75rem 1.5rem;
+              border-radius: 0.75rem;
+              font-weight: 500;
+              text-decoration: none;
+              transition: all 0.2s ease;
+              border: none;
+              cursor: pointer;
+            }
+            
+            .btn-primary:hover {
+              transform: translateY(-1px);
+              box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+            }
+            
+            /* Critical main content styles */
+            main {
+              padding-top: 4rem;
+              min-height: calc(100vh - 4rem);
+            }
+            
+            /* Critical loading states */
+            .skeleton {
+              background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+              background-size: 200% 100%;
+              animation: loading 1.5s infinite;
+            }
+            
+            @keyframes loading {
+              0% { background-position: 200% 0; }
+              100% { background-position: -200% 0; }
+            }
+            
+            /* Critical responsive styles */
+            @media (max-width: 640px) {
+              .header-container {
+                padding: 0 1rem;
+              }
+              
+              .logo-text {
+                font-size: 1.25rem;
+              }
+              
+              .logo-subtitle {
+                display: none;
+              }
+            }
+          `
+        }} />
+        
         {/* Google Search Console Verification */}
         <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
+        
+        {/* Preload critical resources */}
+        <link rel="preload" href="/images/logo/phuc-khiem-logo.jpg" as="image" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         
         {/* Google Analytics */}
         <Script

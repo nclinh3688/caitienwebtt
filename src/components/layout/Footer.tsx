@@ -19,7 +19,7 @@ import {
   FaUsers,
   FaGraduationCap
 } from 'react-icons/fa';
-import { LogoLink } from '@/components/ui/Logo';
+import Logo from '@/components/ui/Logo';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -137,7 +137,7 @@ export default function Footer() {
             {/* Brand Section */}
             <div className="lg:col-span-2">
               <div className="mb-6">
-                <LogoLink size="lg" className="text-white" />
+                <Logo />
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
                 PHÚC KHIÊM Education - Nền tảng học ngoại ngữ thông minh với AI. 

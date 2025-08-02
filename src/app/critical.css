@@ -2,8 +2,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* Purge unused CSS - Only keep what we actually use */
-
 /* Critical CSS - Load first */
 :root {
   --primary-50: #eff6ff;
