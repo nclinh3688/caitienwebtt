@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "id": "B06",
+    "title": "Bài 06: Food & Dining",
+    "level": "N5",
+    "theme": "Food & Dining",
+    "estimatedTime": 45,
+    "difficulty": "Beginner",
+    "lastUpdated": "2025-08-01T16:34:15.585Z"
+  },
+  "vocabulary": [
+    {
+      "japanese": "ごはん",
+      "reading": "gohan",
+      "meaning": "rice/meal",
+      "example": "ごはんを食べます (I eat rice)"
+    },
+    {
+      "japanese": "パン",
+      "reading": "pan",
+      "meaning": "bread",
+      "example": "パンを買います (I buy bread)"
+    },
+    {
+      "japanese": "みず",
+      "reading": "mizu",
+      "meaning": "water",
+      "example": "みずを飲みます (I drink water)"
+    },
+    {
+      "japanese": "おちゃ",
+      "reading": "ocha",
+      "meaning": "tea",
+      "example": "おちゃを飲みます (I drink tea)"
+    },
+    {
+      "japanese": "コーヒー",
+      "reading": "kōhī",
+      "meaning": "coffee",
+      "example": "コーヒーが好きです (I like coffee)"
+    },
+    {
+      "japanese": "りんご",
+      "reading": "ringo",
+      "meaning": "apple",
+      "example": "りんごを食べます (I eat an apple)"
+    },
+    {
+      "japanese": "バナナ",
+      "reading": "banana",
+      "meaning": "banana",
+      "example": "バナナが好きです (I like bananas)"
+    },
+    {
+      "japanese": "レストラン",
+      "reading": "resutoran",
+      "meaning": "restaurant",
+      "example": "レストランで食べます (I eat at a restaurant)"
+    },
+    {
+      "japanese": "メニュー",
+      "reading": "menyū",
+      "meaning": "menu",
+      "example": "メニューを見ます (I look at the menu)"
+    },
+    {
+      "japanese": "たべもの",
+      "reading": "tabemono",
+      "meaning": "food",
+      "example": "たべものが好きです (I like food)"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "〜を〜ます",
+      "meaning": "Object + Verb (polite form)",
+      "explanation": "Used to express doing something with an object",
+      "examples": [
+        "ごはんを食べます (I eat rice)",
+        "みずを飲みます (I drink water)",
+        "本を読みます (I read a book)"
+      ]
+    },
+    {
+      "pattern": "〜が好きです",
+      "meaning": "I like ~",
+      "explanation": "Used to express liking something",
+      "examples": [
+        "コーヒーが好きです (I like coffee)",
+        "えいがが好きです (I like movies)",
+        "スポーツが好きです (I like sports)"
+      ]
+    }
+  ],
+  "kanji": [
+    {
+      "character": "食",
+      "reading": "しょく",
+      "meaning": "food/eat",
+      "strokeCount": 9,
+      "examples": [
+        "食事",
+        "食堂",
+        "食べる"
+      ]
+    },
+    {
+      "character": "飲",
+      "reading": "いん",
+      "meaning": "drink",
+      "strokeCount": 12,
+      "examples": [
+        "飲み物",
+        "飲む",
+        "飲料"
+      ]
+    },
+    {
+      "character": "飯",
+      "reading": "はん",
+      "meaning": "meal/rice",
+      "strokeCount": 12,
+      "examples": [
+        "ご飯",
+        "朝飯",
+        "夕飯"
+      ]
+    },
+    {
+      "character": "茶",
+      "reading": "ちゃ",
+      "meaning": "tea",
+      "strokeCount": 9,
+      "examples": [
+        "お茶",
+        "紅茶",
+        "緑茶"
+      ]
+    },
+    {
+      "character": "水",
+      "reading": "すい",
+      "meaning": "water",
+      "strokeCount": 4,
+      "examples": [
+        "水",
+        "水道",
+        "水泳"
+      ]
+    }
+  ],
+  "listening": {
+    "audioFile": "/audio/n5/B06.mp3",
+    "transcript": "Bài nghe B06: Food & Dining",
+    "exercises": [
+      {
+        "question": "Bạn nghe được từ nào?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "vocabulary",
+      "question": "Chọn từ đúng nghĩa",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "type": "grammar",
+      "question": "Chọn câu đúng ngữ pháp",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": "B"
+    }
+  ]
+}

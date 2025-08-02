@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "id": "B10",
+    "title": "Bài 10: Hobbies & Activities",
+    "level": "N5",
+    "theme": "Hobbies & Activities",
+    "estimatedTime": 45,
+    "difficulty": "Beginner",
+    "lastUpdated": "2025-08-01T16:34:15.679Z"
+  },
+  "vocabulary": [
+    {
+      "japanese": "しゅみ",
+      "reading": "shumi",
+      "meaning": "hobby",
+      "example": "しゅみは読書です (My hobby is reading)"
+    },
+    {
+      "japanese": "スポーツ",
+      "reading": "supōtsu",
+      "meaning": "sports",
+      "example": "スポーツが好きです (I like sports)"
+    },
+    {
+      "japanese": "サッカー",
+      "reading": "sakkā",
+      "meaning": "soccer",
+      "example": "サッカーをします (I play soccer)"
+    },
+    {
+      "japanese": "テニス",
+      "reading": "tenisu",
+      "meaning": "tennis",
+      "example": "テニスが上手です (I am good at tennis)"
+    },
+    {
+      "japanese": "えいが",
+      "reading": "eiga",
+      "meaning": "movie",
+      "example": "えいがを見ます (I watch movies)"
+    },
+    {
+      "japanese": "おんがく",
+      "reading": "ongaku",
+      "meaning": "music",
+      "example": "おんがくを聞きます (I listen to music)"
+    },
+    {
+      "japanese": "りょこう",
+      "reading": "ryokō",
+      "meaning": "travel",
+      "example": "りょこうが好きです (I like traveling)"
+    },
+    {
+      "japanese": "カメラ",
+      "reading": "kamera",
+      "meaning": "camera",
+      "example": "カメラで写真を撮ります (I take photos with a camera)"
+    },
+    {
+      "japanese": "ゲーム",
+      "reading": "gēmu",
+      "meaning": "game",
+      "example": "ゲームをします (I play games)"
+    },
+    {
+      "japanese": "インターネット",
+      "reading": "intānetto",
+      "meaning": "internet",
+      "example": "インターネットを使います (I use the internet)"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "〜が上手です",
+      "meaning": "I am good at ~",
+      "explanation": "Used to express being good at something",
+      "examples": [
+        "テニスが上手です (I am good at tennis)",
+        "えいごが上手です (I am good at English)",
+        "料理が上手です (I am good at cooking)"
+      ]
+    },
+    {
+      "pattern": "〜をします",
+      "meaning": "I do ~ (activities)",
+      "explanation": "Used to express doing activities or hobbies",
+      "examples": [
+        "サッカーをします (I play soccer)",
+        "ゲームをします (I play games)",
+        "かいものをします (I go shopping)"
+      ]
+    }
+  ],
+  "kanji": [
+    {
+      "character": "好",
+      "reading": "す",
+      "meaning": "like",
+      "strokeCount": 6,
+      "examples": [
+        "好き",
+        "好む",
+        "好意"
+      ]
+    },
+    {
+      "character": "楽",
+      "reading": "らく",
+      "meaning": "fun/easy",
+      "strokeCount": 13,
+      "examples": [
+        "楽しい",
+        "音楽",
+        "楽器"
+      ]
+    },
+    {
+      "character": "映",
+      "reading": "えい",
+      "meaning": "reflect",
+      "strokeCount": 9,
+      "examples": [
+        "映画",
+        "映す",
+        "上映"
+      ]
+    },
+    {
+      "character": "音",
+      "reading": "おん",
+      "meaning": "sound",
+      "strokeCount": 9,
+      "examples": [
+        "音楽",
+        "音",
+        "音読"
+      ]
+    },
+    {
+      "character": "写",
+      "reading": "しゃ",
+      "meaning": "copy/photograph",
+      "strokeCount": 5,
+      "examples": [
+        "写真",
+        "写す",
+        "描写"
+      ]
+    }
+  ],
+  "listening": {
+    "audioFile": "/audio/n5/B10.mp3",
+    "transcript": "Bài nghe B10: Hobbies & Activities",
+    "exercises": [
+      {
+        "question": "Bạn nghe được từ nào?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "vocabulary",
+      "question": "Chọn từ đúng nghĩa",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "type": "grammar",
+      "question": "Chọn câu đúng ngữ pháp",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": "B"
+    }
+  ]
+}

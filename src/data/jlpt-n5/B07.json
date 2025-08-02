@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "id": "B07",
+    "title": "Bài 07: Shopping & Money",
+    "level": "N5",
+    "theme": "Shopping & Money",
+    "estimatedTime": 45,
+    "difficulty": "Beginner",
+    "lastUpdated": "2025-08-01T16:34:15.669Z"
+  },
+  "vocabulary": [
+    {
+      "japanese": "おかね",
+      "reading": "okane",
+      "meaning": "money",
+      "example": "おかねがあります (I have money)"
+    },
+    {
+      "japanese": "かいもの",
+      "reading": "kaimono",
+      "meaning": "shopping",
+      "example": "かいものをします (I go shopping)"
+    },
+    {
+      "japanese": "みせ",
+      "reading": "mise",
+      "meaning": "shop/store",
+      "example": "みせに入ります (I enter the shop)"
+    },
+    {
+      "japanese": "スーパー",
+      "reading": "sūpā",
+      "meaning": "supermarket",
+      "example": "スーパーで買います (I buy at the supermarket)"
+    },
+    {
+      "japanese": "デパート",
+      "reading": "depāto",
+      "meaning": "department store",
+      "example": "デパートに行きます (I go to the department store)"
+    },
+    {
+      "japanese": "やすい",
+      "reading": "yasui",
+      "meaning": "cheap",
+      "example": "やすいです (It is cheap)"
+    },
+    {
+      "japanese": "たかい",
+      "reading": "takai",
+      "meaning": "expensive",
+      "example": "たかいです (It is expensive)"
+    },
+    {
+      "japanese": "いくら",
+      "reading": "ikura",
+      "meaning": "how much",
+      "example": "いくらですか (How much is it?)"
+    },
+    {
+      "japanese": "えん",
+      "reading": "en",
+      "meaning": "yen",
+      "example": "1000えんです (It is 1000 yen)"
+    },
+    {
+      "japanese": "レシート",
+      "reading": "reshīto",
+      "meaning": "receipt",
+      "example": "レシートをもらいます (I receive a receipt)"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "〜は〜です",
+      "meaning": "~ is ~",
+      "explanation": "Basic copula sentence pattern",
+      "examples": [
+        "これは1000えんです (This is 1000 yen)",
+        "あれはデパートです (That is a department store)",
+        "これはやすいです (This is cheap)"
+      ]
+    },
+    {
+      "pattern": "〜で〜ます",
+      "meaning": "At/In ~ do ~",
+      "explanation": "Used to express where an action takes place",
+      "examples": [
+        "スーパーで買います (I buy at the supermarket)",
+        "レストランで食べます (I eat at the restaurant)",
+        "えきで待ちます (I wait at the station)"
+      ]
+    }
+  ],
+  "kanji": [
+    {
+      "character": "金",
+      "reading": "きん",
+      "meaning": "money/gold",
+      "strokeCount": 8,
+      "examples": [
+        "お金",
+        "金曜日",
+        "金庫"
+      ]
+    },
+    {
+      "character": "買",
+      "reading": "かい",
+      "meaning": "buy",
+      "strokeCount": 12,
+      "examples": [
+        "買う",
+        "買い物",
+        "購買"
+      ]
+    },
+    {
+      "character": "店",
+      "reading": "てん",
+      "meaning": "shop/store",
+      "strokeCount": 8,
+      "examples": [
+        "店",
+        "店員",
+        "商店"
+      ]
+    },
+    {
+      "character": "安",
+      "reading": "あん",
+      "meaning": "cheap/safe",
+      "strokeCount": 6,
+      "examples": [
+        "安い",
+        "安全",
+        "安心"
+      ]
+    },
+    {
+      "character": "高",
+      "reading": "たか",
+      "meaning": "expensive/high",
+      "strokeCount": 10,
+      "examples": [
+        "高い",
+        "高校",
+        "高級"
+      ]
+    }
+  ],
+  "listening": {
+    "audioFile": "/audio/n5/B07.mp3",
+    "transcript": "Bài nghe B07: Shopping & Money",
+    "exercises": [
+      {
+        "question": "Bạn nghe được từ nào?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "vocabulary",
+      "question": "Chọn từ đúng nghĩa",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "type": "grammar",
+      "question": "Chọn câu đúng ngữ pháp",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": "B"
+    }
+  ]
+}

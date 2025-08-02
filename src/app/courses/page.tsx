@@ -31,7 +31,7 @@ export default async function CoursesPage() {
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {languages.map((lang) => (
+        {languages.map((lang: any) => (
           <Link key={lang.language} href={`/courses/${lang.language}`} passHref>
             <Card className="transform transition-transform duration-300 hover:scale-105 hover:shadow-xl cursor-pointer h-full flex flex-col items-center justify-center p-6">
               <CardHeader className="text-center">

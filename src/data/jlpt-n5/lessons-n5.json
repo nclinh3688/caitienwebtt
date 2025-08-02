@@ -10,14 +10,73 @@
     "id": "N5-B02",
     "title": "Bài 2: Đồ vật, địa điểm",
     "description": "Từ vựng về đồ vật, hỏi đáp vị trí, mẫu câu chỉ định.",
-    "status": "template_ready",
+    "status": "published",
     "path": "/courses/japanese/n5/lesson-2"
   },
   {
     "id": "N5-B03",
     "title": "Bài 3: Địa điểm, số đếm",
     "description": "Từ vựng về địa điểm, số đếm, mẫu câu hỏi vị trí và giá cả.",
-    "status": "template_ready",
+    "status": "published",
     "path": "/courses/japanese/n5/lesson-3"
+  },
+  {
+    "id": "N5-B04",
+    "title": "Bài 4: Thời gian, ngày tháng",
+    "description": "Từ vựng về thời gian, ngày tháng, mẫu câu hỏi thời gian.",
+    "status": "template_ready",
+    "path": "/courses/japanese/n5/lesson-4"
+  },
+  {
+    "id": "N5-B05",
+    "title": "Bài 5: Gia đình, nghề nghiệp",
+    "description": "Từ vựng về gia đình, nghề nghiệp, mẫu câu giới thiệu người khác.",
+    "status": "template_ready",
+    "path": "/courses/japanese/n5/lesson-5"
+  },
+  {
+    "id": "N5-B06",
+    "title": "Bài 06: Food & Dining",
+    "description": "Học từ vựng và ngữ pháp về Food & Dining",
+    "status": "published",
+    "path": "/courses/japanese/n5/B06",
+    "estimatedTime": 45,
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "N5-B07",
+    "title": "Bài 07: Shopping & Money",
+    "description": "Học từ vựng và ngữ pháp về Shopping & Money",
+    "status": "published",
+    "path": "/courses/japanese/n5/B07",
+    "estimatedTime": 45,
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "N5-B08",
+    "title": "Bài 08: Transportation & Travel",
+    "description": "Học từ vựng và ngữ pháp về Transportation & Travel",
+    "status": "published",
+    "path": "/courses/japanese/n5/B08",
+    "estimatedTime": 45,
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "N5-B09",
+    "title": "Bài 09: Family & Relationships",
+    "description": "Học từ vựng và ngữ pháp về Family & Relationships",
+    "status": "published",
+    "path": "/courses/japanese/n5/B09",
+    "estimatedTime": 45,
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "N5-B10",
+    "title": "Bài 10: Hobbies & Activities",
+    "description": "Học từ vựng và ngữ pháp về Hobbies & Activities",
+    "status": "published",
+    "path": "/courses/japanese/n5/B10",
+    "estimatedTime": 45,
+    "difficulty": "Beginner"
   }
-] 
+]

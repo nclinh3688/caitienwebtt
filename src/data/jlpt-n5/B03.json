@@ -1,48 +1,248 @@
 {
   "id": "B03",
-  "title": "Bài 3: Gia đình, bạn bè",
-  "description": "Từ vựng về gia đình, bạn bè, mẫu câu giới thiệu người thân",
+  "title": "Bài 3: Địa điểm, số đếm",
+  "description": "Từ vựng về địa điểm, số đếm, mẫu câu hỏi vị trí và giá cả.",
   "vocabulary": [
-    {"content": "ここ", "kanji": "", "reading": "ここ", "meaning": "ở đây"},
-    {"content": "そこ", "kanji": "", "reading": "そこ", "meaning": "ở đó"},
-    {"content": "あそこ", "kanji": "", "reading": "あそこ", "meaning": "ở kia"},
-    {"content": "どこ", "kanji": "", "reading": "どこ", "meaning": "ở đâu"},
-    {"content": "こちら", "kanji": "", "reading": "こちら", "meaning": "đây (lịch sự)"},
-    {"content": "そちら", "kanji": "", "reading": "そちら", "meaning": "đó (lịch sự)"},
-    {"content": "あちら", "kanji": "", "reading": "あちら", "meaning": "kia (lịch sự)"},
-    {"content": "どちら", "kanji": "", "reading": "どちら", "meaning": "đâu (lịch sự)"},
-    {"content": "きょうしつ", "kanji": "教室", "reading": "きょうしつ", "meaning": "phòng học"},
-    {"content": "しょくどう", "kanji": "食堂", "reading": "しょくどう", "meaning": "nhà ăn"},
-    {"content": "じむしょ", "kanji": "事務所", "reading": "じむしょ", "meaning": "văn phòng"},
-    {"content": "かいぎしつ", "kanji": "会議室", "reading": "かいぎしつ", "meaning": "phòng họp"},
-    {"content": "うけつけ", "kanji": "受付", "reading": "うけつけ", "meaning": "quầy lễ tân"},
-    {"content": "ロビー", "kanji": "", "reading": "ロビー", "meaning": "sảnh"},
-    {"content": "へや", "kanji": "部屋", "reading": "へや", "meaning": "phòng"},
-    {"content": "トイレ", "kanji": "", "reading": "トイレ", "meaning": "nhà vệ sinh"},
-    {"content": "かいだん", "kanji": "階段", "reading": "かいだん", "meaning": "cầu thang"},
-    {"content": "エレベーター", "kanji": "", "reading": "エレベーター", "meaning": "thang máy"},
-    {"content": "エスカレーター", "kanji": "", "reading": "エスカレーター", "meaning": "thang cuốn"},
-    {"content": "くに", "kanji": "国", "reading": "くに", "meaning": "nước"},
-    {"content": "かいしゃ", "kanji": "会社", "reading": "かいしゃ", "meaning": "công ty"},
-    {"content": "うち", "kanji": "家", "reading": "うち", "meaning": "nhà"},
-    {"content": "でんわ", "kanji": "電話", "reading": "でんわ", "meaning": "điện thoại"},
-    {"content": "くつ", "kanji": "靴", "reading": "くつ", "meaning": "giày"},
-    {"content": "ネクタイ", "kanji": "", "reading": "ネクタイ", "meaning": "cà vạt"},
-    {"content": "ワイン", "kanji": "", "reading": "ワイン", "meaning": "rượu vang"},
-    {"content": "たばこ", "kanji": "煙草", "reading": "たばこ", "meaning": "thuốc lá"},
-    {"content": "うりば", "kanji": "売り場", "reading": "うりば", "meaning": "quầy bán hàng"},
-    {"content": "ちか", "kanji": "地下", "reading": "ちか", "meaning": "tầng hầm"},
-    {"content": "なんがい", "kanji": "何階", "reading": "なんがい", "meaning": "tầng mấy"},
-    {"content": "なんばん", "kanji": "何番", "reading": "なんばん", "meaning": "số mấy"},
-    {"content": "いくら", "kanji": "", "reading": "いくら", "meaning": "bao nhiêu (tiền)"},
-    {"content": "ひゃく", "kanji": "百", "reading": "ひゃく", "meaning": "một trăm"},
-    {"content": "せん", "kanji": "千", "reading": "せん", "meaning": "một nghìn"},
-    {"content": "まん", "kanji": "万", "reading": "まん", "meaning": "mười nghìn"},
-    {"content": "えん", "kanji": "円", "reading": "えん", "meaning": "yên (tiền Nhật)"},
-    {"content": "すみません", "kanji": "", "reading": "すみません", "meaning": "xin lỗi/làm ơn"},
-    {"content": "いらっしゃいませ", "kanji": "", "reading": "いらっしゃいませ", "meaning": "xin chào (của nhân viên bán hàng)"},
-    {"content": "ちょっとまってください", "kanji": "ちょっと待ってください", "reading": "ちょっとまってください", "meaning": "xin chờ một chút"},
-    {"content": "わかりました", "kanji": "分かりました", "reading": "わかりました", "meaning": "tôi hiểu rồi"}
+    {
+      "content": "ここ",
+      "kanji": "",
+      "reading": "ここ",
+      "meaning": "ở đây"
+    },
+    {
+      "content": "そこ",
+      "kanji": "",
+      "reading": "そこ",
+      "meaning": "ở đó"
+    },
+    {
+      "content": "あそこ",
+      "kanji": "",
+      "reading": "あそこ",
+      "meaning": "ở kia"
+    },
+    {
+      "content": "どこ",
+      "kanji": "",
+      "reading": "どこ",
+      "meaning": "ở đâu"
+    },
+    {
+      "content": "こちら",
+      "kanji": "",
+      "reading": "こちら",
+      "meaning": "đây (lịch sự)"
+    },
+    {
+      "content": "そちら",
+      "kanji": "",
+      "reading": "そちら",
+      "meaning": "đó (lịch sự)"
+    },
+    {
+      "content": "あちら",
+      "kanji": "",
+      "reading": "あちら",
+      "meaning": "kia (lịch sự)"
+    },
+    {
+      "content": "どちら",
+      "kanji": "",
+      "reading": "どちら",
+      "meaning": "đâu (lịch sự)"
+    },
+    {
+      "content": "きょうしつ",
+      "kanji": "教室",
+      "reading": "きょうしつ",
+      "meaning": "phòng học"
+    },
+    {
+      "content": "しょくどう",
+      "kanji": "食堂",
+      "reading": "しょくどう",
+      "meaning": "nhà ăn"
+    },
+    {
+      "content": "じむしょ",
+      "kanji": "事務所",
+      "reading": "じむしょ",
+      "meaning": "văn phòng"
+    },
+    {
+      "content": "かいぎしつ",
+      "kanji": "会議室",
+      "reading": "かいぎしつ",
+      "meaning": "phòng họp"
+    },
+    {
+      "content": "うけつけ",
+      "kanji": "受付",
+      "reading": "うけつけ",
+      "meaning": "quầy lễ tân"
+    },
+    {
+      "content": "ロビー",
+      "kanji": "",
+      "reading": "ロビー",
+      "meaning": "sảnh"
+    },
+    {
+      "content": "へや",
+      "kanji": "部屋",
+      "reading": "へや",
+      "meaning": "phòng"
+    },
+    {
+      "content": "トイレ",
+      "kanji": "",
+      "reading": "トイレ",
+      "meaning": "nhà vệ sinh"
+    },
+    {
+      "content": "かいだん",
+      "kanji": "階段",
+      "reading": "かいだん",
+      "meaning": "cầu thang"
+    },
+    {
+      "content": "エレベーター",
+      "kanji": "",
+      "reading": "エレベーター",
+      "meaning": "thang máy"
+    },
+    {
+      "content": "エスカレーター",
+      "kanji": "",
+      "reading": "エスカレーター",
+      "meaning": "thang cuốn"
+    },
+    {
+      "content": "くに",
+      "kanji": "国",
+      "reading": "くに",
+      "meaning": "nước"
+    },
+    {
+      "content": "かいしゃ",
+      "kanji": "会社",
+      "reading": "かいしゃ",
+      "meaning": "công ty"
+    },
+    {
+      "content": "うち",
+      "kanji": "家",
+      "reading": "うち",
+      "meaning": "nhà"
+    },
+    {
+      "content": "でんわ",
+      "kanji": "電話",
+      "reading": "でんわ",
+      "meaning": "điện thoại"
+    },
+    {
+      "content": "くつ",
+      "kanji": "靴",
+      "reading": "くつ",
+      "meaning": "giày"
+    },
+    {
+      "content": "ネクタイ",
+      "kanji": "",
+      "reading": "ネクタイ",
+      "meaning": "cà vạt"
+    },
+    {
+      "content": "ワイン",
+      "kanji": "",
+      "reading": "ワイン",
+      "meaning": "rượu vang"
+    },
+    {
+      "content": "たばこ",
+      "kanji": "煙草",
+      "reading": "たばこ",
+      "meaning": "thuốc lá"
+    },
+    {
+      "content": "うりば",
+      "kanji": "売り場",
+      "reading": "うりば",
+      "meaning": "quầy bán hàng"
+    },
+    {
+      "content": "ちか",
+      "kanji": "地下",
+      "reading": "ちか",
+      "meaning": "tầng hầm"
+    },
+    {
+      "content": "なんがい",
+      "kanji": "何階",
+      "reading": "なんがい",
+      "meaning": "tầng mấy"
+    },
+    {
+      "content": "なんばん",
+      "kanji": "何番",
+      "reading": "なんばん",
+      "meaning": "số mấy"
+    },
+    {
+      "content": "いくら",
+      "kanji": "",
+      "reading": "いくら",
+      "meaning": "bao nhiêu (tiền)"
+    },
+    {
+      "content": "ひゃく",
+      "kanji": "百",
+      "reading": "ひゃく",
+      "meaning": "một trăm"
+    },
+    {
+      "content": "せん",
+      "kanji": "千",
+      "reading": "せん",
+      "meaning": "một nghìn"
+    },
+    {
+      "content": "まん",
+      "kanji": "万",
+      "reading": "まん",
+      "meaning": "mười nghìn"
+    },
+    {
+      "content": "えん",
+      "kanji": "円",
+      "reading": "えん",
+      "meaning": "yên (tiền Nhật)"
+    },
+    {
+      "content": "すみません",
+      "kanji": "",
+      "reading": "すみません",
+      "meaning": "xin lỗi/làm ơn"
+    },
+    {
+      "content": "いらっしゃいませ",
+      "kanji": "",
+      "reading": "いらっしゃいませ",
+      "meaning": "xin chào (của nhân viên bán hàng)"
+    },
+    {
+      "content": "ちょっとまってください",
+      "kanji": "ちょっと待ってください",
+      "reading": "ちょっとまってください",
+      "meaning": "xin chờ một chút"
+    },
+    {
+      "content": "わかりました",
+      "kanji": "分かりました",
+      "reading": "わかりました",
+      "meaning": "tôi hiểu rồi"
+    }
   ],
   "grammar": [
     {
@@ -90,19 +290,43 @@
     {
       "title": "Hỏi đường",
       "dialogue": [
-        {"speaker": "A", "text": "すみません、トイレはどこですか。"},
-        {"speaker": "B", "text": "あそこです。"},
-        {"speaker": "A", "text": "ありがとうございます。"},
-        {"speaker": "B", "text": "どういたしまして。"}
+        {
+          "speaker": "A",
+          "text": "すみません、トイレはどこですか。"
+        },
+        {
+          "speaker": "B",
+          "text": "あそこです。"
+        },
+        {
+          "speaker": "A",
+          "text": "ありがとうございます。"
+        },
+        {
+          "speaker": "B",
+          "text": "どういたしまして。"
+        }
       ]
     },
     {
       "title": "Mua sắm",
       "dialogue": [
-        {"speaker": "店員", "text": "いらっしゃいませ。"},
-        {"speaker": "客", "text": "このネクタイはいくらですか。"},
-        {"speaker": "店員", "text": "3000えんです。"},
-        {"speaker": "客", "text": "そうですか。ちょっとたかいですね。"}
+        {
+          "speaker": "店員",
+          "text": "いらっしゃいませ。"
+        },
+        {
+          "speaker": "客",
+          "text": "このネクタイはいくらですか。"
+        },
+        {
+          "speaker": "店員",
+          "text": "3000えんです。"
+        },
+        {
+          "speaker": "客",
+          "text": "そうですか。ちょっとたかいですね。"
+        }
       ]
     }
   ],
@@ -149,28 +373,77 @@
   "kanji_introduced": [
     {
       "kanji": "国",
-      "readings": ["くに", "コク"],
+      "readings": [
+        "くに",
+        "コク"
+      ],
       "meaning": "nước, quốc gia",
-      "examples": ["くに（国）- nước", "がいこく（外国）- nước ngoài"]
+      "examples": [
+        "くに（国）- nước",
+        "がいこく（外国）- nước ngoài"
+      ]
     },
     {
       "kanji": "会",
-      "readings": ["かい", "エ"],
+      "readings": [
+        "かい",
+        "エ"
+      ],
       "meaning": "gặp, hội",
-      "examples": ["かいしゃ（会社）- công ty", "かいぎ（会議）- cuộc họp"]
+      "examples": [
+        "かいしゃ（会社）- công ty",
+        "かいぎ（会議）- cuộc họp"
+      ]
     },
     {
       "kanji": "社",
-      "readings": ["しゃ"],
+      "readings": [
+        "しゃ"
+      ],
       "meaning": "công ty, xã hội",
-      "examples": ["かいしゃ（会社）- công ty", "しゃいん（社員）- nhân viên"]
+      "examples": [
+        "かいしゃ（会社）- công ty",
+        "しゃいん（社員）- nhân viên"
+      ]
     }
   ],
   "numbers": {
     "basic_numbers": {
-      "0-10": ["ぜろ/れい", "いち", "に", "さん", "よん/し", "ご", "ろく", "なな/しち", "はち", "きゅう/く", "じゅう"],
-      "tens": ["じゅう", "にじゅう", "さんじゅう", "よんじゅう", "ごじゅう", "ろくじゅう", "ななじゅう", "はちじゅう", "きゅうじゅう"],
-      "hundreds": ["ひゃく", "にひゃく", "さんびゃく", "よんひゃく", "ごひゃく", "ろっぴゃく", "ななひゃく", "はっぴゃく", "きゅうひゃく"]
+      "0-10": [
+        "ぜろ/れい",
+        "いち",
+        "に",
+        "さん",
+        "よん/し",
+        "ご",
+        "ろく",
+        "なな/しち",
+        "はち",
+        "きゅう/く",
+        "じゅう"
+      ],
+      "tens": [
+        "じゅう",
+        "にじゅう",
+        "さんじゅう",
+        "よんじゅう",
+        "ごじゅう",
+        "ろくじゅう",
+        "ななじゅう",
+        "はちじゅう",
+        "きゅうじゅう"
+      ],
+      "hundreds": [
+        "ひゃく",
+        "にひゃく",
+        "さんびゃく",
+        "よんひゃく",
+        "ごひゃく",
+        "ろっぴゃく",
+        "ななひゃく",
+        "はっぴゃく",
+        "きゅうひゃく"
+      ]
     },
     "counters": {
       "floors": "〜がい（階）",
@@ -185,5 +458,44 @@
     "exercises": "/audio/n5/lesson3/exercises.mp3",
     "numbers": "/audio/n5/lesson3/numbers.mp3"
   },
-  "estimated_study_time": "4-6 hours"
+  "estimated_study_time": "4-6 hours",
+  "status": "published",
+  "audioFile": "第3課 会話　Kaiwa.mp3",
+  "kanji": [],
+  "listening": {
+    "dialogue": {
+      "title": "Hội thoại mẫu",
+      "audioFile": "lesson-03-dialogue.mp3",
+      "transcript": "A: はじめまして。B: はじめまして。どうぞよろしく。",
+      "translation": "A: Rất vui được gặp bạn. B: Rất vui được gặp bạn. Rất mong được sự giúp đỡ."
+    },
+    "exercises": [
+      {
+        "type": "comprehension",
+        "question": "Nghe và trả lời câu hỏi",
+        "audioFile": "lesson-1-question.mp3",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  "supplementaryMaterials": {
+    "cultural_notes": [
+      "Cách chào hỏi trong văn hóa Nhật Bản",
+      "Sử dụng kính ngữ khi gặp người lớn tuổi"
+    ],
+    "practice_activities": [
+      "Luyện tập giới thiệu bản thân",
+      "Thực hành hỏi đáp về nghề nghiệp"
+    ],
+    "additional_resources": [
+      "Video hướng dẫn phát âm",
+      "Bài tập viết chữ Hiragana"
+    ]
+  }
 }

@@ -1,69 +1,47 @@
 import { NextResponse } from 'next/server';
-import prisma from '@/lib/prisma';
-import { getServerSession } from 'next-auth';
-import { authOptions } from '@/lib/auth';
+import fs from 'fs';
+import path from 'path';
 
-export async function GET(request: Request, { params }: { params: { lessonId: string } }) {
-  const { lessonId } = params;
-  const session = await getServerSession(authOptions);
-
-  if (!lessonId) {
-    return new NextResponse('Missing lessonId', { status: 400 });
-  }
-
+export async function GET(
+  request: Request,
+  { params }: { params: { lessonId: string } }
+) {
   try {
-    const lesson = await prisma.lesson.findUnique({
-      where: {
-        id: lessonId,
-      },
-      include: {
-        course: {
-          select: {
-            id: true,
-            lessons: {
-              orderBy: {
-                order: 'asc',
-              },
-            },
-          },
-        },
-      },
-    });
-
-    if (!lesson) {
-      return new NextResponse('Lesson not found', { status: 404 });
+    const { lessonId } = params;
+    
+    // Load lesson data from JSON file
+    const lessonPath = path.join(process.cwd(), 'src/data/jlpt-n5', `${lessonId}.json`);
+    
+    if (!fs.existsSync(lessonPath)) {
+      return NextResponse.json(
+        { error: 'Lesson not found' },
+        { status: 404 }
+      );
     }
 
-    let userProgress = null;
-    if (session?.user?.id) {
-      userProgress = await prisma.userProgress.findUnique({
-        where: {
-          userId_lessonId: {
-            userId: session.user.id,
-            lessonId: lesson.id,
-          },
-        },
-      });
-    }
+    const lessonData = JSON.parse(fs.readFileSync(lessonPath, 'utf8'));
 
-    // Determine next and previous lessons
-    const courseLessons = lesson.course?.lessons || [];
-    const currentLessonIndex = courseLessons.findIndex(l => l.id === lesson.id);
+    // Transform data for the lesson player
+    const transformedData = {
+      id: lessonId,
+      vocabulary: lessonData.vocabulary || [],
+      grammar: lessonData.grammar || [],
+      kanji: lessonData.kanji || [],
+      audio: lessonData.audio || null,
+      metadata: {
+        title: lessonData.metadata?.title || `Bài ${lessonId}`,
+        theme: lessonData.metadata?.theme || 'Từ vựng cơ bản',
+        estimatedTime: lessonData.metadata?.estimatedTime || 30,
+        difficulty: lessonData.metadata?.difficulty || 'Beginner'
+      }
+    };
 
-    const prevLessonId = currentLessonIndex > 0 ? courseLessons[currentLessonIndex - 1].id : null;
-    const nextLessonId = currentLessonIndex < courseLessons.length - 1 ? courseLessons[currentLessonIndex + 1].id : null;
-
-    return NextResponse.json({
-      lesson: {
-        ...lesson,
-        course: undefined, // Remove course object to avoid circular reference and send only necessary data
-      },
-      userProgress,
-      prevLessonId,
-      nextLessonId,
-    });
+    return NextResponse.json(transformedData);
   } catch (error) {
-    console.error('Error fetching lesson details:', error);
-    return new NextResponse('Internal Server Error', { status: 500 });
+    console.error('Error loading lesson data:', error);
+    return NextResponse.json(
+      { error: 'Internal server error' },
+      { status: 500 }
+    );
   }
 }

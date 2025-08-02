@@ -1,52 +1,271 @@
 {
   "id": "B01",
   "vocabulary": [
-    {"content": "わたし", "kanji": "私", "meaning": "tôi"},
-    {"content": "あなた", "kanji": "貴方", "meaning": "bạn"},
-    {"content": "あのひと", "kanji": "あの人", "reading": "あのひと", "meaning": "người kia"},
-    {"content": "あのかた", "kanji": "あの方", "reading": "あのかた", "meaning": "vị kia (lịch sự của あのひと)"},
-    {"content": "〜さん", "kanji": "〜さん", "reading": "〜さん", "meaning": "anh/chị/ông/bà"},
-    {"content": "〜ちゃん", "kanji": "〜ちゃん", "reading": "〜ちゃん", "meaning": "bé ~"},
-    {"content": "〜じん", "kanji": "〜人", "reading": "〜じん", "meaning": "người ~"},
-    {"content": "せんせい", "kanji": "先生", "reading": "せんせい", "meaning": "giáo viên (không dùng để nói về nghề của mình)"},
-    {"content": "きょうし", "kanji": "教師", "reading": "きょうし", "meaning": "giáo viên (dùng để nói về nghề của mình)"},
-    {"content": "がくせい", "kanji": "学生", "reading": "がくせい", "meaning": "học sinh"},
-    {"content": "かいしゃいん", "kanji": "会社員", "reading": "かいしゃいん", "meaning": "nhân viên công ty"},
-    {"content": "しゃいん", "kanji": "社員", "reading": "しゃいん", "meaning": "nhân viên của công ty ~ (tên công ty)"},
-    {"content": "ぎんこういん", "kanji": "銀行員", "reading": "ぎんこういん", "meaning": "nhân viên ngân hàng"},
-    {"content": "いしゃ", "kanji": "医者", "reading": "いしゃ", "meaning": "bác sĩ"},
-    {"content": "けんきゅうしゃ", "kanji": "研究者", "reading": "けんきゅうしゃ", "meaning": "nhà nghiên cứu"},
-    {"content": "エンジニア", "kanji": "エンジニア", "reading": "エンジニア", "meaning": "kỹ sư"},
-    {"content": "だいがく", "kanji": "大学", "reading": "だいがく", "meaning": "đại học"},
-    {"content": "びょういん", "kanji": "病院", "reading": "びょういん", "meaning": "bệnh viện"},
-    {"content": "でんき", "kanji": "電気", "reading": "でんき", "meaning": "điện/đèn/điện lực"},
-    {"content": "だれ", "kanji": "誰", "meaning": "ai"},
-    {"content": "どなた", "kanji": "どなた", "reading": "どなた", "meaning": "vị nào (lịch sự của だれ)"},
-    {"content": "さい", "kanji": "歳", "meaning": "tuổi (năm)"},
-    {"content": "なんさい", "kanji": "何歳", "meaning": "mấy tuổi/bao nhiêu tuổi"},
-    {"content": "はい", "meaning": "vâng/có"},
-    {"content": "いいえ", "meaning": "không"},
-    {"content": "はじめまして", "meaning": "rân hạnh được gặp anh/chị"},
-    {"content": "どうぞよろしくおねがいします", "kanji": "どうぞよろしくおねがいします", "reading": "どうぞよろしくおねがいします", "meaning": "rất mong được sự giúp đỡ của anh/chị"},
-    {"content": "こちらは〜さんです", "kanji": "こちらは〜さんです", "reading": "こちらは〜さんです", "meaning": "đây là anh/chị ~"},
-    {"content": "〜からきました", "kanji": "〜から来ました", "reading": "〜からきました", "meaning": "đến từ ~"},
-    {"content": "アメリカ", "kanji": "アメリカ", "reading": "アメリカ", "meaning": "Mỹ"},
-    {"content": "イギリス", "kanji": "イギリス", "reading": "イギリス", "meaning": "Anh"},
-    {"content": "インド", "kanji": "インド", "reading": "インド", "meaning": "Ấn Độ"},
-    {"content": "インドネシア", "kanji": "インドネシア", "reading": "インドネシア", "meaning": "Indonesia"},
-    {"content": "かんこく", "kanji": "韓国", "reading": "かんこく", "meaning": "Hàn Quốc"},
-    {"content": "タイ", "kanji": "タイ", "reading": "タイ", "meaning": "Thái Lan"},
-    {"content": "ちゅうごく", "kanji": "中国", "reading": "ちゅうごく", "meaning": "Trung Quốc"},
-    {"content": "ドイツ", "kanji": "ドイツ", "reading": "ドイツ", "meaning": "Đức"},
-    {"content": "にほん", "kanji": "日本", "reading": "にほん", "meaning": "Nhật Bản"},
-    {"content": "フランス", "kanji": "フランス", "reading": "フランス", "meaning": "Pháp"},
-    {"content": "ブラジル", "kanji": "ブラジル", "reading": "ブラジル", "meaning": "Brazil"},
-    {"content": "ベトナム", "kanji": "ベトナム", "reading": "ベトナム", "meaning": "Việt Nam"},
-    {"content": "IMC", "kanji": "IMC", "reading": "IMC", "meaning": "Công ty (giả tưởng) IMC"},
-    {"content": "パワーでんき", "kanji": "パワー電気", "reading": "パワーでんき", "meaning": "Công ty Điện Power (giả tưởng)"},
-    {"content": "ブラジルエアー", "kanji": "ブラジルエアー", "reading": "ブラジルエアー", "meaning": "Hàng không Brazil (giả tưởng)"},
-    {"content": "さくらだいがく", "kanji": "さくら大学", "reading": "さくらだいがく", "meaning": "Đại học Sakura (giả tưởng)"},
-    {"content": "ふじだいがく", "kanji": "ふじ大学", "reading": "ふじだいがく", "meaning": "Đại học Fuji (giả tưởng)"}
+    {
+      "content": "わたし",
+      "kanji": "私",
+      "meaning": "tôi"
+    },
+    {
+      "content": "あなた",
+      "kanji": "貴方",
+      "meaning": "bạn"
+    },
+    {
+      "content": "あのひと",
+      "kanji": "あの人",
+      "reading": "あのひと",
+      "meaning": "người kia"
+    },
+    {
+      "content": "あのかた",
+      "kanji": "あの方",
+      "reading": "あのかた",
+      "meaning": "vị kia (lịch sự của あのひと)"
+    },
+    {
+      "content": "〜さん",
+      "kanji": "〜さん",
+      "reading": "〜さん",
+      "meaning": "anh/chị/ông/bà"
+    },
+    {
+      "content": "〜ちゃん",
+      "kanji": "〜ちゃん",
+      "reading": "〜ちゃん",
+      "meaning": "bé ~"
+    },
+    {
+      "content": "〜じん",
+      "kanji": "〜人",
+      "reading": "〜じん",
+      "meaning": "người ~"
+    },
+    {
+      "content": "せんせい",
+      "kanji": "先生",
+      "reading": "せんせい",
+      "meaning": "giáo viên (không dùng để nói về nghề của mình)"
+    },
+    {
+      "content": "きょうし",
+      "kanji": "教師",
+      "reading": "きょうし",
+      "meaning": "giáo viên (dùng để nói về nghề của mình)"
+    },
+    {
+      "content": "がくせい",
+      "kanji": "学生",
+      "reading": "がくせい",
+      "meaning": "học sinh"
+    },
+    {
+      "content": "かいしゃいん",
+      "kanji": "会社員",
+      "reading": "かいしゃいん",
+      "meaning": "nhân viên công ty"
+    },
+    {
+      "content": "しゃいん",
+      "kanji": "社員",
+      "reading": "しゃいん",
+      "meaning": "nhân viên của công ty ~ (tên công ty)"
+    },
+    {
+      "content": "ぎんこういん",
+      "kanji": "銀行員",
+      "reading": "ぎんこういん",
+      "meaning": "nhân viên ngân hàng"
+    },
+    {
+      "content": "いしゃ",
+      "kanji": "医者",
+      "reading": "いしゃ",
+      "meaning": "bác sĩ"
+    },
+    {
+      "content": "けんきゅうしゃ",
+      "kanji": "研究者",
+      "reading": "けんきゅうしゃ",
+      "meaning": "nhà nghiên cứu"
+    },
+    {
+      "content": "エンジニア",
+      "kanji": "エンジニア",
+      "reading": "エンジニア",
+      "meaning": "kỹ sư"
+    },
+    {
+      "content": "だいがく",
+      "kanji": "大学",
+      "reading": "だいがく",
+      "meaning": "đại học"
+    },
+    {
+      "content": "びょういん",
+      "kanji": "病院",
+      "reading": "びょういん",
+      "meaning": "bệnh viện"
+    },
+    {
+      "content": "でんき",
+      "kanji": "電気",
+      "reading": "でんき",
+      "meaning": "điện/đèn/điện lực"
+    },
+    {
+      "content": "だれ",
+      "kanji": "誰",
+      "meaning": "ai"
+    },
+    {
+      "content": "どなた",
+      "kanji": "どなた",
+      "reading": "どなた",
+      "meaning": "vị nào (lịch sự của だれ)"
+    },
+    {
+      "content": "さい",
+      "kanji": "歳",
+      "meaning": "tuổi (năm)"
+    },
+    {
+      "content": "なんさい",
+      "kanji": "何歳",
+      "meaning": "mấy tuổi/bao nhiêu tuổi"
+    },
+    {
+      "content": "はい",
+      "meaning": "vâng/có"
+    },
+    {
+      "content": "いいえ",
+      "meaning": "không"
+    },
+    {
+      "content": "はじめまして",
+      "meaning": "rân hạnh được gặp anh/chị"
+    },
+    {
+      "content": "どうぞよろしくおねがいします",
+      "kanji": "どうぞよろしくおねがいします",
+      "reading": "どうぞよろしくおねがいします",
+      "meaning": "rất mong được sự giúp đỡ của anh/chị"
+    },
+    {
+      "content": "こちらは〜さんです",
+      "kanji": "こちらは〜さんです",
+      "reading": "こちらは〜さんです",
+      "meaning": "đây là anh/chị ~"
+    },
+    {
+      "content": "〜からきました",
+      "kanji": "〜から来ました",
+      "reading": "〜からきました",
+      "meaning": "đến từ ~"
+    },
+    {
+      "content": "アメリカ",
+      "kanji": "アメリカ",
+      "reading": "アメリカ",
+      "meaning": "Mỹ"
+    },
+    {
+      "content": "イギリス",
+      "kanji": "イギリス",
+      "reading": "イギリス",
+      "meaning": "Anh"
+    },
+    {
+      "content": "インド",
+      "kanji": "インド",
+      "reading": "インド",
+      "meaning": "Ấn Độ"
+    },
+    {
+      "content": "インドネシア",
+      "kanji": "インドネシア",
+      "reading": "インドネシア",
+      "meaning": "Indonesia"
+    },
+    {
+      "content": "かんこく",
+      "kanji": "韓国",
+      "reading": "かんこく",
+      "meaning": "Hàn Quốc"
+    },
+    {
+      "content": "タイ",
+      "kanji": "タイ",
+      "reading": "タイ",
+      "meaning": "Thái Lan"
+    },
+    {
+      "content": "ちゅうごく",
+      "kanji": "中国",
+      "reading": "ちゅうごく",
+      "meaning": "Trung Quốc"
+    },
+    {
+      "content": "ドイツ",
+      "kanji": "ドイツ",
+      "reading": "ドイツ",
+      "meaning": "Đức"
+    },
+    {
+      "content": "にほん",
+      "kanji": "日本",
+      "reading": "にほん",
+      "meaning": "Nhật Bản"
+    },
+    {
+      "content": "フランス",
+      "kanji": "フランス",
+      "reading": "フランス",
+      "meaning": "Pháp"
+    },
+    {
+      "content": "ブラジル",
+      "kanji": "ブラジル",
+      "reading": "ブラジル",
+      "meaning": "Brazil"
+    },
+    {
+      "content": "ベトナム",
+      "kanji": "ベトナム",
+      "reading": "ベトナム",
+      "meaning": "Việt Nam"
+    },
+    {
+      "content": "IMC",
+      "kanji": "IMC",
+      "reading": "IMC",
+      "meaning": "Công ty (giả tưởng) IMC"
+    },
+    {
+      "content": "パワーでんき",
+      "kanji": "パワー電気",
+      "reading": "パワーでんき",
+      "meaning": "Công ty Điện Power (giả tưởng)"
+    },
+    {
+      "content": "ブラジルエアー",
+      "kanji": "ブラジルエアー",
+      "reading": "ブラジルエアー",
+      "meaning": "Hàng không Brazil (giả tưởng)"
+    },
+    {
+      "content": "さくらだいがく",
+      "kanji": "さくら大学",
+      "reading": "さくらだいがく",
+      "meaning": "Đại học Sakura (giả tưởng)"
+    },
+    {
+      "content": "ふじだいがく",
+      "kanji": "ふじ大学",
+      "reading": "ふじだいがく",
+      "meaning": "Đại học Fuji (giả tưởng)"
+    }
   ],
   "grammar": [
     {
@@ -90,5 +309,109 @@
       "additional_notes": "Thể hiện sự sở hữu hoặc quan hệ giữa N1 và N2.\""
     }
   ],
-  "transcript": "ミラー：はじめまして。ミラーです。アメリカからきました。どうぞよろしくおねがいします."
+  "transcript": "ミラー：はじめまして。ミラーです。アメリカからきました。どうぞよろしくおねがいします.",
+  "title": "Bài 1: Tự giới thiệu",
+  "description": "Giới thiệu bản thân, nghề nghiệp, quốc tịch, mẫu câu cơ bản.",
+  "status": "published",
+  "audioFile": "第1課会話　kaiwa.mp3",
+  "exercises": {
+    "vocabulary": [
+      {
+        "type": "multiple_choice",
+        "question": "Chọn từ đúng nghĩa",
+        "options": [
+          "私",
+          "貴方",
+          "先生",
+          "学生"
+        ],
+        "correct": 0,
+        "explanation": "私 (わたし) có nghĩa là 'tôi'"
+      }
+    ],
+    "grammar": [
+      {
+        "type": "fill_blank",
+        "question": "Điền từ thích hợp: わたし___がくせいです。",
+        "answer": "は",
+        "explanation": "は là trợ từ chủ ngữ"
+      }
+    ],
+    "listening": [
+      {
+        "type": "audio_quiz",
+        "audioFile": "lesson-1-dialogue.mp3",
+        "question": "Nghe và chọn câu trả lời đúng",
+        "options": [
+          "はじめまして",
+          "さようなら",
+          "おはよう",
+          "こんばんは"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  "kanji": [
+    {
+      "kanji": "私",
+      "reading": "わたし",
+      "meaning": "tôi",
+      "stroke_count": 7
+    },
+    {
+      "kanji": "貴方",
+      "reading": "あなた",
+      "meaning": "bạn",
+      "stroke_count": 9
+    },
+    {
+      "kanji": "先生",
+      "reading": "せんせい",
+      "meaning": "giáo viên",
+      "stroke_count": 6
+    },
+    {
+      "kanji": "学生",
+      "reading": "がくせい",
+      "meaning": "học sinh",
+      "stroke_count": 8
+    }
+  ],
+  "listening": {
+    "dialogue": {
+      "title": "Hội thoại mẫu",
+      "audioFile": "lesson-01-dialogue.mp3",
+      "transcript": "A: はじめまして。B: はじめまして。どうぞよろしく。",
+      "translation": "A: Rất vui được gặp bạn. B: Rất vui được gặp bạn. Rất mong được sự giúp đỡ."
+    },
+    "exercises": [
+      {
+        "type": "comprehension",
+        "question": "Nghe và trả lời câu hỏi",
+        "audioFile": "lesson-1-question.mp3",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  "supplementaryMaterials": {
+    "cultural_notes": [
+      "Cách chào hỏi trong văn hóa Nhật Bản",
+      "Sử dụng kính ngữ khi gặp người lớn tuổi"
+    ],
+    "practice_activities": [
+      "Luyện tập giới thiệu bản thân",
+      "Thực hành hỏi đáp về nghề nghiệp"
+    ],
+    "additional_resources": [
+      "Video hướng dẫn phát âm",
+      "Bài tập viết chữ Hiragana"
+    ]
+  }
 }

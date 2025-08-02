@@ -43,7 +43,7 @@ const LevelPage = async ({ params }: PageProps) => {
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {course.lessons.map((lesson) => (
+        {course.lessons.map((lesson: any) => (
           <Link key={lesson.id} href={`/courses/japanese/${level}/${lesson.id}`} passHref>
             <Card className="transform transition-transform duration-300 hover:scale-105 hover:shadow-xl cursor-pointer h-full flex flex-col">
               <CardHeader>

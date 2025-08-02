@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "id": "B08",
+    "title": "Bài 08: Transportation & Travel",
+    "level": "N5",
+    "theme": "Transportation & Travel",
+    "estimatedTime": 45,
+    "difficulty": "Beginner",
+    "lastUpdated": "2025-08-01T16:34:15.674Z"
+  },
+  "vocabulary": [
+    {
+      "japanese": "でんしゃ",
+      "reading": "densha",
+      "meaning": "train",
+      "example": "でんしゃに乗ります (I ride the train)"
+    },
+    {
+      "japanese": "バス",
+      "reading": "basu",
+      "meaning": "bus",
+      "example": "バスで行きます (I go by bus)"
+    },
+    {
+      "japanese": "くるま",
+      "reading": "kuruma",
+      "meaning": "car",
+      "example": "くるまを運転します (I drive a car)"
+    },
+    {
+      "japanese": "ひこうき",
+      "reading": "hikōki",
+      "meaning": "airplane",
+      "example": "ひこうきで旅行します (I travel by plane)"
+    },
+    {
+      "japanese": "えき",
+      "reading": "eki",
+      "meaning": "station",
+      "example": "えきで待ちます (I wait at the station)"
+    },
+    {
+      "japanese": "ちかてつ",
+      "reading": "chikatetsu",
+      "meaning": "subway",
+      "example": "ちかてつを使います (I use the subway)"
+    },
+    {
+      "japanese": "りょこう",
+      "reading": "ryokō",
+      "meaning": "travel",
+      "example": "りょこうに行きます (I go on a trip)"
+    },
+    {
+      "japanese": "ホテル",
+      "reading": "hoteru",
+      "meaning": "hotel",
+      "example": "ホテルに泊まります (I stay at a hotel)"
+    },
+    {
+      "japanese": "きっぷ",
+      "reading": "kippu",
+      "meaning": "ticket",
+      "example": "きっぷを買います (I buy a ticket)"
+    },
+    {
+      "japanese": "じかん",
+      "reading": "jikan",
+      "meaning": "time",
+      "example": "じかんがあります (I have time)"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "〜に〜ます",
+      "meaning": "To ~ do ~",
+      "explanation": "Used to express destination or target",
+      "examples": [
+        "でんしゃに乗ります (I ride the train)",
+        "ホテルに泊まります (I stay at the hotel)",
+        "えきに行きます (I go to the station)"
+      ]
+    },
+    {
+      "pattern": "〜で〜ます",
+      "meaning": "By ~ do ~",
+      "explanation": "Used to express means of transportation",
+      "examples": [
+        "バスで行きます (I go by bus)",
+        "ひこうきで旅行します (I travel by plane)",
+        "くるまで来ます (I come by car)"
+      ]
+    }
+  ],
+  "kanji": [
+    {
+      "character": "車",
+      "reading": "しゃ",
+      "meaning": "car",
+      "strokeCount": 7,
+      "examples": [
+        "車",
+        "電車",
+        "自動車"
+      ]
+    },
+    {
+      "character": "駅",
+      "reading": "えき",
+      "meaning": "station",
+      "strokeCount": 14,
+      "examples": [
+        "駅",
+        "駅前",
+        "新駅"
+      ]
+    },
+    {
+      "character": "旅",
+      "reading": "りょ",
+      "meaning": "travel",
+      "strokeCount": 10,
+      "examples": [
+        "旅行",
+        "旅館",
+        "旅人"
+      ]
+    },
+    {
+      "character": "空",
+      "reading": "くう",
+      "meaning": "sky/empty",
+      "strokeCount": 8,
+      "examples": [
+        "空",
+        "空港",
+        "空気"
+      ]
+    },
+    {
+      "character": "道",
+      "reading": "どう",
+      "meaning": "road/way",
+      "strokeCount": 12,
+      "examples": [
+        "道",
+        "道路",
+        "歩道"
+      ]
+    }
+  ],
+  "listening": {
+    "audioFile": "/audio/n5/B08.mp3",
+    "transcript": "Bài nghe B08: Transportation & Travel",
+    "exercises": [
+      {
+        "question": "Bạn nghe được từ nào?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "vocabulary",
+      "question": "Chọn từ đúng nghĩa",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "type": "grammar",
+      "question": "Chọn câu đúng ngữ pháp",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": "B"
+    }
+  ]
+}

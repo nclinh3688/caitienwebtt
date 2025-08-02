@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "id": "B09",
+    "title": "Bài 09: Family & Relationships",
+    "level": "N5",
+    "theme": "Family & Relationships",
+    "estimatedTime": 45,
+    "difficulty": "Beginner",
+    "lastUpdated": "2025-08-01T16:34:15.675Z"
+  },
+  "vocabulary": [
+    {
+      "japanese": "かぞく",
+      "reading": "kazoku",
+      "meaning": "family",
+      "example": "かぞくがいます (I have a family)"
+    },
+    {
+      "japanese": "おとうさん",
+      "reading": "otōsan",
+      "meaning": "father",
+      "example": "おとうさんは会社員です (My father is a company employee)"
+    },
+    {
+      "japanese": "おかあさん",
+      "reading": "okāsan",
+      "meaning": "mother",
+      "example": "おかあさんは主婦です (My mother is a housewife)"
+    },
+    {
+      "japanese": "おにいさん",
+      "reading": "onīsan",
+      "meaning": "older brother",
+      "example": "おにいさんは大学生です (My older brother is a university student)"
+    },
+    {
+      "japanese": "おねえさん",
+      "reading": "onēsan",
+      "meaning": "older sister",
+      "example": "おねえさんは看護師です (My older sister is a nurse)"
+    },
+    {
+      "japanese": "いもうと",
+      "reading": "imōto",
+      "meaning": "younger sister",
+      "example": "いもうとは高校生です (My younger sister is a high school student)"
+    },
+    {
+      "japanese": "おとうと",
+      "reading": "otōto",
+      "meaning": "younger brother",
+      "example": "おとうとは中学生です (My younger brother is a junior high school student)"
+    },
+    {
+      "japanese": "ともだち",
+      "reading": "tomodachi",
+      "meaning": "friend",
+      "example": "ともだちがいます (I have friends)"
+    },
+    {
+      "japanese": "せんせい",
+      "reading": "sensei",
+      "meaning": "teacher",
+      "example": "せんせいは親切です (The teacher is kind)"
+    },
+    {
+      "japanese": "がくせい",
+      "reading": "gakusei",
+      "meaning": "student",
+      "example": "がくせいです (I am a student)"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "〜は〜です",
+      "meaning": "~ is ~ (occupation)",
+      "explanation": "Used to express occupation or status",
+      "examples": [
+        "おとうさんは会社員です (My father is a company employee)",
+        "おかあさんは主婦です (My mother is a housewife)",
+        "おにいさんは大学生です (My older brother is a university student)"
+      ]
+    },
+    {
+      "pattern": "〜がいます",
+      "meaning": "I have ~ (people)",
+      "explanation": "Used to express having people in your life",
+      "examples": [
+        "かぞくがいます (I have a family)",
+        "ともだちがいます (I have friends)",
+        "おとうとがいます (I have a younger brother)"
+      ]
+    }
+  ],
+  "kanji": [
+    {
+      "character": "家",
+      "reading": "か",
+      "meaning": "house/family",
+      "strokeCount": 10,
+      "examples": [
+        "家",
+        "家族",
+        "家庭"
+      ]
+    },
+    {
+      "character": "父",
+      "reading": "ちち",
+      "meaning": "father",
+      "strokeCount": 4,
+      "examples": [
+        "父",
+        "父親",
+        "父母"
+      ]
+    },
+    {
+      "character": "母",
+      "reading": "はは",
+      "meaning": "mother",
+      "strokeCount": 5,
+      "examples": [
+        "母",
+        "母親",
+        "父母"
+      ]
+    },
+    {
+      "character": "兄",
+      "reading": "あに",
+      "meaning": "older brother",
+      "strokeCount": 5,
+      "examples": [
+        "兄",
+        "兄弟",
+        "兄さん"
+      ]
+    },
+    {
+      "character": "姉",
+      "reading": "あね",
+      "meaning": "older sister",
+      "strokeCount": 8,
+      "examples": [
+        "姉",
+        "姉妹",
+        "姉さん"
+      ]
+    }
+  ],
+  "listening": {
+    "audioFile": "/audio/n5/B09.mp3",
+    "transcript": "Bài nghe B09: Family & Relationships",
+    "exercises": [
+      {
+        "question": "Bạn nghe được từ nào?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correctAnswer": "A"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "vocabulary",
+      "question": "Chọn từ đúng nghĩa",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "type": "grammar",
+      "question": "Chọn câu đúng ngữ pháp",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": "B"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-08-02T03:32:11.820Z",
+  "lessons": {
+    "B01": {
+      "title": "Bài 1: Giới thiệu bản thân",
+      "audioFiles": {
+        "vocabulary": [
+          {
+            "word": "わたし",
+            "pronunciation": "watashi",
+            "audioFile": "/audio/n5/B01/watashi.mp3",
+            "duration": "1-2 seconds"
+          },
+          {
+            "word": "あなた",
+            "pronunciation": "anata",
+            "audioFile": "/audio/n5/B01/anata.mp3",
+            "duration": "1-2 seconds"
+          },
+          {
+            "word": "せんせい",
+            "pronunciation": "sensei",
+            "audioFile": "/audio/n5/B01/sensei.mp3",
+            "duration": "1-2 seconds"
+          },
+          {
+            "word": "がくせい",
+            "pronunciation": "gakusei",
+            "audioFile": "/audio/n5/B01/gakusei.mp3",
+            "duration": "1-2 seconds"
+          },
+          {
+            "word": "だいがく",
+            "pronunciation": "daigaku",
+            "audioFile": "/audio/n5/B01/daigaku.mp3",
+            "duration": "1-2 seconds"
+          }
+        ],
+        "grammar": [
+          {
+            "pattern": "N1 は N2 です",
+            "example": "わたしはがくせいです",
+            "audioFile": "/audio/n5/B01/grammar-N1-は-N2-です.mp3",
+            "duration": "3-5 seconds"
+          },
+          {
+            "pattern": "N1 は N2 ではありません",
+            "example": "わたしはせんせいではありません",
+            "audioFile": "/audio/n5/B01/grammar-N1-は-N2-ではありません.mp3",
+            "duration": "3-5 seconds"
+          }
+        ],
+        "conversation": [
+          {
+            "speaker": "A",
+            "text": "はじめまして。わたしはミラーです。",
+            "audioFile": "/audio/n5/B01/conv-A-1.mp3",
+            "duration": "5-10 seconds"
+          },
+          {
+            "speaker": "B",
+            "text": "はじめまして。わたしは田中です。どうぞよろしく。",
+            "audioFile": "/audio/n5/B01/conv-B-2.mp3",
+            "duration": "5-10 seconds"
+          }
+        ]
+      }
+    },
+    "B02": {
+      "title": "Bài 2: Đại từ chỉ định",
+      "audioFiles": {
+        "vocabulary": [
+          {
+            "word": "これ",
+            "pronunciation": "kore",
+            "audioFile": "/audio/n5/B02/kore.mp3",
+            "duration": "1-2 seconds"
+          },
+          {
+            "word": "それ",
+            "pronunciation": "sore",
+            "audioFile": "/audio/n5/B02/sore.mp3",
+            "duration": "1-2 seconds"
+          },
+          {
+            "word": "あれ",
+            "pronunciation": "are",
+            "audioFile": "/audio/n5/B02/are.mp3",
+            "duration": "1-2 seconds"
+          },
+          {
+            "word": "この",
+            "pronunciation": "kono",
+            "audioFile": "/audio/n5/B02/kono.mp3",
+            "duration": "1-2 seconds"
+          },
+          {
+            "word": "その",
+            "pronunciation": "sono",
+            "audioFile": "/audio/n5/B02/sono.mp3",
+            "duration": "1-2 seconds"
+          }
+        ],
+        "grammar": [
+          {
+            "pattern": "これは N です",
+            "example": "これはほんです",
+            "audioFile": "/audio/n5/B02/grammar-これは-N-です.mp3",
+            "duration": "3-5 seconds"
+          },
+          {
+            "pattern": "それは N です",
+            "example": "それはえんぴつです",
+            "audioFile": "/audio/n5/B02/grammar-それは-N-です.mp3",
+            "duration": "3-5 seconds"
+          }
+        ],
+        "conversation": [
+          {
+            "speaker": "A",
+            "text": "これはなんですか。",
+            "audioFile": "/audio/n5/B02/conv-A-1.mp3",
+            "duration": "5-10 seconds"
+          },
+          {
+            "speaker": "B",
+            "text": "それはほんです。",
+            "audioFile": "/audio/n5/B02/conv-B-2.mp3",
+            "duration": "5-10 seconds"
+          }
+        ]
+      }
+    },
+    "B03": {
+      "title": "Bài 3: Số đếm",
+      "audioFiles": {
+        "vocabulary": [
+          {
+            "word": "いち",
+            "pronunciation": "ichi",
+            "audioFile": "/audio/n5/B03/ichi.mp3",
+            "duration": "1-2 seconds"
+          },
+          {
+            "word": "に",
+            "pronunciation": "ni",
+            "audioFile": "/audio/n5/B03/ni.mp3",
+            "duration": "1-2 seconds"
+          },
+          {
+            "word": "さん",
+            "pronunciation": "san",
+            "audioFile": "/audio/n5/B03/san.mp3",
+            "duration": "1-2 seconds"
+          },
+          {
+            "word": "よん",
+            "pronunciation": "yon",
+            "audioFile": "/audio/n5/B03/yon.mp3",
+            "duration": "1-2 seconds"
+          },
+          {
+            "word": "ご",
+            "pronunciation": "go",
+            "audioFile": "/audio/n5/B03/go.mp3",
+            "duration": "1-2 seconds"
+          }
+        ],
+        "grammar": [
+          {
+            "pattern": "N は いくつ ですか",
+            "example": "あなたはなんさいですか",
+            "audioFile": "/audio/n5/B03/grammar-N-は-いくつ-ですか.mp3",
+            "duration": "3-5 seconds"
+          },
+          {
+            "pattern": "N は 数字 です",
+            "example": "わたしは20さいです",
+            "audioFile": "/audio/n5/B03/grammar-N-は-数字-です.mp3",
+            "duration": "3-5 seconds"
+          }
+        ],
+        "conversation": [
+          {
+            "speaker": "A",
+            "text": "あなたはなんさいですか。",
+            "audioFile": "/audio/n5/B03/conv-A-1.mp3",
+            "duration": "5-10 seconds"
+          },
+          {
+            "speaker": "B",
+            "text": "わたしは20さいです。",
+            "audioFile": "/audio/n5/B03/conv-B-2.mp3",
+            "duration": "5-10 seconds"
+          }
+        ]
+      }
+    }
+  }
+}

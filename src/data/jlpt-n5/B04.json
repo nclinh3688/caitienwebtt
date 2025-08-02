@@ -1,0 +1,84 @@
+{
+  "id": "B04",
+  "title": "Bài 4: Thời gian, ngày tháng",
+  "description": "Từ vựng về thời gian, ngày tháng, mẫu câu hỏi thời gian.",
+  "status": "template_ready",
+  "audioFile": "第4課 会話 Kaiwa.mp3",
+  "vocabulary": [],
+  "grammar": [],
+  "exercises": {
+    "vocabulary": [
+      {
+        "type": "multiple_choice",
+        "question": "Chọn từ đúng nghĩa",
+        "options": [
+          "私",
+          "貴方",
+          "先生",
+          "学生"
+        ],
+        "correct": 0,
+        "explanation": "私 (わたし) có nghĩa là 'tôi'"
+      }
+    ],
+    "grammar": [
+      {
+        "type": "fill_blank",
+        "question": "Điền từ thích hợp: わたし___がくせいです。",
+        "answer": "は",
+        "explanation": "は là trợ từ chủ ngữ"
+      }
+    ],
+    "listening": [
+      {
+        "type": "audio_quiz",
+        "audioFile": "lesson-1-dialogue.mp3",
+        "question": "Nghe và chọn câu trả lời đúng",
+        "options": [
+          "はじめまして",
+          "さようなら",
+          "おはよう",
+          "こんばんは"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  "kanji": [],
+  "listening": {
+    "dialogue": {
+      "title": "Hội thoại mẫu",
+      "audioFile": "lesson-04-dialogue.mp3",
+      "transcript": "A: はじめまして。B: はじめまして。どうぞよろしく。",
+      "translation": "A: Rất vui được gặp bạn. B: Rất vui được gặp bạn. Rất mong được sự giúp đỡ."
+    },
+    "exercises": [
+      {
+        "type": "comprehension",
+        "question": "Nghe và trả lời câu hỏi",
+        "audioFile": "lesson-1-question.mp3",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  "supplementaryMaterials": {
+    "cultural_notes": [
+      "Cách chào hỏi trong văn hóa Nhật Bản",
+      "Sử dụng kính ngữ khi gặp người lớn tuổi"
+    ],
+    "practice_activities": [
+      "Luyện tập giới thiệu bản thân",
+      "Thực hành hỏi đáp về nghề nghiệp"
+    ],
+    "additional_resources": [
+      "Video hướng dẫn phát âm",
+      "Bài tập viết chữ Hiragana"
+    ]
+  }
+}
