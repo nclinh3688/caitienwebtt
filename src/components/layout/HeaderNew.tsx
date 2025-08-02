@@ -28,7 +28,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { LogoLink } from '@/components/ui/Logo';
 
-export default function Header() {
+export default function HeaderNew() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
@@ -544,4 +544,4 @@ export default function Header() {
       </div>
     </motion.header>
   );
-}
+} 
