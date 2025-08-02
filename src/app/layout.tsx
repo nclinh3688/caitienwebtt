@@ -60,7 +60,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://eloquent-semolina-f30407.netlify.app',
   },
-  'theme-color': '#1e40af',
 }
 
 export default function RootLayout({
