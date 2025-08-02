@@ -17,7 +17,14 @@ import {
   Search,
   Globe,
   Sun,
-  Moon
+  Moon,
+  GraduationCap,
+  Brain,
+  Users,
+  Info,
+  Flag,
+  Play,
+  Star
 } from 'lucide-react';
 import Logo from '@/components/ui/Logo';
 
@@ -27,6 +34,7 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,6 +46,70 @@ export default function Header() {
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const toggleDarkMode = () => setIsDarkMode(!isDarkMode);
+
+  const navigationItems = [
+    {
+      name: 'Khóa học',
+      href: '/courses',
+      icon: <BookOpen size={16} />,
+      dropdown: [
+        { name: 'Tiếng Nhật', href: '/courses/japanese', icon: '🇯🇵', description: 'JLPT N5-N1' },
+        { name: 'Tiếng Trung', href: '/courses/chinese', icon: '🇨🇳', description: 'HSK 1-6' },
+        { name: 'Tiếng Anh', href: '/courses/english', icon: '🇺🇸', description: 'TOEIC, IELTS' },
+        { name: 'Tiếng Hàn', href: '/courses/korean', icon: '🇰🇷', description: 'TOPIK 1-6' },
+        { name: 'Tiếng Việt', href: '/courses/vietnamese', icon: '🇻🇳', description: 'Cho người nước ngoài' },
+      ]
+    },
+    {
+      name: 'Test',
+      href: '/test',
+      icon: <GraduationCap size={16} />,
+      dropdown: [
+        { name: 'JLPT (Nhật)', href: '/test/jlpt', icon: <Flag size={16} />, description: 'N5, N4, N3, N2, N1' },
+        { name: 'HSK (Trung)', href: '/test/hsk', icon: <Flag size={16} />, description: 'HSK 1-6, HSKK' },
+        { name: 'TOEIC (Anh)', href: '/test/toeic', icon: <Flag size={16} />, description: 'Listening & Reading' },
+        { name: 'TOPIK (Hàn)', href: '/test/topik', icon: <Flag size={16} />, description: 'TOPIK I, TOPIK II' },
+        { name: 'IELTS (Anh)', href: '/test/ielts', icon: <Flag size={16} />, description: 'Academic & General' },
+      ]
+    },
+    {
+      name: 'AI Features',
+      href: '/ai-content',
+      icon: <Brain size={16} />,
+      badge: 'NEW',
+      dropdown: [
+        { name: 'AI Chat Tutor', href: '/ai-content', icon: <Brain size={16} />, description: 'Trò chuyện với AI 24/7' },
+        { name: 'Phân tích phát âm', href: '/pronunciation', icon: <Play size={16} />, description: 'Đánh giá chính xác 99%' },
+        { name: 'Tạo bài học', href: '/practice/ai-generated', icon: <BookOpen size={16} />, description: 'Bài học cá nhân hóa' },
+        { name: 'Đánh giá trình độ', href: '/assessment', icon: <Star size={16} />, description: 'Test miễn phí' },
+      ]
+    },
+    {
+      name: 'Giáo viên',
+      href: '/teachers',
+      icon: <Users size={16} />,
+      dropdown: [
+        { name: 'Danh sách giáo viên', href: '/teachers', icon: <Users size={16} />, description: '100+ giáo viên chất lượng' },
+        { name: 'Đặt lịch học', href: '/booking', icon: <BookOpen size={16} />, description: '1-1, nhóm nhỏ' },
+        { name: 'Đánh giá', href: '/reviews', icon: <Star size={16} />, description: 'Xem feedback học viên' },
+      ]
+    },
+    {
+      name: 'Về chúng tôi',
+      href: '/about',
+      icon: <Info size={16} />,
+      dropdown: [
+        { name: 'Giới thiệu', href: '/about', icon: <Info size={16} />, description: 'Sứ mệnh & Tầm nhìn' },
+        { name: 'Đội ngũ', href: '/team', icon: <Users size={16} />, description: 'Chuyên gia ngôn ngữ' },
+        { name: 'Tin tức', href: '/news', icon: <BookOpen size={16} />, description: 'Cập nhật mới nhất' },
+        { name: 'Liên hệ', href: '/contact', icon: <Info size={16} />, description: 'Hỗ trợ 24/7' },
+      ]
+    }
+  ];
+
+  const handleDropdownToggle = (itemName: string) => {
+    setActiveDropdown(activeDropdown === itemName ? null : itemName);
+  };
 
   return (
     <motion.header
@@ -73,34 +145,69 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             <motion.div className="flex items-center space-x-6">
-              <Link 
-                href="/courses" 
-                className="group relative text-gray-700 hover:text-primary-600 transition-colors duration-200 font-medium"
-              >
-                Khóa học
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-600 to-secondary-500 transition-all duration-300 group-hover:w-full"></span>
-              </Link>
-              <Link 
-                href="/dashboard" 
-                className="group relative text-gray-700 hover:text-primary-600 transition-colors duration-200 font-medium"
-              >
-                Dashboard
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-600 to-secondary-500 transition-all duration-300 group-hover:w-full"></span>
-              </Link>
-              <Link 
-                href="/community" 
-                className="group relative text-gray-700 hover:text-primary-600 transition-colors duration-200 font-medium"
-              >
-                Cộng đồng
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-600 to-secondary-500 transition-all duration-300 group-hover:w-full"></span>
-              </Link>
-              <Link 
-                href="/about" 
-                className="group relative text-gray-700 hover:text-primary-600 transition-colors duration-200 font-medium"
-              >
-                Giới thiệu
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-600 to-secondary-500 transition-all duration-300 group-hover:w-full"></span>
-              </Link>
+              {navigationItems.map((item) => (
+                <div key={item.name} className="relative">
+                  <button
+                    className={`group flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-all duration-200 relative ${
+                      activeDropdown === item.name 
+                        ? 'text-primary-600 bg-primary-50' 
+                        : 'text-gray-700 hover:text-primary-600'
+                    }`}
+                    onClick={() => handleDropdownToggle(item.name)}
+                  >
+                    {item.icon}
+                    <span>{item.name}</span>
+                    {item.badge && (
+                      <span className="px-2 py-0.5 text-xs bg-secondary-500 text-white rounded-full font-bold">
+                        {item.badge}
+                      </span>
+                    )}
+                    <ChevronDown 
+                      size={14} 
+                      className={`transition-transform duration-200 ${
+                        activeDropdown === item.name ? 'rotate-180' : ''
+                      }`} 
+                    />
+                    
+                    {/* Underline animation */}
+                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-primary-600 to-secondary-500 transition-all duration-300 group-hover:w-full"></span>
+                  </button>
+
+                  {/* Dropdown Menu */}
+                  <AnimatePresence>
+                    {activeDropdown === item.name && (
+                      <motion.div
+                        initial={{ opacity: 0, y: 10, scale: 0.95 }}
+                        animate={{ opacity: 1, y: 0, scale: 1 }}
+                        exit={{ opacity: 0, y: 10, scale: 0.95 }}
+                        transition={{ duration: 0.2 }}
+                        className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-xl border border-gray-200/50 backdrop-blur-xl overflow-hidden z-50"
+                      >
+                        <div className="p-2">
+                          {item.dropdown?.map((dropdownItem, index) => (
+                            <Link
+                              key={index}
+                              href={dropdownItem.href}
+                              onClick={() => setActiveDropdown(null)}
+                              className="flex items-start space-x-3 px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-primary-600 rounded-lg transition-all duration-200 group"
+                            >
+                              <span className="text-lg group-hover:scale-110 transition-transform mt-0.5">
+                                {dropdownItem.icon}
+                              </span>
+                              <div className="flex-1">
+                                <div className="font-semibold">{dropdownItem.name}</div>
+                                {dropdownItem.description && (
+                                  <div className="text-sm text-gray-500 mt-1">{dropdownItem.description}</div>
+                                )}
+                              </div>
+                            </Link>
+                          ))}
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              ))}
             </motion.div>
           </nav>
 
@@ -245,7 +352,7 @@ export default function Header() {
                     href="/auth/signup" 
                     className="bg-gradient-to-r from-primary-600 to-secondary-500 text-white px-6 py-3 rounded-xl hover:shadow-lg transition-all duration-200 font-medium"
                   >
-                    Đăng ký
+                    Học thử miễn phí
                   </Link>
                 </motion.div>
               </div>
@@ -276,92 +383,139 @@ export default function Header() {
               className="lg:hidden border-t border-gray-200/20"
             >
               <div className="px-2 pt-4 pb-6 space-y-4">
-                <div className="grid grid-cols-2 gap-4">
-                  <Link 
-                    href="/courses" 
-                    className="block px-4 py-3 text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-all duration-200"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    Khóa học
-                  </Link>
-                  <Link 
-                    href="/dashboard" 
-                    className="block px-4 py-3 text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-all duration-200"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    Dashboard
-                  </Link>
-                  <Link 
-                    href="/community" 
-                    className="block px-4 py-3 text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-all duration-200"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    Cộng đồng
-                  </Link>
-                  <Link 
-                    href="/about" 
-                    className="block px-4 py-3 text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-all duration-200"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    Giới thiệu
-                  </Link>
-                </div>
+                {/* Mobile Navigation Items */}
+                {navigationItems.map((item) => (
+                  <div key={item.name}>
+                    <button
+                      className={`flex items-center justify-between w-full px-4 py-3 rounded-lg font-medium transition-all duration-200 ${
+                        activeDropdown === item.name 
+                          ? 'text-primary-600 bg-primary-50' 
+                          : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
+                      }`}
+                      onClick={() => handleDropdownToggle(item.name)}
+                    >
+                      <div className="flex items-center space-x-3">
+                        {item.icon}
+                        <span>{item.name}</span>
+                        {item.badge && (
+                          <span className="px-2 py-0.5 text-xs bg-secondary-500 text-white rounded-full font-bold">
+                            {item.badge}
+                          </span>
+                        )}
+                      </div>
+                      <ChevronDown 
+                        size={16} 
+                        className={`transition-transform duration-200 ${
+                          activeDropdown === item.name ? 'rotate-180' : ''
+                        }`} 
+                      />
+                    </button>
+                    
+                    {/* Mobile Dropdown */}
+                    <AnimatePresence>
+                      {activeDropdown === item.name && item.dropdown && (
+                        <motion.div
+                          initial={{ opacity: 0, height: 0 }}
+                          animate={{ opacity: 1, height: 'auto' }}
+                          exit={{ opacity: 0, height: 0 }}
+                          transition={{ duration: 0.2 }}
+                          className="ml-8 mt-2 space-y-2 overflow-hidden"
+                        >
+                          {item.dropdown.map((dropdownItem, index) => (
+                            <Link
+                              key={index}
+                              href={dropdownItem.href}
+                              className="flex items-center space-x-3 px-4 py-2 rounded-lg text-sm transition-all duration-200 text-gray-600 hover:bg-gray-50 hover:text-primary-600"
+                              onClick={() => {
+                                setIsMenuOpen(false);
+                                setActiveDropdown(null);
+                              }}
+                            >
+                              <span className="text-lg">{dropdownItem.icon}</span>
+                              <div>
+                                <div className="font-medium">{dropdownItem.name}</div>
+                                {dropdownItem.description && (
+                                  <div className="text-xs text-gray-500">{dropdownItem.description}</div>
+                                )}
+                              </div>
+                            </Link>
+                          ))}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
+                ))}
                 
-                {session ? (
-                  <div className="pt-4 border-t border-gray-200/20">
-                    <div className="flex items-center space-x-3 px-4 py-3">
-                      <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center">
-                        <User size={20} className="text-white" />
+                {/* Mobile Actions */}
+                <div className="pt-4 border-t border-gray-200/20">
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center space-x-2">
+                      <Globe size={20} />
+                      <span className="font-medium">VI</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <Search size={20} />
+                      <Bell size={20} />
+                      <Moon size={20} />
+                    </div>
+                  </div>
+                  
+                  {session ? (
+                    <div className="space-y-3">
+                      <div className="flex items-center space-x-3 px-4 py-3">
+                        <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-full flex items-center justify-center">
+                          <User size={20} className="text-white" />
+                        </div>
+                        <div>
+                          <p className="text-gray-900 font-semibold">{session.user?.name}</p>
+                          <p className="text-sm text-gray-500">Học viên</p>
+                        </div>
                       </div>
-                      <div>
-                        <p className="text-gray-900 font-semibold">{session.user?.name}</p>
-                        <p className="text-sm text-gray-500">Học viên</p>
+                      <div className="space-y-2">
+                        <Link 
+                          href="/profile" 
+                          className="block px-4 py-3 text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-all duration-200"
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          Hồ sơ
+                        </Link>
+                        <Link 
+                          href="/settings" 
+                          className="block px-4 py-3 text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-all duration-200"
+                          onClick={() => setIsMenuOpen(false)}
+                        >
+                          Cài đặt
+                        </Link>
+                        <button 
+                          onClick={() => {
+                            signOut();
+                            setIsMenuOpen(false);
+                          }}
+                          className="block w-full text-left px-4 py-3 text-red-600 hover:text-red-700 hover:bg-red-50 rounded-lg transition-all duration-200"
+                        >
+                          Đăng xuất
+                        </button>
                       </div>
                     </div>
-                    <div className="space-y-2">
+                  ) : (
+                    <div className="space-y-3">
                       <Link 
-                        href="/profile" 
+                        href="/auth/signin" 
                         className="block px-4 py-3 text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-all duration-200"
                         onClick={() => setIsMenuOpen(false)}
                       >
-                        Hồ sơ
+                        Đăng nhập
                       </Link>
                       <Link 
-                        href="/settings" 
-                        className="block px-4 py-3 text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-all duration-200"
+                        href="/auth/signup" 
+                        className="block px-4 py-3 bg-gradient-to-r from-primary-600 to-secondary-500 text-white rounded-lg hover:shadow-lg transition-all duration-200 text-center"
                         onClick={() => setIsMenuOpen(false)}
                       >
-                        Cài đặt
+                        Học thử miễn phí
                       </Link>
-                      <button 
-                        onClick={() => {
-                          signOut();
-                          setIsMenuOpen(false);
-                        }}
-                        className="block w-full text-left px-4 py-3 text-red-600 hover:text-red-700 hover:bg-red-50 rounded-lg transition-all duration-200"
-                      >
-                        Đăng xuất
-                      </button>
                     </div>
-                  </div>
-                ) : (
-                  <div className="pt-4 border-t border-gray-200/20 space-y-3">
-                    <Link 
-                      href="/auth/signin" 
-                      className="block px-4 py-3 text-gray-700 hover:text-primary-600 hover:bg-gray-50 rounded-lg transition-all duration-200"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      Đăng nhập
-                    </Link>
-                    <Link 
-                      href="/auth/signup" 
-                      className="block px-4 py-3 bg-gradient-to-r from-primary-600 to-secondary-500 text-white rounded-lg hover:shadow-lg transition-all duration-200 text-center"
-                      onClick={() => setIsMenuOpen(false)}
-                    >
-                      Đăng ký
-                    </Link>
-                  </div>
-                )}
+                  )}
+                </div>
               </div>
             </motion.div>
           )}
