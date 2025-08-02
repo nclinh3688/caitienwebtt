@@ -77,9 +77,12 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#1e40af" />
         
+        {/* Google Search Console Verification */}
+        <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
+        
         {/* Google Analytics */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -87,7 +90,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'GA_MEASUREMENT_ID', {
+            gtag('config', 'G-XXXXXXXXXX', {
               page_title: 'PHÚC KHIÊM Education',
               page_location: window.location.href,
             });
