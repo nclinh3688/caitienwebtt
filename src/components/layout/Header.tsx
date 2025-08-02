@@ -61,7 +61,7 @@ export default function Header() {
       ]
     },
     {
-      name: 'Test',
+      name: 'Luyện thi',
       href: '/test',
       icon: <GraduationCap size={16} />,
       dropdown: [
