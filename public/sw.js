@@ -1,1 +1,92 @@
-if(!self.define){let e,a={};const i=(i,s)=>(i=new URL(i+".js",s).href,a[i]||new Promise(a=>{if("document"in self){const e=document.createElement("script");e.src=i,e.onload=a,document.head.appendChild(e)}else e=i,importScripts(i),a()}).then(()=>{let e=a[i];if(!e)throw new Error(`Module ${i} didn’t register its module`);return e}));self.define=(s,n)=>{const c=e||("document"in self?document.currentScript.src:"")||location.href;if(a[c])return;let d={};const t=e=>i(e,c),r={module:{uri:c},exports:d,require:t};a[c]=Promise.all(s.map(e=>r[e]||t(e))).then(e=>(n(...e),d))}}define(["./workbox-8e5392e7"],function(e){"use strict";importScripts(),self.skipWaiting(),e.clientsClaim(),e.precacheAndRoute([{url:"/_next/app-build-manifest.json",revision:"91d3adeb59efd92ea2196210536f6e51"},{url:"/_next/static/1mEiXddTnwCMaSOjetlMX/_buildManifest.js",revision:"5ab796d9111a4e0786737bbc948d0014"},{url:"/_next/static/1mEiXddTnwCMaSOjetlMX/_ssgManifest.js",revision:"b6652df95db52feb4daf4eca35380933"},{url:"/_next/static/chunks/app/_not-found/page-ad02ed3e7888af39.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/about/page-63ba81d2e2b3a020.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/ai-content/page-8ebbfbebdf9096ae.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/auth/login/page-93bb771b0c9b9ce8.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/auth/register/page-28eade6ad883f12e.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/community/page-703866cee2dcb62f.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/contact/page-78fb3f0821d47ca2.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/%5Blanguage%5D/page-904f9ee164509b52.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/chinese/%5Blevel%5D/%5BlessonId%5D/page-43735303ffbc68c6.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/chinese/%5Blevel%5D/page-c68a1bc8231b9521.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/chinese/page-ec5bde409ee97a11.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/english/%5Blevel%5D/%5BlessonId%5D/page-e3ebe51c0905edac.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/english/%5Blevel%5D/page-e0a64a005da14e10.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/english/page-cfb4d0de273664be.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/japanese/%5Blevel%5D/%5BlessonId%5D/page-ac7ee689bc427afe.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/japanese/%5Blevel%5D/page-3dd5ba68c2605cc9.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/japanese/curriculum/page-f0d55d0007025288.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/japanese/n5/%5BlessonId%5D/page-a69d246911f11d06.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/japanese/n5/lesson-1/page-5d9a9f3dd569196c.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/japanese/page-a81c2b268e394153.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/korean/%5Blevel%5D/%5BlessonId%5D/page-e6d8ef735eff8061.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/korean/%5Blevel%5D/page-6fb950c66fcb9581.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/korean/page-f5d6dd485a009d36.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/page-5d135a2971f248a0.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/vietnamese/%5Blevel%5D/%5BlessonId%5D/page-eef4b90952c7c62e.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/vietnamese/%5Blevel%5D/page-5efbc3dc84348b31.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/courses/vietnamese/page-d2200805044ae882.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/dashboard/page-8f7659c728f470d5.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/dictionary/%5Bword%5D/page-8d3f5edfa0e75183.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/dictionary/chinese/%5Bword%5D/page-61a15a2d81b262b7.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/dictionary/page-83b5170d58a5f144.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/layout-718c550e0b6e47f6.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/lessons/%5Blevel%5D/%5BlessonId%5D/page-6616edd95b08d0f7.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/lessons/%5Blevel%5D/page-ccab3d2d0af5c72f.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/listening/chinese/%5Bsection%5D/%5Bid%5D/page-1f455b98e99b90aa.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/listening/page-2d95a3c601b5c975.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/listening/songs/%5BsongId%5D/page-085aec0bc8552454.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/offline/page-657663bf9931cd3a.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/page-84a7f41fcc2ea94a.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/practice/ai-generated/%5BcontentId%5D/page-edf8ba17b3583939.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/profile/page-e10232f0902ff617.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/support/page-50fb58ac51eac6d2.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/teachers/page-266aa4b430f9d04f.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/test/%5Blevel%5D/%5BtestId%5D/page-e874925f72eda92f.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/test/%5Blevel%5D/page-0af21f5f9f208c83.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/test/chinese/%5Blevel%5D/page-25800a52454bb561.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/test/generate/page-a73d213727d6a0b7.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/test/mini/page-bde2c6ccf9139d5f.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/test/page-9a73c187fd54a814.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/test/skill/%5Bskill%5D/page-d747e217b54f1bc1.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/test/skill/page-2475e844245a96b6.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/app/testbug/page-bbfaafc86ba7ccf5.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/common-8bf139a482f19239.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/main-59c40c25fb50f91a.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/main-app-c55d0b896b5363f8.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/pages/_app-201029accc2de870.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/pages/_error-920d16e662c6eb45.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/polyfills-42372ed130431b0a.js",revision:"846118c33b2c0e922d7b3a7676f81f6f"},{url:"/_next/static/chunks/vendors-85040d21f8e0162e.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/chunks/webpack-481bb423fd2e4ce1.js",revision:"1mEiXddTnwCMaSOjetlMX"},{url:"/_next/static/css/275ed64cc4367444.css",revision:"275ed64cc4367444"},{url:"/_next/static/media/26a46d62cd723877-s.woff2",revision:"befd9c0fdfa3d8a645d5f95717ed6420"},{url:"/_next/static/media/55c55f0601d81cf3-s.woff2",revision:"43828e14271c77b87e3ed582dbff9f74"},{url:"/_next/static/media/581909926a08bbc8-s.woff2",revision:"f0b86e7c24f455280b8df606b89af891"},{url:"/_next/static/media/8e9860b6e62d6359-s.woff2",revision:"01ba6c2a184b8cba08b0d57167664d75"},{url:"/_next/static/media/97e0cb1ae144a2a9-s.woff2",revision:"e360c61c5bd8d90639fd4503c829c2dc"},{url:"/_next/static/media/df0a9ae256c0569c-s.woff2",revision:"d54db44de5ccb18886ece2fda72bdfe0"},{url:"/_next/static/media/e4af272ccee01ff0-s.p.woff2",revision:"65850a373e258f1c897a2b3d75eb74de"},{url:"/audio/N4-kaiwa-26-50/01 第26課　会話.mp3",revision:"8f2bdc572dd5c6528da99645c1885e05"},{url:"/audio/N4-kaiwa-26-50/04 第27課　会話.mp3",revision:"9caaf6cf98d194341bef45d411353349"},{url:"/audio/N4-kaiwa-26-50/07 第28課　会話.mp3",revision:"0bed987af3de4ffbad03920cb2dd3f08"},{url:"/audio/N4-kaiwa-26-50/13 第30課　会話.mp3",revision:"eeb32423488afdc3374bb2431a5ec02d"},{url:"/audio/N4-kaiwa-26-50/16 第31課　会話.mp3",revision:"8eca8f234459a11ec55686fb83b23357"},{url:"/audio/N4-kaiwa-26-50/19 第32課　会話.mp3",revision:"8e23c79011f2f75b4549ae300f673325"},{url:"/audio/N4-kaiwa-26-50/22 第33課　会話.mp3",revision:"62e930bee8cca0134467e0234f8e0ce6"},{url:"/audio/N4-kaiwa-26-50/25 第34課　会話.mp3",revision:"a7ded040e0c6c784db2889d4c2d47fd4"},{url:"/audio/N4-kaiwa-26-50/28 第35課　会話.mp3",revision:"04bf1409d020f0a36848b7ee4e8c9a32"},{url:"/audio/N4-kaiwa-26-50/31 第36課　会話.mp3",revision:"b70dd977df8c5f4bc1fec1033c1c043d"},{url:"/audio/N4-kaiwa-26-50/34 第37課　会話.mp3",revision:"c43718721189a7c9b5f51c8eb6f6f829"},{url:"/audio/N4-kaiwa-26-50/37 第38課　会話.mp3",revision:"798f1b44bc37a5c6449c1ba76c5c9e9f"},{url:"/audio/N4-kaiwa-26-50/40 第39課　会話.mp3",revision:"a8aee70f5c718fd2d68d0eedae59a9cd"},{url:"/audio/N4-kaiwa-26-50/43 第40課　会話.mp3",revision:"98e5205fcfc72d2a1b76bc27e36fe658"},{url:"/audio/N4-kaiwa-26-50/46 第41課　会話.mp3",revision:"a230b05f604f05e58b887b6048917d03"},{url:"/audio/N4-kaiwa-26-50/49 第42課　会話.mp3",revision:"6df9818ed39be8df4674fca9f5808bc1"},{url:"/audio/N4-kaiwa-26-50/52 第43課　会話.mp3",revision:"40e859633e649b15b1fe3d09b2aa234c"},{url:"/audio/N4-kaiwa-26-50/55 第44課　会話.mp3",revision:"72e221503ee82e3823405bfc3673030e"},{url:"/audio/N4-kaiwa-26-50/58 第45課　会話.mp3",revision:"0d2f5ba98cdfb9e662b821bbb62c99c3"},{url:"/audio/N4-kaiwa-26-50/61 第46課　会話.mp3",revision:"7765ec2c07655fba9b2015b9473193d0"},{url:"/audio/N4-kaiwa-26-50/64 第47課　会話.mp3",revision:"29674fa14354b1781c82c4186a45fab6"},{url:"/audio/N4-kaiwa-26-50/67 第48課　会話.mp3",revision:"7625a4a47cf6eec790b6f2c01317a16b"},{url:"/audio/N4-kaiwa-26-50/70 第49課　会話.mp3",revision:"73c4eb3cde1de6f82bf977a5344ebd91"},{url:"/audio/N4-kaiwa-26-50/73 第50課　会話.mp3",revision:"02910e4f7e97673870da8f2484e14b95"},{url:"/audio/N5-kaiwa-1-25/第10課 会話 Kaiwa.mp3",revision:"b3db69b0ac28ea75e0439b23ea5700a3"},{url:"/audio/N5-kaiwa-1-25/第11課 会話 Kaiwa.mp3",revision:"4c6a5c0719a58d3e82949bcbf7eae848"},{url:"/audio/N5-kaiwa-1-25/第12課 会話 Kaiwa.mp3",revision:"77e285ad06c24a380c7572e85db34695"},{url:"/audio/N5-kaiwa-1-25/第13課 会話 Kaiwa.mp3",revision:"bbc2fb367acf074c369cfd63341ce66f"},{url:"/audio/N5-kaiwa-1-25/第14課 会話 Kaiwa.mp3",revision:"217f8658a4e03acc57736d2790857add"},{url:"/audio/N5-kaiwa-1-25/第15課 会話 Kaiwa.mp3",revision:"336289e8cbd5e37a53da5c7f705844b5"},{url:"/audio/N5-kaiwa-1-25/第16課 会話 Kaiwa.mp3",revision:"8ce9901eff4402e0507a7bd15b1fe943"},{url:"/audio/N5-kaiwa-1-25/第17課 会話 Kaiwa.mp3",revision:"6625d35c9bab055c6526398985ecfcf9"},{url:"/audio/N5-kaiwa-1-25/第18課 会話 Kaiwa.mp3",revision:"0f0558f7d1902f1373b9e2c922172db4"},{url:"/audio/N5-kaiwa-1-25/第19課 会話 Kaiwa.mp3",revision:"271a34a6ff1b9760650c48e55dfb354f"},{url:"/audio/N5-kaiwa-1-25/第1課会話　kaiwa.mp3",revision:"1ba2578fa913a0affbc23e2b18b227e5"},{url:"/audio/N5-kaiwa-1-25/第20課 会話 Kaiwa.mp3",revision:"56b74449bb8083b587b9c288cae9bd42"},{url:"/audio/N5-kaiwa-1-25/第21課 会話　Kaiwa.mp3",revision:"fc1fca2c02da11dc483b727b1c692611"},{url:"/audio/N5-kaiwa-1-25/第22課 会話 Kaiwa.mp3",revision:"9137bb27109d35bcca51c55d5dd80b1a"},{url:"/audio/N5-kaiwa-1-25/第23課 会話 Kaiwa.mp3",revision:"295f47f00dfce08e48e226bf4f819921"},{url:"/audio/N5-kaiwa-1-25/第24課 会話 Kaiwa.mp3",revision:"e80abaaf8bd71d982b80cb1c9e908099"},{url:"/audio/N5-kaiwa-1-25/第25課 会話 Kaiwa.mp3",revision:"2aa0d29b74b6009bbe03faa30edba366"},{url:"/audio/N5-kaiwa-1-25/第2課 会話　Kaiwa.mp3",revision:"37edb51eabe141f790ab1ef72b84c620"},{url:"/audio/N5-kaiwa-1-25/第3課 会話　Kaiwa.mp3",revision:"be6927ed5fd218c158b87a5956c0ba88"},{url:"/audio/N5-kaiwa-1-25/第4課 会話 Kaiwa.mp3",revision:"a649e9c30910be536a5ab789573273b4"},{url:"/audio/N5-kaiwa-1-25/第5課 会話 Kaiwa.mp3",revision:"be822e6e50f4b5e247046379a52f5d9e"},{url:"/audio/N5-kaiwa-1-25/第6課 会話 Kaiwa.mp3",revision:"7cf915819fc4679b378d8d57ef85cfde"},{url:"/audio/N5-kaiwa-1-25/第7課 会話 Kaiwa.mp3",revision:"89d87c8106d7d3b2806036b41e0522b1"},{url:"/audio/N5-kaiwa-1-25/第8課 会話 Kaiwa.mp3",revision:"9221b8443e30bd3b4531d03a69a4d386"},{url:"/audio/N5-kaiwa-1-25/第9課 会話 Kaiwa.mp3",revision:"d6e25b64dd22bfb6c2bae4f46c01cafe"},{url:"/browserconfig.xml",revision:"475ad69bc6f7ccb8ee1e51381d5ae44f"},{url:"/file.svg",revision:"d09f95206c3fa0bb9bd9fefabfd0ea71"},{url:"/globe.svg",revision:"2aaafa6a49b6563925fe440891e32717"},{url:"/icons/icon-128x128.svg",revision:"341631d5f4547fc1d1f71b148372df06"},{url:"/icons/icon-144x144.svg",revision:"e8e2d7e5cf678117e6cc13fc7aa0cce6"},{url:"/icons/icon-152x152.svg",revision:"737c151bbfe8bff9c05696d852e3e8cc"},{url:"/icons/icon-192x192.svg",revision:"b98f86d662491e385c4cfa4f0b5fa255"},{url:"/icons/icon-384x384.svg",revision:"1d225ffecca378b26e560b1b5fe1d581"},{url:"/icons/icon-512x512.svg",revision:"2f0b8ebba4e3108e0944575c1fcdb912"},{url:"/icons/icon-72x72.svg",revision:"62f28ce5b38bef110bb9f13142aff1c7"},{url:"/icons/icon-96x96.svg",revision:"30907f9b9cc7bab329b93b1a3a378ce5"},{url:"/icons/shortcut-courses.svg",revision:"30907f9b9cc7bab329b93b1a3a378ce5"},{url:"/icons/shortcut-dashboard.svg",revision:"30907f9b9cc7bab329b93b1a3a378ce5"},{url:"/icons/shortcut-test.svg",revision:"30907f9b9cc7bab329b93b1a3a378ce5"},{url:"/images/n5-roadmap-header.svg",revision:"17b23cf03e26f547feef0baf7c93426b"},{url:"/images/n5-study-footer.svg",revision:"6d936ff39f03c81bc611f996e771d592"},{url:"/manifest.json",revision:"5c4def085bcb1427c4b145107f2d19cb"},{url:"/next.svg",revision:"8e061864f388b47f33a1c3780831193e"},{url:"/vercel.svg",revision:"c0af2f507b369b085b35ef4bbe3bcf1e"},{url:"/window.svg",revision:"a2760511c65806022ad20adf74370ff3"}],{ignoreURLParametersMatching:[]}),e.cleanupOutdatedCaches(),e.registerRoute("/",new e.NetworkFirst({cacheName:"start-url",plugins:[{cacheWillUpdate:async({request:e,response:a,event:i,state:s})=>a&&"opaqueredirect"===a.type?new Response(a.body,{status:200,statusText:"OK",headers:a.headers}):a}]}),"GET"),e.registerRoute(/^https?.*/,new e.NetworkFirst({cacheName:"offlineCache",plugins:[new e.ExpirationPlugin({maxEntries:200,maxAgeSeconds:604800})]}),"GET")});
+const CACHE_NAME = 'phuc-khiem-education-v1';
+const urlsToCache = [
+  '/',
+  '/courses',
+  '/dashboard',
+  '/community',
+  '/about',
+  '/auth/login',
+  '/auth/register',
+  '/static/css/main.css',
+  '/images/logo/phuc-khiem-logo.jpg',
+  '/manifest.json'
+];
+
+// Install event
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then((cache) => {
+        console.log('Opened cache');
+        return cache.addAll(urlsToCache);
+      })
+  );
+});
+
+// Fetch event
+self.addEventListener('fetch', (event) => {
+  event.respondWith(
+    caches.match(event.request)
+      .then((response) => {
+        // Return cached version or fetch from network
+        return response || fetch(event.request);
+      })
+  );
+});
+
+// Activate event
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cacheName) => {
+          if (cacheName !== CACHE_NAME) {
+            console.log('Deleting old cache:', cacheName);
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  );
+});
+
+// Push notification event
+self.addEventListener('push', (event) => {
+  const options = {
+    body: event.data ? event.data.text() : 'Bạn có bài học mới!',
+    icon: '/icons/icon-192x192.png',
+    badge: '/icons/badge-72x72.png',
+    vibrate: [100, 50, 100],
+    data: {
+      dateOfArrival: Date.now(),
+      primaryKey: 1
+    },
+    actions: [
+      {
+        action: 'explore',
+        title: 'Xem ngay',
+        icon: '/icons/checkmark.png'
+      },
+      {
+        action: 'close',
+        title: 'Đóng',
+        icon: '/icons/xmark.png'
+      }
+    ]
+  };
+
+  event.waitUntil(
+    self.registration.showNotification('PHÚC KHIÊM Education', options)
+  );
+});
+
+// Notification click event
+self.addEventListener('notificationclick', (event) => {
+  event.notification.close();
+
+  if (event.action === 'explore') {
+    event.waitUntil(
+      clients.openWindow('/dashboard')
+    );
+  }
+});

@@ -1,15 +1,15 @@
 {
-  "name": "CaiTienWebTT - Japanese Learning Platform",
-  "short_name": "CaiTienWebTT",
-  "description": "Learn Japanese with interactive lessons, audio pronunciation, and AI-powered features",
+  "name": "PHÚC KHIÊM Education",
+  "short_name": "PHÚC KHIÊM",
+  "description": "Nền tảng học ngoại ngữ thông minh với AI tutor, 5 ngôn ngữ (Nhật, Trung, Anh, Hàn, Việt)",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#3b82f6",
+  "theme_color": "#1e40af",
   "orientation": "portrait-primary",
   "scope": "/",
   "lang": "vi",
-  "categories": ["education", "language", "learning"],
+  "categories": ["education", "productivity"],
   "icons": [
     {
       "src": "/icons/icon-72x72.png",
@@ -62,13 +62,25 @@
   ],
   "shortcuts": [
     {
-      "name": "N5 Lessons",
-      "short_name": "N5",
-      "description": "Access N5 Japanese lessons",
-      "url": "/courses/japanese/n5",
+      "name": "Khóa học tiếng Nhật",
+      "short_name": "Tiếng Nhật",
+      "description": "Truy cập nhanh khóa học tiếng Nhật",
+      "url": "/courses/japanese",
       "icons": [
         {
-          "src": "/icons/icon-96x96.png",
+          "src": "/icons/japanese-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Khóa học tiếng Trung",
+      "short_name": "Tiếng Trung",
+      "description": "Truy cập nhanh khóa học tiếng Trung",
+      "url": "/courses/chinese",
+      "icons": [
+        {
+          "src": "/icons/chinese-96x96.png",
           "sizes": "96x96"
         }
       ]
@@ -76,23 +88,11 @@
     {
       "name": "Dashboard",
       "short_name": "Dashboard",
-      "description": "View your learning progress",
+      "description": "Xem tiến độ học tập",
       "url": "/dashboard",
       "icons": [
         {
-          "src": "/icons/icon-96x96.png",
-          "sizes": "96x96"
-        }
-      ]
-    },
-    {
-      "name": "Practice",
-      "short_name": "Practice",
-      "description": "Practice with AI-generated content",
-      "url": "/practice",
-      "icons": [
-        {
-          "src": "/icons/icon-96x96.png",
+          "src": "/icons/dashboard-96x96.png",
           "sizes": "96x96"
         }
       ]
@@ -100,32 +100,20 @@
   ],
   "screenshots": [
     {
-      "src": "/screenshots/homepage.png",
+      "src": "/screenshots/desktop-1.png",
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Homepage of CaiTienWebTT"
+      "label": "Trang chủ PHÚC KHIÊM Education"
     },
     {
-      "src": "/screenshots/lesson.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Interactive lesson interface"
-    },
-    {
-      "src": "/screenshots/mobile-home.png",
+      "src": "/screenshots/mobile-1.png",
       "sizes": "390x844",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Mobile homepage"
-    },
-    {
-      "src": "/screenshots/mobile-lesson.png",
-      "sizes": "390x844",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Mobile lesson interface"
+      "label": "Trang chủ trên mobile"
     }
-  ]
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
 }

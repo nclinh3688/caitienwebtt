@@ -1,70 +1,47 @@
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
-import AuthProvider from '@/components/AuthProvider';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
-import { ThemeProvider } from '@/contexts/ThemeContext';
-import { WebVitals } from '@/components/web-vitals';
+import type { Metadata } from 'next'
+import { Inter, Poppins } from 'next/font/google'
+import './globals.css'
+import AuthProvider from '@/components/AuthProvider'
+import Header from '@/components/layout/Header'
+import Footer from '@/components/layout/Footer'
+import Script from 'next/script'
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'] })
+const poppins = Poppins({ 
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700', '800', '900'],
+  variable: '--font-poppins'
+})
 
 export const metadata: Metadata = {
-  title: {
-    default: 'Caitienwebtt - Nền tảng học ngoại ngữ đa ngôn ngữ với AI',
-    template: '%s | Caitienwebtt'
-  },
-  description: 'Học tiếng Nhật, Trung, Anh, Hàn, Việt với AI thông minh. Hệ thống gamification, bài học tương tác, và cộng đồng học tập sôi động.',
-  keywords: [
-    'học ngoại ngữ',
-    'tiếng Nhật',
-    'tiếng Trung', 
-    'tiếng Anh',
-    'tiếng Hàn',
-    'JLPT',
-    'HSK',
-    'AI học tập',
-    'gamification',
-    'cộng đồng học tập',
-    'bài học tương tác',
-    'phát âm',
-    'ngữ pháp',
-    'từ vựng'
-  ],
-  authors: [{ name: 'Caitienwebtt Team' }],
-  creator: 'Caitienwebtt',
-  publisher: 'Caitienwebtt',
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  metadataBase: new URL('https://caitienwebtt.com'),
-  alternates: {
-    canonical: '/',
-  },
+  title: 'PHÚC KHIÊM Education - Học ngoại ngữ thông minh với AI',
+  description: 'Nền tảng học ngoại ngữ thông minh với AI tutor, 5 ngôn ngữ (Nhật, Trung, Anh, Hàn, Việt), phương pháp học hiện đại và trải nghiệm học tập tuyệt vời.',
+  keywords: 'học ngoại ngữ, tiếng nhật, tiếng trung, tiếng anh, tiếng hàn, AI tutor, JLPT, HSK, TOEIC, IELTS, phát âm, ngữ pháp, từ vựng, học online',
+  authors: [{ name: 'PHÚC KHIÊM Education Team' }],
+  creator: 'PHÚC KHIÊM Education',
+  publisher: 'PHÚC KHIÊM Education',
+  metadataBase: new URL('https://eloquent-semolina-f30407.netlify.app'),
   openGraph: {
-    type: 'website',
-    locale: 'vi_VN',
-    url: 'https://caitienwebtt.com',
-    title: 'Caitienwebtt - Nền tảng học ngoại ngữ đa ngôn ngữ với AI',
-    description: 'Học tiếng Nhật, Trung, Anh, Hàn, Việt với AI thông minh. Hệ thống gamification, bài học tương tác, và cộng đồng học tập sôi động.',
-    siteName: 'Caitienwebtt',
+    title: 'PHÚC KHIÊM Education - Học ngoại ngữ thông minh với AI',
+    description: 'Nền tảng học ngoại ngữ thông minh với AI tutor, 5 ngôn ngữ, phương pháp học hiện đại.',
+    url: 'https://eloquent-semolina-f30407.netlify.app',
+    siteName: 'PHÚC KHIÊM Education',
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: '/images/logo/phuc-khiem-logo.jpg',
         width: 1200,
         height: 630,
-        alt: 'Caitienwebtt - Học ngoại ngữ với AI',
+        alt: 'PHÚC KHIÊM Education Logo',
       },
     ],
+    locale: 'vi_VN',
+    type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Caitienwebtt - Nền tảng học ngoại ngữ đa ngôn ngữ với AI',
-    description: 'Học tiếng Nhật, Trung, Anh, Hàn, Việt với AI thông minh. Hệ thống gamification, bài học tương tác, và cộng đồng học tập sôi động.',
-    images: ['/images/twitter-image.jpg'],
-    creator: '@caitienwebtt',
+    title: 'PHÚC KHIÊM Education - Học ngoại ngữ thông minh với AI',
+    description: 'Nền tảng học ngoại ngữ thông minh với AI tutor, 5 ngôn ngữ, phương pháp học hiện đại.',
+    images: ['/images/logo/phuc-khiem-logo.jpg'],
   },
   robots: {
     index: true,
@@ -79,100 +56,69 @@ export const metadata: Metadata = {
   },
   verification: {
     google: 'your-google-verification-code',
-    yandex: 'your-yandex-verification-code',
-    yahoo: 'your-yahoo-verification-code',
   },
-  category: 'education',
-  classification: 'Educational Technology',
-  other: {
-    'apple-mobile-web-app-capable': 'yes',
-    'apple-mobile-web-app-status-bar-style': 'default',
-    'apple-mobile-web-app-title': 'Caitienwebtt',
-    'application-name': 'Caitienwebtt',
-    'msapplication-TileColor': '#000000',
-    'msapplication-config': '/browserconfig.xml',
-    'theme-color': '#000000',
+  alternates: {
+    canonical: 'https://eloquent-semolina-f30407.netlify.app',
   },
-};
+  'theme-color': '#1e40af',
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
-    <html lang="vi" suppressHydrationWarning>
+    <html lang="vi">
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/icons/icon-192x192.svg" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-        <meta name="theme-color" content="#000000" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Caitienwebtt" />
-        <meta name="application-name" content="Caitienwebtt" />
-        <meta name="msapplication-TileColor" content="#000000" />
-        <meta name="msapplication-config" content="/browserconfig.xml" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#1e40af" />
         
-        {/* Preconnect to external domains for performance */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://api.openai.com" />
-        <link rel="preconnect" href="https://generativelanguage.googleapis.com" />
-        
-        {/* DNS prefetch for better performance */}
-        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="//api.openai.com" />
-        <link rel="dns-prefetch" href="//generativelanguage.googleapis.com" />
-        
-        {/* Structured Data for SEO */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "EducationalApplication",
-              "name": "Caitienwebtt",
-              "description": "Nền tảng học ngoại ngữ đa ngôn ngữ với AI thông minh",
-              "url": "https://caitienwebtt.com",
-              "applicationCategory": "EducationalApplication",
-              "operatingSystem": "Web Browser",
-              "offers": {
-                "@type": "Offer",
-                "price": "0",
-                "priceCurrency": "VND"
-              },
-              "provider": {
-                "@type": "Organization",
-                "name": "Caitienwebtt",
-                "url": "https://caitienwebtt.com"
-              },
-              "audience": {
-                "@type": "Audience",
-                "audienceType": "Language Learners"
-              },
-              "educationalLevel": ["Beginner", "Intermediate", "Advanced"],
-              "teaches": ["Japanese", "Chinese", "English", "Korean", "Vietnamese"],
-              "learningResourceType": ["Interactive Lesson", "Quiz", "Audio", "Video", "Game"]
-            })
-          }}
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+          strategy="afterInteractive"
         />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'GA_MEASUREMENT_ID', {
+              page_title: 'PHÚC KHIÊM Education',
+              page_location: window.location.href,
+            });
+          `}
+        </Script>
+        
+        {/* Facebook Pixel */}
+        <Script id="facebook-pixel" strategy="afterInteractive">
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', 'YOUR_FACEBOOK_PIXEL_ID');
+            fbq('track', 'PageView');
+          `}
+        </Script>
       </head>
-      <body className={inter.className}>
-        <ThemeProvider>
-          <AuthProvider>
-            <div className="min-h-screen flex flex-col">
-              <Header />
-              <main className="flex-1">
-                {children}
-              </main>
-              <Footer />
-            </div>
-            <WebVitals />
-          </AuthProvider>
-        </ThemeProvider>
+      <body className={`${inter.className} ${poppins.variable}`}>
+        <AuthProvider>
+          <Header />
+          <main className="pt-16">
+            {children}
+          </main>
+          <Footer />
+        </AuthProvider>
       </body>
     </html>
-  );
+  )
 }
