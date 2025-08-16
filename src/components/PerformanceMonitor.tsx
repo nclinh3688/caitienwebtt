@@ -132,7 +132,7 @@ export default function PerformanceMonitor() {
 
   const startMonitoring = useCallback(async () => {
     setIsMonitoring(true);
-    
+
     // Initial measurement
     const metrics = await measurePerformance();
     setCurrentMetrics(metrics);
@@ -252,7 +252,7 @@ export default function PerformanceMonitor() {
                 </div>
                 <div className="text-2xl font-bold">{currentMetrics.apiResponseTime}ms</div>
                 <div className="text-xs text-gray-500">Target: &lt;150ms</div>
-              </div>
+            </div>
 
               <div className="p-4 border rounded-lg">
                 <div className="flex items-center gap-2 mb-2">
@@ -261,7 +261,7 @@ export default function PerformanceMonitor() {
                 </div>
                 <div className="text-2xl font-bold">{currentMetrics.memoryUsage}MB</div>
                 <div className="text-xs text-gray-500">Target: &lt;40MB</div>
-              </div>
+            </div>
 
               <div className="p-4 border rounded-lg">
                 <div className="flex items-center gap-2 mb-2">
@@ -270,7 +270,7 @@ export default function PerformanceMonitor() {
                 </div>
                 <div className="text-2xl font-bold">{currentMetrics.databaseQueryTime}ms</div>
                 <div className="text-xs text-gray-500">Target: &lt;100ms</div>
-              </div>
+            </div>
 
               <div className="p-4 border rounded-lg">
                 <div className="flex items-center gap-2 mb-2">
@@ -298,8 +298,8 @@ export default function PerformanceMonitor() {
               </div>
             </div>
           )}
-        </CardContent>
-      </Card>
+          </CardContent>
+        </Card>
 
       <Card>
         <CardHeader>
@@ -321,7 +321,7 @@ export default function PerformanceMonitor() {
               {optimizationSuggestions.map((suggestion) => (
                 <div key={suggestion.id} className="p-4 border rounded-lg">
                   <div className="flex items-start justify-between mb-2">
-                    <div>
+                <div>
                       <h4 className="font-semibold">{suggestion.title}</h4>
                       <p className="text-sm text-gray-600">{suggestion.description}</p>
                     </div>
@@ -340,8 +340,8 @@ export default function PerformanceMonitor() {
                           {isOptimizing ? 'Implementing...' : 'Implement'}
                         </Button>
                       )}
-                    </div>
-                  </div>
+                </div>
+              </div>
                   <div className="flex items-center gap-4 text-sm text-gray-500">
                     <span>Category: {suggestion.category}</span>
                     <span>Estimated Improvement: +{suggestion.estimatedImprovement}%</span>
@@ -359,7 +359,7 @@ export default function PerformanceMonitor() {
                       <div>
                         <h4 className="font-semibold">{suggestion.title}</h4>
                         <p className="text-sm text-gray-600">{suggestion.description}</p>
-                      </div>
+              </div>
                       <div className="flex items-center gap-2">
                         <Badge className="bg-red-100 text-red-800">High Impact</Badge>
                         {suggestion.isImplemented ? (
@@ -378,8 +378,8 @@ export default function PerformanceMonitor() {
                     <div className="flex items-center gap-4 text-sm text-gray-500">
                       <span>Category: {suggestion.category}</span>
                       <span>Estimated Improvement: +{suggestion.estimatedImprovement}%</span>
-                    </div>
-                  </div>
+                </div>
+              </div>
                 ))}
             </TabsContent>
 
@@ -389,7 +389,7 @@ export default function PerformanceMonitor() {
                 .map((suggestion) => (
                   <div key={suggestion.id} className="p-4 border rounded-lg">
                     <div className="flex items-start justify-between mb-2">
-                      <div>
+                <div>
                         <h4 className="font-semibold">{suggestion.title}</h4>
                         <p className="text-sm text-gray-600">{suggestion.description}</p>
                       </div>
@@ -406,13 +406,13 @@ export default function PerformanceMonitor() {
                             {isOptimizing ? 'Implementing...' : 'Implement'}
                           </Button>
                         )}
-                      </div>
-                    </div>
+                </div>
+              </div>
                     <div className="flex items-center gap-4 text-sm text-gray-500">
                       <span>Category: {suggestion.category}</span>
                       <span>Estimated Improvement: +{suggestion.estimatedImprovement}%</span>
-                    </div>
-                  </div>
+                </div>
+              </div>
                 ))}
             </TabsContent>
 
@@ -438,8 +438,8 @@ export default function PerformanceMonitor() {
                           >
                             {isOptimizing ? 'Implementing...' : 'Implement'}
                           </Button>
-                        )}
-                      </div>
+            )}
+          </div>
                     </div>
                     <div className="flex items-center gap-4 text-sm text-gray-500">
                       <span>Category: {suggestion.category}</span>

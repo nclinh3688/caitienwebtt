@@ -36,11 +36,7 @@ export async function GET(
           },
           orderBy: { order: 'asc' },
         },
-        _count: {
-          select: {
-            lessons: true,
-          },
-        },
+        // Removed _count as lessons is a relation, not a count field
       },
     });
 
