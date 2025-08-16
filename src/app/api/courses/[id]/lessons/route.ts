@@ -77,14 +77,6 @@ export async function GET(
           },
           orderBy: { order: 'asc' },
         },
-        _count: {
-          select: {
-            vocabulary: true,
-            grammar: true,
-            audio: true,
-            quizzes: true,
-          },
-        },
       },
       orderBy: { order: 'asc' },
     });
