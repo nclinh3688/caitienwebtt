@@ -43,7 +43,7 @@ export async function GET(request: NextRequest) {
     }
 
     // Group sessions by date
-    const sessionsByDate = user.studySessions.reduce((acc, session) => {
+    const sessionsByDate = user.studySessions.reduce((acc: Record<string, typeof user.studySessions>, session: any) => {
       const dateKey = session.scheduledDate.toISOString().split('T')[0];
       if (!acc[dateKey]) {
         acc[dateKey] = [];
@@ -53,12 +53,12 @@ export async function GET(request: NextRequest) {
     }, {} as Record<string, typeof user.studySessions>);
 
     // Calculate daily stats
-    const dailyStats = Object.entries(sessionsByDate).map(([date, sessions]) => {
+    const dailyStats = Object.entries(sessionsByDate).map(([date, sessions]: [string, any]) => {
       const totalStudyTime = sessions
-        .filter(s => s.type !== 'break')
-        .reduce((sum, s) => sum + s.duration, 0);
+        .filter((s: any) => s.type !== 'break')
+        .reduce((sum: number, s: any) => sum + s.duration, 0);
       
-      const completedSessions = sessions.filter(s => s.status === 'completed').length;
+      const completedSessions = sessions.filter((s: any) => s.status === 'completed').length;
       const totalSessions = sessions.length;
 
       return {

@@ -252,7 +252,7 @@ function generateAdvancedMockPath(preferences: UserPreferences | null) {
     level: safePreferences.currentLevel,
     totalSteps: steps.length,
     completedSteps: steps.filter(s => s.isCompleted).length,
-    estimatedDuration: Math.round(steps.reduce((acc, s) => acc + s.estimatedTime, 0) / 60),
+    estimatedDuration: Math.round(steps.reduce((acc: number, s) => acc + s.estimatedTime, 0) / 60),
     personalizedFor: safePreferences.learningGoals,
     steps
   };
