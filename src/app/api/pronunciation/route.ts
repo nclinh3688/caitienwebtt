@@ -44,7 +44,7 @@ export async function POST(request: Request) {
 
     // You could extend the UserProgress model or create a new PronunciationProgress model
     // For now, let's just return success and log the attempt
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.log('Pronunciation attempt:', pronunciationResult);
+    if (process.env.NODE_ENV === 'development') console.log('Pronunciation attempt:', pronunciationResult);
 
     // Update user progress for this lesson if pronunciation score is good (>= 60)
     if (score >= 60) {
@@ -73,7 +73,7 @@ export async function POST(request: Request) {
     });
 
   } catch (error) {
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('Error saving pronunciation score:', error);
+    if (process.env.NODE_ENV === 'development') console.error('Error saving pronunciation score:', error);
     return NextResponse.json({ 
       error: 'Failed to save pronunciation score' 
     }, { status: 500 });

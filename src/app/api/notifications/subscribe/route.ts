@@ -27,7 +27,7 @@ export async function POST(request: NextRequest) {
     };
 
     // In production, save to database
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.log('📲 New push subscription:', subscriptionData);
+    if (process.env.NODE_ENV === 'development') console.log('📲 New push subscription:', subscriptionData);
 
     // Mock database save
     // await prisma.pushSubscription.create({ data: subscriptionData });
@@ -41,14 +41,14 @@ export async function POST(request: NextRequest) {
     });
 
   } catch (error) {
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('Error saving push subscription:', error);
+    if (process.env.NODE_ENV === 'development') console.error('Error saving push subscription:', error);
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
   }
 }
 
 async function scheduleWelcomeNotification(subscriptionData: any) {
   // Mock notification scheduling
-  if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.log('📅 Scheduling welcome notification for:', subscriptionData.userId);
+  if (process.env.NODE_ENV === 'development') console.log('📅 Scheduling welcome notification for:', subscriptionData.userId);
   
   // In production, use a proper job queue or scheduler
   setTimeout(async () => {
@@ -68,7 +68,7 @@ async function scheduleWelcomeNotification(subscriptionData: any) {
 
 async function sendPushNotification(subscription: any, payload: any) {
   // Mock push notification sending
-  if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.log('📤 Sending push notification:', payload);
+  if (process.env.NODE_ENV === 'development') console.log('📤 Sending push notification:', payload);
   
   // In production, use web-push library
   /*
@@ -82,9 +82,9 @@ async function sendPushNotification(subscription: any, payload: any) {
 
   try {
     await webpush.sendNotification(subscription, JSON.stringify(payload));
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.log('✅ Push notification sent successfully');
+    if (process.env.NODE_ENV === 'development') console.log('✅ Push notification sent successfully');
   } catch (error) {
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('❌ Push notification failed:', error);
+    if (process.env.NODE_ENV === 'development') console.error('❌ Push notification failed:', error);
   }
   */
 }

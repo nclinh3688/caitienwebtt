@@ -18,7 +18,7 @@ export async function GET() {
     return NextResponse.json(courses);
   } catch (error) {
     if (process.env.NODE_ENV === 'development') {
-      if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('Error fetching courses:', error);
+      if (process.env.NODE_ENV === 'development') console.error('Error fetching courses:', error);
     }
     return NextResponse.json({ error: 'Failed to fetch courses' }, { status: 500 });
   }

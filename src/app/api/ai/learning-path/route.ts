@@ -70,7 +70,7 @@ Hãy tạo lộ trình 8-12 bước với JSON format.`;
     });
 
   } catch (error) {
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('AI Learning Path Error:', error);
+    if (process.env.NODE_ENV === 'development') console.error('AI Learning Path Error:', error);
     
     // Fallback to sophisticated mock path
     const { preferences: fallbackPreferences } = await request.json().catch(() => ({ preferences: null }));
@@ -128,7 +128,7 @@ async function generateAILearningPath(prompt: string, preferences: UserPreferenc
     throw new Error('No AI response received');
 
   } catch (error) {
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('Gemini AI Error:', error);
+    if (process.env.NODE_ENV === 'development') console.error('Gemini AI Error:', error);
     throw error;
   }
 }
@@ -308,7 +308,7 @@ async function enhancePathWithAnalytics(learningPath: any, userId?: string) {
         predictedCompletion: '3-4 months based on current pace'
       };
     } catch (error) {
-      if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('Error enhancing path with analytics:', error);
+      if (process.env.NODE_ENV === 'development') console.error('Error enhancing path with analytics:', error);
     }
   }
   

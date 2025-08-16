@@ -110,7 +110,7 @@ async function generateAIResponse(prompt: string, message: string, language?: st
            generateFallbackResponse(message, language);
 
   } catch (error) {
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('Gemini API Error:', error);
+    if (process.env.NODE_ENV === 'development') console.error('Gemini API Error:', error);
     return generateFallbackResponse(message, language);
   }
 }

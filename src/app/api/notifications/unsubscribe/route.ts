@@ -17,7 +17,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Remove subscription from database (mock implementation)
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.log('🗑️ Removing push subscription:', {
+    if (process.env.NODE_ENV === 'development') console.log('🗑️ Removing push subscription:', {
       userId: session.user.email,
       endpoint
     });
@@ -36,7 +36,7 @@ export async function POST(request: NextRequest) {
     });
 
   } catch (error) {
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('Error removing push subscription:', error);
+    if (process.env.NODE_ENV === 'development') console.error('Error removing push subscription:', error);
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
   }
 }

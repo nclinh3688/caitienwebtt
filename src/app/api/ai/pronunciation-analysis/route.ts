@@ -78,12 +78,12 @@ Return JSON format với detailed analysis.`;
     const enhancedAnalysis = await enhanceAnalysisWithProgress(analysis, session?.user?.email || undefined);
 
     // Log for progress tracking
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.log(`🎤 Pronunciation Analysis - User: ${session?.user?.email || 'Anonymous'}, Language: ${language}, Score: ${analysis.overallScore}`);
+    if (process.env.NODE_ENV === 'development') console.log(`🎤 Pronunciation Analysis - User: ${session?.user?.email || 'Anonymous'}, Language: ${language}, Score: ${analysis.overallScore}`);
 
     return NextResponse.json(enhancedAnalysis);
 
   } catch (error) {
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('Pronunciation Analysis Error:', error);
+    if (process.env.NODE_ENV === 'development') console.error('Pronunciation Analysis Error:', error);
     
     // Fallback to sophisticated mock analysis
     const fallbackAnalysis = generateAdvancedMockAnalysis(request.body);
@@ -141,7 +141,7 @@ async function generateAIPronunciationAnalysis(
     throw new Error('No AI response received');
 
   } catch (error) {
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('Gemini AI Error:', error);
+    if (process.env.NODE_ENV === 'development') console.error('Gemini AI Error:', error);
     throw error;
   }
 }
@@ -386,7 +386,7 @@ async function enhanceAnalysisWithProgress(analysis: PronunciationAnalysis, user
         encouragement: generateEncouragement(analysis.overallScore)
       };
     } catch (error) {
-      if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('Error enhancing analysis with progress:', error);
+      if (process.env.NODE_ENV === 'development') console.error('Error enhancing analysis with progress:', error);
     }
   }
   

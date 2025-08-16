@@ -54,12 +54,12 @@ export async function POST(request: Request) {
       const parsedQuestions = JSON.parse(generatedContent);
       return NextResponse.json(parsedQuestions);
     } catch (parseError) {
-      if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('Error parsing AI response:', parseError);
-      if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('AI raw response:', generatedContent);
+      if (process.env.NODE_ENV === 'development') console.error('Error parsing AI response:', parseError);
+      if (process.env.NODE_ENV === 'development') console.error('AI raw response:', generatedContent);
       return NextResponse.json({ error: 'Failed to parse AI response', rawResponse: generatedContent }, { status: 500 });
     }
   } catch (error) {
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('Error generating test with AI:', error);
+    if (process.env.NODE_ENV === 'development') console.error('Error generating test with AI:', error);
     return NextResponse.json({ error: 'Failed to generate test from AI' }, { status: 500 });
   }
 }

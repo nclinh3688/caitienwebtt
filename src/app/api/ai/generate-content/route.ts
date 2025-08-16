@@ -121,12 +121,12 @@ Tạo ${questionCount} câu hỏi chất lượng cao theo format JSON với str
     const enhancedContent = await enhanceContentWithAnalytics(generatedContent, userId);
 
     // Log for content analytics
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.log(`🧠 AI Content Generated - User: ${session?.user?.email || 'Anonymous'}, Type: ${contentType}, Questions: ${questionCount}`);
+    if (process.env.NODE_ENV === 'development') console.log(`🧠 AI Content Generated - User: ${session?.user?.email || 'Anonymous'}, Type: ${contentType}, Questions: ${questionCount}`);
 
     return NextResponse.json(enhancedContent);
 
   } catch (error) {
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('AI Content Generation Error:', error);
+    if (process.env.NODE_ENV === 'development') console.error('AI Content Generation Error:', error);
     
     // Fallback to sophisticated mock content
     const fallbackContent = generateAdvancedMockContent(request);
@@ -179,7 +179,7 @@ async function generateAIContent(prompt: string, params: any): Promise<Generated
     throw new Error('No AI response received');
 
   } catch (error) {
-    if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('Gemini AI Error:', error);
+    if (process.env.NODE_ENV === 'development') console.error('Gemini AI Error:', error);
     throw error;
   }
 }
@@ -429,7 +429,7 @@ async function enhanceContentWithAnalytics(content: GeneratedContent, userId?: s
         nextRecommendations: generateNextRecommendations(content)
       };
     } catch (error) {
-      if (process.env.NODE_ENV === 'development') if (process.env.NODE_ENV === 'development') console.error('Error enhancing content with analytics:', error);
+      if (process.env.NODE_ENV === 'development') console.error('Error enhancing content with analytics:', error);
     }
   }
   
