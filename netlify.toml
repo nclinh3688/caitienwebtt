@@ -1,29 +1,19 @@
 [build]
-  command = "npm run build"
+  command = "yarn build"
   publish = ".next"
 
 [build.environment]
   NODE_VERSION = "18"
   NPM_VERSION = "9"
   NODE_OPTIONS = "--max_old_space_size=4096"
-
-# Disable dependency caching for Prisma
-[build.processing]
-  skip_processing = false
-
-# Force fresh installs
-[build.environment]
   NPM_FLAGS = "--no-optional --no-shrinkwrap"
-
-# Prisma specific settings
-[build.environment]
   PRISMA_GENERATE_DATAPROXY = "true"
   PRISMA_CLI_BINARY_TARGETS = "native,debian-openssl-3.0.x"
-
-# Disable caching
-[build.environment]
   NETLIFY_DISABLE_CACHE = "true"
   NPM_CONFIG_CACHE = "false"
+
+[build.processing]
+  skip_processing = false
 
 # Redirects for better SEO
 [[redirects]]
@@ -92,6 +82,6 @@
   node_bundler = "esbuild"
 
 [dev]
-  command = "npm run dev"
+  command = "yarn dev"
   port = 3000
   publish = ".next" 
