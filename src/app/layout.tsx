@@ -1,6 +1,11 @@
 import type { Metadata } from 'next'
 import { Inter, Poppins } from 'next/font/google'
 import './globals.css'
+import '@/styles/design-system.css'
+import '@/styles/header-enhancements.css'
+import '@/styles/header-simple.css'
+import '@/styles/header-horizontal.css'
+import '@/styles/header-enhanced.css';
 import AuthProvider from '@/components/AuthProvider'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
@@ -145,14 +150,7 @@ export default function RootLayout({
               gap: 1rem;
             }
             
-            .logo-text {
-              font-size: 1.5rem;
-              font-weight: 700;
-              background: linear-gradient(135deg, var(--primary-600) 0%, var(--secondary-500) 100%);
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-              background-clip: text;
-            }
+            /* REMOVED CONFLICTING CSS - logo-text styles moved to header-enhanced.css */
             
             .logo-subtitle {
               font-size: 0.875rem;

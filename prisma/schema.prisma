@@ -44,9 +44,30 @@ model User {
   emailVerified DateTime?
   image         String?
   password      String?   // Add password field for credentials provider
+  role          String?   // Keep existing role column
+  emailNotificationsEnabled Boolean? // Keep existing column
+  pushNotificationsEnabled Boolean? // Keep existing column
+  publicProfileEnabled Boolean? // Keep existing column
   accounts      Account[]
   sessions      Session[]
   progress      UserProgress[] // Add this line to link User to UserProgress
+  vocabularyProgress VocabularyProgress[]
+  grammarProgress   GrammarProgress[]
+  audioProgress     AudioProgress[]
+  quizResults       QuizResult[]
+  
+  // New relations for Advanced Dashboard
+  aiInsights        AIInsight[]
+  learningPatterns  LearningPattern[]
+  aiPredictions     AIPrediction[]
+  studySessions     StudySession[]
+  weeklyGoals       WeeklyGoal[]
+  achievements      Achievement[]
+  userStats         UserStats?
+  leaderboardEntries LeaderboardEntry[]
+  
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @default(now())
 }
 
 model VerificationToken {
@@ -57,30 +78,227 @@ model VerificationToken {
   @@unique([identifier, token])
 }
 
+// ===== COURSE MANAGEMENT SYSTEM =====
+
 model Course {
   id          String   @id @default(cuid())
-  language    String
-  level       String
-  title       String
+  language    String   // "japanese", "chinese", "english", "korean", "vietnamese"
+  level       String   // "n5", "n4", "n3", "n2", "n1", "beginner", "intermediate", "advanced"
+  title       String   // "JLPT N5", "HSK 1", "TOEIC Basic"
   description String?
+  thumbnail   String?  // Course thumbnail image URL
+  duration    Int?     // Total course duration in minutes
+  lessonCount Int      @default(0) // Total number of lessons
+  isPublished Boolean  @default(false)
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @default(now())
+  
   lessons     Lesson[]
+  categories  CourseCategory[]
 
   @@unique([language, level])
+}
+
+model CourseCategory {
+  id          String   @id @default(cuid())
+  courseId    String
+  name        String   // "Grammar", "Vocabulary", "Listening", "Reading"
+  description String?
+  order       Int      @default(0)
+  
+  course      Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  lessons     Lesson[]
+
+  @@unique([courseId, name])
 }
 
 model Lesson {
   id          String   @id @default(cuid())
   courseId    String
+  categoryId  String?
   title       String
   description String?
-  content     String?
+  content     String?  // Main lesson content (HTML/Markdown)
   order       Int      @default(0)
+  duration    Int?     // Lesson duration in minutes
+  difficulty  String   @default("beginner") // "beginner", "intermediate", "advanced"
+  isPublished Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @default(now())
 
-  course      Course   @relation(fields: [courseId], references: [id])
-  progress    UserProgress[] // Add this line to link Lesson to UserProgress
+  course      Course         @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  category   CourseCategory? @relation(fields: [categoryId], references: [id])
+  progress   UserProgress[]
+  vocabulary Vocabulary[]
+  grammar    Grammar[]
+  audio      Audio[]
+  quizzes    Quiz[]
 
-  @@unique([courseId, id])
+  @@unique([courseId, order])
 }
+
+// ===== VOCABULARY SYSTEM =====
+
+model Vocabulary {
+  id          String   @id @default(cuid())
+  lessonId    String
+  word        String   // The vocabulary word
+  reading     String?  // Pronunciation/reading (for Japanese/Chinese)
+  meaning     String   // Vietnamese meaning
+  example     String?  // Example sentence
+  difficulty  String   @default("beginner")
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+
+  lesson      Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  userProgress VocabularyProgress[]
+
+  @@unique([lessonId, word])
+}
+
+model VocabularyProgress {
+  id           String    @id @default(cuid())
+  userId       String
+  vocabularyId String
+  isLearned    Boolean   @default(false)
+  isMastered   Boolean   @default(false)
+  reviewCount  Int       @default(0)
+  lastReviewed DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @default(now())
+
+  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  vocabulary  Vocabulary  @relation(fields: [vocabularyId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, vocabularyId])
+}
+
+// ===== GRAMMAR SYSTEM =====
+
+model Grammar {
+  id          String   @id @default(cuid())
+  lessonId    String
+  pattern     String   // Grammar pattern name
+  explanation String   // Vietnamese explanation
+  examples    String   // Example sentences
+  difficulty  String   @default("beginner")
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+
+  lesson      Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  userProgress GrammarProgress[]
+
+  @@unique([lessonId, pattern])
+}
+
+model GrammarProgress {
+  id         String    @id @default(cuid())
+  userId     String
+  grammarId  String
+  isLearned  Boolean   @default(false)
+  isMastered Boolean   @default(false)
+  reviewCount Int       @default(0)
+  lastReviewed DateTime?
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @default(now())
+
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  grammar   Grammar   @relation(fields: [grammarId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, grammarId])
+}
+
+// ===== AUDIO SYSTEM =====
+
+model Audio {
+  id          String   @id @default(cuid())
+  lessonId    String
+  title       String
+  description String?
+  fileUrl     String   // Audio file URL
+  duration    Int?     // Audio duration in seconds
+  type        String   @default("lesson") // "lesson", "vocabulary", "grammar"
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+
+  lesson      Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  userProgress AudioProgress[]
+
+  @@unique([lessonId, title])
+}
+
+model AudioProgress {
+  id        String    @id @default(cuid())
+  userId    String
+  audioId   String
+  isPlayed   Boolean  @default(false)
+  playCount  Int      @default(0)
+  lastPlayed DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @default(now())
+
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  audio     Audio     @relation(fields: [audioId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, audioId])
+}
+
+// ===== QUIZ SYSTEM =====
+
+model Quiz {
+  id          String   @id @default(cuid())
+  lessonId    String
+  title       String
+  description String?
+  type        String   @default("multiple-choice") // "multiple-choice", "fill-blank", "matching"
+  difficulty  String   @default("beginner")
+  timeLimit   Int?     // Time limit in minutes
+  order       Int      @default(0)
+  isPublished Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  lesson      Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  questions   QuizQuestion[]
+  userResults QuizResult[]
+
+  @@unique([lessonId, title])
+}
+
+model QuizQuestion {
+  id          String   @id @default(cuid())
+  quizId      String
+  question    String
+  type        String   @default("multiple-choice")
+  options     String?  // JSON string of options
+  correctAnswer String
+  explanation String?
+  order       Int      @default(0)
+  points      Int      @default(1)
+  createdAt   DateTime @default(now())
+
+  quiz        Quiz     @relation(fields: [quizId], references: [id], onDelete: Cascade)
+
+  @@unique([quizId, order])
+}
+
+model QuizResult {
+  id        String    @id @default(cuid())
+  userId    String
+  quizId    String
+  score     Int       // Score in points
+  totalPoints Int     // Total possible points
+  timeSpent Int?      // Time spent in seconds
+  answers   String?   // JSON string of user answers
+  completedAt DateTime @default(now())
+
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  quiz      Quiz      @relation(fields: [quizId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, quizId])
+}
+
+// ===== USER PROGRESS SYSTEM =====
 
 model UserProgress {
   id          String    @id @default(cuid())
@@ -88,9 +306,199 @@ model UserProgress {
   lessonId    String
   isCompleted Boolean   @default(false)
   completedAt DateTime?
+  timeSpent   Int?      // Time spent in minutes
+  score       Int?       // Lesson score
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @default(now())
 
   user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
   lesson      Lesson    @relation(fields: [lessonId], references: [id], onDelete: Cascade)
 
   @@unique([userId, lessonId])
+}
+
+// ===== ADVANCED DASHBOARD SYSTEM =====
+
+// AI Insights Model
+model AIInsight {
+  id              String   @id @default(cuid())
+  userId          String
+  type            String   // "recommendation", "warning", "achievement", "prediction"
+  title           String
+  description     String
+  confidence      Float    // 0.0 to 1.0
+  impact          String   // "high", "medium", "low"
+  category        String
+  actionRequired  Boolean  @default(false)
+  estimatedTime   Int?     // in minutes
+  priority        Int      @default(1)
+  isRead          Boolean  @default(false)
+  isActioned      Boolean  @default(false)
+  createdAt       DateTime @default(now())
+  expiresAt       DateTime?
+  
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([userId, type])
+  @@index([userId, createdAt])
+}
+
+// Learning Patterns Model
+model LearningPattern {
+  id                    String   @id @default(cuid())
+  userId                String
+  name                  String
+  description           String
+  strength              Float    // 0.0 to 1.0
+  weakness              Float    // 0.0 to 1.0
+  recommendation        String
+  estimatedImprovement  Float    // 0.0 to 1.0
+  isActive              Boolean  @default(true)
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @default(now())
+  
+  user                  User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([userId, isActive])
+}
+
+// AI Predictions Model
+model AIPrediction {
+  id              String   @id @default(cuid())
+  userId          String
+  metric          String   // "vocabulary", "grammar", "listening", etc.
+  currentValue    Float
+  predictedValue  Float
+  timeframe       String   // "7 days", "30 days", etc.
+  confidence      Float    // 0.0 to 1.0
+  factors         String   // JSON string of factors
+  isAchieved      Boolean  @default(false)
+  achievedAt      DateTime?
+  createdAt       DateTime @default(now())
+  
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([userId, metric])
+  @@index([userId, isAchieved])
+}
+
+// Study Schedule Model
+model StudySession {
+  id              String   @id @default(cuid())
+  userId          String
+  title           String
+  type            String   // "lesson", "practice", "test", "review", "break"
+  duration        Int      // in minutes
+  startTime       String   // "08:00"
+  endTime         String   // "08:45"
+  status          String   // "scheduled", "in_progress", "completed", "skipped"
+  priority        String   // "high", "medium", "low"
+  difficulty      String   // "easy", "medium", "hard"
+  subject         String
+  description     String
+  aiRecommendation String?
+  scheduledDate   DateTime // Date when session is scheduled
+  completedAt     DateTime?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @default(now())
+  
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([userId, scheduledDate])
+  @@index([userId, status])
+}
+
+// Weekly Goals Model
+model WeeklyGoal {
+  id              String   @id @default(cuid())
+  userId          String
+  title           String
+  target          Float
+  current         Float    @default(0)
+  unit            String   // "lessons", "words", "tests", etc.
+  deadline        DateTime
+  progress        Float    @default(0) // 0.0 to 1.0
+  status          String   // "on_track", "behind", "ahead"
+  isCompleted     Boolean  @default(false)
+  completedAt     DateTime?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @default(now())
+  
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([userId, status])
+  @@index([userId, deadline])
+}
+
+// Achievements Model
+model Achievement {
+  id              String   @id @default(cuid())
+  userId          String
+  title           String
+  description     String
+  category        String   // "learning", "streak", "milestone", "social", "special"
+  rarity          String   // "common", "rare", "epic", "legendary"
+  icon            String
+  unlocked        Boolean  @default(false)
+  progress        Float    @default(0) // 0.0 to 1.0
+  maxProgress     Float    @default(1)
+  rewardType      String   // "xp", "coins", "badge", "title", "special"
+  rewardValue     String
+  unlockedAt      DateTime?
+  requirements    String   // JSON string of requirements
+  bonusDescription String?
+  bonusValue      Float?
+  createdAt       DateTime @default(now())
+  
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([userId, category])
+  @@index([userId, unlocked])
+  @@index([userId, rarity])
+}
+
+// User Stats Model
+model UserStats {
+  id                    String   @id @default(cuid())
+  userId                String   @unique
+  totalXP               Int      @default(0)
+  currentLevel          Int      @default(1)
+  currentStreak         Int      @default(0)
+  longestStreak         Int      @default(0)
+  totalCoins            Int      @default(0)
+  rank                  String   @default("Bronze")
+  nextLevelXP           Int      @default(100)
+  totalStudyTime        Int      @default(0) // in minutes
+  totalLessonsCompleted Int      @default(0)
+  totalAchievements     Int      @default(0)
+  unlockedAchievements  Int      @default(0)
+  lastStudyDate         DateTime?
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @default(now())
+  
+  user                  User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([userId, currentLevel])
+  @@index([userId, totalXP])
+}
+
+// Leaderboard Model
+model LeaderboardEntry {
+  id            String   @id @default(cuid())
+  userId        String
+  username      String
+  level         Int
+  xp            Int
+  achievements  Int
+  rank          Int
+  streak        Int
+  week          Int      // Week number of the year
+  year          Int      // Year
+  createdAt     DateTime @default(now())
+  
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@unique([userId, week, year])
+  @@index([week, year, rank])
+  @@index([userId, week, year])
 }

@@ -6,14 +6,14 @@ declare global {
   var prisma: PrismaClient | undefined;
 }
 
-let prisma: PrismaClient | undefined;
+let prismaClient: PrismaClient | undefined;
 
-export default function getPrismaClient(): PrismaClient {
+function getPrismaClient(): PrismaClient {
   if (process.env.NODE_ENV === 'production') {
-    if (!prisma) {
-      prisma = new PrismaClient();
+    if (!prismaClient) {
+      prismaClient = new PrismaClient();
     }
-    return prisma;
+    return prismaClient;
   } else {
     if (!global.prisma) {
       global.prisma = new PrismaClient();
@@ -21,3 +21,9 @@ export default function getPrismaClient(): PrismaClient {
     return global.prisma;
   }
 }
+
+// Export prisma instance for direct use
+export const prisma = getPrismaClient();
+
+// Keep default export for backward compatibility
+export default getPrismaClient;

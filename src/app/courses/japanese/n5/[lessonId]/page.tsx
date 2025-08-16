@@ -97,7 +97,7 @@ export default function LessonPage() {
     setCurrentMode('completed');
   };
 
-  const handleProgressUpdate = (newProgress: number) => {
+  const handleProgressUpdate = (lessonId: string, newProgress: number) => {
     setProgress(newProgress);
   };
 

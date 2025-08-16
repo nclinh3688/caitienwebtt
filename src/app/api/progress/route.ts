@@ -1,136 +1,110 @@
-import { NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth';
-import { PrismaClient } from '@prisma/client';
-import { authOptions } from '@/lib/auth';
+import { NextRequest, NextResponse } from 'next/server';
 
-const prisma = new PrismaClient();
-
-export async function GET() {
+// GET /api/progress - Get user progress
+export async function GET(request: NextRequest) {
   try {
-    const session = await getServerSession(authOptions);
-    
-    if (!session?.user?.email) {
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    const { searchParams } = new URL(request.url);
+    const userId = searchParams.get('userId');
+    const courseId = searchParams.get('courseId');
+
+    if (!userId) {
+      return NextResponse.json({ error: 'User ID is required' }, { status: 400 });
     }
 
-    const user = await prisma.user.findUnique({
-      where: { email: session.user.email },
-      include: {
-        progress: {
-          include: {
-            lesson: {
-              include: {
-                course: true
-              }
-            }
-          }
+    // Mock data for testing
+    const mockProgressData = {
+      totalLessons: 25,
+      completedLessons: 8,
+      completionRate: 32,
+      totalTimeSpent: 180, // minutes
+      averageScore: 85,
+      recentProgress: [
+        {
+          id: '1',
+          lessonTitle: 'Bài 1: Chào hỏi cơ bản',
+          courseTitle: 'Tiếng Nhật N5',
+          completedAt: new Date().toISOString(),
+          score: 90
+        },
+        {
+          id: '2',
+          lessonTitle: 'Bài 2: Số đếm',
+          courseTitle: 'Tiếng Nhật N5',
+          completedAt: new Date(Date.now() - 86400000).toISOString(),
+          score: 85
+        },
+        {
+          id: '3',
+          lessonTitle: 'Bài 3: Thời gian',
+          courseTitle: 'Tiếng Nhật N5',
+          completedAt: new Date(Date.now() - 172800000).toISOString(),
+          score: 80
         }
-      }
-    });
-
-    if (!user) {
-      return NextResponse.json({ error: 'User not found' }, { status: 404 });
-    }
-
-    // Calculate progress statistics
-    const totalLessons = user.progress.length;
-    const completedLessons = user.progress.filter(p => p.isCompleted).length;
-    const progressPercentage = totalLessons > 0 ? (completedLessons / totalLessons) * 100 : 0;
-
-    // Group by course
-    const courseProgress = user.progress.reduce((acc, progress) => {
-      const courseId = progress.lesson.course.id;
-      if (!acc[courseId]) {
-        acc[courseId] = {
-          courseId,
-          courseName: progress.lesson.course.title,
-          language: progress.lesson.course.language,
-          level: progress.lesson.course.level,
-          totalLessons: 0,
-          completedLessons: 0,
-          progress: 0
-        };
-      }
-      acc[courseId].totalLessons++;
-      if (progress.isCompleted) {
-        acc[courseId].completedLessons++;
-      }
-      return acc;
-    }, {} as Record<string, any>);
-
-    // Calculate progress for each course
-    Object.values(courseProgress).forEach((course: any) => {
-      course.progress = course.totalLessons > 0 ? (course.completedLessons / course.totalLessons) * 100 : 0;
-    });
+      ]
+    };
 
     return NextResponse.json({
-      user: {
-        id: user.id,
-        name: user.name,
-        email: user.email
-      },
-      progress: {
-        totalLessons,
-        completedLessons,
-        progressPercentage,
-        courseProgress: Object.values(courseProgress)
-      }
+      success: true,
+      data: mockProgressData
     });
   } catch (error) {
     console.error('Error fetching progress:', error);
-    return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
+    return NextResponse.json({ error: 'Failed to fetch progress' }, { status: 500 });
   }
 }
 
-export async function POST(request: Request) {
+// POST /api/progress - Create or update user progress
+export async function POST(request: NextRequest) {
   try {
-    const session = await getServerSession(authOptions);
-    
-    if (!session?.user?.email) {
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-    }
-
     const body = await request.json();
-    const { lessonId, isCompleted } = body;
+    const { userId, lessonId, isCompleted, timeSpent, score } = body;
 
-    if (!lessonId) {
-      return NextResponse.json({ error: 'Lesson ID is required' }, { status: 400 });
+    if (!userId || !lessonId) {
+      return NextResponse.json({ error: 'User ID and Lesson ID are required' }, { status: 400 });
     }
 
-    const user = await prisma.user.findUnique({
-      where: { email: session.user.email }
-    });
-
-    if (!user) {
-      return NextResponse.json({ error: 'User not found' }, { status: 404 });
-    }
-
-    // Update or create progress
-    const progress = await prisma.userProgress.upsert({
-      where: {
-        userId_lessonId: {
-          userId: user.id,
-          lessonId: lessonId
-        }
-      },
-      update: {
-        isCompleted: isCompleted,
-        completedAt: isCompleted ? new Date() : null
-      },
-      create: {
-        userId: user.id,
-        lessonId: lessonId,
-        isCompleted: isCompleted,
-        completedAt: isCompleted ? new Date() : null
+    // Mock response for testing
+    return NextResponse.json({
+      success: true,
+      message: 'Progress updated successfully',
+      data: {
+        id: 'mock-progress-id',
+        userId,
+        lessonId,
+        isCompleted: isCompleted || false,
+        timeSpent: timeSpent || 0,
+        score: score || 0,
+        completedAt: isCompleted ? new Date().toISOString() : null
       }
-    });
-
-    return NextResponse.json({ 
-      message: 'Progress updated successfully', 
-      progress 
     });
   } catch (error) {
     console.error('Error updating progress:', error);
-    return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
+    return NextResponse.json({ error: 'Failed to update progress' }, { status: 500 });
+  }
+}
+
+// PUT /api/progress - Update specific progress fields
+export async function PUT(request: NextRequest) {
+  try {
+    const body = await request.json();
+    const { progressId, updates } = body;
+
+    if (!progressId || !updates) {
+      return NextResponse.json({ error: 'Progress ID and updates are required' }, { status: 400 });
+    }
+
+    // Mock response for testing
+    return NextResponse.json({
+      success: true,
+      message: 'Progress updated successfully',
+      data: {
+        id: progressId,
+        ...updates,
+        updatedAt: new Date().toISOString()
+      }
+    });
+  } catch (error) {
+    console.error('Error updating progress:', error);
+    return NextResponse.json({ error: 'Failed to update progress' }, { status: 500 });
   }
 }

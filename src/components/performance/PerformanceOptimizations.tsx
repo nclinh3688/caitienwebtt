@@ -200,7 +200,7 @@ export function VirtualList<T>({
 export function useInView(
   threshold = 0.1,
   rootMargin = '0px'
-): [React.RefObject<HTMLDivElement | null>, boolean] {
+): [React.RefObject<HTMLDivElement>, boolean] {
   const ref = React.useRef<HTMLDivElement>(null);
   const [isInView, setIsInView] = React.useState(false);
 
