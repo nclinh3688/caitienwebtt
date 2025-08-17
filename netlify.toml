@@ -8,7 +8,7 @@
   NODE_OPTIONS = "--max_old_space_size=4096"
   NPM_FLAGS = "--no-optional --no-shrinkwrap"
   PRISMA_GENERATE_DATAPROXY = "true"
-  PRISMA_CLI_BINARY_TARGETS = "native,debian-openssl-3.0.x"
+  PRISMA_CLI_BINARY_TARGETS = "debian-openssl-3.0.x"
   NETLIFY_DISABLE_CACHE = "true"
   NPM_CONFIG_CACHE = "false"
 
