@@ -1,0 +1,360 @@
+/* ===== VOCABULARY LEARNING STYLES ===== */
+
+/* ===== PROGRESS CIRCLE ANIMATIONS ===== */
+.progress-circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.progress-circle svg {
+  transform: rotate(-90deg);
+}
+
+.progress-circle circle {
+  transition: stroke-dashoffset 0.5s ease-in-out;
+}
+
+.progress-circle .progress-fill {
+  stroke-linecap: round;
+  filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.3));
+}
+
+/* ===== TOPIC CARD ENHANCEMENTS ===== */
+.topic-card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.topic-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.topic-card:hover::before {
+  left: 100%;
+}
+
+.topic-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.topic-icon {
+  position: relative;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.topic-card:hover .topic-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* ===== PROGRESS BAR ANIMATIONS ===== */
+.progress-bar {
+  position: relative;
+  overflow: hidden;
+  border-radius: 9999px;
+  background: #e5e7eb;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 9999px;
+  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.progress-fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  animation: progressShine 2s ease-in-out infinite;
+}
+
+@keyframes progressShine {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* ===== AI PRACTICE SECTION ===== */
+.ai-practice-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.ai-practice-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at 30% 70%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+              radial-gradient(circle at 70% 30%, rgba(59, 130, 246, 0.1) 0%, transparent 50%);
+  animation: aiFloat 20s ease-in-out infinite;
+  z-index: 1;
+}
+
+@keyframes aiFloat {
+  0%, 100% { transform: rotate(0deg) scale(1); }
+  33% { transform: rotate(120deg) scale(1.1); }
+  66% { transform: rotate(240deg) scale(0.9); }
+}
+
+.ai-practice-content {
+  position: relative;
+  z-index: 2;
+}
+
+.ai-button {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.ai-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.ai-button:hover::before {
+  left: 100%;
+}
+
+.ai-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(139, 92, 246, 0.3);
+}
+
+/* ===== LEARNING TIPS SECTION ===== */
+.learning-tips {
+  position: relative;
+  overflow: hidden;
+}
+
+.learning-tips::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, 
+    rgba(34, 197, 94, 0.05) 0%, 
+    rgba(59, 130, 246, 0.05) 100%);
+  z-index: 1;
+}
+
+.learning-tips-content {
+  position: relative;
+  z-index: 2;
+}
+
+.tip-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  transition: all 0.3s ease;
+}
+
+.tip-item:hover {
+  transform: translateX(5px);
+}
+
+.tip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #10b981;
+  flex-shrink: 0;
+  animation: tipPulse 2s ease-in-out infinite;
+}
+
+@keyframes tipPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.2); opacity: 0.7; }
+}
+
+/* ===== FLOATING AI ASSISTANT ===== */
+.floating-ai {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 50;
+}
+
+.ai-assistant-button {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.ai-assistant-button:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.ai-tooltip {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: #111827;
+  color: white;
+  font-size: 0.875rem;
+  border-radius: 0.5rem;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.ai-assistant-button:hover .ai-tooltip {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 768px) {
+  .progress-circle {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .topic-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .ai-practice-section {
+    padding: 2rem 1.5rem;
+  }
+  
+  .ai-practice-content h2 {
+    font-size: 1.5rem;
+  }
+  
+  .ai-practice-content p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .topic-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .progress-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+  
+  .ai-practice-section {
+    padding: 1.5rem 1rem;
+  }
+  
+  .ai-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* ===== DARK THEME SUPPORT ===== */
+@media (prefers-color-scheme: dark) {
+  .vocabulary-learning {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+  }
+  
+  .topic-card {
+    background: #1e293b;
+    border-color: #334155;
+    color: #f1f5f9;
+  }
+  
+  .topic-card:hover {
+    background: #334155;
+    border-color: #3b82f6;
+  }
+  
+  .progress-circle circle {
+    stroke: #475569;
+  }
+  
+  .progress-bar {
+    background: #475569;
+  }
+  
+  .learning-tips {
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    border-color: #475569;
+  }
+}
+
+/* ===== ACCESSIBILITY ===== */
+@media (prefers-reduced-motion: reduce) {
+  .topic-card,
+  .ai-button,
+  .floating-ai {
+    transition: none;
+  }
+  
+  .progress-fill::after {
+    animation: none;
+  }
+  
+  .tip-dot {
+    animation: none;
+  }
+}
+
+/* ===== FOCUS STATES ===== */
+.topic-card:focus,
+.ai-button:focus,
+.ai-assistant-button:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* ===== LOADING STATES ===== */
+.topic-card.loading {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.topic-card.loading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  border: 2px solid #e5e7eb;
+  border-top: 2px solid #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

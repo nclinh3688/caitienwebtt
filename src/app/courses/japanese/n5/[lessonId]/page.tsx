@@ -42,7 +42,7 @@ export default function LessonPage() {
   const [quizScore, setQuizScore] = useState(0);
   const [quizTotal, setQuizTotal] = useState(0);
 
-  const lessonId = params.lessonId as string;
+  const lessonId = params?.lessonId as string;
 
   useEffect(() => {
     loadLessonData();

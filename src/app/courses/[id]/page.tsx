@@ -56,7 +56,7 @@ interface Course {
 
 export default function CourseDetailPage() {
   const params = useParams();
-  const courseId = params.id as string;
+  const courseId = params?.id as string;
   
   const [course, setCourse] = useState<Course | null>(null);
   const [loading, setLoading] = useState(true);

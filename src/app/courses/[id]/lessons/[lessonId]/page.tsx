@@ -25,8 +25,8 @@ interface Course {
 
 export default function LessonPlayerPage() {
   const params = useParams();
-  const courseId = params.id as string;
-  const lessonId = params.lessonId as string;
+  const courseId = params?.id as string;
+  const lessonId = params?.lessonId as string;
   
   const [lesson, setLesson] = useState<Lesson | null>(null);
   const [course, setCourse] = useState<Course | null>(null);

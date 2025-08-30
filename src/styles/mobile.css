@@ -1,0 +1,390 @@
+/* ===== MOBILE OPTIMIZATIONS - PHÚC KHIÊM EDUCATION ===== */
+/* Mobile-specific styles and optimizations */
+
+/* ===== MOBILE-FIRST BASE ===== */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px; /* Reduce base font size for mobile */
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+  }
+}
+
+/* ===== MOBILE LAYOUT OPTIMIZATIONS ===== */
+@media (max-width: 768px) {
+  /* Container adjustments */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Grid adjustments */
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .grid-cols-2,
+  .grid-cols-3,
+  .grid-cols-4 {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Flex adjustments */
+  .flex-col-mobile {
+    flex-direction: column;
+  }
+  
+  .flex-wrap-mobile {
+    flex-wrap: wrap;
+  }
+}
+
+/* ===== MOBILE TYPOGRAPHY ===== */
+@media (max-width: 768px) {
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+  h4 { font-size: 1.125rem; }
+  h5 { font-size: 1rem; }
+  h6 { font-size: 0.875rem; }
+  
+  p {
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+  
+  .text-lg { font-size: 1rem; }
+  .text-xl { font-size: 1.125rem; }
+  .text-2xl { font-size: 1.25rem; }
+  .text-3xl { font-size: 1.5rem; }
+}
+
+/* ===== MOBILE SPACING ===== */
+@media (max-width: 768px) {
+  .p-4 { padding: 1rem; }
+  .p-5 { padding: 1.25rem; }
+  .p-6 { padding: 1.5rem; }
+  
+  .m-4 { margin: 1rem; }
+  .m-5 { margin: 1.25rem; }
+  .m-6 { margin: 1.5rem; }
+  
+  .mt-4 { margin-top: 1rem; }
+  .mt-5 { margin-top: 1.25rem; }
+  .mt-6 { margin-top: 1.5rem; }
+  
+  .mb-4 { margin-bottom: 1rem; }
+  .mb-5 { margin-bottom: 1.25rem; }
+  .mb-6 { margin-bottom: 1.5rem; }
+  
+  .px-4 { padding-left: 1rem; padding-right: 1rem; }
+  .px-5 { padding-left: 1.25rem; padding-right: 1.25rem; }
+  .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+  
+  .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+  .py-5 { padding-top: 1.25rem; padding-bottom: 1.25rem; }
+  .py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+}
+
+/* ===== MOBILE COMPONENTS ===== */
+@media (max-width: 768px) {
+  /* Cards */
+  .card {
+    margin-bottom: 1rem;
+    border-radius: var(--radius-md);
+  }
+  
+  .card-header,
+  .card-body,
+  .card-footer {
+    padding: 1rem;
+  }
+  
+  /* Buttons */
+  .btn {
+    min-height: 48px; /* Larger touch target */
+    font-size: 0.875rem;
+    padding: 0.75rem 1.25rem;
+  }
+  
+  .btn-sm {
+    min-height: 40px;
+    padding: 0.5rem 1rem;
+  }
+  
+  .btn-lg {
+    min-height: 56px;
+    padding: 1rem 1.5rem;
+  }
+  
+  /* Forms */
+  .form-input {
+    min-height: 48px;
+    font-size: 16px; /* Prevent zoom on iOS */
+  }
+  
+  .form-group {
+    margin-bottom: 1.25rem;
+  }
+  
+  /* Alerts */
+  .alert {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: var(--radius-md);
+  }
+}
+
+/* ===== MOBILE HERO SECTION ===== */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-description {
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .hero-buttons .btn {
+    width: 100%;
+  }
+}
+
+/* ===== MOBILE CONTENT SECTIONS ===== */
+@media (max-width: 768px) {
+  .content-section {
+    padding: 2rem 1rem;
+    overflow: visible;
+    height: auto;
+    min-height: auto;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .section-description {
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .feature-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    overflow: visible;
+  }
+  
+  .feature-card {
+    padding: 1.5rem;
+    text-align: center;
+    overflow: visible;
+    height: auto;
+    min-height: auto;
+  }
+  
+  .feature-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 1rem;
+  }
+  
+  /* Fix text overflow issues */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow: visible;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+  }
+  
+  /* Ensure containers don't clip content */
+  .container, .section, .card {
+    overflow: visible;
+    height: auto;
+    min-height: auto;
+  }
+}
+
+/* ===== MOBILE NAVIGATION OPTIMIZATIONS ===== */
+@media (max-width: 768px) {
+  /* Ensure mobile menu is properly positioned */
+  .mobile-menu-content {
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  /* Mobile menu animations */
+  .mobile-menu-content.show {
+    right: 0 !important;
+  }
+  
+  /* Mobile menu items */
+  .mobile-nav-item {
+    padding: 0 !important;
+    font-size: 0.875rem;
+    border-bottom: none !important;
+    display: none !important;
+  }
+  
+  /* Mobile auth buttons */
+  .mobile-auth-section .btn {
+    width: 100%;
+    margin-bottom: 0.75rem;
+    justify-content: center;
+  }
+}
+
+/* ===== MOBILE PERFORMANCE OPTIMIZATIONS ===== */
+@media (max-width: 768px) {
+  /* Disable heavy animations on mobile */
+  .hero-slider {
+    animation: none;
+  }
+  
+  /* Reduce shadow complexity */
+  .card,
+  .btn,
+  .dropdown-content {
+    box-shadow: var(--shadow-sm);
+  }
+  
+  /* Optimize transitions */
+  * {
+    transition-duration: 0.2s;
+  }
+  
+  /* Reduce backdrop-filter usage on mobile */
+  .mobile-menu-overlay {
+    backdrop-filter: blur(4px);
+  }
+}
+
+/* ===== MOBILE TOUCH OPTIMIZATIONS ===== */
+@media (max-width: 768px) {
+  /* Ensure minimum touch target size */
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Improve touch feedback */
+  .btn:active,
+  .action-button:active,
+  .mobile-menu-button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Better scroll behavior */
+  .mobile-menu-content {
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+}
+
+/* ===== MOBILE ACCESSIBILITY ===== */
+@media (max-width: 768px) {
+  /* Ensure proper contrast */
+  .text-gray {
+    color: var(--gray-700);
+  }
+  
+  /* Improve focus visibility */
+  *:focus {
+    outline: 2px solid var(--primary-500);
+    outline-offset: 2px;
+  }
+  
+  /* Better text selection */
+  ::selection {
+    background: var(--primary-200);
+    color: var(--primary-900);
+  }
+}
+
+/* ===== MOBILE PRINT OPTIMIZATIONS ===== */
+@media print and (max-width: 768px) {
+  .mobile-header-actions,
+  .mobile-menu-overlay,
+  .mobile-menu-content {
+    display: none !important;
+  }
+  
+  header {
+    position: static;
+    height: auto;
+    background: white;
+    border-bottom: 1px solid var(--gray-300);
+  }
+}
+
+/* ===== MOBILE DARK MODE SUPPORT ===== */
+@media (prefers-color-scheme: dark) and (max-width: 768px) {
+  :root {
+    --gray-50: #1f2937;
+    --gray-100: #374151;
+    --gray-200: #4b5563;
+    --gray-300: #6b7280;
+    --gray-400: #9ca3af;
+    --gray-500: #d1d5db;
+    --gray-600: #e5e7eb;
+    --gray-700: #f3f4f6;
+    --gray-800: #f9fafb;
+    --gray-900: #ffffff;
+  }
+  
+  body {
+    background-color: #111827;
+    color: #f9fafb;
+  }
+  
+  .card {
+    background: #1f2937;
+    border-color: #374151;
+  }
+  
+  .mobile-menu-content {
+    background: #1f2937;
+    border-color: #374151;
+  }
+}
+
+/* ===== MOBILE REDUCED MOTION ===== */
+@media (prefers-reduced-motion: reduce) and (max-width: 768px) {
+  .mobile-menu-content,
+  .mobile-menu-overlay,
+  .btn,
+  .action-button {
+    transition: none;
+    animation: none;
+  }
+  
+  .mobile-menu-content.show {
+    right: 0;
+  }
+}

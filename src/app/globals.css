@@ -87,6 +87,39 @@ body {
   outline-offset: 2px;
 }
 
+/* Remove all underlines from links globally - OVERRIDE TAILWIND */
+a, a:hover, a:focus, a:active,
+a[href], a[href]:hover, a[href]:focus, a[href]:active,
+Link, Link:hover, Link:focus, Link:active,
+button, button:hover, button:focus, button:active,
+.btn, .btn:hover, .btn:focus, .btn:active,
+.nav-item, .nav-item:hover, .nav-item:focus, .nav-item:active,
+.dropdown-item, .dropdown-item:hover, .dropdown-item:focus, .dropdown-item:active,
+.auth-button, .auth-button:hover, .auth-button:focus, .auth-button:active {
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  text-decoration-style: none !important;
+  text-decoration-color: none !important;
+  text-decoration-thickness: none !important;
+}
+
+/* EXTRA STRONG OVERRIDE FOR TAILWIND */
+* {
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  text-decoration-style: none !important;
+  text-decoration-color: none !important;
+  text-decoration-thickness: none !important;
+}
+
+*:hover, *:focus, *:active {
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  text-decoration-style: none !important;
+  text-decoration-color: none !important;
+  text-decoration-thickness: none !important;
+}
+
 /* Optimized scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
@@ -149,4 +182,72 @@ body {
     background: white !important;
     color: black !important;
   }
+}
+
+/* Quiz Animations - Mượt mà và nhanh */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.animate-slideInDown {
+  animation: slideInDown 0.4s ease-out;
+}
+
+.animate-slideInUp {
+  animation: slideInUp 0.4s ease-out;
+}
+
+.animate-bounceIn {
+  animation: bounceIn 0.6s ease-out;
 }

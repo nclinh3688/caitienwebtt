@@ -46,7 +46,7 @@ interface PracticeSession {
 
 export default function AIPracticePage() {
   const params = useParams();
-  const contentId = params.contentId as string;
+  const contentId = params?.contentId as string;
   
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);

@@ -1,14 +1,28 @@
 import type { Metadata } from 'next'
 import { Inter, Poppins } from 'next/font/google'
 import './globals.css'
-import '@/styles/design-system.css'
-import '@/styles/header-enhancements.css'
-import '@/styles/header-simple.css'
-import '@/styles/header-horizontal.css'
-import '@/styles/header-enhanced.css';
+import '@/styles/base.css'
+import '@/styles/components.css'
+import '@/styles/header.css'
+import '@/styles/mobile-menu.css'
+import '@/styles/dashboard.css'
+import '@/styles/progress.css'
+import '@/styles/mobile.css'
+import '@/styles/ai-components.css'
+import '@/styles/modern-page.css'
+import '@/styles/vocabulary-learning.css'
+import '@/styles/vocabulary-dashboard.css'
+import '@/styles/flashcard.css'
+import '@/styles/vocabulary-list.css'
+import '@/styles/compact-vocabulary.css'
+import '@/styles/simple-vocabulary-table.css'
+import '@/styles/vocabulary-page.css'
 import AuthProvider from '@/components/AuthProvider'
 import Header from '@/components/layout/Header'
-import Footer from '@/components/layout/Footer'
+import FontOptimizer from '@/components/optimization/FontOptimizer'
+import AccessibilityEnhancer from '@/components/optimization/AccessibilityEnhancer'
+import AIAssistant from '@/components/ui/AIAssistant'
+
 import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -81,6 +95,11 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#1e40af" />
         
+        {/* Preload critical resources */}
+        <link rel="preload" href="/fonts/inter-var.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+        
         {/* Critical CSS Inline for Performance */}
         <style dangerouslySetInnerHTML={{
           __html: `
@@ -91,6 +110,42 @@ export default function RootLayout({
               --primary-500: #3b82f6;
               --primary-600: #2563eb;
               --primary-700: #1d4ed8;
+              
+              /* Mobile-first variables */
+              --mobile-header-height: 60px;
+              --mobile-font-size: 14px;
+              --mobile-padding: 16px;
+            }
+            
+            /* Mobile-first critical styles */
+            @media (max-width: 768px) {
+              html { font-size: 14px; }
+              body { margin: 0; padding: 0; }
+              header { height: var(--mobile-header-height) !important; }
+              .hero-slider { height: 60vh !important; }
+              .hero-slide { padding: 20px !important; }
+              .hero-slide h2 { font-size: 20px !important; line-height: 1.2 !important; }
+              .hero-slide p { font-size: 12px !important; line-height: 1.3 !important; }
+              .nav-item { font-size: 12px !important; }
+              .auth-button { font-size: 12px !important; padding: 8px 12px !important; }
+            }
+            
+            /* Performance optimizations */
+            * { box-sizing: border-box; }
+            img { max-width: 100%; height: auto; }
+            button, a { touch-action: manipulation; }
+            
+            /* Disable heavy animations on mobile */
+            @media (max-width: 768px) {
+              .hero-slider { animation: none !important; }
+              .hero-slide { transform: none !important; }
+              * { animation-duration: 0.2s !important; transition-duration: 0.2s !important; }
+            }
+            
+            /* Reduce motion for accessibility */
+            @media (prefers-reduced-motion: reduce) {
+              *, *::before, *::after { animation-duration: 0.01ms !important; }
+            }
               --primary-800: #1e40af;
               --primary-900: #1e3a8a;
               --secondary-500: #f97316;
@@ -283,12 +338,14 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={`${inter.className} ${poppins.variable}`}>
+        <FontOptimizer />
+        <AccessibilityEnhancer />
         <AuthProvider>
           <Header />
-          <main className="pt-16">
+          <main className="pt-16" id="main-content">
             {children}
           </main>
-          <Footer />
+          <AIAssistant />
         </AuthProvider>
       </body>
     </html>

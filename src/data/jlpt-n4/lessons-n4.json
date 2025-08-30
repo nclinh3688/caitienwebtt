@@ -1,1 +1,227 @@
-[]
+[
+  {
+    "id": "N4-B01",
+    "title": "Bài 1: Ngữ pháp cơ bản N4",
+    "description": "Ôn tập ngữ pháp N5 và giới thiệu các điểm ngữ pháp mới của N4.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-1",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B02",
+    "title": "Bài 2: Thể て và cách sử dụng",
+    "description": "Học về thể て và các cách sử dụng cơ bản trong giao tiếp hàng ngày.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-2",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B03",
+    "title": "Bài 3: Thể た và quá khứ",
+    "description": "Ôn tập thể た và học cách diễn đạt quá khứ một cách tự nhiên.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-3",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B04",
+    "title": "Bài 4: Trợ từ に và で",
+    "description": "Học cách sử dụng trợ từ に và で trong các tình huống khác nhau.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-4",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B05",
+    "title": "Bài 5: Trợ từ から và まで",
+    "description": "Học về trợ từ から và まで để diễn đạt điểm bắt đầu và kết thúc.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-5",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B06",
+    "title": "Bài 6: Thể khả năng",
+    "description": "Học cách diễn đạt khả năng và khả năng thực hiện hành động.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-6",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B07",
+    "title": "Bài 7: Thể bị động",
+    "description": "Học về thể bị động và cách sử dụng trong các tình huống thực tế.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-7",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B08",
+    "title": "Bài 8: Thể sai khiến",
+    "description": "Học về thể sai khiến và cách diễn đạt yêu cầu, mệnh lệnh.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-8",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B09",
+    "title": "Bài 9: Điều kiện với たら",
+    "description": "Học về cấu trúc điều kiện たら và các cách sử dụng phổ biến.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-9",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B10",
+    "title": "Bài 10: Điều kiện với ば",
+    "description": "Học về cấu trúc điều kiện ば và sự khác biệt với たら.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-10",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B11",
+    "title": "Bài 11: Điều kiện với と",
+    "description": "Học về cấu trúc điều kiện と và cách sử dụng trong giao tiếp.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-11",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B12",
+    "title": "Bài 12: Thể ている",
+    "description": "Học về thể ている để diễn đạt trạng thái và hành động đang diễn ra.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-12",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B13",
+    "title": "Bài 13: Thể てある",
+    "description": "Học về thể てある để diễn đạt trạng thái kết quả của hành động.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-13",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B14",
+    "title": "Bài 14: Thể ておく",
+    "description": "Học về thể ておく để diễn đạt việc chuẩn bị trước.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-14",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B15",
+    "title": "Bài 15: Thể てしまう",
+    "description": "Học về thể てしまう để diễn đạt sự tiếc nuối hoặc hoàn thành.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-15",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B16",
+    "title": "Bài 16: Thể てみる",
+    "description": "Học về thể てみる để diễn đạt việc thử làm gì đó.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-16",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B17",
+    "title": "Bài 17: Thể てあげる",
+    "description": "Học về thể てあげる để diễn đạt việc làm cho người khác.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-17",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B18",
+    "title": "Bài 18: Thể てもらう",
+    "description": "Học về thể てもらう để diễn đạt việc nhận sự giúp đỡ.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-18",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B19",
+    "title": "Bài 19: Thể てくれる",
+    "description": "Học về thể てくれる để diễn đạt việc người khác làm cho mình.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-19",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B20",
+    "title": "Bài 20: Trợ từ は và が nâng cao",
+    "description": "Học cách sử dụng nâng cao của trợ từ は và が trong N4.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-20",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B21",
+    "title": "Bài 21: Trợ từ の và こと",
+    "description": "Học về cách sử dụng の và こと để danh từ hóa động từ, tính từ.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-21",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B22",
+    "title": "Bài 22: Trợ từ と và や",
+    "description": "Học về cách sử dụng と và や để liệt kê và so sánh.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-22",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B23",
+    "title": "Bài 23: Trợ từ より và ほど",
+    "description": "Học về cách sử dụng より và ほど để so sánh.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-23",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B24",
+    "title": "Bài 24: Trợ từ か và ね",
+    "description": "Học về cách sử dụng か và ね trong câu nghi vấn và câu cảm thán.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-24",
+    "estimatedTime": 60,
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "N4-B25",
+    "title": "Bài 25: Tổng hợp và ôn tập N4",
+    "description": "Ôn tập toàn bộ kiến thức N4 và chuẩn bị cho kỳ thi JLPT N4.",
+    "status": "published",
+    "path": "/courses/japanese/n4/lesson-25",
+    "estimatedTime": 90,
+    "difficulty": "Intermediate"
+  }
+]

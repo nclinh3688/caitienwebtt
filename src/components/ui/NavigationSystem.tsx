@@ -87,7 +87,7 @@ export function SmartNavigation({ className = "" }: { className?: string }) {
           {/* Navigation Items */}
           <div className="hidden md:flex items-center space-x-1">
             {navItems.map((item) => {
-              const isActive = pathname.startsWith(item.href);
+              const isActive = pathname?.startsWith(item.href);
               return (
                 <Link
                   key={item.id}
@@ -344,7 +344,7 @@ export function MobileNavigation() {
     <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 md:hidden z-50">
       <div className="grid grid-cols-5 h-16">
         {mobileNavItems.map((item) => {
-          const isActive = pathname.startsWith(item.href);
+          const isActive = pathname?.startsWith(item.href);
           return (
             <Link
               key={item.id}

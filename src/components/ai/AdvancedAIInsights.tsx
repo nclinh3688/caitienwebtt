@@ -112,21 +112,34 @@ export default function AdvancedAIInsights() {
     initializeAIInsights();
   }, []);
 
+  // Debug state changes
+  useEffect(() => {
+    console.log('🔄 State updated:');
+    console.log('🤖 Insights:', insights);
+    console.log('📈 Patterns:', patterns);
+    console.log('🔮 Predictions:', predictions);
+  }, [insights, patterns, predictions]);
+
   const initializeAIInsights = async () => {
     try {
+      console.log('🔍 Fetching AI insights from API...');
       const response = await fetch('/api/dashboard/advanced/insights/public');
       if (response.ok) {
         const data = await response.json();
+        console.log('📊 API Response:', data);
+        console.log('🤖 Insights count:', data.insights?.length || 0);
+        console.log('📈 Patterns count:', data.patterns?.length || 0);
+        console.log('🔮 Predictions count:', data.predictions?.length || 0);
         setInsights(data.insights || []);
         setPatterns(data.patterns || []);
         setPredictions(data.predictions || []);
       } else {
-        console.error('Failed to fetch insights');
+        console.error('❌ Failed to fetch insights');
         // Fallback to mock data if API fails
         initializeMockData();
       }
     } catch (error) {
-      console.error('Error fetching insights:', error);
+      console.error('❌ Error fetching insights:', error);
       // Fallback to mock data if API fails
       initializeMockData();
     }

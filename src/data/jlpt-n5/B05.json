@@ -1,84 +1,244 @@
 {
-  "id": "B05",
-  "title": "Bài 5: Gia đình, nghề nghiệp",
-  "description": "Từ vựng về gia đình, nghề nghiệp, mẫu câu giới thiệu người khác.",
-  "status": "template_ready",
-  "audioFile": "第5課 会話 Kaiwa.mp3",
-  "vocabulary": [],
-  "grammar": [],
-  "exercises": {
-    "vocabulary": [
-      {
-        "type": "multiple_choice",
-        "question": "Chọn từ đúng nghĩa",
-        "options": [
-          "私",
-          "貴方",
-          "先生",
-          "学生"
-        ],
-        "correct": 0,
-        "explanation": "私 (わたし) có nghĩa là 'tôi'"
-      }
-    ],
-    "grammar": [
-      {
-        "type": "fill_blank",
-        "question": "Điền từ thích hợp: わたし___がくせいです。",
-        "answer": "は",
-        "explanation": "は là trợ từ chủ ngữ"
-      }
-    ],
-    "listening": [
-      {
-        "type": "audio_quiz",
-        "audioFile": "lesson-1-dialogue.mp3",
-        "question": "Nghe và chọn câu trả lời đúng",
-        "options": [
-          "はじめまして",
-          "さようなら",
-          "おはよう",
-          "こんばんは"
-        ],
-        "correct": 0
-      }
+  "lessonNumber": 5,
+  "japaneseTitle": "第５課",
+  "vietnameseTitle": "Bài 5: Di chuyển và phương tiện",
+  "englishTitle": "Lesson 5: Movement and Transportation",
+  "summary": {
+    "title": "Tóm tắt bài học",
+    "content": "Bài 5 tập trung vào cách diễn đạt ngày tháng, hành động di chuyển và phương tiện giao thông. Học viên sẽ nắm vững cách nói ngày tháng, đi đâu, đến đâu và bằng phương tiện gì.",
+    "keyPoints": [
+      "Cách nói ngày tháng",
+      "Cách nói hành động di chuyển với trợ từ へ",
+      "Câu phủ định hoàn toàn với どこ（へ）も",
+      "Cách nói phương tiện với trợ từ で",
+      "Cách nói làm gì cùng với ai",
+      "Trợ từ よ ở cuối câu"
     ]
   },
-  "kanji": [],
-  "listening": {
-    "dialogue": {
-      "title": "Hội thoại mẫu",
-      "audioFile": "lesson-05-dialogue.mp3",
-      "transcript": "A: はじめまして。B: はじめまして。どうぞよろしく。",
-      "translation": "A: Rất vui được gặp bạn. B: Rất vui được gặp bạn. Rất mong được sự giúp đỡ."
+  "estimatedTime": "8-10 giờ",
+  "difficulty": "⭐⭐⭐⭐⭐",
+  "grammarPatterns": [
+    {
+      "id": 1,
+      "pattern": "N は ～月(がつ) ～日(にち)です",
+      "meaning": "N là ngày ~ tháng ~",
+      "explanation": "Cách nói ngày tháng. Cách nói ngày tháng năm của Nhật ngược so với tiếng Việt. Phải nói NĂM, sau đó đến THÁNG và cuối cùng là NGÀY.",
+      "examples": [
+        {
+          "japanese": "きょうは 七月八日です。",
+          "kanji": "今日は 七月八日です。",
+          "vietnamese": "Hôm nay là ngày mùng 8 tháng 7.",
+          "english": "Today is July 8th."
+        },
+        {
+          "japanese": "あしたは 12 日です。",
+          "kanji": "明日は 12 日です。",
+          "vietnamese": "Mai là ngày 12.",
+          "english": "Tomorrow is the 12th."
+        },
+        {
+          "japanese": "たんじょうびは いつですか。",
+          "kanji": "誕生日は いつですか。",
+          "vietnamese": "Sinh nhật bạn là bao giờ?",
+          "english": "When is your birthday?"
+        }
+      ],
+      "notes": "「いつ」có thể dùng thay thế cho các từ để hỏi có nghĩa tương tự như「なんじ」、「なんがつ」、「なんにち」."
     },
-    "exercises": [
-      {
-        "type": "comprehension",
-        "question": "Nghe và trả lời câu hỏi",
-        "audioFile": "lesson-1-question.mp3",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "correct": 0
-      }
-    ]
-  },
-  "supplementaryMaterials": {
-    "cultural_notes": [
-      "Cách chào hỏi trong văn hóa Nhật Bản",
-      "Sử dụng kính ngữ khi gặp người lớn tuổi"
-    ],
-    "practice_activities": [
-      "Luyện tập giới thiệu bản thân",
-      "Thực hành hỏi đáp về nghề nghiệp"
-    ],
-    "additional_resources": [
-      "Video hướng dẫn phát âm",
-      "Bài tập viết chữ Hiragana"
-    ]
-  }
+    {
+      "id": 2,
+      "pattern": "N (Danh từ chỉ địa điểm) へ いきます／きます／かえります",
+      "meaning": "Đi/Đến/Về đâu đó (địa điểm N)",
+      "explanation": "N là danh từ chỉ nơi chốn, địa điểm. 「へ」(đọc là e) là trợ từ chỉ phương hướng di chuyển. Đi sau cùng là động từ mang nghĩa di chuyển từ nơi này sang nơi khác.",
+      "examples": [
+        {
+          "japanese": "わたしは だいがくへ いきます。",
+          "kanji": "私は 大学へ 行きます。",
+          "vietnamese": "Tôi đi đến trường.",
+          "english": "I go to university."
+        },
+        {
+          "japanese": "マイさんは ここへ きます。",
+          "kanji": "マイさんは ここへ 来ます。",
+          "vietnamese": "Bạn Mai đến đây.",
+          "english": "Mai comes here."
+        },
+        {
+          "japanese": "わたしは うちへ かえります。",
+          "kanji": "私は 家へ 帰ります。",
+          "vietnamese": "Tôi trở về nhà.",
+          "english": "I return home."
+        }
+      ],
+      "notes": "Câu hỏi: ～は どこへ ～(Động từ) か。"
+    },
+    {
+      "id": 3,
+      "pattern": "どこ（へ）も いきません",
+      "meaning": "Không đi đâu cả / Chỗ nào cũng không đi",
+      "explanation": "Trợ từ 「も」+ thể phủ định của động từ: dùng để phủ định tất cả những gì trong phạm vi mà từ để hỏi 「どこ」đưa ra. Có thể dùng 「も」hoặc để cả 「へも」đều được, nhưng dùng 「へも」thì ý nghĩa phủ định sẽ mạnh hơn.",
+      "examples": [
+        {
+          "japanese": "きょうのごご どこへ いきますか。",
+          "kanji": "今日の午後 どこへ 行きますか。",
+          "vietnamese": "Chiều hôm nay bạn sẽ đi đâu?",
+          "english": "Where will you go this afternoon?"
+        },
+        {
+          "japanese": "… どこも いきません。",
+          "kanji": "… どこも 行きません。",
+          "vietnamese": "Tôi sẽ không đi đâu cả.",
+          "english": "I won't go anywhere."
+        },
+        {
+          "japanese": "きのう どこへ いきましたか。",
+          "kanji": "昨日 どこへ 行きましたか。",
+          "vietnamese": "Hôm qua bạn đã đi đâu vậy?",
+          "english": "Where did you go yesterday?"
+        }
+      ],
+      "notes": "Trả lời: どこへも いきませんでした。Tôi (đã) không đi đâu cả."
+    },
+    {
+      "id": 4,
+      "pattern": "N (phương tiện) で いきます／きます／かえります",
+      "meaning": "Đi/đến/về bằng N (phương tiện)",
+      "explanation": "N là DT chỉ phương tiện giao thông, phương tiện đi lại. 「で」là trợ từ, mang ý nghĩa xác định cách thức, phương tiện, có thể dịch tiếng Việt là \"bằng～\", \"bởi～\".",
+      "examples": [
+        {
+          "japanese": "わたしは じどうしゃで びょういんへ いきます。",
+          "kanji": "私は 自動車で 病院へ 行きます。",
+          "vietnamese": "Tôi đi đến bệnh viện bằng ôtô.",
+          "english": "I go to the hospital by car."
+        },
+        {
+          "japanese": "ラオさんは バスで わたしのうちへ きます。",
+          "kanji": "ラオさんは バスで 私の家へ 来ます。",
+          "vietnamese": "Bạn Rao đến nhà tôi bằng xe buýt.",
+          "english": "Rao comes to my house by bus."
+        },
+        {
+          "japanese": "まいこさんは ひこうきで くにへ かえります。",
+          "kanji": "まいこさんは 飛行機で 国へ 帰ります。",
+          "vietnamese": "Bạn Maiko về nước bằng máy bay.",
+          "english": "Maiko returns to her country by plane."
+        }
+      ],
+      "notes": "Trường hợp muốn nói là \"đi bộ\" thì sử dụng 「あるいて」và không dùng 「で」."
+    },
+    {
+      "id": 5,
+      "pattern": "N (Danh từ chỉ người) と V ます",
+      "meaning": "Làm gì cùng với N",
+      "explanation": "N là danh từ chỉ người; 「と」là trợ từ có ý nghĩa xác định đối tượng cùng tham gia hành động, có thể dịch tiếng Việt là \"cùng, với, cùng với\".",
+      "examples": [
+        {
+          "japanese": "ともだちと 大学へ きます。",
+          "kanji": "友達と 大学へ 来ます。",
+          "vietnamese": "Tôi đến trường cùng với bạn.",
+          "english": "I come to university with my friend."
+        },
+        {
+          "japanese": "母と デパートへ 行きます。",
+          "kanji": "母と デパートへ 行きます。",
+          "vietnamese": "Tôi đi đến bách hóa cùng với mẹ.",
+          "english": "I go to the department store with my mother."
+        },
+        {
+          "japanese": "だれと ぎんこうへ いきましたか。",
+          "kanji": "誰と 銀行へ 行きましたか。",
+          "vietnamese": "Bạn đã đi đến ngân hàng cùng ai?",
+          "english": "Who did you go to the bank with?"
+        }
+      ],
+      "notes": "Trường hợp muốn nói làm gì đó \"một mình\" thì dùng từ 「ひとりで」và không có 「と」."
+    },
+    {
+      "id": 6,
+      "pattern": "Sentence + よ",
+      "meaning": "Nhấn mạnh",
+      "explanation": "「よ」được đặt ở cuối câu để nhấn mạnh về 1 sự việc mà người nghe chưa biết hoặc để bộc lộ sự phán xét hay ý kiến bản thân một cách chắc chắn.",
+      "examples": [
+        {
+          "japanese": "このバスは Giap Bat へ 行きますか。",
+          "kanji": "このバスは Giap Bat へ 行きますか。",
+          "vietnamese": "Xe buýt này đi đến Giáp Bát phải à?",
+          "english": "Does this bus go to Giap Bat?"
+        },
+        {
+          "japanese": "...いいえ、いきません。21 ばんせんですよ。",
+          "kanji": "...いいえ、行きません。21 番線ですよ。",
+          "vietnamese": "Không. Đường số 21 cơ.",
+          "english": "No, it doesn't. It's route 21."
+        },
+        {
+          "japanese": "あしたは やすみですよ。",
+          "kanji": "明日は 休みですよ。",
+          "vietnamese": "Ngày mai là ngày nghỉ đấy.",
+          "english": "Tomorrow is a holiday, you know."
+        }
+      ],
+      "notes": "Không nên nói quá mạnh sẽ khiến người nghe có cảm giác bị ép buộc."
+    }
+  ],
+  "exercises": [
+    {
+      "title": "Bài tập 1: Điền phương tiện",
+      "description": "Điền phương tiện giao thông thích hợp vào chỗ trống",
+      "questions": [
+        {
+          "question": "___ で びょういんへ いきます。",
+          "answer": "じどうしゃ",
+          "kanji": "自動車",
+          "explanation": "Tôi đi đến bệnh viện bằng ôtô - điền phương tiện"
+        },
+        {
+          "question": "バスで ___ へ いきます。",
+          "answer": "だいがく",
+          "kanji": "大学",
+          "explanation": "Tôi đi đến trường bằng xe buýt - điền địa điểm"
+        },
+        {
+          "question": "___ で くにへ かえります。",
+          "answer": "ひこうき",
+          "kanji": "飛行機",
+          "explanation": "Tôi về nước bằng máy bay - điền phương tiện"
+        }
+      ]
+    },
+    {
+      "title": "Bài tập 2: Dịch câu",
+      "description": "Dịch các câu sau sang tiếng Nhật",
+      "questions": [
+        {
+          "question": "Tôi đi đến trường cùng với bạn",
+          "answer": "わたしは ともだちと だいがくへ いきます。",
+          "kanji": "私は 友達と 大学へ 行きます。",
+          "explanation": "Dùng と để chỉ người cùng đi"
+        },
+        {
+          "question": "Bạn đi đến đâu bằng gì?",
+          "answer": "なんで どこへ いきますか。",
+          "kanji": "何で どこへ 行きますか。",
+          "explanation": "Dùng なんで để hỏi phương tiện"
+        },
+        {
+          "question": "Tôi không đi đâu cả",
+          "answer": "どこへも いきません。",
+          "kanji": "どこへも 行きません。",
+          "explanation": "Dùng どこへも để phủ định hoàn toàn"
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "title": "Văn hóa giao thông Nhật Bản",
+      "content": "Nhật Bản có hệ thống giao thông công cộng rất phát triển và hiệu quả. Người Nhật thường sử dụng tàu điện và xe buýt để di chuyển, đặc biệt là ở các thành phố lớn. Việc sử dụng phương tiện công cộng được xem là thân thiện với môi trường và tiết kiệm."
+    },
+    {
+      "title": "Cách nói thời gian",
+      "content": "Trong tiếng Nhật, việc sử dụng đúng các trợ từ như へ, で, と rất quan trọng để diễn đạt chính xác ý nghĩa về hướng di chuyển, phương tiện và đối tượng cùng tham gia."
+    }
+  ]
 }

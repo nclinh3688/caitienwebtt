@@ -1,417 +1,687 @@
 {
-  "id": "B01",
-  "vocabulary": [
+  "lessonNumber": 1,
+  "japaneseTitle": "第1課 - はじめまして",
+  "vietnameseTitle": "Bài 1 - Rất vui được gặp bạn",
+  "englishTitle": "Lesson 1 - Nice to meet you",
+  "summary": "Học cách giới thiệu bản thân và người khác với các mẫu câu cơ bản nhất trong tiếng Nhật",
+  "estimatedTime": "2-3 giờ",
+  "difficulty": "⭐☆☆☆☆",
+  "grammarPatterns": [
     {
-      "content": "わたし",
-      "kanji": "私",
-      "meaning": "tôi"
+      "id": 1,
+      "pattern": "A は B です",
+      "meaning": "A là B",
+      "explanation": "Đây là mẫu câu cơ bản nhất trong tiếng Nhật để diễn tả sự đồng nhất hoặc định nghĩa. Trợ từ は (wa) đánh dấu chủ ngữ A, và です (desu) là động từ \"to be\" ở dạng lịch sự.",
+      "examples": [
+        {
+          "japanese": "わたしは たなかです。",
+          "kanji": "私は田中です。",
+          "vietnamese": "Tôi là Tanaka.",
+          "english": "I am Tanaka."
+        },
+        {
+          "japanese": "わたしは がくせい です。",
+          "kanji": "私は学生です。",
+          "vietnamese": "Tôi là học sinh.",
+          "english": "I am a student."
+        },
+        {
+          "japanese": "あのひとは せんせい です。",
+          "kanji": "あの人は先生です。",
+          "vietnamese": "Người đó là giáo viên.",
+          "english": "That person is a teacher."
+        }
+      ],
+      "notes": [
+        "Trợ từ は được đọc là \"wa\" mặc dù viết là \"ha\"",
+        "です luôn đứng ở cuối câu khẳng định lịch sự",
+        "Có thể bỏ わたしは khi ngữ cảnh đã rõ ràng",
+        "Mẫu câu này dùng để giới thiệu nghề nghiệp, quốc tịch, tên"
+      ]
     },
     {
-      "content": "あなた",
-      "kanji": "貴方",
-      "meaning": "bạn"
+      "id": 2,
+      "pattern": "A は B ではありません",
+      "meaning": "A không phải là B",
+      "explanation": "Đây là dạng phủ định của mẫu câu \"A は B です\". ではありません (dewa arimasen) là dạng phủ định lịch sự của です.",
+      "examples": [
+        {
+          "japanese": "わたしは せんせい ではありません。",
+          "kanji": "私は先生ではありません。",
+          "vietnamese": "Tôi không phải là giáo viên.",
+          "english": "I am not a teacher."
+        },
+        {
+          "japanese": "あのひとは がくせい ではありません。",
+          "kanji": "あの人は学生ではありません。",
+          "vietnamese": "Người đó không phải là học sinh.",
+          "english": "That person is not a student."
+        },
+        {
+          "japanese": "わたしは かいしゃいん ではありません。",
+          "kanji": "私は会社員ではありません。",
+          "vietnamese": "Tôi không phải là nhân viên công ty.",
+          "english": "I am not a company employee."
+        }
+      ],
+      "notes": [
+        "ではありません là dạng phủ định lịch sự",
+        "Có thể viết tắt thành じゃありません trong văn nói thân mật",
+        "Trợ từ は vẫn được giữ nguyên ở vị trí chủ ngữ",
+        "Dạng phủ định này dùng trong tình huống trang trọng"
+      ]
     },
     {
-      "content": "あのひと",
-      "kanji": "あの人",
-      "reading": "あのひと",
-      "meaning": "người kia"
+      "id": 3,
+      "pattern": "A は B ですか",
+      "meaning": "A có phải là B không?",
+      "explanation": "Đây là mẫu câu nghi vấn. Chỉ cần thêm か (ka) vào cuối câu khẳng định để tạo thành câu hỏi. か làm cho câu trở thành câu hỏi \"có phải... không?\".",
+      "examples": [
+        {
+          "japanese": "あなたは がくせい ですか。",
+          "kanji": "あなたは学生ですか。",
+          "vietnamese": "Bạn có phải là học sinh không?",
+          "english": "Are you a student?"
+        },
+        {
+          "japanese": "あのひとは せんせい ですか。",
+          "kanji": "あの人は先生ですか。",
+          "vietnamese": "Người đó có phải là giáo viên không?",
+          "english": "Is that person a teacher?"
+        },
+        {
+          "japanese": "あなたは かいしゃいん ですか。",
+          "kanji": "あなたは会社員ですか。",
+          "vietnamese": "Bạn có phải là nhân viên công ty không?",
+          "english": "Are you a company employee?"
+        }
+      ],
+      "notes": [
+        "か luôn đứng ở cuối câu để tạo thành câu hỏi",
+        "Không cần thay đổi trật tự từ trong câu",
+        "Ngữ điệu câu hỏi thường cao hơn ở cuối",
+        "Có thể trả lời bằng はい (hai) hoặc いいえ (iie)"
+      ]
     },
     {
-      "content": "あのかた",
-      "kanji": "あの方",
-      "reading": "あのかた",
-      "meaning": "vị kia (lịch sự của あのひと)"
+      "id": 4,
+      "pattern": "A も B です",
+      "meaning": "A cũng là B",
+      "explanation": "Trợ từ も (mo) có nghĩa là \"cũng, cũng vậy\". Khi dùng も thay cho は, câu có nghĩa là \"A cũng là B\" hoặc \"A cũng vậy\".",
+      "examples": [
+        {
+          "japanese": "わたしも がくせい です。",
+          "kanji": "私も学生です。",
+          "vietnamese": "Tôi cũng là học sinh.",
+          "english": "I am also a student."
+        },
+        {
+          "japanese": "あのひとも せんせい です。",
+          "kanji": "あの人も先生です。",
+          "vietnamese": "Người đó cũng là giáo viên.",
+          "english": "That person is also a teacher."
+        },
+        {
+          "japanese": "わたしも ベトナムじん です。",
+          "kanji": "私もベトナム人です。",
+          "vietnamese": "Tôi cũng là người Việt Nam.",
+          "english": "I am also Vietnamese."
+        }
+      ],
+      "notes": [
+        "も thay thế は khi muốn diễn tả \"cũng\"",
+        "も có thể dùng với cả câu khẳng định và phủ định",
+        "Khi dùng も, người nghe hiểu rằng có người khác cũng như vậy",
+        "も thường dùng để thể hiện sự đồng tình hoặc tương đồng"
+      ]
     },
     {
-      "content": "〜さん",
-      "kanji": "〜さん",
-      "reading": "〜さん",
-      "meaning": "anh/chị/ông/bà"
+      "id": 5,
+      "pattern": "A の B",
+      "meaning": "B của A / B thuộc về A",
+      "explanation": "Trợ từ の (no) biểu thị mối quan hệ sở hữu hoặc thuộc về. A の B có nghĩa là \"B của A\" hoặc \"B thuộc về A\".",
+      "examples": [
+        {
+          "japanese": "わたしの ほん",
+          "kanji": "私の本",
+          "vietnamese": "Sách của tôi",
+          "english": "My book"
+        },
+        {
+          "japanese": "だいがくの せんせい",
+          "kanji": "大学の先生",
+          "vietnamese": "Giáo viên của trường đại học",
+          "english": "University teacher"
+        },
+        {
+          "japanese": "かいしゃの かいしゃいん",
+          "kanji": "会社の会社員",
+          "vietnamese": "Nhân viên của công ty",
+          "english": "Company employee"
+        }
+      ],
+      "notes": [
+        "の biểu thị mối quan hệ sở hữu hoặc thuộc về",
+        "Có thể dùng để chỉ nơi chốn, thời gian, chất liệu",
+        "の có thể nối nhiều danh từ với nhau",
+        "Trong tiếng Việt, の thường được dịch là \"của\" hoặc bỏ qua"
+      ]
     },
     {
-      "content": "〜ちゃん",
-      "kanji": "〜ちゃん",
-      "reading": "〜ちゃん",
-      "meaning": "bé ~"
+      "id": 6,
+      "pattern": "A は B の C です",
+      "meaning": "A là C của B",
+      "explanation": "Đây là mẫu câu kết hợp trợ từ は và の để diễn tả mối quan hệ phức tạp hơn. A là chủ ngữ, B là người sở hữu, C là đối tượng được sở hữu.",
+      "examples": [
+        {
+          "japanese": "わたしは だいがくの がくせい です。",
+          "kanji": "私は大学の学生です。",
+          "vietnamese": "Tôi là học sinh của trường đại học.",
+          "english": "I am a university student."
+        },
+        {
+          "japanese": "あのひとは かいしゃの せんせい です。",
+          "kanji": "あの人は会社の先生です。",
+          "vietnamese": "Người đó là giáo viên của công ty.",
+          "english": "That person is a company teacher."
+        },
+        {
+          "japanese": "わたしは ベトナムの がくせい です。",
+          "kanji": "私はベトナムの学生です。",
+          "vietnamese": "Tôi là học sinh Việt Nam.",
+          "english": "I am a Vietnamese student."
+        }
+      ],
+      "notes": [
+        "Mẫu câu này kết hợp cả は và の",
+        "B の C tạo thành một cụm danh từ",
+        "Có thể mở rộng thành nhiều の nối tiếp nhau",
+        "Thứ tự: Chủ ngữ + は + Sở hữu + の + Đối tượng + です"
+      ]
     },
     {
-      "content": "〜じん",
-      "kanji": "〜人",
-      "reading": "〜じん",
-      "meaning": "người ~"
+      "id": 7,
+      "pattern": "～さん",
+      "meaning": "Hậu tố kính ngữ",
+      "explanation": "Trong tiếng Nhật, sử dụng hậu tố さん (san) ngay sau tên của người nghe hoặc người thứ 3 để bày tỏ sự kính trọng đối với người đó. Không bao giờ sử dụng さん sau tên của chính mình.",
+      "examples": [
+        {
+          "japanese": "わたしは たなかです。",
+          "kanji": "私は田中です。",
+          "vietnamese": "Tôi là Tanaka.",
+          "english": "I am Tanaka."
+        },
+        {
+          "japanese": "あのかたは きむらさんです。",
+          "kanji": "あのかたは木村さんです。",
+          "vietnamese": "Vị kia là Kimura.",
+          "english": "That person is Mr./Ms. Kimura."
+        },
+        {
+          "japanese": "ラオさんは ベトナムじん です。",
+          "kanji": "ラオさんはベトナム人です。",
+          "vietnamese": "Anh Rao là người Việt Nam.",
+          "english": "Mr. Rao is Vietnamese."
+        }
+      ],
+      "notes": [
+        "Khi trao đổi trực tiếp, người Nhật ít sử dụng あなた khi đã biết tên của người nghe",
+        "Ở Nhật, khi gọi một người nào đó thì gọi nguyên cả tên và họ hoặc chỉ cần gọi họ là đủ",
+        "Chỉ gọi tên trong những trường hợp bạn bè quen thân hay người thân trong gia đình",
+        "さん thể hiện sự kính trọng và lịch sự"
+      ]
     },
     {
-      "content": "せんせい",
-      "kanji": "先生",
-      "reading": "せんせい",
-      "meaning": "giáo viên (không dùng để nói về nghề của mình)"
-    },
-    {
-      "content": "きょうし",
-      "kanji": "教師",
-      "reading": "きょうし",
-      "meaning": "giáo viên (dùng để nói về nghề của mình)"
-    },
-    {
-      "content": "がくせい",
-      "kanji": "学生",
-      "reading": "がくせい",
-      "meaning": "học sinh"
-    },
-    {
-      "content": "かいしゃいん",
-      "kanji": "会社員",
-      "reading": "かいしゃいん",
-      "meaning": "nhân viên công ty"
-    },
-    {
-      "content": "しゃいん",
-      "kanji": "社員",
-      "reading": "しゃいん",
-      "meaning": "nhân viên của công ty ~ (tên công ty)"
-    },
-    {
-      "content": "ぎんこういん",
-      "kanji": "銀行員",
-      "reading": "ぎんこういん",
-      "meaning": "nhân viên ngân hàng"
-    },
-    {
-      "content": "いしゃ",
-      "kanji": "医者",
-      "reading": "いしゃ",
-      "meaning": "bác sĩ"
-    },
-    {
-      "content": "けんきゅうしゃ",
-      "kanji": "研究者",
-      "reading": "けんきゅうしゃ",
-      "meaning": "nhà nghiên cứu"
-    },
-    {
-      "content": "エンジニア",
-      "kanji": "エンジニア",
-      "reading": "エンジニア",
-      "meaning": "kỹ sư"
-    },
-    {
-      "content": "だいがく",
-      "kanji": "大学",
-      "reading": "だいがく",
-      "meaning": "đại học"
-    },
-    {
-      "content": "びょういん",
-      "kanji": "病院",
-      "reading": "びょういん",
-      "meaning": "bệnh viện"
-    },
-    {
-      "content": "でんき",
-      "kanji": "電気",
-      "reading": "でんき",
-      "meaning": "điện/đèn/điện lực"
-    },
-    {
-      "content": "だれ",
-      "kanji": "誰",
-      "meaning": "ai"
-    },
-    {
-      "content": "どなた",
-      "kanji": "どなた",
-      "reading": "どなた",
-      "meaning": "vị nào (lịch sự của だれ)"
-    },
-    {
-      "content": "さい",
-      "kanji": "歳",
-      "meaning": "tuổi (năm)"
-    },
-    {
-      "content": "なんさい",
-      "kanji": "何歳",
-      "meaning": "mấy tuổi/bao nhiêu tuổi"
-    },
-    {
-      "content": "はい",
-      "meaning": "vâng/có"
-    },
-    {
-      "content": "いいえ",
-      "meaning": "không"
-    },
-    {
-      "content": "はじめまして",
-      "meaning": "rân hạnh được gặp anh/chị"
-    },
-    {
-      "content": "どうぞよろしくおねがいします",
-      "kanji": "どうぞよろしくおねがいします",
-      "reading": "どうぞよろしくおねがいします",
-      "meaning": "rất mong được sự giúp đỡ của anh/chị"
-    },
-    {
-      "content": "こちらは〜さんです",
-      "kanji": "こちらは〜さんです",
-      "reading": "こちらは〜さんです",
-      "meaning": "đây là anh/chị ~"
-    },
-    {
-      "content": "〜からきました",
-      "kanji": "〜から来ました",
-      "reading": "〜からきました",
-      "meaning": "đến từ ~"
-    },
-    {
-      "content": "アメリカ",
-      "kanji": "アメリカ",
-      "reading": "アメリカ",
-      "meaning": "Mỹ"
-    },
-    {
-      "content": "イギリス",
-      "kanji": "イギリス",
-      "reading": "イギリス",
-      "meaning": "Anh"
-    },
-    {
-      "content": "インド",
-      "kanji": "インド",
-      "reading": "インド",
-      "meaning": "Ấn Độ"
-    },
-    {
-      "content": "インドネシア",
-      "kanji": "インドネシア",
-      "reading": "インドネシア",
-      "meaning": "Indonesia"
-    },
-    {
-      "content": "かんこく",
-      "kanji": "韓国",
-      "reading": "かんこく",
-      "meaning": "Hàn Quốc"
-    },
-    {
-      "content": "タイ",
-      "kanji": "タイ",
-      "reading": "タイ",
-      "meaning": "Thái Lan"
-    },
-    {
-      "content": "ちゅうごく",
-      "kanji": "中国",
-      "reading": "ちゅうごく",
-      "meaning": "Trung Quốc"
-    },
-    {
-      "content": "ドイツ",
-      "kanji": "ドイツ",
-      "reading": "ドイツ",
-      "meaning": "Đức"
-    },
-    {
-      "content": "にほん",
-      "kanji": "日本",
-      "reading": "にほん",
-      "meaning": "Nhật Bản"
-    },
-    {
-      "content": "フランス",
-      "kanji": "フランス",
-      "reading": "フランス",
-      "meaning": "Pháp"
-    },
-    {
-      "content": "ブラジル",
-      "kanji": "ブラジル",
-      "reading": "ブラジル",
-      "meaning": "Brazil"
-    },
-    {
-      "content": "ベトナム",
-      "kanji": "ベトナム",
-      "reading": "ベトナム",
-      "meaning": "Việt Nam"
-    },
-    {
-      "content": "IMC",
-      "kanji": "IMC",
-      "reading": "IMC",
-      "meaning": "Công ty (giả tưởng) IMC"
-    },
-    {
-      "content": "パワーでんき",
-      "kanji": "パワー電気",
-      "reading": "パワーでんき",
-      "meaning": "Công ty Điện Power (giả tưởng)"
-    },
-    {
-      "content": "ブラジルエアー",
-      "kanji": "ブラジルエアー",
-      "reading": "ブラジルエアー",
-      "meaning": "Hàng không Brazil (giả tưởng)"
-    },
-    {
-      "content": "さくらだいがく",
-      "kanji": "さくら大学",
-      "reading": "さくらだいがく",
-      "meaning": "Đại học Sakura (giả tưởng)"
-    },
-    {
-      "content": "ふじだいがく",
-      "kanji": "ふじ大学",
-      "reading": "ふじだいがく",
-      "meaning": "Đại học Fuji (giả tưởng)"
+      "id": 8,
+      "pattern": "～さい (～歳)",
+      "meaning": "Tuổi",
+      "explanation": "Khi nói về tuổi thì thêm hậu tố さい (cách đếm tuổi) sau số thứ tự. Khi hỏi tuổi sử dụng nghi vấn từ なんさい. Trường hợp lễ phép hơn dùng từ おいくつ.",
+      "examples": [
+        {
+          "japanese": "すずきさんは なんさい（おいくつ）ですか。",
+          "kanji": "鈴木さんは何歳（おいくつ）ですか。",
+          "vietnamese": "Cô Suzuki bao nhiêu tuổi?",
+          "english": "How old is Ms. Suzuki?"
+        },
+        {
+          "japanese": "わたしは 29さい です。",
+          "kanji": "私は29歳です。",
+          "vietnamese": "Tôi 29 tuổi.",
+          "english": "I am 29 years old."
+        },
+        {
+          "japanese": "あのひとは 25さい です。",
+          "kanji": "あの人は25歳です。",
+          "vietnamese": "Người đó 25 tuổi.",
+          "english": "That person is 25 years old."
+        }
+      ],
+      "notes": [
+        "さい là cách đếm tuổi chính thức",
+        "おいくつ là cách hỏi tuổi lịch sự hơn",
+        "Có thể trả lời chỉ bằng số: 29です (29 tuổi)",
+        "Tuổi được đếm bằng さい, không phải ねん"
+      ]
     }
   ],
-  "grammar": [
+  "exercises": [
     {
-      "content": "N1 は N2 です",
-      "reading": "N1 は N2 です",
-      "meaning": "N1 là N2",
-      "example": "わたしはミラーです。",
-      "translation_example": "Tôi là Miller.",
-      "additional_notes": ""
+      "id": 1,
+      "type": "fill_blank",
+      "title": "Bài tập 1: Điền từ thích hợp",
+      "description": "Điền trợ từ hoặc từ thích hợp vào chỗ trống.",
+      "questions": [
+        {
+          "question": "わたし＿＿ がくせい です。",
+          "answer": "は",
+          "explanation": "Trợ từ は được dùng để đánh dấu chủ ngữ"
+        },
+        {
+          "question": "あのひと＿＿ せんせい ですか。",
+          "answer": "は",
+          "explanation": "Trợ từ は được dùng để đánh dấu chủ ngữ trong câu hỏi"
+        },
+        {
+          "question": "わたし＿＿ ベトナムじん です。",
+          "answer": "も",
+          "explanation": "Trợ từ も có nghĩa là \"cũng\""
+        },
+        {
+          "question": "わたしは だいがく＿＿ がくせい です。",
+          "answer": "の",
+          "explanation": "Trợ từ の biểu thị mối quan hệ sở hữu"
+        },
+        {
+          "question": "あのひとは かいしゃ＿＿ せんせい です。",
+          "answer": "の",
+          "explanation": "Trợ từ の biểu thị mối quan hệ sở hữu"
+        }
+      ]
     },
     {
-      "content": "N1 は N2 では ありません",
-      "reading": "N1 は N2 では ありません",
-      "meaning": "N1 không phải là N2",
-      "example": "わたしはがくせいではありません。",
-      "translation_example": "Tôi không phải là học sinh.",
-      "additional_notes": "Cách nói phủ định của câu \"N1 は N2 です\". Cũng có thể dùng \"N1 は N2 じゃありません\" (thân mật hơn).\""
+      "id": 2,
+      "type": "translation",
+      "title": "Bài tập 2: Dịch câu",
+      "description": "Dịch các câu sau sang tiếng Nhật.",
+      "questions": [
+        {
+          "question": "Tôi là học sinh đại học.",
+          "answer": "わたしは だいがくの がくせい です。",
+          "kanji": "私は大学の学生です。",
+          "explanation": "Sử dụng mẫu câu \"A は B の C です\""
+        },
+        {
+          "question": "Bạn có phải là giáo viên không?",
+          "answer": "あなたは せんせい ですか。",
+          "kanji": "あなたは先生ですか。",
+          "explanation": "Thêm か vào cuối câu để tạo câu hỏi"
+        },
+        {
+          "question": "Người đó cũng là nhân viên công ty.",
+          "answer": "あのひとも かいしゃいん です。",
+          "kanji": "あの人も会社員です。",
+          "explanation": "Sử dụng も thay cho は để diễn tả \"cũng\""
+        },
+        {
+          "question": "Tôi không phải là bác sĩ.",
+          "answer": "わたしは いしゃ ではありません。",
+          "kanji": "私は医者ではありません。",
+          "explanation": "Sử dụng ではありません để tạo câu phủ định"
+        },
+        {
+          "question": "Bạn bao nhiêu tuổi?",
+          "answer": "あなたは なんさい ですか。",
+          "kanji": "あなたは何歳ですか。",
+          "explanation": "なんさい là từ để hỏi tuổi"
+        }
+      ]
     },
     {
-      "content": "〜か",
-      "reading": "〜か",
-      "meaning": "trợ từ nghi vấn",
-      "example": "ミラーさんはがくせいですか。",
-      "translation_example": "Anh Miller là học sinh phải không?",
-      "additional_notes": "Đặt ở cuối câu để biến câu thành câu hỏi. Đọc lên giọng ở cuối câu.\""
+      "id": 3,
+      "type": "question_formation",
+      "title": "Bài tập 3: Tạo câu hỏi",
+      "description": "Chuyển các câu khẳng định sau thành câu hỏi.",
+      "questions": [
+        {
+          "question": "わたしは がくせい です。",
+          "answer": "あなたは がくせい ですか。",
+          "kanji": "あなたは学生ですか。",
+          "explanation": "Thay わたしは bằng あなたは và thêm か"
+        },
+        {
+          "question": "あのひとは せんせい です。",
+          "answer": "あのひとは せんせい ですか。",
+          "kanji": "あの人は先生ですか。",
+          "explanation": "Chỉ cần thêm か vào cuối câu"
+        },
+        {
+          "question": "わたしは ベトナムじん です。",
+          "answer": "あなたは ベトナムじん ですか。",
+          "kanji": "あなたはベトナム人ですか。",
+          "explanation": "Thay わたしは bằng あなたは và thêm か"
+        }
+      ]
     },
     {
-      "content": "N1 も N2 です",
-      "reading": "N1 も N2 です",
-      "meaning": "N1 cũng là N2",
-      "example": "ミラーさんもかいしゃいんです。",
-      "translation_example": "Anh Miller cũng là nhân viên công ty.",
-      "additional_notes": "Diễn tả sự đồng tình, tương tự với điều đã được đề cập.\""
+      "id": 4,
+      "type": "conversation",
+      "title": "Bài tập 4: Hoàn thành hội thoại",
+      "description": "Hoàn thành đoạn hội thoại sau.",
+      "conversation": {
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "はじめまして。わたしは たなか です。",
+            "kanji": "はじめまして。私は田中です。"
+          },
+          {
+            "speaker": "B",
+            "text": "はじめまして。わたしは ラオ です。",
+            "kanji": "はじめまして。私はラオです。"
+          },
+          {
+            "speaker": "A",
+            "text": "ラオさんは がくせい ですか。",
+            "kanji": "ラオさんは学生ですか。"
+          },
+          {
+            "speaker": "B",
+            "text": "はい、わたし＿＿ がくせい です。",
+            "kanji": "はい、私＿＿学生です。",
+            "blank": "も",
+            "explanation": "Sử dụng も vì người nói cũng là học sinh"
+          },
+          {
+            "speaker": "A",
+            "text": "そうですか。わたし＿＿ せんせい です。",
+            "kanji": "そうですか。私＿＿先生です。",
+            "blank": "も",
+            "explanation": "Sử dụng も vì người nói cũng là giáo viên"
+          }
+        ]
+      }
     },
     {
-      "content": "N の N2",
-      "reading": "N の N2",
-      "meaning": "N2 của N1 (N2 thuộc về N1)",
-      "example": "IMCのしゃいんです。",
-      "translation_example": "Là nhân viên của IMC.",
-      "additional_notes": "Thể hiện sự sở hữu hoặc quan hệ giữa N1 và N2.\""
+      "id": 5,
+      "type": "pattern_recognition",
+      "title": "Bài tập 5: Nhận diện mẫu câu",
+      "description": "Xác định mẫu câu được sử dụng trong các câu sau.",
+      "questions": [
+        {
+          "question": "Câu \"わたしは がくせい です。\" sử dụng mẫu câu nào?",
+          "answer": "A は B です",
+          "explanation": "Đây là mẫu câu cơ bản để giới thiệu bản thân"
+        },
+        {
+          "question": "Câu \"あのひとは せんせい ではありません。\" sử dụng mẫu câu nào?",
+          "answer": "A は B ではありません",
+          "explanation": "Đây là mẫu câu phủ định của \"A は B です\""
+        },
+        {
+          "question": "Câu \"あなたは かいしゃいん ですか。\" sử dụng mẫu câu nào?",
+          "answer": "A は B ですか",
+          "explanation": "Đây là mẫu câu nghi vấn với か ở cuối"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "vocabulary_practice",
+      "title": "Bài tập 6: Luyện từ vựng",
+      "description": "Sử dụng từ vựng đã học để tạo câu hoàn chỉnh.",
+      "questions": [
+        {
+          "question": "Tạo câu với từ \"だいがく\" (đại học)",
+          "answer": "わたしは だいがくの がくせい です。",
+          "kanji": "私は大学の学生です。",
+          "explanation": "Sử dụng の để nối \"đại học\" và \"học sinh\""
+        },
+        {
+          "question": "Tạo câu với từ \"かいしゃ\" (công ty)",
+          "answer": "あのひとは かいしゃの しゃいん です。",
+          "kanji": "あの人は会社の社員です。",
+          "explanation": "Sử dụng の để nối \"công ty\" và \"nhân viên\""
+        },
+        {
+          "question": "Tạo câu với từ \"せんせい\" (giáo viên)",
+          "answer": "わたしは せんせい です。",
+          "kanji": "私は先生です。",
+          "explanation": "Sử dụng mẫu câu cơ bản \"A は B です\""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "grammar_combination",
+      "title": "Bài tập 7: Kết hợp ngữ pháp",
+      "description": "Kết hợp nhiều mẫu câu đã học để tạo câu phức tạp hơn.",
+      "questions": [
+        {
+          "question": "Tạo câu giới thiệu: \"Tôi là sinh viên đại học, còn bạn?\"",
+          "answer": "わたしは だいがくの がくせい です。あなたは？",
+          "kanji": "私は大学の学生です。あなたは？",
+          "explanation": "Kết hợp mẫu câu \"A は B の C です\" và câu hỏi rút gọn"
+        },
+        {
+          "question": "Tạo câu: \"Người đó không phải là nhân viên công ty, mà là giáo viên\"",
+          "answer": "あのひとは かいしゃの しゃいん ではありません。せんせい です。",
+          "kanji": "あの人は会社の社員ではありません。先生です。",
+          "explanation": "Kết hợp câu phủ định và câu khẳng định"
+        },
+        {
+          "question": "Tạo câu: \"Bạn cũng là sinh viên phải không?\"",
+          "answer": "あなたも がくせい ですか。",
+          "kanji": "あなたも学生ですか。",
+          "explanation": "Kết hợp も (cũng) và câu hỏi với か"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "real_life_situation",
+      "title": "Bài tập 8: Tình huống thực tế",
+      "description": "Áp dụng ngữ pháp đã học vào các tình huống thực tế.",
+      "questions": [
+        {
+          "question": "Khi gặp ai đó lần đầu, bạn sẽ nói gì?",
+          "answer": "はじめまして。わたしは [tên] です。",
+          "kanji": "はじめまして。私は[tên]です。",
+          "explanation": "Sử dụng はじめまして và mẫu câu giới thiệu bản thân"
+        },
+        {
+          "question": "Khi muốn hỏi nghề nghiệp của ai đó, bạn sẽ nói gì?",
+          "answer": "あなたは なんの しごと ですか。",
+          "kanji": "あなたは何の仕事ですか。",
+          "explanation": "Sử dụng なんの để hỏi về nghề nghiệp"
+        },
+        {
+          "question": "Khi muốn nói \"Tôi cũng vậy\", bạn sẽ nói gì?",
+          "answer": "わたしも です。",
+          "kanji": "私もです。",
+          "explanation": "Sử dụng も để diễn tả \"cũng vậy\""
+        }
+      ]
     }
   ],
-  "transcript": "ミラー：はじめまして。ミラーです。アメリカからきました。どうぞよろしくおねがいします.",
-  "title": "Bài 1: Tự giới thiệu",
-  "description": "Giới thiệu bản thân, nghề nghiệp, quốc tịch, mẫu câu cơ bản.",
-  "status": "published",
-  "audioFile": "第1課会話　kaiwa.mp3",
-  "exercises": {
-    "vocabulary": [
+  "quiz": {
+    "title": "Kiểm tra kiến thức Bài 1",
+    "description": "Kiểm tra hiểu biết về các mẫu câu cơ bản đã học",
+    "questions": [
       {
+        "id": 1,
         "type": "multiple_choice",
-        "question": "Chọn từ đúng nghĩa",
+        "question": "Trợ từ は được đọc là:",
         "options": [
-          "私",
-          "貴方",
-          "先生",
-          "学生"
+          "ha",
+          "wa",
+          "ga",
+          "o"
         ],
-        "correct": 0,
-        "explanation": "私 (わたし) có nghĩa là 'tôi'"
-      }
-    ],
-    "grammar": [
+        "correctAnswer": 1,
+        "explanation": "Trợ từ は được đọc là \"wa\" mặc dù viết là \"ha\""
+      },
       {
-        "type": "fill_blank",
-        "question": "Điền từ thích hợp: わたし___がくせいです。",
+        "id": 2,
+        "type": "multiple_choice",
+        "question": "Mẫu câu \"A は B です\" dùng để:",
+        "options": [
+          "Hỏi tuổi",
+          "Giới thiệu bản thân",
+          "Chào hỏi",
+          "Cảm ơn"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Mẫu câu này dùng để giới thiệu bản thân, nghề nghiệp, quốc tịch"
+      },
+      {
+        "id": 3,
+        "type": "multiple_choice",
+        "question": "Để tạo câu hỏi, ta thêm gì vào cuối câu?",
+        "options": [
+          "です",
+          "か",
+          "は",
+          "も"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Thêm か vào cuối câu để tạo thành câu hỏi"
+      },
+      {
+        "id": 4,
+        "type": "multiple_choice",
+        "question": "Trợ từ も có nghĩa là:",
+        "options": [
+          "Và",
+          "Cũng",
+          "Của",
+          "Ở"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Trợ từ も có nghĩa là \"cũng, cũng vậy\""
+      },
+      {
+        "id": 5,
+        "type": "multiple_choice",
+        "question": "Hậu tố さん được dùng để:",
+        "options": [
+          "Gọi tên mình",
+          "Thể hiện sự kính trọng",
+          "Hỏi tuổi",
+          "Chào hỏi"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Hậu tố さん được dùng để thể hiện sự kính trọng đối với người khác"
+      }
+    ]
+  },
+  "fillBlankQuiz": {
+    "title": "Bài tập điền từ vào chỗ trống",
+    "description": "Điền từ thích hợp vào chỗ trống",
+    "questions": [
+      {
+        "id": 1,
+        "sentence": "わたし＿＿ がくせい です。",
         "answer": "は",
-        "explanation": "は là trợ từ chủ ngữ"
-      }
-    ],
-    "listening": [
+        "explanation": "Trợ từ は đánh dấu chủ ngữ"
+      },
       {
-        "type": "audio_quiz",
-        "audioFile": "lesson-1-dialogue.mp3",
-        "question": "Nghe và chọn câu trả lời đúng",
-        "options": [
-          "はじめまして",
-          "さようなら",
-          "おはよう",
-          "こんばんは"
-        ],
-        "correct": 0
+        "id": 2,
+        "sentence": "あのひとも せんせい ＿＿。",
+        "answer": "です",
+        "explanation": "です kết thúc câu khẳng định"
+      },
+      {
+        "id": 3,
+        "sentence": "あなたは なんさい ＿＿ か。",
+        "answer": "です",
+        "explanation": "です kết thúc câu hỏi"
+      },
+      {
+        "id": 4,
+        "sentence": "わたしは かいしゃいん ＿＿ ありません。",
+        "answer": "では",
+        "explanation": "では là dạng phủ định của です"
+      },
+      {
+        "id": 5,
+        "sentence": "これは わたし＿＿ ほん です。",
+        "answer": "の",
+        "explanation": "の biểu thị mối quan hệ sở hữu"
       }
     ]
   },
-  "kanji": [
+  "writingExercise": {
+    "title": "Bài tập viết câu hoàn chỉnh",
+    "description": "Viết câu hoàn chỉnh theo yêu cầu",
+    "questions": [
+      {
+        "id": 1,
+        "instruction": "Viết câu giới thiệu: \"Tôi là học sinh\"",
+        "answer": "わたしは がくせい です。",
+        "kanji": "私は学生です。",
+        "explanation": "Sử dụng mẫu câu \"A は B です\""
+      },
+      {
+        "id": 2,
+        "instruction": "Viết câu hỏi: \"Bạn có phải là giáo viên không?\"",
+        "answer": "あなたは せんせい ですか。",
+        "kanji": "あなたは先生ですか。",
+        "explanation": "Thêm か vào cuối câu để tạo câu hỏi"
+      },
+      {
+        "id": 3,
+        "instruction": "Viết câu phủ định: \"Tôi không phải là nhân viên công ty\"",
+        "answer": "わたしは かいしゃいん ではありません。",
+        "kanji": "私は会社員ではありません。",
+        "explanation": "Sử dụng ではありません để tạo câu phủ định"
+      },
+      {
+        "id": 4,
+        "instruction": "Viết câu với も: \"Tôi cũng là người Việt Nam\"",
+        "answer": "わたしも ベトナムじん です。",
+        "kanji": "私もベトナム人です。",
+        "explanation": "Sử dụng も thay cho は để diễn tả \"cũng\""
+      },
+      {
+        "id": 5,
+        "instruction": "Viết câu với の: \"Đây là sách của tôi\"",
+        "answer": "これは わたしの ほん です。",
+        "kanji": "これは私の本です。",
+        "explanation": "Sử dụng の để biểu thị mối quan hệ sở hữu"
+      }
+    ]
+  },
+  "summary": {
+    "title": "Tóm tắt Bài 1",
+    "content": "BÀI 1 đã học 8 mẫu câu cơ bản nhất trong tiếng Nhật: cách giới thiệu bản thân và người khác, cách tạo câu khẳng định, phủ định và nghi vấn, cách sử dụng trợ từ は, も, の, cách nói về nghề nghiệp, quốc tịch, tuổi, và cách sử dụng hậu tố kính ngữ さん. Đây là nền tảng cơ bản nhất, cần học thuộc lòng để có thể học các bài tiếp theo!",
+    "keyPoints": [
+      "Cách giới thiệu bản thân và người khác",
+      "Cách tạo câu khẳng định, phủ định và nghi vấn",
+      "Cách sử dụng trợ từ は, も, の",
+      "Cách nói về nghề nghiệp, quốc tịch, tuổi",
+      "Cách sử dụng hậu tố kính ngữ さん"
+    ]
+  },
+  "culturalNotes": [
     {
-      "kanji": "私",
-      "reading": "わたし",
-      "meaning": "tôi",
-      "stroke_count": 7
+      "title": "Cách chào hỏi trong tiếng Nhật",
+      "content": "はじめまして (hajimemashite) được dùng khi gặp ai đó lần đầu tiên. Sau đó thường nói どうぞよろしく (douzo yoroshiku) để thể hiện sự tôn trọng và mong muốn được giúp đỡ lẫn nhau."
     },
     {
-      "kanji": "貴方",
-      "reading": "あなた",
-      "meaning": "bạn",
-      "stroke_count": 9
+      "title": "Sử dụng です",
+      "content": "です là dạng lịch sự của động từ \"to be\". Trong tiếng Nhật, việc sử dụng ngôn ngữ lịch sự rất quan trọng, đặc biệt khi gặp người lạ hoặc người lớn tuổi."
     },
     {
-      "kanji": "先生",
-      "reading": "せんせい",
-      "meaning": "giáo viên",
-      "stroke_count": 6
+      "title": "Trợ từ は và も",
+      "content": "は đánh dấu chủ ngữ, も có nghĩa là \"cũng\". Việc hiểu và sử dụng đúng các trợ từ này là nền tảng quan trọng để xây dựng câu tiếng Nhật."
     },
     {
-      "kanji": "学生",
-      "reading": "がくせい",
-      "meaning": "học sinh",
-      "stroke_count": 8
+      "title": "Trợ từ の",
+      "content": "の biểu thị mối quan hệ sở hữu hoặc thuộc về. Đây là một trong những trợ từ cơ bản nhất và được sử dụng rất thường xuyên trong tiếng Nhật."
+    },
+    {
+      "title": "Hậu tố さん",
+      "content": "さん được sử dụng để thể hiện sự kính trọng. Không bao giờ dùng さん sau tên của chính mình."
     }
-  ],
-  "listening": {
-    "dialogue": {
-      "title": "Hội thoại mẫu",
-      "audioFile": "lesson-01-dialogue.mp3",
-      "transcript": "A: はじめまして。B: はじめまして。どうぞよろしく。",
-      "translation": "A: Rất vui được gặp bạn. B: Rất vui được gặp bạn. Rất mong được sự giúp đỡ."
-    },
-    "exercises": [
-      {
-        "type": "comprehension",
-        "question": "Nghe và trả lời câu hỏi",
-        "audioFile": "lesson-1-question.mp3",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "correct": 0
-      }
-    ]
-  },
-  "supplementaryMaterials": {
-    "cultural_notes": [
-      "Cách chào hỏi trong văn hóa Nhật Bản",
-      "Sử dụng kính ngữ khi gặp người lớn tuổi"
-    ],
-    "practice_activities": [
-      "Luyện tập giới thiệu bản thân",
-      "Thực hành hỏi đáp về nghề nghiệp"
-    ],
-    "additional_resources": [
-      "Video hướng dẫn phát âm",
-      "Bài tập viết chữ Hiragana"
-    ]
-  }
+  ]
 }

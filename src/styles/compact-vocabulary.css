@@ -1,0 +1,353 @@
+/* Compact Vocabulary List Styles */
+.compact-vocabulary-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  min-height: 100vh;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.compact-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header-info h2 {
+  color: #1f2937;
+  margin-bottom: 0.25rem;
+}
+
+.header-stats {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* Search and Filters */
+.compact-search-filters {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.search-box {
+  position: relative;
+  margin-bottom: 0.75rem;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+}
+
+.filters-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.filter-select {
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  background: white;
+  transition: all 0.3s ease;
+  flex: 1;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+}
+
+/* Vocabulary List */
+.compact-vocabulary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.compact-vocabulary-item {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  padding: 0.75rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.compact-vocabulary-item:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-color: rgba(59, 130, 246, 0.2);
+}
+
+.word-main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.word-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+}
+
+.japanese-text {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.japanese-word {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.pronunciation {
+  font-size: 0.75rem;
+  color: #6b7280;
+  font-style: italic;
+}
+
+.meaning-text {
+  font-size: 0.875rem;
+  color: #2563eb;
+  line-height: 1.4;
+}
+
+.word-actions {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.bookmark-btn,
+.audio-btn,
+.expand-btn {
+  padding: 0.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  background: white;
+  color: #6b7280;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookmark-btn:hover,
+.audio-btn:hover,
+.expand-btn:hover {
+  border-color: #3b82f6;
+  color: #3b82f6;
+  transform: scale(1.05);
+}
+
+.bookmark-btn.bookmarked {
+  border-color: #fbbf24;
+  color: #fbbf24;
+  background: rgba(251, 191, 36, 0.1);
+}
+
+.word-tags {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.difficulty-tag,
+.category-tag {
+  padding: 0.125rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid;
+}
+
+.difficulty-tag {
+  border: 1px solid;
+}
+
+.category-tag {
+  background: rgba(139, 92, 246, 0.1);
+  color: #7c3aed;
+  border-color: rgba(139, 92, 246, 0.3);
+}
+
+/* Expanded Content */
+.expanded-content {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #e5e7eb;
+  overflow: hidden;
+}
+
+.example-section {
+  background: rgba(239, 246, 255, 0.8);
+  padding: 0.5rem;
+  border-radius: 6px;
+  border-left: 3px solid #3b82f6;
+}
+
+.example-text {
+  font-size: 0.75rem;
+  color: #1f2937;
+  margin-bottom: 0.25rem;
+}
+
+.example-meaning {
+  font-size: 0.75rem;
+  color: #6b7280;
+  font-style: italic;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  border: 2px dashed #e5e7eb;
+}
+
+.empty-state p {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .compact-vocabulary-container {
+    padding: 0.5rem;
+    margin: 0;
+    border-radius: 0;
+  }
+  
+  .compact-header {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  
+  .filters-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .word-main-content {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+  
+  .word-actions {
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .word-tags {
+    justify-content: center;
+  }
+  
+  .japanese-text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .compact-vocabulary-container {
+    background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+  }
+  
+  .compact-header,
+  .compact-search-filters,
+  .compact-vocabulary-item,
+  .empty-state {
+    background: rgba(31, 41, 55, 0.95);
+    color: #f9fafb;
+  }
+  
+  .search-input,
+  .filter-select,
+  .bookmark-btn,
+  .audio-btn,
+  .expand-btn {
+    background: rgba(55, 65, 81, 0.9);
+    border-color: rgba(75, 85, 99, 0.5);
+    color: #f9fafb;
+  }
+  
+  .search-input:focus,
+  .filter-select:focus {
+    border-color: #60a5fa;
+    box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.1);
+  }
+  
+  .japanese-word {
+    color: #f9fafb;
+  }
+  
+  .pronunciation {
+    color: #d1d5db;
+  }
+  
+  .meaning-text {
+    color: #93c5fd;
+  }
+  
+  .example-section {
+    background: rgba(30, 58, 138, 0.2);
+    border-left-color: #60a5fa;
+  }
+  
+  .example-text {
+    color: #e5e7eb;
+  }
+  
+  .example-meaning {
+    color: #9ca3af;
+  }
+}

@@ -1,32 +1,34 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { 
   Menu, 
   X, 
-  ChevronDown,
   GraduationCap,
   BookOpen,
   Trophy,
   Users,
   User,
-  Search,
+  Plus,
   Bell,
-  Sparkles,
-  Brain,
-  Calendar,
-  Settings,
-  HelpCircle,
-  Info
+  Home,
+  BookOpenCheck,
+  Target,
+  Users2
 } from 'lucide-react';
 import Logo from '@/components/ui/Logo';
+import DesktopNavigation from './DesktopNavigation';
+import MobileMenu from './MobileMenu';
+
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [hoveredItem, setHoveredItem] = useState<string | null>(null);
+
+  // Mobile menu state only
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,8 +38,25 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const toggleDropdown = (dropdown: string) => {
-    setOpenDropdown(openDropdown === dropdown ? null : dropdown);
+  // Close dropdowns when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      // Check if click is outside any dropdown area
+      if (!target.closest('.nav-item') && 
+          !target.closest('.dropdown-menu') && 
+          !target.closest('.profile-button') &&
+          !target.closest('.right-actions')) {
+        setOpenDropdown(null);
+      }
+    };
+
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, []);
+
+  const toggleDropdown = (dropdown: string | null) => {
+    setOpenDropdown(dropdown);
   };
 
   const closeAllDropdowns = () => {
@@ -45,7 +64,11 @@ export default function Header() {
     setIsMobileMenuOpen(false);
   };
 
-  // 🎯 4 MENU CHÍNH + 1 MENU CÁ NHÂN (4+1 MODEL) - OPTIMIZED
+  const handleMobileMenuClose = () => {
+    setIsMobileMenuOpen(false);
+  };
+
+  // 🎯 4 MENU CHÍNH + 1 MENU CÁ NHÂN (4+1 MODEL) - RESTORED
   const navigationItems = [
     {
       name: 'HỌC TẬP',
@@ -65,279 +88,196 @@ export default function Header() {
       icon: <BookOpen size={18} />,
       color: 'from-orange-500 to-orange-600',
       dropdown: [
-        { name: 'Tiếng Nhật', href: '/courses/japanese', icon: '🇯🇵' },
-        { name: 'Tiếng Trung', href: '/courses/chinese', icon: '🇨🇳' },
-        { name: 'Tiếng Anh', href: '/courses/english', icon: '🇺🇸' },
-        { name: 'Tiếng Hàn', href: '/courses/korean', icon: '🇰🇷' },
-        { name: 'Tiếng Việt', href: '/courses/vietnamese', icon: '🇻🇳' }
+        { 
+          name: 'Tiếng Nhật', 
+          href: '/courses/japanese', 
+          icon: '🇯🇵',
+          submenu: [
+            { 
+              name: 'N5 - Cơ bản', 
+              href: '/courses/japanese/n5', 
+              icon: '🟢',
+              submenu: [
+                { name: 'Từ vựng', href: '/courses/japanese/n5/vocabulary', icon: '📚' },
+                { name: 'Ngữ pháp', href: '/courses/japanese/n5/grammar', icon: '📖' },
+                { name: 'Kanji', href: '/courses/japanese/n5/kanji', icon: '🈯' },
+                { name: 'Luyện nghe', href: '/courses/japanese/n5/listening', icon: '🎧' }
+              ]
+            },
+            { 
+              name: 'N4 - Sơ cấp', 
+              href: '/courses/japanese/n4', 
+              icon: '🟡',
+              submenu: [
+                { name: 'Từ vựng', href: '/courses/japanese/n4/vocabulary', icon: '📚' },
+                { name: 'Ngữ pháp', href: '/courses/japanese/n4/grammar', icon: '📖' },
+                { name: 'Kanji', href: '/courses/japanese/n4/kanji', icon: '🈯' },
+                { name: 'Luyện nghe', href: '/courses/japanese/n4/listening', icon: '🎧' }
+              ]
+            },
+            { 
+              name: 'N3 - Trung cấp', 
+              href: '/courses/japanese/n3', 
+              icon: '🟠',
+              submenu: [
+                { name: 'Từ vựng', href: '/courses/japanese/n3/vocabulary', icon: '📚' },
+                { name: 'Ngữ pháp', href: '/courses/japanese/n3/grammar', icon: '📖' },
+                { name: 'Kanji', href: '/courses/japanese/n3/kanji', icon: '🈯' },
+                { name: 'Luyện nghe', href: '/courses/japanese/n3/listening', icon: '🎧' }
+              ]
+            },
+            { 
+              name: 'N2 - Cao cấp', 
+              href: '/courses/japanese/n2', 
+              icon: '🔴',
+              submenu: [
+                { name: 'Từ vựng', href: '/courses/japanese/n2/vocabulary', icon: '📚' },
+                { name: 'Ngữ pháp', href: '/courses/japanese/n2/grammar', icon: '📖' },
+                { name: 'Kanji', href: '/courses/japanese/n2/kanji', icon: '🈯' },
+                { name: 'Luyện nghe', href: '/courses/japanese/n2/listening', icon: '🎧' }
+              ]
+            },
+            { 
+              name: 'N1 - Thượng cấp', 
+              href: '/courses/japanese/n1', 
+              icon: '⚫',
+              submenu: [
+                { name: 'Từ vựng', href: '/courses/japanese/n1/vocabulary', icon: '📚' },
+                { name: 'Ngữ pháp', href: '/courses/japanese/n1/grammar', icon: '📖' },
+                { name: 'Kanji', href: '/courses/japanese/n1/kanji', icon: '🈯' },
+                { name: 'Luyện nghe', href: '/courses/japanese/n1/listening', icon: '🎧' }
+              ]
+            }
+          ]
+        },
+        { 
+          name: 'Tiếng Trung', 
+          href: '/courses/chinese', 
+          icon: '🇨🇳',
+          submenu: [
+            { name: 'HSK 1', href: '/courses/chinese/hsk1', icon: '🟢' },
+            { name: 'HSK 2', href: '/courses/chinese/hsk2', icon: '🟡' },
+            { name: 'HSK 3', href: '/courses/chinese/hsk3', icon: '🟠' },
+            { name: 'HSK 4', href: '/courses/chinese/hsk4', icon: '🔴' },
+            { name: 'HSK 5', href: '/courses/chinese/hsk5', icon: '⚫' },
+            { name: 'HSK 6', href: '/courses/chinese/hsk6', icon: '🟣' },
+            { name: 'HSK 7', href: '/courses/chinese/hsk7', icon: '🔵' },
+            { name: 'HSK 8', href: '/courses/chinese/hsk8', icon: '🟤' },
+            { name: 'HSK 9', href: '/courses/chinese/hsk9', icon: '⚪' }
+          ]
+        },
+        { 
+          name: 'Tiếng Hàn', 
+          href: '/courses/korean', 
+          icon: '🇰🇷',
+          submenu: [
+            { name: 'TOPIK 1', href: '/courses/korean/topik1', icon: '🟢' },
+            { name: 'TOPIK 2', href: '/courses/korean/topik2', icon: '🟡' },
+            { name: 'TOPIK 3', href: '/courses/korean/topik3', icon: '🟠' },
+            { name: 'TOPIK 4', href: '/courses/korean/topik4', icon: '🔴' },
+            { name: 'TOPIK 5', href: '/courses/korean/topik5', icon: '⚫' },
+            { name: 'TOPIK 6', href: '/courses/korean/topik6', icon: '🟣' }
+          ]
+        },
+        { 
+          name: 'Tiếng Anh', 
+          href: '/courses/english', 
+          icon: '🇺🇸',
+          submenu: [
+            { name: 'A1 - Beginner', href: '/courses/english/a1', icon: '🟢' },
+            { name: 'A2 - Elementary', href: '/courses/english/a2', icon: '🟡' },
+            { name: 'B1 - Intermediate', href: '/courses/english/b1', icon: '🟠' },
+            { name: 'B2 - Upper Intermediate', href: '/courses/english/b2', icon: '🔴' },
+            { name: 'C1 - Advanced', href: '/courses/english/c1', icon: '⚫' }
+          ]
+        },
+        { 
+          name: 'Tiếng Việt', 
+          href: '/courses/vietnamese', 
+          icon: '🇻🇳',
+          submenu: [
+            { name: 'Cơ bản', href: '/courses/vietnamese/basic', icon: '🟢' },
+            { name: 'Sơ cấp', href: '/courses/vietnamese/elementary', icon: '🟡' },
+            { name: 'Trung cấp', href: '/courses/vietnamese/intermediate', icon: '🟠' },
+            { name: 'Cao cấp', href: '/courses/vietnamese/advanced', icon: '🔴' },
+            { name: 'Thành thạo', href: '/courses/vietnamese/fluent', icon: '⚫' }
+          ]
+        }
       ]
     },
     {
       name: 'LUYỆN THI',
-      href: '/test',
+      href: '/practice',
       icon: <Trophy size={18} />,
-      color: 'from-purple-500 to-purple-600',
+      color: 'from-yellow-500 to-yellow-600',
       dropdown: [
-        { name: 'JLPT', href: '/test/jlpt', icon: '🇯🇵' },
-        { name: 'HSK', href: '/test/hsk', icon: '🇨🇳' },
-        { name: 'TOEIC/IELTS', href: '/test/english', icon: '🇺🇸' },
-        { name: 'TOPIK', href: '/test/topik', icon: '🇰🇷' },
-        { name: 'VSL Test', href: '/test/vsl', icon: '🇻🇳' },
-        { name: 'AI Mock Test', href: '/test/ai', icon: '🤖' }
+        { name: 'JLPT Thử nghiệm', href: '/test', icon: '📝' },
+        { name: 'Kiểm tra nhanh', href: '/test/mini', icon: '⚡' },
+        { name: 'Thi tổng hợp', href: '/comprehensive-test', icon: '📋' },
+        { name: 'Luyện kỹ năng', href: '/test/skill', icon: '🎯' }
       ]
     },
     {
       name: 'CỘNG ĐỒNG',
       href: '/community',
       icon: <Users size={18} />,
-      color: 'from-green-500 to-green-600',
+      color: 'from-purple-500 to-purple-600',
       dropdown: [
-        { name: 'Diễn đàn', href: '/community/forum', icon: '💬' },
+        { name: 'Diễn đàn', href: '/community', icon: '💬' },
         { name: 'Nhóm học tập', href: '/community/groups', icon: '👥' },
-        { name: 'Blog chia sẻ', href: '/community/blog', icon: '📝' },
-        { name: 'Thách đấu', href: '/community/challenges', icon: '🎯' }
+        { name: 'Chia sẻ kinh nghiệm', href: '/community/share', icon: '💡' },
+        { name: 'Sự kiện', href: '/community/events', icon: '📅' }
+      ]
+    },
+    {
+      name: 'PROFILE',
+      href: '/profile',
+      icon: <User size={18} />,
+      color: 'from-pink-500 to-pink-600',
+      dropdown: [
+        { name: 'Hồ sơ cá nhân', href: '/profile', icon: '👤' },
+        { name: 'Cài đặt', href: '/settings', icon: '⚙️' },
+        { name: 'Hỗ trợ', href: '/support', icon: '❓' },
+        { name: 'Về trung tâm', href: '/about', icon: 'ℹ️' }
       ]
     }
   ];
 
-  const profileMenuItems = [
-    { 
-      name: 'Hồ sơ cá nhân', 
-      href: '/profile', 
-      icon: <User size={16} />
-    },
-    { 
-      name: 'Cài đặt', 
-      href: '/settings', 
-      icon: <Settings size={16} />
-    },
-    { 
-      name: 'Hỗ trợ', 
-      href: '/support', 
-      icon: <HelpCircle size={16} />
-    },
-    { 
-      name: 'Về trung tâm', 
-      href: '/about', 
-      icon: <Info size={16} />
-    }
-  ];
-
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 ${isScrolled ? 'scrolled' : ''}`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 lg:h-20">
-          
-          {/* Logo Section - Left Side */}
-          <div className="logo-container relative">
-            <div className="logo-image relative">
+    <header className={`main-header ${isScrolled ? 'scrolled' : ''}`}>
+      <div className="header-container">
+        <div className="header-content">
+          {/* Logo Section - Always Visible */}
+          <div className="logo-section">
               <Logo />
-              {/* AI Sparkle Effect */}
-              <div className="sparkle-effect">
-                <Sparkles size={12} className="text-white" />
-              </div>
-              <div className="sparkle-effect delayed">
-                <Brain size={12} className="text-white" />
-              </div>
-            </div>
-            <div className="logo-text">
-              <h1>PHÚC KHIÊM</h1>
-              <p>Education</p>
-            </div>
           </div>
 
-          {/* Desktop Navigation - 4 MENU CHÍNH - OPTIMIZED SPACING */}
-          <nav className="hidden lg:flex items-center space-x-4">
-            {navigationItems.map((item) => (
-              <div key={item.name} className="relative group">
-                <button
-                  className={`nav-item ${item.color} ${openDropdown === item.name ? 'active' : ''}`}
-                  onClick={() => setOpenDropdown(openDropdown === item.name ? null : item.name)}
-                >
-                  <span className="icon">{item.icon}</span>
-                  {item.name}
-                  <ChevronDown size={16} className="chevron" />
-                </button>
-                
-                <AnimatePresence>
-                  {openDropdown === item.name && (
-                    <motion.div
-                      className="dropdown-menu"
-                      initial={{ opacity: 0, y: -10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: -10 }}
-                      transition={{ duration: 0.3, type: "spring" }}
-                    >
-                      {item.dropdown.map((dropdownItem) => (
-                        <div key={dropdownItem.name} className="dropdown-item">
-                          <span className="item-icon">{dropdownItem.icon}</span>
-                          <div className="item-content">
-                            <span className="item-title">{dropdownItem.name}</span>
-                          </div>
-                        </div>
-                      ))}
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-            ))}
-          </nav>
+          {/* Desktop Navigation */}
+          <DesktopNavigation 
+            navigationItems={navigationItems}
+            openDropdown={openDropdown}
+            onToggleDropdown={toggleDropdown}
+          />
 
-          {/* Right Side - Actions + Profile - Enhanced */}
-          <div className="right-actions hidden lg:flex items-center space-x-4">
-            {/* Search - Enhanced */}
-            <button className="action-button search">
-              <Search size={20} />
+          {/* Mobile Header Actions - Hidden on Desktop */}
+          <div className="mobile-header-actions lg:hidden">
+            <div className="mobile-logo-text text-gray-600 font-medium">MENU</div>
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="mobile-menu-button"
+            >
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
-
-            {/* Notifications - Enhanced */}
-            <button className="action-button notification relative">
-              <Bell size={20} />
-              <span className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full animate-pulse"></span>
-            </button>
-
-            {/* Profile Menu - Enhanced */}
-            <div className="relative group">
-              <button
-                onClick={() => toggleDropdown('profile')}
-                className="profile-button flex items-center space-x-3"
-              >
-                <User size={18} />
-                <span className="font-medium">Profile</span>
-                <ChevronDown 
-                  size={16} 
-                  className="chevron transition-all duration-300" 
-                />
-              </button>
-
-              <AnimatePresence>
-                {openDropdown === 'profile' && (
-                  <motion.div
-                    initial={{ opacity: 0, y: -20, scale: 0.95 }}
-                    animate={{ opacity: 1, y: 0, scale: 1 }}
-                    exit={{ opacity: 0, y: -20, scale: 0.95 }}
-                    transition={{ duration: 0.3, type: "spring", stiffness: 300 }}
-                    className="dropdown-menu absolute top-full right-0 mt-3"
-                  >
-                    <div className="space-y-3">
-                      {profileMenuItems.map((menuItem) => (
-                        <Link
-                          key={menuItem.name}
-                          href={menuItem.href}
-                          onClick={closeAllDropdowns}
-                          className="dropdown-item group"
-                        >
-                          <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-orange-500 rounded-xl flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-                            {menuItem.icon}
-                          </div>
-                          <div className="item-content">
-                            <span className="item-title">
-                              {menuItem.name}
-                            </span>
-                          </div>
-                        </Link>
-                      ))}
-                    </div>
-                    
-                    {/* Auth Buttons - Enhanced */}
-                    <div className="mt-5 pt-4 border-t border-gray-100 space-y-3">
-                      <Link
-                        href="/auth/login"
-                        className="auth-button login block w-full text-center"
-                      >
-                        Đăng nhập
-                      </Link>
-                      <Link
-                        href="/auth/register"
-                        className="auth-button register block w-full text-center"
-                      >
-                        Đăng ký
-                      </Link>
-                    </div>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
           </div>
-
-          {/* Mobile Menu Toggle */}
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="mobile-menu-toggle lg:hidden"
-          >
-            <Menu size={24} />
-          </button>
         </div>
       </div>
 
-      {/* Mobile Menu - Enhanced */}
-      <AnimatePresence>
-        {isMobileMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.4 }}
-            className="mobile-menu lg:hidden"
-          >
-            <div className="mobile-menu-content">
-              <div className="flex justify-between items-center mb-8">
-                <Logo />
-                <button
-                  onClick={() => setIsMobileMenuOpen(false)}
-                  className="text-gray-500 hover:text-gray-700"
-                >
-                  <X size={24} />
-                </button>
-              </div>
-              
-              <nav className="space-y-4">
-                {navigationItems.map((item) => (
-                  <div key={item.name}>
-                    <div className="mobile-menu-item">
-                      <span className="mr-3">{item.icon}</span>
-                      <span className="font-semibold">{item.name}</span>
-                    </div>
-                    
-                    {item.dropdown && (
-                      <div className="ml-6 space-y-2 mt-2">
-                        {item.dropdown.map((dropdownItem) => (
-                          <Link
-                            key={dropdownItem.name}
-                            href={dropdownItem.href}
-                            onClick={() => setIsMobileMenuOpen(false)}
-                            className="mobile-menu-item"
-                          >
-                            <span className="mr-3">{dropdownItem.icon}</span>
-                            <span>{dropdownItem.name}</span>
-                          </Link>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </nav>
-              
-              <div className="mt-8 space-y-4">
-                <button className="auth-button login">
-                  Đăng nhập
-                </button>
-                <button className="auth-button register">
-                  Đăng ký
-                </button>
-              </div>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-
-      {/* Backdrop for mobile */}
-      {isMobileMenuOpen && (
-        <div 
-          className="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 lg:hidden"
-          onClick={closeAllDropdowns}
-        />
-      )}
+                {/* Mobile Menu */}
+          <MobileMenu
+            isOpen={isMobileMenuOpen}
+            onClose={handleMobileMenuClose}
+            navigationItems={navigationItems}
+          />
     </header>
   );
 }

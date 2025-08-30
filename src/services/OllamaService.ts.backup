@@ -1,0 +1,226 @@
+export interface OllamaResponse {
+  model: string;
+  created_at: string;
+  response: string;
+  done: boolean;
+  context?: number[];
+  total_duration?: number;
+  load_duration?: number;
+  prompt_eval_duration?: number;
+  eval_duration?: number;
+}
+
+export interface OllamaRequest {
+  model: string;
+  prompt: string;
+  stream?: boolean;
+  options?: {
+    temperature?: number;
+    top_p?: number;
+    top_k?: number;
+    num_predict?: number;
+  };
+}
+
+export class OllamaService {
+  private baseUrl: string = 'http://127.0.0.1:11434';
+  private defaultModel: string = 'qwen2:0.5b';
+
+  constructor(baseUrl?: string, defaultModel?: string) {
+    if (baseUrl) this.baseUrl = baseUrl;
+    if (defaultModel) this.defaultModel = defaultModel;
+  }
+
+  // Kiểm tra Ollama có hoạt động không
+  async isAvailable(): Promise<boolean> {
+    try {
+      const response = await fetch('/api/ai/ollama', {
+        method: 'GET',
+        headers: { 'Content-Type': 'application/json' },
+        signal: AbortSignal.timeout(5000) // Timeout 5 giây
+      });
+      const data = await response.json();
+      return data.success;
+    } catch (error) {
+      console.log('Ollama không khả dụng:', error);
+      return false;
+    }
+  }
+
+  // Lấy danh sách models có sẵn
+  async getAvailableModels(): Promise<string[]> {
+    try {
+      const response = await fetch('/api/ai/ollama');
+      const data = await response.json();
+      if (data.success) {
+        return data.models?.map((model: any) => model.name) || [];
+      }
+      return [];
+    } catch (error) {
+      console.error('Lỗi khi lấy danh sách models:', error);
+      return [];
+    }
+  }
+
+  // Chat với Ollama
+  async chat(message: string, context: string = '', model?: string): Promise<string> {
+    try {
+      const response = await fetch('/api/ai/ollama', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          message,
+          context,
+          model: model || this.defaultModel
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error(`API error: ${response.status}`);
+      }
+
+      const data = await response.json();
+      if (!data.success) {
+        throw new Error(data.message || 'Ollama error');
+      }
+
+      return data.response.trim();
+    } catch (error) {
+      console.error('Lỗi khi chat với Ollama:', error);
+      throw new Error('Không thể kết nối với Ollama. Vui lòng kiểm tra Ollama đã chạy chưa.');
+    }
+  }
+
+  // Tạo prompt thông minh dựa trên context
+  private buildPrompt(userMessage: string, context: string): string {
+    const systemPrompt = `Bạn là AI tutor chuyên dạy ngoại ngữ của PHÚC KHIÊM Education. 
+Bạn có kiến thức sâu rộng về 5 ngôn ngữ: Tiếng Nhật, Tiếng Trung, Tiếng Anh, Tiếng Hàn, và Tiếng Việt.
+
+${context ? `Context hiện tại: ${context}` : ''}
+
+Hãy đưa ra câu trả lời:
+- Chính xác và hữu ích
+- Phù hợp với trình độ người học
+- Có ví dụ cụ thể khi cần thiết
+- Trả lời bằng tiếng Việt (trừ khi được yêu cầu khác)
+- Ngắn gọn nhưng đầy đủ thông tin
+
+User: ${userMessage}
+Assistant:`;
+
+    return systemPrompt;
+  }
+
+  // Streaming chat (cho hiệu ứng typewriter)
+  async *streamChat(message: string, context: string = '', model?: string): AsyncGenerator<string> {
+    try {
+      const prompt = this.buildPrompt(message, context);
+      
+      const request: OllamaRequest = {
+        model: model || this.defaultModel,
+        prompt,
+        stream: true,
+        options: {
+          temperature: 0.7,
+          top_p: 0.9,
+          num_predict: 500
+        }
+      };
+
+      const response = await fetch(`${this.baseUrl}/api/generate`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(request)
+      });
+
+      if (!response.ok) {
+        throw new Error(`Ollama error: ${response.status}`);
+      }
+
+      const reader = response.body?.getReader();
+      if (!reader) throw new Error('Không thể đọc response stream');
+
+      const decoder = new TextDecoder();
+      let buffer = '';
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split('\n');
+        buffer = lines.pop() || '';
+
+        for (const line of lines) {
+          if (line.trim()) {
+            try {
+              const data: OllamaResponse = JSON.parse(line);
+              if (data.response) {
+                yield data.response;
+              }
+            } catch (e) {
+              // Bỏ qua dòng không phải JSON
+            }
+          }
+        }
+      }
+    } catch (error) {
+      console.error('Lỗi khi streaming chat:', error);
+      throw new Error('Không thể kết nối với Ollama.');
+    }
+  }
+
+    // Test kết nối
+  async testConnection(): Promise<{ success: boolean; message: string; model?: string }> {
+    try {
+      // Sử dụng API route để test connection
+      const response = await fetch("/api/ai/ollama");
+      const data = await response.json();
+      
+      if (data.success) {
+        return { 
+          success: true, 
+          message: "Kết nối Ollama thành công!", 
+          model: data.models?.[0]?.name || this.defaultModel 
+        };
+      } else {
+        return { 
+          success: false, 
+          message: data.message || "Ollama không khả dụng" 
+        };
+      }
+    } catch (error) {
+      return { 
+        success: false, 
+        message: `Lỗi kết nối: ${error instanceof Error ? error.message : String(error)}` 
+      };
+    }
+  }
+    try {
+      // Sử dụng API route để test connection
+      const response = await fetch('/api/ai/ollama');
+      const data = await response.json();
+      
+      if (data.success) {
+        return { 
+          success: true, 
+          message: 'Kết nối Ollama thành công!', 
+          model: data.models?.[0]?.name || this.defaultModel 
+        };
+      } else {
+        return { 
+          success: false, 
+          message: data.message || 'Ollama không khả dụng' 
+        };
+      }
+    } catch (error) {
+      return { 
+        success: false, 
+        message: `Lỗi kết nối: ${error instanceof Error ? error.message : String(error)}` 
+      };
+    }
+  }
+}
+
+// Export instance mặc định
+export const ollamaService = new OllamaService();

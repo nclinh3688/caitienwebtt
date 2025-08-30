@@ -177,12 +177,10 @@ async function generateRecommendation(skill: string, score: number): Promise<str
 
     let recommendation = '';
 
-    if (aiProvider === 'OPENAI' && process.env.OPENAI_API_KEY) {
-      if (!openai) {
-        openai = new OpenAI({
-          apiKey: process.env.OPENAI_API_KEY,
-        });
-      }
+    if (aiProvider === 'OPENAI' && (process.env.NEXT_PUBLIC_OPENAI_API_KEY || process.env.OPENAI_API_KEY)) {
+      const openai = new OpenAI({
+        apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY || process.env.OPENAI_API_KEY,
+      });
       const completion = await openai.chat.completions.create({
         messages: [{ role: "user", content: prompt }],
         model: "gpt-3.5-turbo",

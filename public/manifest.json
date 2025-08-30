@@ -1,11 +1,11 @@
 {
   "name": "PHÚC KHIÊM Education",
   "short_name": "PHÚC KHIÊM",
-  "description": "Nền tảng học ngoại ngữ thông minh với AI tutor, 5 ngôn ngữ (Nhật, Trung, Anh, Hàn, Việt)",
+  "description": "Học ngoại ngữ thông minh với AI tutor",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#1e40af",
+  "background_color": "#1e293b",
+  "theme_color": "#3b82f6",
   "orientation": "portrait-primary",
   "scope": "/",
   "lang": "vi",
@@ -62,33 +62,9 @@
   ],
   "shortcuts": [
     {
-      "name": "Khóa học tiếng Nhật",
-      "short_name": "Tiếng Nhật",
-      "description": "Truy cập nhanh khóa học tiếng Nhật",
-      "url": "/courses/japanese",
-      "icons": [
-        {
-          "src": "/icons/japanese-96x96.png",
-          "sizes": "96x96"
-        }
-      ]
-    },
-    {
-      "name": "Khóa học tiếng Trung",
-      "short_name": "Tiếng Trung",
-      "description": "Truy cập nhanh khóa học tiếng Trung",
-      "url": "/courses/chinese",
-      "icons": [
-        {
-          "src": "/icons/chinese-96x96.png",
-          "sizes": "96x96"
-        }
-      ]
-    },
-    {
       "name": "Dashboard",
       "short_name": "Dashboard",
-      "description": "Xem tiến độ học tập",
+      "description": "Xem dashboard học tập",
       "url": "/dashboard",
       "icons": [
         {
@@ -96,24 +72,44 @@
           "sizes": "96x96"
         }
       ]
+    },
+    {
+      "name": "Khóa học",
+      "short_name": "Courses",
+      "description": "Xem các khóa học",
+      "url": "/courses",
+      "icons": [
+        {
+          "src": "/icons/courses-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Bài kiểm tra",
+      "short_name": "Tests",
+      "description": "Làm bài kiểm tra",
+      "url": "/test",
+      "icons": [
+        {
+          "src": "/icons/test-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
     }
   ],
   "screenshots": [
     {
-      "src": "/screenshots/desktop-1.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Trang chủ PHÚC KHIÊM Education"
-    },
-    {
       "src": "/screenshots/mobile-1.png",
       "sizes": "390x844",
       "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Trang chủ trên mobile"
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/desktop-1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
     }
-  ],
-  "related_applications": [],
-  "prefer_related_applications": false
+  ]
 }

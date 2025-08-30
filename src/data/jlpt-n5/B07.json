@@ -1,192 +1,217 @@
 {
-  "metadata": {
-    "id": "B07",
-    "title": "Bài 07: Shopping & Money",
-    "level": "N5",
-    "theme": "Shopping & Money",
-    "estimatedTime": 45,
-    "difficulty": "Beginner",
-    "lastUpdated": "2025-08-01T16:34:15.669Z"
-  },
-  "vocabulary": [
-    {
-      "japanese": "おかね",
-      "reading": "okane",
-      "meaning": "money",
-      "example": "おかねがあります (I have money)"
-    },
-    {
-      "japanese": "かいもの",
-      "reading": "kaimono",
-      "meaning": "shopping",
-      "example": "かいものをします (I go shopping)"
-    },
-    {
-      "japanese": "みせ",
-      "reading": "mise",
-      "meaning": "shop/store",
-      "example": "みせに入ります (I enter the shop)"
-    },
-    {
-      "japanese": "スーパー",
-      "reading": "sūpā",
-      "meaning": "supermarket",
-      "example": "スーパーで買います (I buy at the supermarket)"
-    },
-    {
-      "japanese": "デパート",
-      "reading": "depāto",
-      "meaning": "department store",
-      "example": "デパートに行きます (I go to the department store)"
-    },
-    {
-      "japanese": "やすい",
-      "reading": "yasui",
-      "meaning": "cheap",
-      "example": "やすいです (It is cheap)"
-    },
-    {
-      "japanese": "たかい",
-      "reading": "takai",
-      "meaning": "expensive",
-      "example": "たかいです (It is expensive)"
-    },
-    {
-      "japanese": "いくら",
-      "reading": "ikura",
-      "meaning": "how much",
-      "example": "いくらですか (How much is it?)"
-    },
-    {
-      "japanese": "えん",
-      "reading": "en",
-      "meaning": "yen",
-      "example": "1000えんです (It is 1000 yen)"
-    },
-    {
-      "japanese": "レシート",
-      "reading": "reshīto",
-      "meaning": "receipt",
-      "example": "レシートをもらいます (I receive a receipt)"
-    }
-  ],
-  "grammar": [
-    {
-      "pattern": "〜は〜です",
-      "meaning": "~ is ~",
-      "explanation": "Basic copula sentence pattern",
-      "examples": [
-        "これは1000えんです (This is 1000 yen)",
-        "あれはデパートです (That is a department store)",
-        "これはやすいです (This is cheap)"
-      ]
-    },
-    {
-      "pattern": "〜で〜ます",
-      "meaning": "At/In ~ do ~",
-      "explanation": "Used to express where an action takes place",
-      "examples": [
-        "スーパーで買います (I buy at the supermarket)",
-        "レストランで食べます (I eat at the restaurant)",
-        "えきで待ちます (I wait at the station)"
-      ]
-    }
-  ],
-  "kanji": [
-    {
-      "character": "金",
-      "reading": "きん",
-      "meaning": "money/gold",
-      "strokeCount": 8,
-      "examples": [
-        "お金",
-        "金曜日",
-        "金庫"
-      ]
-    },
-    {
-      "character": "買",
-      "reading": "かい",
-      "meaning": "buy",
-      "strokeCount": 12,
-      "examples": [
-        "買う",
-        "買い物",
-        "購買"
-      ]
-    },
-    {
-      "character": "店",
-      "reading": "てん",
-      "meaning": "shop/store",
-      "strokeCount": 8,
-      "examples": [
-        "店",
-        "店員",
-        "商店"
-      ]
-    },
-    {
-      "character": "安",
-      "reading": "あん",
-      "meaning": "cheap/safe",
-      "strokeCount": 6,
-      "examples": [
-        "安い",
-        "安全",
-        "安心"
-      ]
-    },
-    {
-      "character": "高",
-      "reading": "たか",
-      "meaning": "expensive/high",
-      "strokeCount": 10,
-      "examples": [
-        "高い",
-        "高校",
-        "高級"
-      ]
-    }
-  ],
-  "listening": {
-    "audioFile": "/audio/n5/B07.mp3",
-    "transcript": "Bài nghe B07: Shopping & Money",
-    "exercises": [
-      {
-        "question": "Bạn nghe được từ nào?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "correctAnswer": "A"
-      }
+  "lessonNumber": 7,
+  "japaneseTitle": "第７課",
+  "vietnameseTitle": "Bài 7: Phương tiện và công cụ",
+  "englishTitle": "Lesson 7: Tools and Means",
+  "summary": {
+    "title": "Tóm tắt bài học",
+    "content": "Bài 7 tập trung vào cách diễn đạt phương tiện, công cụ và các mẫu câu liên quan đến việc cho, nhận. Học viên sẽ nắm vững cách sử dụng trợ từ で, に và các mẫu câu cho tặng.",
+    "keyPoints": [
+      "Trợ từ で chỉ phương tiện, công cụ",
+      "Cách hỏi từ trong ngôn ngữ khác",
+      "Trợ từ に chỉ hướng đến",
+      "Trợ từ に chỉ xuất xứ",
+      "Cách nói đã làm gì rồi với もう",
+      "Cách nói chưa làm gì với まだ"
     ]
   },
-  "exercises": [
+  "estimatedTime": "8-10 giờ",
+  "difficulty": "⭐⭐⭐⭐⭐",
+  "grammarPatterns": [
     {
-      "type": "vocabulary",
-      "question": "Chọn từ đúng nghĩa",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+      "id": 1,
+      "pattern": "N で V ます",
+      "meaning": "Làm ~ bằng N",
+      "explanation": "N là Danh từ chỉ phương tiện, công cụ. 「で」là trợ từ chỉ phương tiện, phương thức, phương pháp thực hiện hành động.",
+      "examples": [
+        {
+          "japanese": "はしで ごはんを たべます。",
+          "kanji": "箸で ご飯を 食べます。",
+          "vietnamese": "Tôi ăn cơm bằng đũa.",
+          "english": "I eat rice with chopsticks."
+        },
+        {
+          "japanese": "コンピューターで レポートを かきます。",
+          "kanji": "コンピューターで レポートを 書きます。",
+          "vietnamese": "Tôi viết báo cáo bằng máy tính.",
+          "english": "I write reports using a computer."
+        },
+        {
+          "japanese": "なんで りんごを きりますか。",
+          "kanji": "何で りんごを 切りますか。",
+          "vietnamese": "Bạn cắt táo bằng gì thế?",
+          "english": "What do you use to cut apples?"
+        }
       ],
-      "correctAnswer": "A"
+      "notes": "Trợ từ 「で」cũng chỉ cả phương tiện ngôn ngữ."
     },
     {
-      "type": "grammar",
-      "question": "Chọn câu đúng ngữ pháp",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+      "id": 2,
+      "pattern": "「Từ/Câu」は ～語で 何ですか",
+      "meaning": "\"Từ/Câu\" trong tiếng~ là gì?",
+      "explanation": "Dùng để hỏi cách nói một từ hoặc câu bằng một thứ tiếng nào đó. Khi viết, từ/câu được hỏi thường để trong dấu 「 」(dấu ngoặc kép trong tiếng Nhật).",
+      "examples": [
+        {
+          "japanese": "「ありがとう」は 英語で 何ですか。",
+          "kanji": "「ありがとう」は 英語で 何ですか。",
+          "vietnamese": "\"ありがとう\" trong tiếng Anh là gì thế?",
+          "english": "What is \"arigatou\" in English?"
+        },
+        {
+          "japanese": "…「Thank you」です。",
+          "kanji": "…「Thank you」です。",
+          "vietnamese": "… là \"Thank you\".",
+          "english": "It's \"Thank you\"."
+        },
+        {
+          "japanese": "「Tết」は 日本語で 何ですか。",
+          "kanji": "「Tết」は 日本語で 何ですか。",
+          "vietnamese": "\"Tết\" tiếng Nhật là gì?",
+          "english": "What is \"Tet\" in Japanese?"
+        }
       ],
-      "correctAnswer": "B"
+      "notes": "Dùng để hỏi cách nói một từ hoặc câu bằng một thứ tiếng nào đó."
+    },
+    {
+      "id": 3,
+      "pattern": "N1(người, công ty, quốc gia) に N2 を あげます／かします／かきます／おしえます…",
+      "meaning": "Cho, tặng, biếu, cho vay, viết, dạy cho ai",
+      "explanation": "「に」là trợ từ chỉ hướng đến của hành động, có nghĩa \"cho ai\".",
+      "examples": [
+        {
+          "japanese": "ともだちに てがみを かきます。",
+          "kanji": "友達に 手紙を 書きます。",
+          "vietnamese": "Tôi sẽ viết thư cho bạn.",
+          "english": "I will write a letter to my friend."
+        },
+        {
+          "japanese": "母に プレゼントをあげます",
+          "kanji": "母に プレゼントをあげます",
+          "vietnamese": "Tôi sẽ tặng quà cho mẹ.",
+          "english": "I will give a present to my mother."
+        },
+        {
+          "japanese": "だれに 日本語を おしえますか。",
+          "kanji": "誰に 日本語を 教えますか。",
+          "vietnamese": "Bạn dạy tiếng Nhật cho ai?",
+          "english": "Who do you teach Japanese to?"
+        }
+      ],
+      "notes": "Với động từ 「あげます」, N1 không được dùng là 「わたし」."
+    },
+    {
+      "id": 4,
+      "pattern": "N1(người) に N2 を もらいます／かります／ならいます",
+      "meaning": "(Nhận được) ~ từ N1",
+      "explanation": "N1 chỉ xuất xứ của thứ hoặc vật mà chủ hành động nhận được/vay mượn được/học được; N2 chỉ thứ hoặc vật mà chủ hành động nhận được/vay mượn được/ học được.",
+      "examples": [
+        {
+          "japanese": "木村さんは山田さんに花をもらいました。",
+          "kanji": "木村さんは山田さんに花をもらいました。",
+          "vietnamese": "Chị Kimura đã nhận được hoa từ Yamada.",
+          "english": "Ms. Kimura received flowers from Ms. Yamada."
+        },
+        {
+          "japanese": "鈴木先生に日本語を習いました。",
+          "kanji": "鈴木先生に日本語を習いました。",
+          "vietnamese": "Tôi đã học tiếng Nhật từ cô Suzuki.",
+          "english": "I learned Japanese from Ms. Suzuki."
+        },
+        {
+          "japanese": "だれに この時計を もらいましたか。",
+          "kanji": "誰に この時計を もらいましたか。",
+          "vietnamese": "Bạn đã nhận chiếc đồng hồ này từ ai vậy?",
+          "english": "Who did you receive this watch from?"
+        }
+      ],
+      "notes": "Khi N1 không phải là người mà là một cơ quan/tổ chức nào đó, sẽ dùng trợ từ 「から」thay cho 「に」."
+    },
+    {
+      "id": 5,
+      "pattern": "もう＋V ました ／ まだ",
+      "meaning": "もう＋V ました：đã …rồi. まだ：vẫn/chưa",
+      "explanation": "もう＋V ました：đã …rồi. まだ：vẫn/chưa, chỉ một hành động hay trạng thái chưa xảy ra, chưa hoàn thành ở thời điểm nói.",
+      "examples": [
+        {
+          "japanese": "もう ごはんを たべましたか。",
+          "kanji": "もう ご飯を 食べましたか。",
+          "vietnamese": "Bạn đã ăn cơm rồi à?",
+          "english": "Have you already eaten rice?"
+        },
+        {
+          "japanese": "... はい、もう たべました。",
+          "kanji": "... はい、もう 食べました。",
+          "vietnamese": "… Vâng, tôi ăn rồi.",
+          "english": "Yes, I have already eaten."
+        },
+        {
+          "japanese": "... いいえ、まだです。",
+          "kanji": "... いいえ、まだです。",
+          "vietnamese": "… Không, tôi vẫn chưa ăn.",
+          "english": "No, I haven't eaten yet."
+        }
+      ],
+      "notes": "Không trả lời いいえ、まだ V ませんでした"
+    }
+  ],
+  "exercises": [
+    {
+      "title": "Bài tập 1: Điền trợ từ",
+      "description": "Điền trợ từ thích hợp vào chỗ trống",
+      "questions": [
+        {
+          "question": "はし ___ ごはんを たべます。",
+          "answer": "で",
+          "kanji": "で",
+          "explanation": "Tôi ăn cơm bằng đũa - dùng で để chỉ phương tiện"
+        },
+        {
+          "question": "ともだち ___ てがみを かきます。",
+          "answer": "に",
+          "kanji": "に",
+          "explanation": "Tôi viết thư cho bạn - dùng に để chỉ người nhận"
+        },
+        {
+          "question": "先生 ___ 日本語を ならいました。",
+          "answer": "に",
+          "kanji": "に",
+          "explanation": "Tôi đã học tiếng Nhật từ cô giáo - dùng に để chỉ người dạy"
+        }
+      ]
+    },
+    {
+      "title": "Bài tập 2: Dịch câu",
+      "description": "Dịch các câu sau sang tiếng Nhật",
+      "questions": [
+        {
+          "question": "Bạn đã ăn cơm chưa?",
+          "answer": "もう ごはんを たべましたか。",
+          "kanji": "もう ご飯を 食べましたか。",
+          "explanation": "Dùng もう để hỏi đã làm gì chưa"
+        },
+        {
+          "question": "Tôi sẽ tặng quà cho mẹ",
+          "answer": "母に プレゼントを あげます。",
+          "kanji": "母に プレゼントを あげます。",
+          "explanation": "Dùng に để chỉ người nhận"
+        },
+        {
+          "question": "Bạn cắt táo bằng gì?",
+          "answer": "なんで りんごを きりますか。",
+          "kanji": "何で りんごを 切りますか。",
+          "explanation": "Dùng なんで để hỏi phương tiện"
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "title": "Văn hóa tặng quà Nhật Bản",
+      "content": "Trong văn hóa Nhật Bản, việc tặng quà rất quan trọng và có nhiều quy tắc. Khi tặng quà, người Nhật thường sử dụng các mẫu câu lịch sự và thể hiện sự tôn trọng đối với người nhận."
+    },
+    {
+      "title": "Cách sử dụng trợ từ",
+      "content": "Trong tiếng Nhật, việc sử dụng đúng các trợ từ như で, に rất quan trọng để diễn đạt chính xác ý nghĩa về phương tiện, hướng đến và xuất xứ."
     }
   ]
 }

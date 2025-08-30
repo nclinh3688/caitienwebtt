@@ -1,0 +1,762 @@
+'use client';
+
+import React, { useState, useEffect, useMemo, useRef } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { 
+  MessageCircle, 
+  X, 
+  Minimize2, 
+  Maximize2, 
+  Send,
+  Bot,
+  User,
+  Wifi,
+  WifiOff,
+  Settings
+} from 'lucide-react';
+import { ollamaService } from '@/services/OllamaService';
+import { multiModelService } from '@/services/MultiModelService';
+
+interface Message {
+  id: string;
+  type: 'user' | 'ai';
+  content: string;
+  timestamp: Date;
+}
+
+interface AIAssistantProps {
+  className?: string;
+}
+
+export default function AIAssistant({ className }: AIAssistantProps) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [isMinimized, setIsMinimized] = useState(false);
+  const [inputValue, setInputValue] = useState('');
+  const [messages, setMessages] = useState<Message[]>([
+    {
+      id: '1',
+      type: 'ai',
+      content: 'Xin chào! Tôi là AI Assistant của PHÚC KHIÊM Education. Tôi có thể giúp bạn học ngoại ngữ, giải đáp thắc mắc về ngữ pháp, từ vựng, và nhiều hơn nữa. Bạn cần hỗ trợ gì?',
+      timestamp: new Date()
+    }
+  ]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [ollamaStatus, setOllamaStatus] = useState<'checking' | 'available' | 'unavailable'>('checking');
+  const [isStreaming, setIsStreaming] = useState(false);
+  const [availableModels, setAvailableModels] = useState<any[]>([]);
+  const [selectedModel, setSelectedModel] = useState<string>('auto');
+  const [modelStatus, setModelStatus] = useState<any[]>([]);
+  const [hasInitialized, setHasInitialized] = useState(false);
+  
+  // Ref cho chat area để scroll
+  const chatAreaRef = useRef<HTMLDivElement>(null);
+
+  // Auto-scroll xuống tin nhắn mới nhất
+  const scrollToBottom = () => {
+    if (chatAreaRef.current) {
+      setTimeout(() => {
+        chatAreaRef.current?.scrollTo({
+          top: chatAreaRef.current.scrollHeight,
+          behavior: 'smooth'
+        });
+      }, 100); // Delay nhỏ để đảm bảo DOM đã update
+    }
+  };
+
+  // Auto-scroll khi có tin nhắn mới
+  useEffect(() => {
+    if (messages.length > 0) {
+      scrollToBottom();
+    }
+  }, [messages]);
+
+  // Auto-scroll khi streaming response
+  useEffect(() => {
+    if (isStreaming) {
+      const interval = setInterval(scrollToBottom, 200);
+      return () => clearInterval(interval);
+    }
+  }, [isStreaming]);
+
+  // Auto-scroll khi chat mở
+  useEffect(() => {
+    if (isOpen && !isMinimized) {
+      scrollToBottom();
+    }
+  }, [isOpen, isMinimized]);
+
+  // Kiểm tra Ollama status khi component mount - CHỈ MỘT LẦN
+  useEffect(() => {
+    if (!hasInitialized) {
+      checkOllamaStatus();
+      loadModelStatus();
+      setHasInitialized(true);
+    }
+  }, [hasInitialized]);
+
+  // Auto-check mỗi 30 giây thay vì 5 giây để giảm nháy
+  useEffect(() => {
+    if (hasInitialized) {
+      const interval = setInterval(() => {
+        // Chỉ check nếu chat đang mở để tiết kiệm tài nguyên
+        if (isOpen) {
+          checkOllamaStatus();
+          loadModelStatus();
+        }
+      }, 30000); // Từ 5 giây → 30 giây
+      return () => clearInterval(interval);
+    }
+  }, [hasInitialized, isOpen]);
+
+  const checkOllamaStatus = async () => {
+    // Tránh check liên tục nếu đang check
+    if (ollamaStatus === 'checking') return;
+    
+    console.log('🔍 Checking Ollama status...');
+    setOllamaStatus('checking');
+    try {
+      const result = await ollamaService.testConnection();
+      console.log('📡 Ollama test result:', result);
+      if (result.success) {
+        console.log('✅ Ollama available, model:', result.model);
+        setOllamaStatus('available');
+      } else {
+        console.log('❌ Ollama test failed:', result.message);
+        setOllamaStatus('unavailable');
+      }
+    } catch (error) {
+      console.error('💥 Ollama check error:', error);
+      setOllamaStatus('unavailable');
+    }
+  };
+
+  const loadModelStatus = async () => {
+    try {
+      const status = multiModelService.getModelStatus();
+      setModelStatus(status);
+      setAvailableModels(status.filter(m => m.isAvailable));
+    } catch (error) {
+      console.error('💥 Error loading model status:', error);
+    }
+  };
+
+  const getCurrentContext = () => {
+    if (typeof window !== 'undefined') {
+      const path = window.location.pathname;
+      if (path.includes('/courses/japanese/n5/vocabulary')) {
+        return 'Bạn đang học từ vựng N5 tiếng Nhật';
+      } else if (path.includes('/courses/japanese/n5/grammar')) {
+        return 'Bạn đang học ngữ pháp N5 tiếng Nhật';
+      } else if (path.includes('/courses/japanese/n5/kanji')) {
+        return 'Bạn đang học Kanji N5 tiếng Nhật';
+      } else if (path.includes('/courses/japanese/n5/listening')) {
+        return 'Bạn đang luyện nghe N5 tiếng Nhật';
+      }
+    }
+    return 'Bạn đang ở trang chính';
+  };
+
+  // Smart AI responses dựa trên context và câu hỏi
+  const generateSmartResponse = (question: string, context: string): string => {
+    const lowerQuestion = question.toLowerCase();
+    
+    // Xử lý câu hỏi về từ vựng theo level
+    if (lowerQuestion.includes('từ vựng') || lowerQuestion.includes('vocabulary')) {
+      // Xác định level (N1, N2, N3, N4, N5)
+      let level = 'N5'; // Default
+      if (lowerQuestion.includes('n1')) level = 'N1';
+      else if (lowerQuestion.includes('n2')) level = 'N2';
+      else if (lowerQuestion.includes('n3')) level = 'N3';
+      else if (lowerQuestion.includes('n4')) level = 'N4';
+      else if (lowerQuestion.includes('n5')) level = 'N5';
+      
+      // Xác định số lượng
+      let count = 10; // Default
+      if (lowerQuestion.includes('5')) count = 5;
+      else if (lowerQuestion.includes('10')) count = 10;
+      else if (lowerQuestion.includes('15')) count = 15;
+      else if (lowerQuestion.includes('20')) count = 20;
+      
+      // Trả lời theo level và số lượng
+      if (level === 'N1') {
+        if (count === 5) {
+          return `📚 **5 TỪ VỰNG N1 PHỔ BIẾN NHẤT**
+
+1. **経済 (keizai)** - Kinh tế
+2. **政治 (seiji)** - Chính trị  
+3. **社会 (shakai)** - Xã hội
+4. **文化 (bunka)** - Văn hóa
+5. **教育 (kyouiku)** - Giáo dục
+
+💡 **Lưu ý:** ${context}
+🎯 **Mẹo học:** Hãy luyện tập những từ này thường xuyên để nhớ lâu!`;
+        }
+        return `📚 **TỪ VỰNG N1 QUAN TRỌNG**
+
+1. **経済 (keizai)** - Kinh tế
+2. **政治 (seiji)** - Chính trị
+3. **社会 (shakai)** - Xã hội
+4. **文化 (bunka)** - Văn hóa
+
+💡 **Lưu ý:** ${context}
+❓ **Bạn muốn học bao nhiêu từ vựng N1?**`;
+      }
+      
+      if (level === 'N2') {
+        if (count === 5) {
+          return `📚 **5 TỪ VỰNG N2 PHỔ BIẾN NHẤT**
+
+1. **会社 (kaisha)** - Công ty
+2. **仕事 (shigoto)** - Công việc
+3. **家族 (kazoku)** - Gia đình
+4. **友達 (tomodachi)** - Bạn bè
+5. **学校 (gakkou)** - Trường học
+
+💡 **Lưu ý:** ${context}
+🎯 **Mẹo học:** Hãy luyện tập những từ này thường xuyên để nhớ lâu!`;
+        }
+        return `📚 **TỪ VỰNG N2 QUAN TRỌNG**
+
+1. **会社 (kaisha)** - Công ty
+2. **仕事 (shigoto)** - Công việc
+3. **家族 (kazoku)** - Gia đình
+4. **友達 (tomodachi)** - Bạn bè
+
+💡 **Lưu ý:** ${context}
+❓ **Bạn muốn học bao nhiêu từ vựng N2?**`;
+      }
+      
+      if (level === 'N3') {
+        if (count === 5) {
+          return `📚 **5 TỪ VỰNG N3 PHỔ BIẾN NHẤT**
+
+1. **映画 (eiga)** - Phim
+2. **音楽 (ongaku)** - Âm nhạc
+3. **料理 (ryouri)** - Nấu ăn
+4. **旅行 (ryokou)** - Du lịch
+5. **趣味 (shumi)** - Sở thích
+
+💡 **Lưu ý:** ${context}
+🎯 **Mẹo học:** Hãy luyện tập những từ này thường xuyên để nhớ lâu!`;
+        }
+        return `📚 **TỪ VỰNG N3 QUAN TRỌNG**
+
+1. **映画 (eiga)** - Phim
+2. **音楽 (ongaku)** - Âm nhạc
+3. **料理 (ryouri)** - Nấu ăn
+4. **旅行 (ryokou)** - Du lịch
+
+💡 **Lưu ý:** ${context}
+❓ **Bạn muốn học bao nhiêu từ vựng N3?**`;
+      }
+      
+      if (level === 'N4') {
+        if (count === 5) {
+          return `📚 **5 TỪ VỰNG N4 PHỔ BIẾN NHẤT**
+
+1. **電車 (densha)** - Tàu điện
+2. **駅 (eki)** - Ga tàu
+3. **切符 (kippu)** - Vé
+4. **時間 (jikan)** - Thời gian
+5. **場所 (basho)** - Nơi chốn
+
+💡 **Lưu ý:** ${context}
+🎯 **Mẹo học:** Hãy luyện tập những từ này thường xuyên để nhớ lâu!`;
+        }
+        return `📚 **TỪ VỰNG N4 QUAN TRỌNG**
+
+1. **電車 (densha)** - Tàu điện
+2. **駅 (eki)** - Ga tàu
+3. **切符 (kippu)** - Vé
+4. **時間 (jikan)** - Thời gian
+
+💡 **Lưu ý:** ${context}
+❓ **Bạn muốn học bao nhiêu từ vựng N4?**`;
+      }
+      
+      // N5 (default)
+      if (count === 5) {
+        return `📚 **5 TỪ VỰNG N5 PHỔ BIẾN NHẤT**
+
+1. **こんにちは (konnichiwa)** - Xin chào
+2. **ありがとう (arigatou)** - Cảm ơn
+3. **おはよう (ohayou)** - Chào buổi sáng
+4. **さようなら (sayounara)** - Tạm biệt
+5. **すみません (sumimasen)** - Xin lỗi
+
+💡 **Lưu ý:** ${context}
+🎯 **Mẹo học:** Hãy luyện tập những từ này thường xuyên để nhớ lâu!`;
+      }
+      
+      return `📚 **TỪ VỰNG N5 CƠ BẢN**
+
+1. **こんにちは (konnichiwa)** - Xin chào
+2. **ありがとう (arigatou)** - Cảm ơn
+3. **おはよう (ohayou)** - Chào buổi sáng
+
+💡 **Lưu ý:** ${context}
+❓ **Bạn muốn học bao nhiêu từ vựng N5?**`;
+    }
+    
+    // Xử lý câu hỏi về ngữ pháp
+    if (lowerQuestion.includes('ngữ pháp') || lowerQuestion.includes('grammar') || lowerQuestion.includes('ngữ pháo')) {
+      // Xác định level
+      let level = 'N5';
+      if (lowerQuestion.includes('n1')) level = 'N1';
+      else if (lowerQuestion.includes('n2')) level = 'N2';
+      else if (lowerQuestion.includes('n3')) level = 'N3';
+      else if (lowerQuestion.includes('n4')) level = 'N4';
+      else if (lowerQuestion.includes('n5')) level = 'N5';
+      
+      // Xác định số lượng
+      let count = 5;
+      if (lowerQuestion.includes('5')) count = 5;
+      else if (lowerQuestion.includes('10')) count = 10;
+      
+      if (count === 5) {
+        if (level === 'N1') {
+          return `📖 **5 ĐIỂM NGỮ PHÁP N1 THÔNG DỤNG**
+
+1. **は (wa)** - Particle chỉ chủ ngữ
+2. **が (ga)** - Particle chỉ chủ ngữ (nhấn mạnh)
+3. **を (wo)** - Particle chỉ tân ngữ
+4. **に (ni)** - Particle chỉ địa điểm, thời gian
+5. **で (de)** - Particle chỉ phương tiện, nơi chốn
+
+💡 **Lưu ý:** ${context}
+🎯 **Mẹo học:** Hãy luyện tập những điểm ngữ pháp này thường xuyên!`;
+        }
+        
+        if (level === 'N2') {
+          return `📖 **5 ĐIỂM NGỮ PHÁP N2 THÔNG DỤNG**
+
+1. **は (wa)** - Particle chỉ chủ ngữ
+2. **が (ga)** - Particle chỉ chủ ngữ (nhấn mạnh)
+3. **を (wo)** - Particle chỉ tân ngữ
+4. **に (ni)** - Particle chỉ địa điểm, thời gian
+5. **で (de)** - Particle chỉ phương tiện, nơi chốn
+
+💡 **Lưu ý:** ${context}
+🎯 **Mẹo học:** Hãy luyện tập những điểm ngữ pháp này thường xuyên!`;
+        }
+        
+        if (level === 'N3') {
+          return `📖 **5 ĐIỂM NGỮ PHÁP N3 THÔNG DỤNG**
+
+1. **は (wa)** - Particle chỉ chủ ngữ
+2. **が (ga)** - Particle chỉ chủ ngữ (nhấn mạnh)
+3. **を (wo)** - Particle chỉ tân ngữ
+4. **に (ni)** - Particle chỉ địa điểm, thời gian
+5. **で (de)** - Particle chỉ phương tiện, nơi chốn
+
+💡 **Lưu ý:** ${context}
+🎯 **Mẹo học:** Hãy luyện tập những điểm ngữ pháp này thường xuyên!`;
+        }
+        
+        if (level === 'N4') {
+          return `📖 **5 ĐIỂM NGỮ PHÁP N4 THÔNG DỤNG**
+
+1. **は (wa)** - Particle chỉ chủ ngữ
+2. **が (ga)** - Particle chỉ chủ ngữ (nhấn mạnh)
+3. **を (wo)** - Particle chỉ tân ngữ
+4. **に (ni)** - Particle chỉ địa điểm, thời gian
+5. **で (de)** - Particle chỉ phương tiện, nơi chốn
+
+💡 **Lưu ý:** ${context}
+🎯 **Mẹo học:** Hãy luyện tập những điểm ngữ pháp này thường xuyên!`;
+        }
+        
+        // N5 (default)
+        return `📖 **5 ĐIỂM NGỮ PHÁP N5 THÔNG DỤNG**
+
+1. **は (wa)** - Particle chỉ chủ ngữ
+2. **が (ga)** - Particle chỉ chủ ngữ (nhấn mạnh)
+3. **を (wo)** - Particle chỉ tân ngữ
+4. **に (ni)** - Particle chỉ địa điểm, thời gian
+5. **で (de)** - Particle chỉ phương tiện, nơi chốn
+
+💡 **Lưu ý:** ${context}
+🎯 **Mẹo học:** Hãy luyện tập những điểm ngữ pháp này thường xuyên!`;
+      }
+      
+      return `📖 **NGỮ PHÁP ${level} CƠ BẢN**
+
+1. **は (wa)** - Particle chỉ chủ ngữ
+2. **が (ga)** - Particle chỉ chủ ngữ (nhấn mạnh)
+3. **を (wo)** - Particle chỉ tân ngữ
+4. **に (ni)** - Particle chỉ địa điểm, thời gian
+
+💡 **Lưu ý:** ${context}
+❓ **Bạn muốn học bao nhiêu điểm ngữ pháp ${level}?**`;
+    }
+    
+    // Xử lý câu hỏi về Kanji
+    if (lowerQuestion.includes('kanji')) {
+      // Xác định level
+      let level = 'N5';
+      if (lowerQuestion.includes('n1')) level = 'N1';
+      else if (lowerQuestion.includes('n2')) level = 'N2';
+      else if (lowerQuestion.includes('n3')) level = 'N3';
+      else if (lowerQuestion.includes('n4')) level = 'N4';
+      else if (lowerQuestion.includes('n5')) level = 'N5';
+      
+      // Xác định số lượng
+      let count = 5;
+      if (lowerQuestion.includes('5')) count = 5;
+      else if (lowerQuestion.includes('10')) count = 10;
+      
+      if (count === 5) {
+        return `🈯 **5 KANJI ${level} THÔNG DỤNG**
+
+1. **人 (hito)** - Người
+2. **大 (dai)** - Lớn
+3. **小 (shou)** - Nhỏ
+4. **山 (yama)** - Núi
+5. **川 (kawa)** - Sông
+
+💡 **Lưu ý:** ${context}
+🎯 **Mẹo học:** Hãy luyện tập viết những Kanji này thường xuyên!`;
+      }
+      
+      return `🈯 **KANJI ${level} CƠ BẢN**
+
+1. **人 (hito)** - Người
+2. **大 (dai)** - Lớn
+3. **小 (shou)** - Nhỏ
+4. **山 (yama)** - Núi
+
+💡 **Lưu ý:** ${context}
+❓ **Bạn muốn học bao nhiêu Kanji ${level}?**`;
+    }
+    
+    // Xử lý câu hỏi chung
+    return `🤖 **AI ASSISTANT - PHÚC KHIÊM EDUCATION**
+
+💡 **Lưu ý:** ${context}
+
+🎯 **Tôi có thể giúp bạn:**
+• Học từ vựng (N1, N2, N3, N4, N5)
+• Học ngữ pháp theo level
+• Học Kanji từ cơ bản đến nâng cao
+• Luyện nghe và phát âm
+• Giải đáp thắc mắc về tiếng Nhật
+
+❓ **Bạn cần hỗ trợ gì cụ thể không?**`;
+  };
+
+  const handleSendMessage = async () => {
+    if (!inputValue.trim()) return;
+
+    const userMessage: Message = {
+      id: Date.now().toString(),
+      type: 'user',
+      content: inputValue,
+      timestamp: new Date()
+    };
+
+    setMessages(prev => [...prev, userMessage]);
+    setInputValue('');
+    setIsLoading(true);
+
+    try {
+      const context = getCurrentContext();
+      
+      // ƯU TIÊN 1: Multi-Model Service (GPT-4o Mini, Gemini Pro - Mạnh nhất)
+      if (selectedModel !== 'auto' && selectedModel !== 'qwen2:0.5b') {
+        try {
+          console.log('🚀 Sử dụng Multi-Model Service:', selectedModel);
+          const aiResponse: Message = {
+            id: (Date.now() + 1).toString(),
+            type: 'ai',
+            content: '',
+            timestamp: new Date()
+          };
+          
+          setMessages(prev => [...prev, aiResponse]);
+          
+          // Gọi Multi-Model Service
+          const response = await multiModelService.chat(inputValue, context);
+          
+          setMessages(prev => 
+            prev.map(msg => 
+              msg.id === aiResponse.id 
+                ? { ...msg, content: response.response || response.toString() }
+                : msg
+            )
+          );
+          return; // Thoát nếu thành công
+        } catch (error) {
+          console.log('❌ Multi-Model Service failed, chuyển sang Ollama:', error);
+        }
+      }
+      
+      // ƯU TIÊN 2: Ollama Local (Mạnh vừa)
+      if (ollamaStatus === 'available') {
+        try {
+          console.log('🏠 Sử dụng Ollama Local');
+          const aiResponse: Message = {
+            id: (Date.now() + 1).toString(),
+            type: 'ai',
+            content: '',
+            timestamp: new Date()
+          };
+          
+          setMessages(prev => [...prev, aiResponse]);
+          
+          // Streaming response từ Ollama
+          setIsStreaming(true);
+          let fullResponse = '';
+          
+          for await (const chunk of ollamaService.streamChat(inputValue, context, selectedModel === 'auto' ? undefined : selectedModel)) {
+            fullResponse += chunk;
+            setMessages(prev => 
+              prev.map(msg => 
+                msg.id === aiResponse.id 
+                  ? { ...msg, content: fullResponse }
+                  : msg
+              )
+            );
+          }
+          
+          setIsStreaming(false);
+          return; // Thoát nếu thành công
+        } catch (error) {
+          console.log('❌ Ollama failed, chuyển sang Smart Fallback:', error);
+        }
+      }
+      
+      // ƯU TIÊN 3: Smart Fallback (Yếu nhất - Chỉ khi tất cả đều fail)
+      console.log('💡 Sử dụng Smart Fallback');
+      const smartResponse = generateSmartResponse(inputValue, context);
+      const aiResponse: Message = {
+        id: (Date.now() + 1).toString(),
+        type: 'ai',
+        content: smartResponse,
+        timestamp: new Date()
+      };
+      setMessages(prev => [...prev, aiResponse]);
+      
+    } catch (error) {
+      // Fallback cuối cùng nếu có lỗi nghiêm trọng
+      console.error('💥 Tất cả services đều fail, sử dụng emergency fallback:', error);
+      const context = getCurrentContext();
+      const fallbackResponse = generateSmartResponse(inputValue, context);
+      const errorMessage: Message = {
+        id: (Date.now() + 1).toString(),
+        type: 'ai',
+        content: fallbackResponse,
+        timestamp: new Date()
+      };
+      setMessages(prev => [...prev, errorMessage]);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleKeyPress = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      handleSendMessage();
+    }
+  };
+
+  const toggleChat = () => {
+    setIsOpen(!isOpen);
+    if (isOpen) {
+      setIsMinimized(false);
+    }
+  };
+
+  const toggleMinimize = () => {
+    setIsMinimized(!isMinimized);
+  };
+
+  return (
+    <>
+      <motion.div
+        className={`fixed bottom-6 right-6 z-50 ${className}`}
+        initial={{ scale: 0 }}
+        animate={{ scale: 1 }}
+        transition={{ type: "spring", stiffness: 260, damping: 20 }}
+      >
+        <button
+          onClick={toggleChat}
+          className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 relative"
+          title="AI Assistant"
+        >
+          <MessageCircle size={24} />
+          <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold px-1.5 py-0.5 rounded-full border-2 border-white">
+            AI
+          </span>
+        </button>
+      </motion.div>
+
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8, y: 20 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            exit={{ opacity: 0, scale: 0.8, y: 20 }}
+            transition={{ duration: 0.3, ease: "easeOut" }}
+            className="fixed bottom-24 right-6 z-50 w-[500px] max-w-[90vw] bg-white dark:bg-gray-800 rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-700 overflow-hidden"
+          >
+            {/* Model Selector Section - Không có header, chỉ có model selector và nút điều khiển */}
+            {!isMinimized && (
+              <div className="bg-gray-50 dark:bg-gray-900 px-4 py-3 border-b border-gray-200 dark:border-gray-700">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <select
+                      value={selectedModel}
+                      onChange={(e) => setSelectedModel(e.target.value)}
+                      disabled={ollamaStatus === 'unavailable'}
+                      className={`text-xs border rounded px-2 py-1 transition-all duration-200 focus:outline-none focus:ring-2 ${
+                        ollamaStatus === 'available'
+                          ? 'bg-white border-gray-300 text-gray-700 focus:ring-blue-500 focus:border-blue-500 hover:border-gray-400'
+                          : 'bg-gray-100 border-gray-200 text-gray-500 cursor-not-allowed'
+                      }`}
+                      title={
+                        ollamaStatus === 'available'
+                          ? 'Chọn AI model để sử dụng'
+                          : 'Ollama chưa sẵn sàng. Vui lòng khởi động Ollama trước.'
+                      }
+                    >
+                      <option value="auto" disabled={ollamaStatus === 'unavailable'}>
+                        🤖 [Auto]
+                      </option>
+                      <option value="gpt-4o-mini" disabled={ollamaStatus === 'unavailable'}>
+                        🚀 GPT-4o Mini
+                      </option>
+                      <option value="gpt-3.5-turbo" disabled={ollamaStatus === 'unavailable'}>
+                        ⚡ GPT-3.5 Turbo
+                      </option>
+                      <option value="gemini-1.5-flash" disabled={ollamaStatus === 'unavailable'}>
+                        🌟 Gemini 1.5 Flash
+                      </option>
+                      <option value="gemini-1.5-pro" disabled={ollamaStatus === 'unavailable'}>
+                        💎 Gemini 1.5 Pro
+                      </option>
+                      <option value="qwen2:0.5b" disabled={ollamaStatus === 'unavailable'}>
+                        🏠 Ollama Local
+                      </option>
+                    </select>
+                  </div>
+                  
+                  {/* Nút điều khiển và Status indicator */}
+                  <div className="flex items-center gap-3">
+                    {/* Status indicator đơn giản */}
+                    <div className="flex items-center gap-2">
+                      {ollamaStatus === 'checking' && (
+                        <div className="w-2 h-2 bg-yellow-400 rounded-full animate-pulse" title="Đang kiểm tra..."></div>
+                      )}
+                      {ollamaStatus === 'available' && (
+                        <div className="w-2 h-2 bg-green-400 rounded-full" title="Sẵn sàng"></div>
+                      )}
+                      {ollamaStatus === 'unavailable' && (
+                        <div className="w-2 h-2 bg-red-400 rounded-full" title="Không khả dụng"></div>
+                      )}
+                    </div>
+                    
+                    {/* Action Buttons - Minimize và Close */}
+                    <div className="flex items-center gap-1">
+                      <button
+                        onClick={toggleMinimize}
+                        className="hover:bg-gray-200 dark:hover:bg-gray-700 p-1.5 rounded transition-all duration-200 hover:scale-105 active:scale-95"
+                        title={isMinimized ? "Maximize" : "Minimize"}
+                      >
+                        {isMinimized ? <Maximize2 size={14} /> : <Minimize2 size={14} />}
+                      </button>
+                      <button
+                        onClick={toggleChat}
+                        className="hover:bg-gray-200 dark:hover:bg-gray-700 p-1.5 rounded transition-all duration-200 hover:scale-105 active:scale-95"
+                        title="Close"
+                      >
+                        <X size={14} />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {!isMinimized && (
+              <>
+                {/* Chat Area - Better spacing và mobile-friendly */}
+                <div className="h-96 overflow-y-auto p-4 space-y-4" ref={chatAreaRef}>
+                  {messages.map((message) => (
+                    <div
+                      key={message.id}
+                      className={`flex ${message.type === 'user' ? 'justify-end' : 'justify-start'}`}
+                    >
+                      <div
+                        className={`max-w-[85%] p-3 rounded-2xl ${
+                          message.type === 'user'
+                            ? 'bg-blue-600 text-white shadow-lg'
+                            : 'bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 shadow-md'
+                        }`}
+                      >
+                        <div className="flex items-start gap-3">
+                          {message.type === 'ai' && (
+                            <Bot size={16} className="mt-1 flex-shrink-0 text-blue-600 dark:text-blue-400" />
+                          )}
+                          <div className="min-w-0 flex-1">
+                            <p className="text-sm leading-relaxed">{message.content}</p>
+                            <p className="text-xs opacity-70 mt-2 text-right">
+                              {message.timestamp.toLocaleTimeString()}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                  
+                  {/* Loading Indicator - Consistent styling */}
+                  {isLoading && (
+                    <div className="flex justify-start">
+                      <div className="bg-gray-100 dark:bg-gray-700 p-3 rounded-2xl shadow-md max-w-[85%]">
+                        <div className="flex items-center gap-3">
+                          <Bot size={16} className="text-blue-600 dark:text-blue-400" />
+                          <div className="flex items-center gap-3">
+                            <span className="text-sm text-gray-600 dark:text-gray-300">
+                              {ollamaStatus === 'available' ? 'Đang xử lý...' : 'Đang chuẩn bị...'}
+                            </span>
+                            <div className="flex space-x-1">
+                              <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce"></div>
+                              <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
+                              <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </div>
+
+                {/* Input Area - Consistent styling và mobile-friendly */}
+                <div className="p-4 border-t border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900">
+                  <div className="flex gap-3">
+                    <input
+                      type="text"
+                      value={inputValue}
+                      onChange={(e) => setInputValue(e.target.value)}
+                      onKeyPress={handleKeyPress}
+                      placeholder="Nhập câu hỏi của bạn..."
+                      className="flex-1 px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-all duration-200 placeholder-gray-500 dark:placeholder-gray-400"
+                      disabled={isLoading}
+                    />
+                    <button
+                      onClick={handleSendMessage}
+                      disabled={!inputValue.trim() || isLoading}
+                      className="px-4 py-3 bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white rounded-xl hover:shadow-lg disabled:shadow-none transition-all duration-200 hover:scale-105 active:scale-95 disabled:cursor-not-allowed disabled:transform-none flex items-center justify-center min-w-[48px]"
+                    >
+                      <Send size={16} />
+                    </button>
+                  </div>
+                </div>
+              </>
+            )}
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </>
+  );
+}

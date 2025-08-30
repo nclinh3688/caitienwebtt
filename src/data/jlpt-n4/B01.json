@@ -1,0 +1,510 @@
+{
+  "id": "B01",
+  "vocabulary": [
+    {
+      "content": "わたし",
+      "kanji": "私",
+      "meaning": "tôi",
+      "reading": "watashi",
+      "difficulty": "easy",
+      "category": "Pronouns"
+    },
+    {
+      "content": "あなた",
+      "kanji": "",
+      "meaning": "anh/chị, ông/bà, bạn (ngôi thứ II số ít)",
+      "reading": "anata",
+      "difficulty": "easy",
+      "category": "Pronouns"
+    },
+    {
+      "content": "あのひと",
+      "kanji": "あの人",
+      "meaning": "người kia, người đó, anh kia, chị kia",
+      "reading": "ano hito",
+      "difficulty": "easy",
+      "category": "People"
+    },
+    {
+      "content": "あのかた",
+      "kanji": "あの(方)",
+      "meaning": "(あのかた : vị kia - là cách nói lịch sự của あのひと)",
+      "reading": "ano kata",
+      "difficulty": "easy",
+      "category": "People"
+    },
+    {
+      "content": "～さん",
+      "kanji": "",
+      "meaning": "anh, chị, ông, bà (hậu tố thêm vào phía sau tên người khác khi gọi thể hiện tính lịch sự)",
+      "reading": "~san",
+      "difficulty": "easy",
+      "category": "Honorifics"
+    },
+    {
+      "content": "～ちゃん",
+      "kanji": "",
+      "meaning": "(hậu tố thêm vào phía sau tên của trẻ em thay cho ～さん)",
+      "reading": "~chan",
+      "difficulty": "easy",
+      "category": "Honorifics"
+    },
+    {
+      "content": "～じん",
+      "kanji": "～人",
+      "meaning": "(hậu tố mang nghĩa \"người ～\"; ví dụ アメリカじん : người Mỹ)",
+      "reading": "~jin",
+      "difficulty": "easy",
+      "category": "Nationality"
+    },
+    {
+      "content": "せんせい",
+      "kanji": "先生",
+      "meaning": "thầy/cô (không dùng khi giới thiệu về nghề giáo viên của chính mình)",
+      "reading": "sensei",
+      "difficulty": "easy",
+      "category": "Professions"
+    },
+    {
+      "content": "きょうし",
+      "kanji": "教師",
+      "meaning": "giáo viên",
+      "reading": "kyoushi",
+      "difficulty": "easy",
+      "category": "Professions"
+    },
+    {
+      "content": "がくせい",
+      "kanji": "学生",
+      "meaning": "học sinh, sinh viên",
+      "reading": "gakusei",
+      "difficulty": "easy",
+      "category": "Professions"
+    },
+    {
+      "content": "かいしゃいん",
+      "kanji": "会社員",
+      "meaning": "nhân viên công ty",
+      "reading": "kaishain",
+      "difficulty": "easy",
+      "category": "Professions"
+    },
+    {
+      "content": "しゃいん",
+      "kanji": "社員",
+      "meaning": "nhân viên Công ty ～ (dùng kèm theo tên công ty; ví dụ IMC の しゃいん)",
+      "reading": "shain",
+      "difficulty": "easy",
+      "category": "Professions"
+    },
+    {
+      "content": "ぎんこういん",
+      "kanji": "銀行員",
+      "meaning": "nhân viên ngân hàng",
+      "reading": "ginkouin",
+      "difficulty": "easy",
+      "category": "Professions"
+    },
+    {
+      "content": "いしゃ",
+      "kanji": "医者",
+      "meaning": "bác sĩ",
+      "reading": "isha",
+      "difficulty": "easy",
+      "category": "Professions"
+    },
+    {
+      "content": "けんきゅうしゃ",
+      "kanji": "研究者",
+      "meaning": "nhà nghiên cứu",
+      "reading": "kenkyuusha",
+      "difficulty": "easy",
+      "category": "Professions"
+    },
+    {
+      "content": "だいがく",
+      "kanji": "大学",
+      "meaning": "đại học, trường đại học",
+      "reading": "daigaku",
+      "difficulty": "easy",
+      "category": "Places"
+    },
+    {
+      "content": "びょういん",
+      "kanji": "病院",
+      "meaning": "bệnh viện",
+      "reading": "byouin",
+      "difficulty": "easy",
+      "category": "Places"
+    },
+    {
+      "content": "だれ",
+      "kanji": "どなた",
+      "meaning": "ai ( どなた là cách nói lịch sự của だれ, vị nào)",
+      "reading": "dare",
+      "difficulty": "easy",
+      "category": "Questions"
+    },
+    {
+      "content": "～さい",
+      "kanji": "～歳",
+      "meaning": "～ tuổi",
+      "reading": "~sai",
+      "difficulty": "easy",
+      "category": "Age"
+    },
+    {
+      "content": "なんさい",
+      "kanji": "何歳",
+      "meaning": "mấy tuổi, bao nhiêu tuổi (おいくつ là cách nói lịch sự của なんさい)",
+      "reading": "nansai",
+      "difficulty": "easy",
+      "category": "Questions"
+    },
+    {
+      "content": "はい",
+      "kanji": "",
+      "meaning": "vâng, dạ",
+      "reading": "hai",
+      "difficulty": "easy",
+      "category": "Responses"
+    },
+    {
+      "content": "いいえ",
+      "kanji": "",
+      "meaning": "không",
+      "reading": "iie",
+      "difficulty": "easy",
+      "category": "Responses"
+    },
+    {
+      "content": "はじめまして。",
+      "kanji": "",
+      "meaning": "Rất hân hạnh được gặp anh/chị. (Đây là lời chào với người lần đầu tiên gặp, là câu nói đầu tiên khi giới thiệu về mình.)",
+      "reading": "hajimemashite",
+      "difficulty": "easy",
+      "category": "Greetings"
+    },
+    {
+      "content": "～から きました。",
+      "kanji": "来ました",
+      "meaning": "Tôi đến từ ～.",
+      "reading": "~kara kimashita",
+      "difficulty": "easy",
+      "category": "Expressions"
+    },
+    {
+      "content": "[どうぞ]よろしく [おねがいします]。",
+      "kanji": "お願いします",
+      "meaning": "Rất vui được làm quen với anh/chị. (Rất mong được sự giúp đỡ của anh/chị. Luôn được dùng làm câu kết thúc sau khi giới thiệu về mình.)",
+      "reading": "douzo yoroshiku onegaishimasu",
+      "difficulty": "easy",
+      "category": "Expressions"
+    },
+    {
+      "content": "しつれいですが",
+      "kanji": "失礼ですが",
+      "meaning": "Xin lỗi… (dùng khi hỏi ai đó về thông tin cá nhân như là tên hoặc địa chỉ của họ)",
+      "reading": "shitsurei desu ga",
+      "difficulty": "easy",
+      "category": "Expressions"
+    },
+    {
+      "content": "おなまえは？",
+      "kanji": "お名前は？",
+      "meaning": "Tên anh/chị là gì?",
+      "reading": "onamae wa",
+      "difficulty": "easy",
+      "category": "Questions"
+    },
+    {
+      "content": "こちらは ～さんです。",
+      "kanji": "",
+      "meaning": "Đây là anh/chị/ông/bà ～.",
+      "reading": "kochira wa ~san desu",
+      "difficulty": "easy",
+      "category": "Expressions"
+    },
+    {
+      "content": "アメリカ",
+      "kanji": "",
+      "meaning": "Mỹ",
+      "reading": "amerika",
+      "difficulty": "easy",
+      "category": "Countries"
+    },
+    {
+      "content": "イギリス",
+      "kanji": "",
+      "meaning": "Anh",
+      "reading": "igirisu",
+      "difficulty": "easy",
+      "category": "Countries"
+    },
+    {
+      "content": "インド",
+      "kanji": "",
+      "meaning": "Ấn Độ",
+      "reading": "indo",
+      "difficulty": "easy",
+      "category": "Countries"
+    },
+    {
+      "content": "インドネシア",
+      "kanji": "",
+      "meaning": "In-đô-nê-xi-a",
+      "reading": "indoneshia",
+      "difficulty": "easy",
+      "category": "Countries"
+    },
+    {
+      "content": "かんこく",
+      "kanji": "韓国",
+      "meaning": "Hàn Quốc",
+      "reading": "kankoku",
+      "difficulty": "easy",
+      "category": "Countries"
+    },
+    {
+      "content": "タイ",
+      "kanji": "",
+      "meaning": "Thái Lan",
+      "reading": "tai",
+      "difficulty": "easy",
+      "category": "Countries"
+    },
+    {
+      "content": "ちゅうごく",
+      "kanji": "中国",
+      "meaning": "Trung Quốc",
+      "reading": "chuugoku",
+      "difficulty": "easy",
+      "category": "Countries"
+    },
+    {
+      "content": "ドイツ",
+      "kanji": "",
+      "meaning": "Đức",
+      "reading": "doitsu",
+      "difficulty": "easy",
+      "category": "Countries"
+    },
+    {
+      "content": "にほん",
+      "kanji": "日本",
+      "meaning": "Nhật Bản",
+      "reading": "nihon",
+      "difficulty": "easy",
+      "category": "Countries"
+    },
+    {
+      "content": "ブラジル",
+      "kanji": "",
+      "meaning": "Braxin",
+      "reading": "burajiru",
+      "difficulty": "easy",
+      "category": "Countries"
+    },
+    {
+      "content": "IMC / パワーでんき / ブラジルエアー",
+      "kanji": "パワー電気",
+      "meaning": "tên công ty giả định",
+      "reading": "IMC / pawaa denki / burajiru ea",
+      "difficulty": "easy",
+      "category": "Companies"
+    },
+    {
+      "content": "AKC",
+      "kanji": "",
+      "meaning": "tên tổ chức giả định",
+      "reading": "AKC",
+      "difficulty": "easy",
+      "category": "Organizations"
+    },
+    {
+      "content": "こうべびょういん",
+      "kanji": "神戸病院",
+      "meaning": "tên bệnh viện giả định",
+      "reading": "koube byouin",
+      "difficulty": "easy",
+      "category": "Places"
+    },
+    {
+      "content": "さくらだいがく / ふじだいがく",
+      "kanji": "富士大学",
+      "meaning": "tên đại học giả định",
+      "reading": "sakura daigaku / fuji daigaku",
+      "difficulty": "easy",
+      "category": "Places"
+    },
+    {
+      "content": "えいご",
+      "kanji": "英語",
+      "meaning": "tiếng Anh",
+      "reading": "eigo",
+      "difficulty": "easy",
+      "category": "Languages"
+    },
+    {
+      "content": "にほんご",
+      "kanji": "日本語",
+      "meaning": "tiếng Nhật",
+      "reading": "nihongo",
+      "difficulty": "easy",
+      "category": "Languages"
+    },
+    {
+      "content": "イタリアご",
+      "kanji": "イタリア語",
+      "meaning": "tiếng Ý",
+      "reading": "itaria go",
+      "difficulty": "easy",
+      "category": "Languages"
+    },
+    {
+      "content": "ペルシアご",
+      "kanji": "ペルシア語",
+      "meaning": "tiếng Ba Tư",
+      "reading": "perushia go",
+      "difficulty": "easy",
+      "category": "Languages"
+    },
+    {
+      "content": "ヒンディーご",
+      "kanji": "ヒンディー語",
+      "meaning": "tiếng Hin-đi",
+      "reading": "hindii go",
+      "difficulty": "easy",
+      "category": "Languages"
+    },
+    {
+      "content": "インドネシアご",
+      "kanji": "インドネシア語",
+      "meaning": "tiếng In-đô-nê-xi-a",
+      "reading": "indoneshia go",
+      "difficulty": "easy",
+      "category": "Languages"
+    },
+    {
+      "content": "アラビアご",
+      "kanji": "アラビア語",
+      "meaning": "tiếng A-rập",
+      "reading": "arabia go",
+      "difficulty": "easy",
+      "category": "Languages"
+    },
+    {
+      "content": "フランスご",
+      "kanji": "フランス語",
+      "meaning": "tiếng Pháp",
+      "reading": "furansu go",
+      "difficulty": "easy",
+      "category": "Languages"
+    },
+    {
+      "content": "かんこくご",
+      "kanji": "韓国語",
+      "meaning": "tiếng Hàn Quốc",
+      "reading": "kankoku go",
+      "difficulty": "easy",
+      "category": "Languages"
+    },
+    {
+      "content": "ドイツご",
+      "kanji": "ドイツ語",
+      "meaning": "tiếng Đức",
+      "reading": "doitsu go",
+      "difficulty": "easy",
+      "category": "Languages"
+    },
+    {
+      "content": "ベトナムご",
+      "kanji": "ベトナム語",
+      "meaning": "tiếng Việt",
+      "reading": "betonamu go",
+      "difficulty": "easy",
+      "category": "Languages"
+    },
+    {
+      "content": "マレーシアご",
+      "kanji": "マレーシア語",
+      "meaning": "tiếng Mã Lai",
+      "reading": "mareeshia go",
+      "difficulty": "easy",
+      "category": "Languages"
+    },
+    {
+      "content": "スペインご",
+      "kanji": "スペイン語",
+      "meaning": "tiếng Tây Ban Nha",
+      "reading": "supein go",
+      "difficulty": "easy",
+      "category": "Languages"
+    },
+    {
+      "content": "ポルトガルご",
+      "kanji": "ポルトガル語",
+      "meaning": "tiếng Bồ Đào Nha",
+      "reading": "porutogaru go",
+      "difficulty": "easy",
+      "category": "Languages"
+    },
+    {
+      "content": "ロシアご",
+      "kanji": "ロシア語",
+      "meaning": "tiếng Nga",
+      "reading": "roshia go",
+      "difficulty": "easy",
+      "category": "Languages"
+    }
+  ],
+  "grammar": [
+    {
+      "type": "grammar_point",
+      "title": "Giới thiệu bản thân",
+      "explanation": "Cách giới thiệu bản thân trong tiếng Nhật",
+      "examples": [
+        "はじめまして。わたしは ～です。",
+        "どうぞ よろしく おねがいします。"
+      ]
+    }
+  ],
+  "kanji": [
+    {
+      "kanji": "私",
+      "reading": "わたし",
+      "meaning": "tôi",
+      "stroke_count": 7
+    },
+    {
+      "kanji": "先生",
+      "reading": "せんせい",
+      "meaning": "thầy/cô",
+      "stroke_count": 6
+    },
+    {
+      "kanji": "学生",
+      "reading": "がくせい",
+      "meaning": "học sinh",
+      "stroke_count": 8
+    }
+  ],
+  "listening": {
+    "dialogue": {
+      "title": "Hội thoại giới thiệu bản thân",
+      "audioFile": "lesson-01-dialogue.mp3",
+      "transcript": "A: はじめまして。B: はじめまして。どうぞよろしく。",
+      "translation": "A: Rất vui được gặp bạn. B: Rất vui được gặp bạn. Rất mong được sự giúp đỡ."
+    }
+  },
+  "supplementaryMaterials": {
+    "cultural_notes": [
+      "Cách chào hỏi trong văn hóa Nhật Bản",
+      "Sử dụng kính ngữ khi gặp người lớn tuổi"
+    ],
+    "practice_activities": [
+      "Luyện tập giới thiệu bản thân",
+      "Thực hành hỏi đáp về nghề nghiệp"
+    ]
+  }
+}

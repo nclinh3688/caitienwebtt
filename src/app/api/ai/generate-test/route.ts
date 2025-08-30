@@ -20,12 +20,15 @@ export async function POST(request: Request) {
     let generatedContent = '';
 
     if (aiProvider === 'OPENAI') {
-      if (!process.env.OPENAI_API_KEY) {
-        return NextResponse.json({ error: 'OPENAI_API_KEY is not set' }, { status: 500 });
+      if (!process.env.NEXT_PUBLIC_OPENAI_API_KEY && !process.env.OPENAI_API_KEY) {
+        return NextResponse.json(
+          { error: 'OpenAI API key not configured' },
+          { status: 500 }
+        );
       }
       if (!openai) {
         openai = new OpenAI({
-          apiKey: process.env.OPENAI_API_KEY,
+          apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY || process.env.OPENAI_API_KEY,
         });
       }
       const completion = await openai.chat.completions.create({

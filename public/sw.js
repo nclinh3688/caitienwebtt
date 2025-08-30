@@ -1,29 +1,23 @@
-const CACHE_NAME = 'phuc-khiem-education-v1';
+const CACHE_NAME = 'caitienwebtt-v2';
 const urlsToCache = [
   '/',
-  '/courses',
   '/dashboard',
-  '/community',
-  '/about',
-  '/auth/login',
-  '/auth/register',
-  '/static/css/main.css',
-  '/images/logo/phuc-khiem-logo.jpg',
-  '/manifest.json'
+  '/api/courses',
 ];
+
+// Cache strategy: Cache first for static assets
+const STATIC_CACHE = 'static-v2';
+const DYNAMIC_CACHE = 'dynamic-v2';
 
 // Install event
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then((cache) => {
-        console.log('Opened cache');
-        return cache.addAll(urlsToCache);
-      })
+      .then((cache) => cache.addAll(urlsToCache))
   );
 });
 
-// Fetch event
+// Fetch event with cache-first strategy
 self.addEventListener('fetch', (event) => {
   event.respondWith(
     caches.match(event.request)
@@ -34,14 +28,38 @@ self.addEventListener('fetch', (event) => {
   );
 });
 
-// Activate event
+// Cache API responses
+self.addEventListener('fetch', (event) => {
+  if (event.request.url.includes('/api/')) {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          // Clone the response
+          const responseClone = response.clone();
+          
+          // Cache the response
+          caches.open(CACHE_NAME)
+            .then((cache) => {
+              cache.put(event.request, responseClone);
+            });
+          
+          return response;
+        })
+        .catch(() => {
+          // Return cached version if network fails
+          return caches.match(event.request);
+        })
+    );
+  }
+});
+
+// Clean up old caches
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
         cacheNames.map((cacheName) => {
           if (cacheName !== CACHE_NAME) {
-            console.log('Deleting old cache:', cacheName);
             return caches.delete(cacheName);
           }
         })

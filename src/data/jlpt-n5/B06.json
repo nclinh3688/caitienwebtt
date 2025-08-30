@@ -1,192 +1,244 @@
 {
-  "metadata": {
-    "id": "B06",
-    "title": "Bài 06: Food & Dining",
-    "level": "N5",
-    "theme": "Food & Dining",
-    "estimatedTime": 45,
-    "difficulty": "Beginner",
-    "lastUpdated": "2025-08-01T16:34:15.585Z"
-  },
-  "vocabulary": [
-    {
-      "japanese": "ごはん",
-      "reading": "gohan",
-      "meaning": "rice/meal",
-      "example": "ごはんを食べます (I eat rice)"
-    },
-    {
-      "japanese": "パン",
-      "reading": "pan",
-      "meaning": "bread",
-      "example": "パンを買います (I buy bread)"
-    },
-    {
-      "japanese": "みず",
-      "reading": "mizu",
-      "meaning": "water",
-      "example": "みずを飲みます (I drink water)"
-    },
-    {
-      "japanese": "おちゃ",
-      "reading": "ocha",
-      "meaning": "tea",
-      "example": "おちゃを飲みます (I drink tea)"
-    },
-    {
-      "japanese": "コーヒー",
-      "reading": "kōhī",
-      "meaning": "coffee",
-      "example": "コーヒーが好きです (I like coffee)"
-    },
-    {
-      "japanese": "りんご",
-      "reading": "ringo",
-      "meaning": "apple",
-      "example": "りんごを食べます (I eat an apple)"
-    },
-    {
-      "japanese": "バナナ",
-      "reading": "banana",
-      "meaning": "banana",
-      "example": "バナナが好きです (I like bananas)"
-    },
-    {
-      "japanese": "レストラン",
-      "reading": "resutoran",
-      "meaning": "restaurant",
-      "example": "レストランで食べます (I eat at a restaurant)"
-    },
-    {
-      "japanese": "メニュー",
-      "reading": "menyū",
-      "meaning": "menu",
-      "example": "メニューを見ます (I look at the menu)"
-    },
-    {
-      "japanese": "たべもの",
-      "reading": "tabemono",
-      "meaning": "food",
-      "example": "たべものが好きです (I like food)"
-    }
-  ],
-  "grammar": [
-    {
-      "pattern": "〜を〜ます",
-      "meaning": "Object + Verb (polite form)",
-      "explanation": "Used to express doing something with an object",
-      "examples": [
-        "ごはんを食べます (I eat rice)",
-        "みずを飲みます (I drink water)",
-        "本を読みます (I read a book)"
-      ]
-    },
-    {
-      "pattern": "〜が好きです",
-      "meaning": "I like ~",
-      "explanation": "Used to express liking something",
-      "examples": [
-        "コーヒーが好きです (I like coffee)",
-        "えいがが好きです (I like movies)",
-        "スポーツが好きです (I like sports)"
-      ]
-    }
-  ],
-  "kanji": [
-    {
-      "character": "食",
-      "reading": "しょく",
-      "meaning": "food/eat",
-      "strokeCount": 9,
-      "examples": [
-        "食事",
-        "食堂",
-        "食べる"
-      ]
-    },
-    {
-      "character": "飲",
-      "reading": "いん",
-      "meaning": "drink",
-      "strokeCount": 12,
-      "examples": [
-        "飲み物",
-        "飲む",
-        "飲料"
-      ]
-    },
-    {
-      "character": "飯",
-      "reading": "はん",
-      "meaning": "meal/rice",
-      "strokeCount": 12,
-      "examples": [
-        "ご飯",
-        "朝飯",
-        "夕飯"
-      ]
-    },
-    {
-      "character": "茶",
-      "reading": "ちゃ",
-      "meaning": "tea",
-      "strokeCount": 9,
-      "examples": [
-        "お茶",
-        "紅茶",
-        "緑茶"
-      ]
-    },
-    {
-      "character": "水",
-      "reading": "すい",
-      "meaning": "water",
-      "strokeCount": 4,
-      "examples": [
-        "水",
-        "水道",
-        "水泳"
-      ]
-    }
-  ],
-  "listening": {
-    "audioFile": "/audio/n5/B06.mp3",
-    "transcript": "Bài nghe B06: Food & Dining",
-    "exercises": [
-      {
-        "question": "Bạn nghe được từ nào?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "correctAnswer": "A"
-      }
+  "lessonNumber": 6,
+  "japaneseTitle": "第６課",
+  "vietnameseTitle": "Bài 6: Động từ và đối tượng",
+  "englishTitle": "Lesson 6: Verbs and Objects",
+  "summary": {
+    "title": "Tóm tắt bài học",
+    "content": "Bài 6 tập trung vào cách sử dụng động từ với trợ từ を và các mẫu câu liên quan đến hành động. Học viên sẽ nắm vững cách diễn đạt hành động với đối tượng và địa điểm.",
+    "keyPoints": [
+      "Trợ từ を với động từ",
+      "Câu phủ định hoàn toàn với なにも",
+      "Trợ từ で chỉ địa điểm",
+      "Cách mời rủ với いっしょに",
+      "Cách nói thỏa thuận với ましょう",
+      "Phân biệt なん và なに"
     ]
   },
-  "exercises": [
+  "estimatedTime": "8-10 giờ",
+  "difficulty": "⭐⭐⭐⭐⭐",
+  "grammarPatterns": [
     {
-      "type": "vocabulary",
-      "question": "Chọn từ đúng nghĩa",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+      "id": 1,
+      "pattern": "N を V ます",
+      "meaning": "Cách sử dụng động từ với trợ từ を",
+      "explanation": "N là Danh từ (đối tượng của hành động). V là Tha động từ (ngoại động từ). を là Trợ từ (chỉ đối tượng tác động của hành động).",
+      "examples": [
+        {
+          "japanese": "ごはんを たべます。",
+          "kanji": "ご飯を 食べます。",
+          "vietnamese": "Tôi ăn cơm.",
+          "english": "I eat rice."
+        },
+        {
+          "japanese": "本を よみました。",
+          "kanji": "本を 読みました。",
+          "vietnamese": "Tôi đã đọc sách.",
+          "english": "I read a book."
+        },
+        {
+          "japanese": "けさ 何を買いましたか。",
+          "kanji": "今朝 何を買いましたか。",
+          "vietnamese": "Sáng nay bạn đã mua gì thế?",
+          "english": "What did you buy this morning?"
+        }
       ],
-      "correctAnswer": "A"
+      "notes": "Câu hỏi: なにを V ますか。Làm cái gì (ăn gì, uống gì, đọc gì…)?"
     },
     {
-      "type": "grammar",
-      "question": "Chọn câu đúng ngữ pháp",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+      "id": 2,
+      "pattern": "なにも V ません",
+      "meaning": "Không làm gì cả - Cách nói phủ định hoàn toàn",
+      "explanation": "Khi trợ từ 「も」đi sau từ để hỏi và đi cùng với thể phủ định thì có nghĩa phủ định hoàn toàn mọi đối tượng trong phạm vi từ để hỏi.",
+      "examples": [
+        {
+          "japanese": "けさ 何も たべませんでした。",
+          "kanji": "今朝 何も 食べませんでした。",
+          "vietnamese": "Sáng nay tôi đã không ăn gì cả.",
+          "english": "I didn't eat anything this morning."
+        },
+        {
+          "japanese": "あした 何も しません。",
+          "kanji": "明日 何も しません。",
+          "vietnamese": "Ngày mai tôi sẽ không làm gì cả.",
+          "english": "I won't do anything tomorrow."
+        },
+        {
+          "japanese": "きょう 何も のみませんでした。",
+          "kanji": "今日 何も 飲みませんでした。",
+          "vietnamese": "Hôm nay tôi đã không uống gì cả.",
+          "english": "I didn't drink anything today."
+        }
       ],
-      "correctAnswer": "B"
+      "notes": "「も」được thay cho 「を」khi cùng chung một hành động với 2 đối tượng khác nhau."
+    },
+    {
+      "id": 3,
+      "pattern": "N1 で N2 を V ます",
+      "meaning": "Làm ~ ở/tại N1",
+      "explanation": "N1 là Danh từ chỉ địa điểm diễn ra hành động. N2 là Danh từ chỉ đối tượng tác động của hành động (Tân ngữ trực tiếp). 「で」là Trợ từ chỉ địa điểm diễn ra hành động.",
+      "examples": [
+        {
+          "japanese": "レストランで ごはんを たべます。",
+          "kanji": "レストランで ご飯を 食べます。",
+          "vietnamese": "Tôi ăn cơm ở nhà hàng.",
+          "english": "I eat rice at the restaurant."
+        },
+        {
+          "japanese": "としょかんで 本を よみました。",
+          "kanji": "図書館で 本を 読みました。",
+          "vietnamese": "Tôi đã đọc sách ở thư viện.",
+          "english": "I read a book at the library."
+        },
+        {
+          "japanese": "どこで このしゃしんを とりましたか。",
+          "kanji": "どこで この写真を 撮りましたか。",
+          "vietnamese": "Bạn đã chụp bức ảnh này ở đâu?",
+          "english": "Where did you take this photo?"
+        }
+      ],
+      "notes": "Câu hỏi: どこで V ますか。Ai đó đã/sẽ làm gì ở đâu?"
+    },
+    {
+      "id": 4,
+      "pattern": "いっしょに V ませんか",
+      "meaning": "Cùng làm ~ nhé! - Mời, rủ",
+      "explanation": "Đây không phải là câu phủ định, mà là câu mang ý mời mọc, rủ rê người khác cùng làm việc gì đó với mình.",
+      "examples": [
+        {
+          "japanese": "いっしょに ビールを のみませんか。",
+          "kanji": "一緒に ビールを 飲みませんか。",
+          "vietnamese": "Cùng uống bia nhé!",
+          "english": "Shall we drink beer together?"
+        },
+        {
+          "japanese": "… ええ、いいですね。",
+          "kanji": "… ええ、いいですね。",
+          "vietnamese": "… Vâng, tốt quá!",
+          "english": "Yes, that sounds good!"
+        },
+        {
+          "japanese": "… すみません。ちょっと…",
+          "kanji": "… すみません。ちょっと…",
+          "vietnamese": "… Xin lỗi. Nhưng mà…",
+          "english": "Sorry, but..."
+        }
+      ],
+      "notes": "Khi muốn từ chối lời đề nghị thì dùng 「… すみません。ちょっと…」."
+    },
+    {
+      "id": 5,
+      "pattern": "V ましょう",
+      "meaning": "Cùng làm ~ nhé! - Thỏa thuận, hô hào",
+      "explanation": "Cũng là một lời đề nghị cùng làm với mình nhưng trên cơ sở đã biết người kia sẽ đồng ý, mang tính chất thỏa thuận, hô hào mọi người cùng làm.",
+      "examples": [
+        {
+          "japanese": "ロビーで 休みましょう。",
+          "kanji": "ロビーで 休みましょう。",
+          "vietnamese": "Chúng ta hãy nghỉ ở hành lang nhé!",
+          "english": "Let's rest in the lobby!"
+        },
+        {
+          "japanese": "はじめましょう。",
+          "kanji": "始めましょう。",
+          "vietnamese": "Nào, chúng ta bắt đầu nào!",
+          "english": "Let's begin!"
+        },
+        {
+          "japanese": "いっしょに べんきょうしましょう。",
+          "kanji": "一緒に 勉強しましょう。",
+          "vietnamese": "Chúng ta hãy học cùng nhau nhé!",
+          "english": "Let's study together!"
+        }
+      ],
+      "notes": "Khác với 「V ませんか」: dùng khi đã biết người kia sẽ đồng ý."
+    },
+    {
+      "id": 6,
+      "pattern": "なん／なに",
+      "meaning": "Phân biệt cách dùng",
+      "explanation": "Cả 「なん」và 「なに」đều có nghĩa là \"cái gì\", đều viết chung 1 chữ Hán là 何.",
+      "examples": [
+        {
+          "japanese": "何ですか。",
+          "kanji": "何ですか。",
+          "vietnamese": "Cái gì vậy?",
+          "english": "What is it?"
+        },
+        {
+          "japanese": "何の会社ですか。",
+          "kanji": "何の会社ですか。",
+          "vietnamese": "Công ty gì vậy?",
+          "english": "What kind of company is it?"
+        },
+        {
+          "japanese": "何を たべますか。",
+          "kanji": "何を 食べますか。",
+          "vietnamese": "Bạn ăn gì?",
+          "english": "What do you eat?"
+        }
+      ],
+      "notes": "Đọc là なん: khi 何 đứng trước một từ bắt đầu bằng \"d, n hay t\", hoặc khi đứng sau 何 là các từ chỉ cách đếm. Đọc là なに: các trường hợp khác."
+    }
+  ],
+  "exercises": [
+    {
+      "title": "Bài tập 1: Điền trợ từ",
+      "description": "Điền trợ từ thích hợp vào chỗ trống",
+      "questions": [
+        {
+          "question": "ごはん ___ たべます。",
+          "answer": "を",
+          "kanji": "を",
+          "explanation": "Tôi ăn cơm - dùng を để chỉ đối tượng của hành động"
+        },
+        {
+          "question": "レストラン ___ ごはんを たべます。",
+          "answer": "で",
+          "kanji": "で",
+          "explanation": "Tôi ăn cơm ở nhà hàng - dùng で để chỉ địa điểm"
+        },
+        {
+          "question": "ともだち ___ いっしょに いきます。",
+          "answer": "と",
+          "kanji": "と",
+          "explanation": "Tôi đi cùng với bạn - dùng と để chỉ người cùng đi"
+        }
+      ]
+    },
+    {
+      "title": "Bài tập 2: Đặt câu",
+      "description": "Đặt câu theo mẫu đã học",
+      "questions": [
+        {
+          "question": "Đặt câu với いっしょに",
+          "answer": "いっしょに べんきょうしましょう。",
+          "kanji": "一緒に 勉強しましょう。",
+          "explanation": "Chúng ta hãy học cùng nhau nhé!"
+        },
+        {
+          "question": "Đặt câu hỏi về địa điểm",
+          "answer": "どこで このしゃしんを とりましたか。",
+          "kanji": "どこで この写真を 撮りましたか。",
+          "explanation": "Bạn đã chụp bức ảnh này ở đâu?"
+        },
+        {
+          "question": "Đặt câu phủ định hoàn toàn",
+          "answer": "きょう なにも たべませんでした。",
+          "kanji": "今日 何も 食べませんでした。",
+          "explanation": "Hôm nay tôi đã không ăn gì cả"
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "title": "Văn hóa mời mọc Nhật Bản",
+      "content": "Trong văn hóa Nhật Bản, việc mời mọc người khác cùng làm việc gì đó thể hiện sự thân thiện và muốn tạo mối quan hệ tốt đẹp. Tuy nhiên, cần chú ý đến cách từ chối lịch sự khi không thể tham gia."
+    },
+    {
+      "title": "Cách sử dụng trợ từ",
+      "content": "Trong tiếng Nhật, việc sử dụng đúng các trợ từ như を, で, と rất quan trọng để diễn đạt chính xác ý nghĩa về đối tượng, địa điểm và đối tác trong hành động."
     }
   ]
 }
