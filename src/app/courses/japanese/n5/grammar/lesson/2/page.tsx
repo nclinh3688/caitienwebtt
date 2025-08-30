@@ -260,7 +260,7 @@ export default function N5GrammarLesson2Page() {
                 
                 <div className="bg-gray-100 p-4 rounded-lg mb-4">
                   <p className="text-gray-700 leading-relaxed">
-                    これ (kore): gần người nói, それ (sore): gần người nghe, あれ (are): xa cả hai
+                    Mẫu câu "これ／それ／あれ は N です" dùng để chỉ định vật thể. "これ" (kore) dùng để chỉ vật ở gần người nói. "それ" (sore) dùng để chỉ vật ở gần người nghe. "あれ" (are) dùng để chỉ vật ở xa cả người nói và người nghe. "N" là danh từ chỉ vật thể. Mẫu câu này thường được dùng để giới thiệu hoặc xác định một vật.
                   </p>
                 </div>
 
@@ -379,7 +379,7 @@ export default function N5GrammarLesson2Page() {
                 
                 <div className="bg-gray-100 p-4 rounded-lg mb-4">
                   <p className="text-gray-700 leading-relaxed">
-                    この、その、あの là các từ chỉ định bổ nghĩa cho danh từ, luôn phải có danh từ đi liền đằng sau
+                    "この N" (kono N), "その N" (sono N), "あの N" (ano N) là các cụm từ chỉ định, dùng để bổ nghĩa trực tiếp cho danh từ "N". "この" dùng cho vật ở gần người nói. "その" dùng cho vật ở gần người nghe. "あの" dùng cho vật ở xa cả người nói và người nghe. Các từ này luôn phải đi kèm với một danh từ ngay sau nó.
                   </p>
                 </div>
 
@@ -464,7 +464,7 @@ export default function N5GrammarLesson2Page() {
                 
                 <div className="bg-gray-100 p-4 rounded-lg mb-4">
                   <p className="text-gray-700 leading-relaxed">
-                    なん là từ để hỏi dùng cho vật, だれ là từ để hỏi dùng cho người
+                    Mẫu câu "～は なんですか" dùng để hỏi về bản chất hoặc tên của một vật thể, có nghĩa là "N là cái gì?". "なん" (nan) là từ để hỏi "cái gì", dùng cho vật. Khi hỏi về người, ta dùng "だれ" (dare - ai) thay cho "なん".
                   </p>
                 </div>
 
@@ -532,7 +532,7 @@ export default function N5GrammarLesson2Page() {
                 
                 <div className="bg-gray-100 p-4 rounded-lg mb-4">
                   <p className="text-gray-700 leading-relaxed">
-                    そう được sử dụng để trả lời câu hỏi nghi vấn mà tận cùng là danh từ
+                    "そうです" (sou desu) và "そうではありません" (sou dewa arimasen) là các cách trả lời khẳng định và phủ định cho câu hỏi nghi vấn mà câu hỏi đó kết thúc bằng danh từ hoặc tính từ. "そうです" có nghĩa là "Đúng vậy" hoặc "Phải thế". "そうではありません" có nghĩa là "Không phải thế" hoặc "Không đúng vậy".
                   </p>
                 </div>
 
@@ -600,7 +600,7 @@ export default function N5GrammarLesson2Page() {
                 
                 <div className="bg-gray-100 p-4 rounded-lg mb-4">
                   <p className="text-gray-700 leading-relaxed">
-                    Đây là loại câu hỏi lựa chọn, được cấu tạo bởi hai câu đơn, dùng khi phân vân, không biết rõ đối tượng là cái gì
+                    Mẫu câu "N1 ですか、N2 ですか" là một dạng câu hỏi lựa chọn, dùng để hỏi khi người nói muốn xác nhận một trong hai hoặc nhiều lựa chọn. "N1" và "N2" là các danh từ hoặc cụm danh từ. Câu hỏi này thường được dùng khi người nói không chắc chắn về đối tượng hoặc muốn người nghe đưa ra sự lựa chọn. Câu trả lời thường là một trong các lựa chọn được đưa ra.
                   </p>
                 </div>
 
@@ -668,7 +668,7 @@ export default function N5GrammarLesson2Page() {
                 
                 <div className="bg-gray-100 p-4 rounded-lg mb-4">
                   <p className="text-gray-700 leading-relaxed">
-                    の có ý nghĩa chỉ sự sở hữu. N2 thuộc sở hữu của N1
+                    Mẫu câu "N1 の N2" dùng để diễn tả mối quan hệ sở hữu, trong đó "N2" thuộc về "N1". Trợ từ "の" (no) được đặt giữa hai danh từ để chỉ rõ mối quan hệ này. "N1" là chủ sở hữu, và "N2" là vật bị sở hữu. Mẫu câu này rất cơ bản và được sử dụng rộng rãi để chỉ sự thuộc về, nguồn gốc, hoặc mối quan hệ giữa các danh từ.
                   </p>
                 </div>
 
@@ -736,7 +736,7 @@ export default function N5GrammarLesson2Page() {
                 
                 <div className="bg-gray-100 p-4 rounded-lg mb-4">
                   <p className="text-gray-700 leading-relaxed">
-                    Sử dụng khi người nói nhận được thông tin mới và thể hiện rằng đã hiểu về nó
+                    "そうですか" (sou desu ka) là một cụm từ thường dùng để thể hiện sự hiểu biết, xác nhận thông tin, hoặc bày tỏ sự ngạc nhiên nhẹ nhàng khi người nói nhận được một thông tin mới. Nó có nghĩa là "Ra vậy", "Thế à", hoặc "Tôi hiểu rồi". Đây là một cách nói lịch sự và tự nhiên trong giao tiếp tiếng Nhật.
                   </p>
                 </div>
 

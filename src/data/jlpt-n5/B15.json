@@ -1,0 +1,86 @@
+{
+  "id": "n5-grammar-lesson-15",
+  "lessonNumber": 15,
+  "japaneseTitle": "第１５課",
+  "vietnameseTitle": "Bài 15",
+  "englishTitle": "Lesson 15",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Cách diễn tả sự cho phép, cấm đoán và các ý nghĩa khác của thể tiếp diễn.",
+    "content": "Bài học này giới thiệu các mẫu câu để diễn tả sự cho phép làm gì, cấm đoán không được làm gì, và mở rộng các ý nghĩa của động từ ở thể tiếp diễn (V ています).",
+    "keyPoints": [
+      "Mẫu câu cho phép: V てもいいです.",
+      "Mẫu câu cấm đoán: V ては いけません.",
+      "Các ý nghĩa khác của V ています: diễn tả hành động tiếp diễn từ quá khứ đến hiện tại, kết quả còn hiển hiện; diễn tả thói quen, tập quán."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n5-l15-p1",
+      "pattern": "V てもいいです",
+      "meaning": "Có thể làm ~, được phép làm ~, làm ~ cũng được.",
+      "explanation": "- Mẫu câu này dùng để diễn tả sự cho phép hoặc sự đồng ý cho một hành động nào đó.\n- Động từ được chia sang thể て rồi thêm 「もいいです」.\n- Khi dùng ở thể nghi vấn (V てもいいですか), nó trở thành một câu xin phép lịch sự.",
+      "examples": [
+        {
+          "japanese": "その部屋でタバコを吸ってもいいです。",
+          "vietnamese": "Được phép hút thuốc ở phòng đó."
+        },
+        {
+          "japanese": "ここで 写真を撮ってもいいですか。",
+          "vietnamese": "Tôi chụp ảnh ở đây có được không? ...ええ、いいです。 (… Vâng, được.)"
+        }
+      ],
+      "notes": [
+        "Thể nghi vấn của mẫu câu này được sử dụng như một câu xin phép làm gì đó."
+      ]
+    },
+    {
+      "id": "n5-l15-p2",
+      "pattern": "V ては いけません",
+      "meaning": "Không được làm ~.",
+      "explanation": "- Mẫu câu này dùng để diễn tả sự cấm đoán, không được phép làm một hành động nào đó.\n- Động từ được chia sang thể て rồi thêm 「はいけません」.\n- Đây là một cách nói mạnh mẽ để ra lệnh cấm.",
+      "examples": [
+        {
+          "japanese": "ここでタバコを吸ってはいけません。",
+          "vietnamese": "Không được hút thuốc ở đây."
+        },
+        {
+          "japanese": "ここで 写真を撮ってもいいですか。",
+          "vietnamese": "Tôi chụp ảnh ở đây được không? ...いいえ、いけません。 (… Không, không được.)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l15-p3",
+      "pattern": "V ています (Ý nghĩa khác)",
+      "meaning": "Diễn tả hành động tiếp diễn từ quá khứ, kết quả còn hiển hiện; hoặc thói quen.",
+      "explanation": "- Ngoài ý nghĩa 'đang làm gì' đã học ở bài 14, thể tiếp diễn V ています còn có hai ý nghĩa quan trọng khác:\n    - Diễn tả một hành động đã xảy ra trong quá khứ và kết quả của nó vẫn còn tiếp diễn, hiển hiện trong hiện tại (ví dụ: 結婚しています - đã kết hôn, 知っています - đã biết).\n    - Diễn tả những tập quán, thói quen, những hành động được lặp đi lặp lại trong thời gian dài (ví dụ: 働いています - đang làm việc, 勉強しています - đang học).",
+      "examples": [
+        {
+          "japanese": "私は 結婚しています。",
+          "vietnamese": "Tôi đã kết hôn (đã, và đang có gia đình)."
+        },
+        {
+          "japanese": "私は 鈴木さんを 知っています。",
+          "vietnamese": "Tôi biết cô Suzuki (đã và đang biết)."
+        },
+        {
+          "japanese": "FPT は コンピューターソフトを作っています。",
+          "vietnamese": "FPT sản xuất phần mềm máy tính."
+        },
+        {
+          "japanese": "私は CMC で 働 いています。",
+          "vietnamese": "Tôi làm việc ở CMC."
+        }
+      ],
+      "notes": [
+        "「持っています」ở đây mang nghĩa sở hữu."
+      ]
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}

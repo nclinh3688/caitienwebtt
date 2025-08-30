@@ -14,6 +14,7 @@ export interface GrammarExample {
   romaji: string;
   vietnamese: string;
   english: string;
+  kanji?: string;
   audio?: string;
 }
 
@@ -59,7 +60,7 @@ export const N5Lesson1Grammar: GrammarLesson = {
       id: 'n5-l1-p1',
       pattern: 'A は B です',
       meaning: 'A là B',
-      explanation: 'Đây là mẫu câu cơ bản nhất trong tiếng Nhật để diễn tả sự đồng nhất hoặc định nghĩa. Trợ từ は (wa) đánh dấu chủ ngữ A, và です (desu) là động từ "to be" ở dạng lịch sự.',
+      explanation: 'Đây là mẫu câu khẳng định cơ bản nhất trong tiếng Nhật, dùng để giới thiệu, định nghĩa hoặc xác nhận thông tin. "A" là chủ đề của câu, được đánh dấu bằng trợ từ "は" (đọc là "wa", không phải "ha"). "B" là vị ngữ, thường là danh từ hoặc cụm danh từ, và "です" (desu) là dạng lịch sự của động từ "to be" trong tiếng Nhật. Mẫu câu này thường được dùng để giới thiệu tên, nghề nghiệp, quốc tịch, hoặc để mô tả một sự vật, sự việc.',
       difficulty: 'beginner',
       category: 'basic-sentence-pattern',
       examples: [
@@ -94,7 +95,7 @@ export const N5Lesson1Grammar: GrammarLesson = {
       id: 'n5-l1-p2',
       pattern: 'A は B ではありません',
       meaning: 'A không phải là B',
-      explanation: 'Đây là dạng phủ định của mẫu câu "A は B です". ではありません (dewa arimasen) là dạng phủ định lịch sự của です.',
+      explanation: 'Mẫu câu này là dạng phủ định của "A は B です", dùng để diễn tả rằng "A không phải là B". "ではありません" (dewa arimasen) là cách nói phủ định lịch sự của "です". Nó được sử dụng trong các tình huống trang trọng hoặc khi muốn thể hiện sự tôn trọng. Trong văn nói thân mật hơn, có thể dùng "じゃありません" (ja arimasen).',
       difficulty: 'beginner',
       category: 'negative-sentence-pattern',
       examples: [
@@ -123,7 +124,7 @@ export const N5Lesson1Grammar: GrammarLesson = {
       id: 'n5-l1-p3',
       pattern: 'A は B ですか',
       meaning: 'A có phải là B không?',
-      explanation: 'Đây là mẫu câu nghi vấn. Chỉ cần thêm か (ka) vào cuối câu khẳng định để tạo thành câu hỏi. か làm cho câu trở thành câu hỏi "có phải... không?".',
+      explanation: 'Mẫu câu này dùng để đặt câu hỏi xác nhận, có nghĩa là "A có phải là B không?". Để tạo câu hỏi, chỉ cần thêm trợ từ "か" (ka) vào cuối câu khẳng định "A は B です". Trợ từ "か" biến câu thành câu hỏi và thường được phát âm với ngữ điệu lên ở cuối câu. Câu trả lời thường là "はい" (hai - vâng, đúng vậy) hoặc "いいえ" (iie - không, không phải).',
       difficulty: 'beginner',
       category: 'question-pattern',
       examples: [
@@ -158,7 +159,7 @@ export const N5Lesson1Grammar: GrammarLesson = {
       id: 'n5-l1-p4',
       pattern: 'A も B です',
       meaning: 'A cũng là B',
-      explanation: 'Trợ từ も (mo) có nghĩa là "cũng, cũng vậy". Khi dùng も thay cho は, câu có nghĩa là "A cũng là B" hoặc "A cũng vậy".',
+      explanation: 'Trợ từ "も" (mo) được dùng để biểu thị sự tương đồng hoặc bổ sung, có nghĩa là "cũng", "cũng vậy". Khi "も" thay thế cho trợ từ "は" (chủ đề), nó nhấn mạnh rằng chủ thể "A" cũng có cùng tính chất hoặc trạng thái với một chủ thể khác đã được đề cập trước đó. Mẫu câu này thường được sử dụng để thể hiện sự đồng tình hoặc khi muốn thêm thông tin tương tự.',
       difficulty: 'beginner',
       category: 'particle-mo-pattern',
       examples: [
@@ -187,7 +188,7 @@ export const N5Lesson1Grammar: GrammarLesson = {
       id: 'n5-l1-p5',
       pattern: 'A の B',
       meaning: 'B của A / B thuộc về A',
-      explanation: 'Trợ từ の (no) biểu thị mối quan hệ sở hữu hoặc thuộc về. A の B có nghĩa là "B của A" hoặc "B thuộc về A".',
+      explanation: 'Trợ từ "の" (no) là một trong những trợ từ quan trọng và đa năng nhất trong tiếng Nhật, dùng để nối hai danh từ với nhau. Chức năng chính của nó là biểu thị mối quan hệ sở hữu ("B của A"), nhưng nó còn có thể chỉ định nguồn gốc, chất liệu, nội dung, hoặc một danh từ bổ nghĩa cho danh từ khác. Cấu trúc "A の B" có nghĩa là "B thuộc về A" hoặc "B mà A mô tả".',
       difficulty: 'beginner',
       category: 'particle-no-pattern',
       examples: [
@@ -222,7 +223,7 @@ export const N5Lesson1Grammar: GrammarLesson = {
       id: 'n5-l1-p6',
       pattern: 'A は B の C です',
       meaning: 'A là C của B',
-      explanation: 'Đây là mẫu câu kết hợp trợ từ は và の để diễn tả mối quan hệ phức tạp hơn. A là chủ ngữ, B là người sở hữu, C là đối tượng được sở hữu.',
+      explanation: 'Mẫu câu này kết hợp trợ từ "は" và "の" để diễn tả một mối quan hệ phức tạp hơn, thường là để xác định chủ ngữ "A" thuộc về một nhóm hoặc tổ chức "B" nào đó, và "C" là vai trò hoặc vị trí của "A" trong nhóm "B". Cấu trúc "B の C" tạo thành một cụm danh từ, bổ nghĩa cho chủ ngữ "A". Mẫu câu này thường được dùng để giới thiệu chi tiết hơn về thân phận, nghề nghiệp, hoặc mối quan hệ của một người.',
       difficulty: 'beginner',
       category: 'combined-pattern',
       examples: [

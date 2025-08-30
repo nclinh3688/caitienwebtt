@@ -1,0 +1,134 @@
+{
+  "id": "n5-grammar-lesson-16",
+  "lessonNumber": 16,
+  "japaneseTitle": "第１６課",
+  "vietnameseTitle": "Bài 16",
+  "englishTitle": "Lesson 16",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Cách nối các hành động, tính từ và danh từ; cách diễn tả trình tự và miêu tả chi tiết.",
+    "content": "Bài học này giới thiệu các cách nối nhiều động từ, tính từ và danh từ trong câu để diễn tả trình tự hành động, liệt kê tính chất, hoặc miêu tả chi tiết một đối tượng.",
+    "keyPoints": [
+      "Nối các động từ bằng thể て để liệt kê hành động theo trình tự thời gian.",
+      "Nối các tính từ đuôi い và な, danh từ để liệt kê tính chất hoặc kết hợp câu.",
+      "Diễn tả hành động xảy ra sau một hành động khác với V１てから、V2 ます.",
+      "Miêu tả chi tiết một thành phần, bộ phận của vật hoặc người với N1 は N2 が Adj.",
+      "Hỏi về cách làm, phương thức thực hiện với どうやって.",
+      "Hỏi về sự lựa chọn trong một nhóm với どの N."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n5-l16-p1",
+      "pattern": "V１て、V2 て...V ます",
+      "meaning": "Làm V1 rồi làm V2,.... (Liệt kê hành động theo trình tự)",
+      "explanation": "- Mẫu câu sử dụng để liệt kê các hành động xảy ra theo trình tự thời gian.\n- Hành động đứng trước xảy ra trước.\n- Thì của cả câu được chia ở động từ cuối cùng.",
+      "examples": [
+        {
+          "japanese": "毎朝 ジョギングをして、シャワーを浴びて、学校へ行きます。",
+          "vietnamese": "Hàng sáng tôi chạy bộ rồi tắm sau đó đến trường."
+        },
+        {
+          "japanese": "きのう Vicom へ行って、友だちにあって、映画を見ました。",
+          "vietnamese": "Hôm qua tôi đến Vincom, gặp bạn và xem phim."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l16-p2",
+      "pattern": "い-adj くて、～ / な-adj で、～ / N で、～",
+      "meaning": "Nối 2 hay nhiều tính từ với nhau, 2 hay nhiều danh từ với nhau",
+      "explanation": "- Mẫu câu này dùng để nối hai hoặc nhiều tính từ (cùng loại hoặc khác loại) hoặc danh từ.\n- Diễn tả nhiều tính chất hoặc trạng thái của cùng một chủ thể, hoặc để kết hợp các câu.\n- Đối với tính từ đuôi い, bỏ い thêm 「くて」.\n- Đối với tính từ đuôi な, bỏ な thêm 「で」.\n- Đối với danh từ, thêm 「で」.\n- Cách nối này mang ý nghĩa 'và', không dùng để nối các câu có ý nghĩa trái ngược.\n- Thì của cả câu được quyết định bởi từ cuối cùng.",
+      "examples": [
+        {
+          "japanese": "鈴木さんは 若くて、元気です。",
+          "vietnamese": "Cô Suzuki trẻ và khỏe mạnh."
+        },
+        {
+          "japanese": "ハノイは 人が多くて、にぎやかです。",
+          "vietnamese": "Hà Nội đông người và nhộn nhịp."
+        },
+        {
+          "japanese": "田中さんは 日本人で、留学生です。",
+          "vietnamese": "Anh Tanaka là người Nhật và là lưu học sinh."
+        },
+        {
+          "japanese": "カリナさんは 研修生で、マリアさんは 主婦です。",
+          "vietnamese": "Karina là tu nghiệp sinh còn Maria là vợ."
+        }
+      ],
+      "notes": [
+        "Riêng cấu trúc với danh từ, không nhất thiết chỉ sử dụng khi có cùng chủ ngữ, có thể là 2 câu có chủ ngữ khác nhau (trong trường hợp này, nó sẽ trở thành cách kết hợp 2 câu với nhau)."
+      ]
+    },
+    {
+      "id": "n5-l16-p3",
+      "pattern": "V１てから、V2 ます",
+      "meaning": "Làm V1 rồi làm V2 / Sau khi làm V1 thì làm V2.",
+      "explanation": "- Mẫu câu này diễn tả sự liên tiếp của hành động.\n- Nhấn mạnh rằng hành động V1 phải kết thúc hoàn toàn rồi mới đến hành động V2.\n- Thì của cả câu được quyết định ở cuối câu.",
+      "examples": [
+        {
+          "japanese": "国へ帰ってから、父の会社で 働 きます。",
+          "vietnamese": "Sau khi về nước tôi sẽ làm việc ở công ty của bố."
+        },
+        {
+          "japanese": "コンサートが 終わってから、レストランで 食事しました。",
+          "vietnamese": "Sau khi kết thúc buổi biểu diễn âm nhạc tôi đã ăn ở nhà hàng."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l16-p4",
+      "pattern": "N1 は N2 が Adj",
+      "meaning": "N1 có N2 ~ (Miêu tả chi tiết một thành phần)",
+      "explanation": "- Mẫu câu này dùng để miêu tả cụ thể một thành phần, một bộ phận hoặc một đặc điểm của N1.\n- N1 là chủ thể lớn, N2 là một phần của N1, và Adj là tính từ miêu tả N2.\n- Trợ từ 「が」được dùng để đánh dấu N2 là chủ ngữ của mệnh đề phụ.",
+      "examples": [
+        {
+          "japanese": "Hue は 食べ物が おいしいです。",
+          "vietnamese": "Đồ ăn Huế ngon."
+        },
+        {
+          "japanese": "マリアさんは 髪が 長いです。",
+          "vietnamese": "Maria có mái tóc dài."
+        },
+        {
+          "japanese": "田中さんは 背が 高いです 。",
+          "vietnamese": "Bạn Tanaka cao."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l16-p5",
+      "pattern": "どうやって",
+      "meaning": "Làm thế nào? (Hỏi cách làm, phương thức)",
+      "explanation": "- 「どうやって」là từ để hỏi về cách thức, phương pháp thực hiện một việc nào đó, có nghĩa là 'Làm thế nào'.\n- Để trả lời cho câu hỏi này, thường sử dụng mẫu câu liệt kê hành động theo trình tự (V て、V て...V ます) hoặc các câu miêu tả phương tiện.",
+      "examples": [
+        {
+          "japanese": "大学まで どうやって 行きますか。",
+          "vietnamese": "Đến trường bạn đi thế nào? ...バス乗り場まで 5 分ぐらいあるいて、16 番のバスに乗って、大学前でおります。 (… Tôi đi bộ khoảng 5 phút đến bến xe bus, lên xe số 16 và xuống ở đằng trước trường.)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l16-p6",
+      "pattern": "どの N",
+      "meaning": "Nào? (Hỏi lựa chọn trong một nhóm)",
+      "explanation": "- 「どの」là từ để hỏi có nghĩa là 'nào'.\n- Dùng để hỏi khi muốn người nghe chọn một đối tượng cụ thể trong một nhóm từ ba đối tượng trở lên.\n- 「どの」luôn phải đi kèm với một danh từ theo sau.",
+      "examples": [
+        {
+          "japanese": "田中さんは どの人ですか。",
+          "vietnamese": "Tanaka là người nào? ...あの背が高くて、髪が 黒い人です。 (… Là người cao và tóc màu đen.)"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}

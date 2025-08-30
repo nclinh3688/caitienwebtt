@@ -1,0 +1,87 @@
+{
+  "id": "n4-grammar-lesson-26",
+  "lessonNumber": 26,
+  "japaneseTitle": "第２６課",
+  "vietnameseTitle": "Bài 26",
+  "englishTitle": "Lesson 26",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Mẫu câu んです (nhấn mạnh, hỏi lý do) và các cách yêu cầu, xin lời khuyên.",
+    "content": "Bài học này giới thiệu mẫu câu んです để nhấn mạnh ý muốn nói, muốn hỏi, và các cách yêu cầu, đề nghị, xin lời khuyên một cách lịch sự.",
+    "keyPoints": [
+      "Cách cấu tạo và sử dụng んです trong câu hỏi và câu trần thuật.",
+      "Cách yêu cầu, đề nghị lịch sự với V ていただけませんか.",
+      "Cách hỏi cách làm, xin lời khuyên với V たらいいですか."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n4-l26-p1",
+      "pattern": "[Dạng ngắn] んです。",
+      "meaning": "Nhấn mạnh ý muốn nói, muốn hỏi; dùng trong văn nói nhiều.",
+      "explanation": "- Mẫu câu 「んです」 (hoặc 「のです」) được dùng để nhấn mạnh, giải thích nguyên nhân, lý do, hoặc xác nhận thông tin. Nó thường được dùng trong văn nói.\n- Cách cấu tạo:\n  - Động từ: V る･V ない･V た (dạng ngắn) + んです.\n  - Tính từ đuôi i: ～い (dạng ngắn) + んです.\n  - Tính từ đuôi na: ～な + んです.\n  - Danh từ: ～な + んです.\n- Cách sử dụng:\n  - Trong các câu hỏi: 「～んですか。」\n    - Dùng trong trường hợp xác nhận lại thông tin xem có đúng như cái mà mình đang nhìn thấy hoặc đang suy đoán không.\n    - Khi người nói hỏi về thông tin mà anh ấy nghe hoặc nhìn thấy.\n    - Khi người nói muốn nghe giải thích nguyên nhân, lý do của sự việc mà anh ấy nghe hoặc nhìn thấy.\n  - Trong câu trần thuật: 「～んです。」\n    - Khi trả lời câu hỏi tại sao (phía sau không còn 「から」nữa).\n    - Khi người nói trình bày thêm nguyên nhân, lý do (phía sau không còn 「から」nữa).",
+      "examples": [
+        {
+          "japanese": "渡辺さんは ときどき 大阪べんを 使いますね。大阪に 住んでいたんですか。",
+          "vietnamese": "Anh watanabe thỉnh thoảng dùng tiếng Osaka nhỉ. Anh đã sống ở Osaka à? ...ええ、１５歳まで 大阪に 住んでいました。 (… Vâng, tôi đã sống ở Osaka đến năm 15 tuổi.)"
+        },
+        {
+          "japanese": "いいカメラですね。どこで 買ったんですか。",
+          "vietnamese": "Chiếc máy ảnh đẹp quá. Anh mua ở đâu vậy? ...日本で 買いました。 (… Tôi mua ở Nhật Bản.)"
+        },
+        {
+          "japanese": "どうして 遅れたんですか。",
+          "vietnamese": "Tai sao anh lại đến muộn thế? ...バスが 来なかったんです。 (… Tại vì xe buýt không đến.)"
+        },
+        {
+          "japanese": "毎朝、新聞を 読みますか。",
+          "vietnamese": "Hàng sáng anh có đọc báo không? ...いいえ。時間が ないんです。 (… Không. Vì tôi không có thời gian.)"
+        }
+      ],
+      "notes": [
+        "Đôi khi 「～んですか」biểu thị sự ngạc nhiên, mối nghi ngờ hay sự tò mò sâu sắc. Tuy nhiên, nếu không dùng đúng thì có thể làm tổn thương người nghe. Vì thế nên cẩn thận khi dùng.",
+        "Không được dùng 「～んです」để diễn tả sự thật đơn thuần."
+      ]
+    },
+    {
+      "id": "n4-l26-p2",
+      "pattern": "～んですが、V ていただけませんか。",
+      "meaning": "Mong (ai đó) làm gì giúp được không? (Yêu cầu, đề nghị lịch sự)",
+      "explanation": "- Mẫu câu này dùng để yêu cầu, nhờ ai đó làm gì giúp mình nhưng có ý nghĩa yêu cầu, nhờ vả lịch sự hơn rất nhiều so với 「V てください」.\n- Động từ được chia sang thể て rồi thêm 「いただけませんか」.",
+      "examples": [
+        {
+          "japanese": "日本語で 手紙を 書いたんですが、見て いただけませんか。",
+          "vietnamese": "Tôi đã viết 1 bức thư bằng tiếng Nhật, anh/chị xem giúp tôi được không ạ?"
+        },
+        {
+          "japanese": "コピー機の 使い方が 分からないんですが、教えて いただけませんか。",
+          "vietnamese": "Tôi không biết cách sử dụng máy photo, anh/chị chỉ giúp tôi được không ạ?"
+        }
+      ],
+      "notes": [
+        "Chú ý: 「～ていただけませんか」chứ không phải là 「～ていただきませんか」."
+      ]
+    },
+    {
+      "id": "n4-l26-p3",
+      "pattern": "～んですが、V たらいいですか。",
+      "meaning": "Làm thế nào … thì được nhỉ?; nên làm thế nào nhỉ? (Hỏi cách làm, xin lời khuyên, sự chỉ dẫn)",
+      "explanation": "- Mẫu câu này dùng khi muốn được người nghe cho lời khuyên hoặc hướng dẫn phải làm gì.\n- Động từ được chia sang thể たら rồi thêm 「いいですか」.",
+      "examples": [
+        {
+          "japanese": "日本語を 勉強したいんですが、どうしたら いいですか。",
+          "vietnamese": "Tôi muốn học tiếng Nhật, vậy thì nên làm thế nào nhỉ? ...FPT 大学で 勉強したら いいと思います。 (… Tôi nghĩ anh nên học tiếng Nhật ở Đại học FPT.)"
+        },
+        {
+          "japanese": "試験の予定を 知りたいんですが、だれに 聞いたら いいですか。",
+          "vietnamese": "Tôi muốn biết kế hoạch thi, vậy tôi nên hỏi ai bây giờ? ...試験部の Nga さんに 聞いて ください。 (… Anh/chị hãy hỏi chị Nga phòng khảo thí.)"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}

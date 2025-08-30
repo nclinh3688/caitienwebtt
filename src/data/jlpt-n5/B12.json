@@ -1,0 +1,118 @@
+{
+  "id": "n5-grammar-lesson-12",
+  "lessonNumber": 12,
+  "japaneseTitle": "第１２課",
+  "vietnameseTitle": "Bài 12",
+  "englishTitle": "Lesson 12",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Các thì của danh từ, tính từ và cấu trúc so sánh.",
+    "content": "Bài học này tập trung vào cách chia thì của câu kết thúc bằng danh từ, tính từ đuôi な và tính từ đuôi い. Đồng thời, giới thiệu các mẫu câu so sánh hơn, kém và so sánh cao nhất.",
+    "keyPoints": [
+      "Cách chia thì hiện tại, quá khứ, khẳng định, phủ định cho danh từ và tính từ đuôi な.",
+      "Cách chia thì hiện tại, quá khứ, khẳng định, phủ định cho tính từ đuôi い.",
+      "Mẫu câu so sánh hơn: N1 は N2 より Adj です.",
+      "Mẫu câu hỏi và trả lời so sánh hơn giữa hai vật: N1 と N2 と どちらが Adj ですか。 ...N1(N2)のほうが Adj です.",
+      "Mẫu câu so sánh cao nhất: N [のなか] で ななに／どこ／だれ／いつが いちばん Adj ですか。 / N1[のなか]で N2 が いちばん Adj です."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n5-l12-p1",
+      "pattern": "N / な-adj + です / ではありません / でした / ではありませんでした",
+      "meaning": "Cách chia thì cho danh từ và tính từ đuôi な",
+      "explanation": "- Đối với câu kết thúc bằng danh từ hoặc tính từ đuôi な, cách chia thì hiện tại, quá khứ, khẳng định và phủ định như sau:\n  - Hiện tại Khẳng định: N / な-adj + です.\n  - Hiện tại Phủ định: N / な-adj + ではありません（じゃ）.\n  - Quá khứ Khẳng định: N / な-adj + でした.\n  - Quá khứ Phủ định: N / な-adj + ではありませんでした（じゃ）.",
+      "examples": [
+        {
+          "japanese": "きのうは 雨でした。",
+          "vietnamese": "Hôm qua (đã) mưa."
+        },
+        {
+          "japanese": "きのうの試験は 簡単ではありませんでした。",
+          "vietnamese": "Kỳ thi hôm qua (đã) không đơn giản."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l12-p2",
+      "pattern": "い-adj + いです / くないです / かったです / くなかったです",
+      "meaning": "Cách chia thì cho tính từ đuôi い",
+      "explanation": "- Đối với câu kết thúc bằng tính từ đuôi い, cách chia thì hiện tại, quá khứ, khẳng định và phủ định như sau:\n  - Hiện tại Khẳng định: い-adj + いです.\n  - Hiện tại Phủ định: い-adj + くないです.\n  - Quá khứ Khẳng định: い-adj + かったです.\n  - Quá khứ Phủ định: い-adj + くなかったです.\n- Lưu ý: Tính từ いい (tốt) là trường hợp đặc biệt, dạng quá khứ phủ định là よくないです.",
+      "examples": [
+        {
+          "japanese": "おとといは 寒かったです。",
+          "vietnamese": "Hôm kia (đã) lạnh."
+        },
+        {
+          "japanese": "おとといのパーティーは あまり楽しくなかったです。",
+          "vietnamese": "Bữa tiệc hôm kia (đã) không vui lắm."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l12-p3",
+      "pattern": "N1 は N2 より Adj です。",
+      "meaning": "N1 ~ hơn N2 (So sánh hơn)",
+      "explanation": "- Đây là mẫu câu so sánh hơn, dùng để diễn tả rằng N1 có tính chất [Adj] hơn N2.\n- Trợ từ 「より」được đặt sau N2 để chỉ đối tượng được so sánh.\n- N1 là chủ thể được so sánh, và Adj là tính từ mô tả tính chất.",
+      "examples": [
+        {
+          "japanese": "ひこうきは 自動車より はやいです。",
+          "vietnamese": "Máy bay nhanh hơn ô tô."
+        },
+        {
+          "japanese": "田中さんは 私 より 高いです。",
+          "vietnamese": "Anh Tanaka cao hơn tôi."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l12-p4",
+      "pattern": "N1 と N2 と どちらが Adj ですか。 / N のほうが Adj です。",
+      "meaning": "N1 và N2 cái nào ~ hơn? ...N1 (N2) ~ hơn. (Hỏi và nói so sánh hơn giữa 2 vật)",
+      "explanation": "- Mẫu câu này dùng để hỏi và trả lời khi muốn so sánh giữa hai vật hoặc hai người.\n- Luôn sử dụng từ để hỏi 「どちら」 (cái nào/phía nào) khi so sánh giữa hai đối tượng.\n- Để trả lời, sử dụng cấu trúc 'N のほうが Adj です' để chỉ rõ đối tượng nào có tính chất đó hơn.",
+      "examples": [
+        {
+          "japanese": "テニスとサッカーと どちらが おもしろいですか。",
+          "vietnamese": "Tennis và bóng đá cái nào thú vị hơn? ...サッカーのほうが おもしろいです。 (… Bóng đá thú vị hơn.)"
+        },
+        {
+          "japanese": "春と秋と どちらが 好きですか。",
+          "vietnamese": "Mùa xuân và mùa thu bạn thích mùa nào hơn? ...秋のほうが 好きです。 (… Tôi thích mùa thu hơn.)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l12-p5",
+      "pattern": "N [のなか] で [Từ để hỏi] が いちばん Adj ですか。 / N が いちばん Adj です。",
+      "meaning": "Trong phạm vi N1 thì N2 ~ nhất. (So sánh cao nhất)",
+      "explanation": "- Đây là mẫu câu so sánh cao nhất, dùng để chỉ ra đối tượng có tính chất [Adj] nhất trong một phạm vi nhất định.\n- 「N [のなか] で」 (trong số N) xác định phạm vi so sánh.\n- 「いちばん」 (ichiban) có nghĩa là 'nhất'.\n- Để hỏi, sử dụng các từ để hỏi như 「なに」 (cái gì), 「どこ」 (nơi nào), 「だれ」 (ai), 「いつ」 (khi nào) kèm theo 「が いちばん Adj ですか」.",
+      "examples": [
+        {
+          "japanese": "くだもののなかで、りんごが いちばん すきです。",
+          "vietnamese": "Trong các loại quả, tôi thích nhất táo."
+        },
+        {
+          "japanese": "スポーツで サッカーが いちばん おもしろいです。",
+          "vietnamese": "Trong các môn thể thao, bóng đá thú vị nhất."
+        },
+        {
+          "japanese": "1 年で いつが いちばん 寒いですか。",
+          "vietnamese": "Trong 1 năm khi nào lạnh nhất? ...2 月が いちばん 寒いです。 (… Tháng 2 lạnh nhất.)"
+        },
+        {
+          "japanese": "クラスで だれが いちばん 若いですか。",
+          "vietnamese": "Trong lớp, ai trẻ nhất? … An さん です。 (Bạn A (trẻ nhất).)"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}

@@ -1,0 +1,97 @@
+{
+  "id": "n5-grammar-lesson-24",
+  "lessonNumber": 24,
+  "japaneseTitle": "第２４課",
+  "vietnameseTitle": "Bài 24",
+  "englishTitle": "Lesson 24",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Các mẫu câu diễn tả hành động cho, nhận và sự giúp đỡ.",
+    "content": "Bài học này giới thiệu các mẫu câu quan trọng để diễn tả hành động cho, nhận, và sự giúp đỡ giữa người với người, với sự phân biệt rõ ràng về chủ thể và đối tượng của hành động.",
+    "keyPoints": [
+      "Phân biệt 「くれます」và 「あげます」trong hành động cho/tặng.",
+      "Mẫu câu diễn tả hành động làm gì đó cho ai: V てあげます.",
+      "Mẫu câu diễn tả hành động nhận được sự giúp đỡ từ ai: V てもらいます.",
+      "Mẫu câu diễn tả hành động ai đó làm gì cho mình: V てくれます."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n5-l24-p1",
+      "pattern": "N をくれます",
+      "meaning": "Cho (người nói/người thân của người nói).",
+      "explanation": "- Động từ 「くれます」có nghĩa là 'cho' hoặc 'tặng', nhưng chỉ được sử dụng khi hành động cho/tặng hướng về phía người nói hoặc người thân trong gia đình người nói.\n- Nó khác với 「あげます」 (đã học ở bài 7) ở chỗ 「あげます」dùng khi người nói cho người khác, hoặc người khác cho người khác.\n- 「くれます」thể hiện sự biết ơn của người nhận.",
+      "examples": [
+        {
+          "japanese": "佐藤さんは 私に クリスマスカードを くれました。",
+          "vietnamese": "Sato đã tặng tôi một tấm thiếp Giáng Sinh."
+        },
+        {
+          "japanese": "佐藤さんは 妹に お菓子を くれました。",
+          "vietnamese": "Sato đã tặng kẹo cho em gái tôi."
+        }
+      ],
+      "notes": [
+        "「あげます」chỉ dùng khi thể hiện việc người nói tặng cho ai, người nào đó tặng cho người khác chứ không dùng để thể hiện việc ai đó tặng, cho người nói hoặc người thân trong gia đình người nói."
+      ]
+    },
+    {
+      "id": "n5-l24-p2",
+      "pattern": "V てあげます",
+      "meaning": "(Làm cái gì) cho ai.",
+      "explanation": "- Mẫu câu này dùng để diễn tả hành động làm một việc gì đó cho người khác với ý nghĩa thiện chí, lòng tốt, hoặc sự thân thiện.\n- Động từ được chia sang thể て rồi thêm 「あげます」.\n- Tuy nhiên, cần lưu ý rằng khi người nói là người thực hiện hành động và người nghe là người nhận hành động, cách thể hiện này có thể gây cảm giác người nói đang ra vẻ bề trên.\n- Do đó, nên tránh sử dụng với người lớn tuổi, cấp trên, hoặc người không mấy thân thiết, chỉ nên dùng với người thân thiết.\n- Khi muốn nói ý tương tự đối với người không thân thiết, có thể dùng 「V ましょうか」.",
+      "examples": [
+        {
+          "japanese": "私は 木村さんに 本を 貸して あげました。",
+          "vietnamese": "Tôi đã cho chị Kimura mượn sách."
+        },
+        {
+          "japanese": "私は ラオさんに ひらがなを 教えて あげました。",
+          "vietnamese": "Tôi đã dạy cho anh Rao chữ Hiragana."
+        }
+      ],
+      "notes": [
+        "Khi người nói là người thực hiện hành động và người nghe là người nhận hành động, thì cách thể hiện này có thể gây cảm giác người nói đang ra vẻ bề trên. Vì vậy, cần chú ý tránh sử dụng cách nói này đối người lớn hay cấp trên, người không mấy thân thiết, chỉ nên sử dụng với người thân thiết.",
+        "Khi muốn nói ý tương tự đối với người không thân thiết thì sử dụng mẫu câu 「V ましょうか」."
+      ]
+    },
+    {
+      "id": "n5-l24-p3",
+      "pattern": "V てもらいます",
+      "meaning": "Nhận (việc gì) từ ai; được ai đó làm gì cho.",
+      "explanation": "- Mẫu câu này dùng để diễn tả việc người nói (hoặc chủ ngữ) nhận được một hành động giúp đỡ từ người khác.\n- Nó biểu thị lòng biết ơn của người được nhận hành vi giúp đỡ.\n- Chủ ngữ của câu là người nhận hành động.\n- Động từ được chia sang thể て rồi thêm 「もらいます」.",
+      "examples": [
+        {
+          "japanese": "私は 鈴木さんに 日本語を 教えて もらいました。",
+          "vietnamese": "Tôi được cô Suzuki dạy cho tiếng Nhật."
+        },
+        {
+          "japanese": "私は 田中さんに 病院へ 連れて 行って もらいました。",
+          "vietnamese": "Tôi được anh Tanaka dẫn đến bệnh viện."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l24-p4",
+      "pattern": "V てくれます",
+      "meaning": "Ai đó làm gì cho mình (hoặc người thân của mình).",
+      "explanation": "- Mẫu câu này cũng diễn tả sự cảm tạ của người nhận hành vi giúp đỡ, tương tự như 「～てもらいます」.\n- Tuy nhiên, khác với 「～てもらいます」có chủ ngữ là người nhận, trong câu 「～てくれます」, chủ ngữ là người thực hiện hành động.\n- Người nhận thường là người nói hoặc người thân của người nói, nên 「私に」 (chỉ người nhận) thường được lược bỏ.\n- Động từ được chia sang thể て rồi thêm 「くれます」.",
+      "examples": [
+        {
+          "japanese": "家内は（私に）子供の写真を 送ってくれました。",
+          "vietnamese": "Vợ tôi gửi ảnh mấy đứa con (cho tôi)."
+        },
+        {
+          "japanese": "加藤さんは（私に）宿題を 出してくれました。",
+          "vietnamese": "Bạn Kato đã nộp bài tập (giúp tôi)."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}

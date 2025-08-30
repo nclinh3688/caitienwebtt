@@ -1,86 +1,115 @@
-import React from 'react';
+'use client';
 
-export const GrammarContent = () => {
+import { useState } from 'react';
+
+export default function GrammarContent({ lessonData }: { lessonData: any }) {
+  const [showExamples, setShowExamples] = useState<{ [key: string]: boolean }>({});
+  const [grammarNotes, setGrammarNotes] = useState<{ [key: string]: string }>({});
+
+  const toggleExamples = (patternId: string) => {
+    setShowExamples(prev => ({
+      ...prev,
+      [patternId]: !prev[patternId]
+    }));
+  };
+
+  const saveGrammarNote = (patternId: string, content: string) => {
+    const newGrammarNotes = { ...grammarNotes, [patternId]: content };
+    setGrammarNotes(newGrammarNotes);
+    localStorage.setItem('n5-grammar-lesson5-grammar-notes', JSON.stringify(newGrammarNotes));
+  };
+
+  const deleteGrammarNote = (patternId: string) => {
+    const newGrammarNotes = { ...grammarNotes };
+    delete newGrammarNotes[patternId];
+    setGrammarNotes(newGrammarNotes);
+    localStorage.setItem('n5-grammar-lesson5-grammar-notes', JSON.stringify(newGrammarNotes));
+  };
+
   return (
     <div>
-      {/* Bài 5: Ngày tháng và di chuyển */}
-      <div className="mb-8">
-        <div className="bg-blue-100 p-4 rounded-lg mb-4">
-          <h3 className="text-xl font-bold text-gray-900 mb-2">第５課 (Bài 5): Ngày tháng và di chuyển</h3>
-        </div>
-        
-        <div className="space-y-6">
-          <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400">
-            <h4 className="font-bold text-gray-900 mb-2">1. N は ～月(がつ) ～日(にち)です。</h4>
-            <p className="text-gray-700 mb-2">Cách nói ngày tháng</p>
-            <div className="text-sm text-gray-600">
-              <p>きょうは 七月八日です。 (Hôm nay là ngày mùng 8 tháng 7.)</p>
-              <p>あしたは 12 日です。 (Mai là ngày 12.)</p>
-              <p>たんじょうびは いつですか。 (Sinh nhật bạn là bao giờ?)</p>
+      <h2 className="text-2xl font-bold text-gray-900 mb-6">Ngữ pháp chính</h2>
+      <div className="space-y-8">
+        {lessonData.patterns?.map((pattern: any) => (
+          <div key={pattern.id} className="mb-8">
+            {/* Grammar Pattern */}
+            <div className="bg-yellow-100 p-4 rounded-lg mb-4">
+              <h3 className="text-xl font-bold text-gray-900 mb-2">
+                {pattern.pattern}
+              </h3>
+              <p className="text-lg font-medium text-blue-800 mb-2">
+                {pattern.meaning}
+              </p>
+              <p className="text-base text-gray-700">
+                {pattern.explanation}
+              </p>
             </div>
-          </div>
 
-          <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400">
-            <h4 className="font-bold text-gray-900 mb-2">2. N (Danh từ chỉ địa điểm) へ いきます／きます／かえります</h4>
-            <p className="text-gray-700 mb-2">Cách nói hành động di chuyển, đi đâu, về đâu</p>
-            <div className="text-sm text-gray-600">
-              <p>わたしは だいがくへ いきます。 (Tôi đi đến trường.)</p>
-              <p>マイさんは ここへ きます。 (Bạn Mai đến đây.)</p>
-              <p>わたしは うちへ かえります。 (Tôi trở về nhà.)</p>
-            </div>
-          </div>
+            {/* Examples */}
+            <div className="mb-4">
+              <button
+                onClick={() => toggleExamples(pattern.id)}
+                className={`w-full px-4 py-2 rounded-lg font-medium transition-colors text-left ${
+                  showExamples[pattern.id]
+                    ? 'bg-blue-100 text-blue-800 hover:bg-blue-200'
+                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                }`}
+              >
+                {showExamples[pattern.id] ? 'Ẩn ví dụ' : 'Hiện 3 ví dụ'}
+              </button>
 
-          <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400">
-            <h4 className="font-bold text-gray-900 mb-2">3. どこ（へ）も いきません。</h4>
-            <p className="text-gray-700 mb-2">Câu phủ định hoàn toàn - Không đi đâu cả</p>
-            <div className="text-sm text-gray-600">
-              <p>きょうのごご どこへ いきますか。 (Chiều hôm nay bạn sẽ đi đâu?)</p>
-              <p>… どこも いきません。 (Tôi sẽ không đi đâu cả.)</p>
-              <p>きのう どこへ いきましたか。 (Hôm qua bạn đã đi đâu vậy?)</p>
+              <div className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                showExamples[pattern.id] ? 'max-h-screen opacity-100 mt-4' : 'max-h-0 opacity-0'
+              }`}>
+                <div className="space-y-3 border border-gray-200 rounded-lg p-4">
+                  {pattern.examples?.map((example: any, index: number) => (
+                    <div key={index} className="p-3 bg-gray-50 rounded-lg">
+                      <p className="text-lg font-medium text-gray-900 mb-1">{example.japanese}</p>
+                      {example.kanji && <p className="text-base text-gray-700 mb-1">{example.kanji}</p>}
+                      <p className="text-sm text-gray-600">{example.vietnamese}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400">
-            <h4 className="font-bold text-gray-900 mb-2">4. N (phương tiện) で いきます／きます／かえります</h4>
-            <p className="text-gray-700 mb-2">Cách nói cách thức di chuyển, đi lại bằng phương tiện gì</p>
-            <div className="text-sm text-gray-600">
-              <p>わたしは じどうしゃで びょういんへ いきます。 (Tôi đi đến bệnh viện bằng ôtô.)</p>
-              <p>ラオさんは バスで わたしのうちへ きます。 (Bạn Rao đến nhà tôi bằng xe buýt.)</p>
-              <p>まいこさんは ひこうきで くにへ かえります。 (Bạn Maiko về nước bằng máy bay.)</p>
-            </div>
-          </div>
+            {/* Notes */}
+            {pattern.notes && pattern.notes.length > 0 && (
+              <div className="mt-4">
+                <h4 className="font-semibold text-gray-800 mb-2">Lưu ý quan trọng:</h4>
+                <ul className="list-disc list-inside space-y-2 text-gray-700 bg-orange-50 p-4 rounded-lg">
+                  {pattern.notes.map((note: string, index: number) => (
+                    <li key={index}>{note}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
-          <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400">
-            <h4 className="font-bold text-gray-900 mb-2">5. N (Danh từ chỉ người) と V ます</h4>
-            <p className="text-gray-700 mb-2">Làm gì cùng với N</p>
-            <div className="text-sm text-gray-600">
-              <p>ともだちと 大学へ きます。 (Tôi đến trường cùng với bạn.)</p>
-              <p>母と デパートへ 行きます。 (Tôi đi đến bách hóa cùng với mẹ.)</p>
-              <p>だれと ぎんこうへ いきましたか。 (Bạn đã đi đến ngân hàng cùng ai?)</p>
+            {/* Individual Grammar Notes */}
+            <div className="mt-6 bg-blue-50 border border-blue-200 rounded-lg p-4">
+              <div className="flex items-center justify-between mb-3">
+                <h4 className="font-semibold text-blue-800">Ghi chú của bạn:</h4>
+                {grammarNotes[pattern.id] && (
+                  <button
+                    onClick={() => deleteGrammarNote(pattern.id)}
+                    className="text-red-500 hover:text-red-700 text-sm"
+                    title="Xóa ghi chú"
+                  >
+                    Xóa
+                  </button>
+                )}
+              </div>
+              
+              <textarea
+                value={grammarNotes[pattern.id] || ''}
+                onChange={(e) => saveGrammarNote(pattern.id, e.target.value)}
+                placeholder="Ghi chú riêng cho ngữ pháp này..."
+                className="w-full h-20 p-3 border border-blue-300 rounded-lg resize-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
+              />
             </div>
           </div>
-
-          <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400">
-            <h4 className="font-bold text-gray-900 mb-2">6. Sentence + よ</h4>
-            <p className="text-gray-700 mb-2">Nhấn mạnh</p>
-            <div className="text-sm text-gray-600">
-              <p>このバスは Giap Bat へ 行きますか。 (Xe buýt này đi đến Giáp Bát phải à?)</p>
-              <p>...いいえ、いきません。21 ばんせんですよ。 (Không. Đường số 21 cơ.)</p>
-              <p>あしたは やすみですよ。 (Ngày mai là ngày nghỉ đấy.)</p>
-            </div>
-          </div>
-
-          <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-400">
-            <h4 className="font-bold text-gray-900 mb-2">7. いつ いきますか。</h4>
-            <p className="text-gray-700 mb-2">Khi nào đi</p>
-            <div className="text-sm text-gray-600">
-              <p>いつ 日本へ いきますか。 (Khi nào bạn đi Nhật?)</p>
-              <p>… 来月 いきます。 (… Tháng tới tôi sẽ đi.)</p>
-              <p>いつ かえりますか。 (Khi nào bạn về?)</p>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
-};
+}

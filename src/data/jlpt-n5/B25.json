@@ -1,0 +1,92 @@
+{
+  "id": "n5-grammar-lesson-25",
+  "lessonNumber": 25,
+  "japaneseTitle": "第２５課",
+  "vietnameseTitle": "Bài 25",
+  "englishTitle": "Lesson 25",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Các mẫu câu điều kiện và giả định.",
+    "content": "Bài học này giới thiệu các mẫu câu điều kiện và giả định, bao gồm cách diễn tả điều kiện thông thường, điều kiện nghịch, và cách sử dụng các từ nhấn mạnh trong câu điều kiện.",
+    "keyPoints": [
+      "Mẫu câu điều kiện với thể quá khứ thông thường + ら、～.",
+      "Ý nghĩa 'khi, sau khi' của mẫu câu ～たら.",
+      "Mẫu câu diễn tả giả thuyết tương phản (dù..., mặc dù...): V て / い-Adj（～い）→ て / な-Adj「な」→ で / N で + も.",
+      "Cách dùng もし và いくら trong câu điều kiện."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n5-l25-p1",
+      "pattern": "V た / い-Adj かった / な-Adj だった / N だった + ら、～",
+      "meaning": "Nếu…, giả sử…. (Biểu hiện điều kiện)",
+      "explanation": "- Mẫu câu này dùng để diễn tả một điều kiện hoặc giả định, có nghĩa là 'nếu...' hoặc 'giả sử...'.\n- Động từ, tính từ, danh từ được chia sang thể quá khứ thông thường rồi thêm 「ら」.\n- Mẫu câu này có thể dùng để bày tỏ lập trường, ý kiến, yêu cầu, lời mời trong một điều kiện cụ thể.\n- Đây là một trong những mẫu câu điều kiện phổ biến nhất.",
+      "examples": [
+        {
+          "japanese": "お金が あったら、旅行します。",
+          "vietnamese": "Nếu có tiền tôi sẽ đi du lịch."
+        },
+        {
+          "japanese": "暇だったら、手伝ってください。",
+          "vietnamese": "Nếu rỗi thì giúp tôi một tay nhé."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l25-p2",
+      "pattern": "V た + ら、～ (ý nghĩa: khi, sau khi)",
+      "meaning": "Khi, sau khi.",
+      "explanation": "- Ngoài ý nghĩa điều kiện, mẫu câu 「～たら」còn được dùng để diễn tả một hành động sẽ được thực hiện hoặc một tình huống sẽ xảy ra khi một sự việc nào đó được cho là chắc chắn sẽ xảy ra trong tương lai đã hoàn thành hoặc đạt được.\n- Thì của mệnh đề chính luôn ở thời hiện tại.",
+      "examples": [
+        {
+          "japanese": "１０時になったら、出かけましょう。",
+          "vietnamese": "Chúng ta sẽ đi ra ngoài khi nào 10 giờ."
+        },
+        {
+          "japanese": "家へ 帰ったら、すぐ シャワーを 浴びます。",
+          "vietnamese": "Về nhà là tôi đi tắm ngay."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l25-p3",
+      "pattern": "V ても / い-Adj くても / な-Adj でも / N でも",
+      "meaning": "Dù…, mặc dù…, cho dù…. (Biểu hiện giả thuyết tương phản)",
+      "explanation": "- Mẫu câu này dùng để diễn tả một điều kiện nghịch, tức là một kết quả xảy ra trái ngược với những gì đã kỳ vọng hoặc một sự việc vẫn diễn ra dù có điều kiện bất lợi.\n- Động từ chia thể て, tính từ đuôi い bỏ い thêm くても, tính từ đuôi な bỏ な thêm でも, danh từ thêm でも. Sau đó thêm 「も」.\n- Nó có nghĩa là 'dù', 'mặc dù', 'cho dù'.",
+      "examples": [
+        {
+          "japanese": "スイッチを 入れても、機械が 動きません。",
+          "vietnamese": "Dù đã bật công tắc nhưng máy vẫn không chạy."
+        },
+        {
+          "japanese": "高くても、このラジカセを 買いたいです。",
+          "vietnamese": "Mặc dù đắt nhưng tôi vẫn muốn mua cái radio-cassette này."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l25-p4",
+      "pattern": "もし / いくら",
+      "meaning": "Nhấn mạnh giả thuyết và mức độ điều kiện.",
+      "explanation": "- 「もし」thường được sử dụng trong mẫu câu 「～たら」để nhấn mạnh ý nghĩa giả thuyết của người nói, có nghĩa là 'giả sử', 'nếu'.\n- 「いくら」thường được sử dụng trong mẫu câu 「～ても（～でも）」để nhấn mạnh mức độ của điều kiện, có nghĩa là 'cho dù bao nhiêu đi chăng nữa'.",
+      "examples": [
+        {
+          "japanese": "もし １億円あったら、いろいろな国を 旅行したいです。",
+          "vietnamese": "Giả sử, nếu có 100 triệu yên tôi muốn đi du lịch thật nhiều nước."
+        },
+        {
+          "japanese": "いくら 考 えても、分かりません。",
+          "vietnamese": "Mặc dù có suy nghĩ bao nhiêu đi chăng nữa cũng chẳng hiểu được."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}

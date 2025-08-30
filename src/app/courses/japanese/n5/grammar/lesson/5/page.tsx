@@ -2,171 +2,40 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { GrammarContent } from './grammar-content';
+import GrammarContent from './grammar-content';
 
 export default function N5GrammarLesson5Page() {
+  const [lessonData, setLessonData] = useState<any>(null);
   const [activeTab, setActiveTab] = useState('grammar');
-  const [showExamples, setShowExamples] = useState<{ [key: string]: boolean }>({});
-  const [showNotesModal, setShowNotesModal] = useState(false);
-  const [notes, setNotes] = useState('');
-  const [grammarNotes, setGrammarNotes] = useState<{ [key: string]: string }>({});
-  const [buttonPosition, setButtonPosition] = useState({ x: 0, y: 0 });
-  const [isDragging, setIsDragging] = useState(false);
-  const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
-  const [modalPosition, setModalPosition] = useState({ x: 0, y: 0 });
-  const [modalSize, setModalSize] = useState({ width: 672, height: 200 });
-  const [isModalDragging, setIsModalDragging] = useState(false);
-  const [isModalResizing, setIsModalResizing] = useState(false);
-  const [modalDragOffset, setModalDragOffset] = useState({ x: 0, y: 0 });
-  const [resizeDirection, setResizeDirection] = useState('');
 
-  const toggleExamples = (patternId: string) => {
-    setShowExamples(prev => ({
-      ...prev,
-      [patternId]: !prev[patternId]
-    }));
-  };
-
-  const handleMouseDown = (e: React.MouseEvent) => {
-    setIsDragging(true);
-    const rect = e.currentTarget.getBoundingClientRect();
-    setDragOffset({
-      x: e.clientX - rect.left,
-      y: e.clientY - rect.top
-    });
-  };
-
-  const handleMouseMove = (e: MouseEvent) => {
-    if (isDragging) {
-      const newX = e.clientX - dragOffset.x;
-      const newY = e.clientY - dragOffset.y;
-      
-      const maxX = window.innerWidth - 120;
-      const maxY = window.innerHeight - 60;
-      
-      setButtonPosition({
-        x: Math.max(0, Math.min(newX, maxX)),
-        y: Math.max(0, Math.min(newY, maxY))
-      });
-    }
-  };
-
-  const handleMouseUp = () => {
-    setIsDragging(false);
-  };
-
-  const saveNotes = () => {
-    localStorage.setItem('n5-grammar-lesson5-notes', notes);
-    setShowNotesModal(false);
-  };
-
-  const loadNotes = () => {
-    const savedNotes = localStorage.getItem('n5-grammar-lesson5-notes');
-    if (savedNotes) {
-      setNotes(savedNotes);
-    }
-    
-    const savedGrammarNotes = localStorage.getItem('n5-grammar-lesson5-grammar-notes');
-    if (savedGrammarNotes) {
-      setGrammarNotes(JSON.parse(savedGrammarNotes));
-    }
-  };
-
-  const saveGrammarNote = (patternId: string, content: string) => {
-    const newGrammarNotes = { ...grammarNotes, [patternId]: content };
-    setGrammarNotes(newGrammarNotes);
-    localStorage.setItem('n5-grammar-lesson5-grammar-notes', JSON.stringify(newGrammarNotes));
-  };
-
-  const deleteGrammarNote = (patternId: string) => {
-    const newGrammarNotes = { ...grammarNotes };
-    delete newGrammarNotes[patternId];
-    setGrammarNotes(newGrammarNotes);
-    localStorage.setItem('n5-grammar-lesson5-grammar-notes', JSON.stringify(newGrammarNotes));
-  };
-
-  const handleModalMouseDown = (e: React.MouseEvent, type: 'drag' | 'resize', direction?: string) => {
-    if (type === 'drag') {
-      setIsModalDragging(true);
-      const rect = e.currentTarget.getBoundingClientRect();
-      setModalDragOffset({
-        x: e.clientX - rect.left,
-        y: e.clientY - rect.top
-      });
-    } else if (type === 'resize') {
-      setIsModalResizing(true);
-      setResizeDirection(direction || '');
-    }
-  };
-
-  const handleModalMouseMove = (e: MouseEvent) => {
-    if (isModalDragging) {
-      const newX = e.clientX - modalDragOffset.x;
-      const newY = e.clientY - modalDragOffset.y;
-      
-      const maxX = window.innerWidth - modalSize.width;
-      const maxY = window.innerHeight - modalSize.height;
-      
-      setModalPosition({
-        x: Math.max(0, Math.min(newX, maxX)),
-        y: Math.max(0, Math.min(newY, maxY))
-      });
-    } else if (isModalResizing) {
-      let newWidth = modalSize.width;
-      let newHeight = modalSize.height;
-      
-      if (resizeDirection.includes('right')) {
-        newWidth = e.clientX - modalPosition.x;
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/api/grammar/n5/lesson5');
+        if (response.ok) {
+          const data = await response.json();
+          setLessonData(data);
+        } else {
+          console.error('Failed to fetch lesson data');
+        }
+      } catch (error) {
+        console.error('Error fetching lesson data:', error);
       }
-      if (resizeDirection.includes('bottom')) {
-        newHeight = e.clientY - modalPosition.y;
-      }
-      
-      newWidth = Math.max(400, Math.min(newWidth, 800));
-      newHeight = Math.max(200, Math.min(newHeight, 600));
-      
-      setModalSize({ width: newWidth, height: newHeight });
-    }
-  };
+    };
 
-  const handleModalMouseUp = () => {
-    setIsModalDragging(false);
-    setIsModalResizing(false);
-  };
-
-  useEffect(() => {
-    loadNotes();
-    
-    if (typeof window !== 'undefined') {
-      document.addEventListener('mousemove', handleMouseMove);
-      document.addEventListener('mouseup', handleMouseUp);
-      document.addEventListener('mousemove', handleModalMouseMove);
-      document.addEventListener('mouseup', handleModalMouseUp);
-      
-      return () => {
-        document.removeEventListener('mousemove', handleMouseMove);
-        document.removeEventListener('mouseup', handleMouseUp);
-        document.removeEventListener('mousemove', handleModalMouseMove);
-        document.removeEventListener('mouseup', handleModalMouseUp);
-      };
-    }
-  }, [isModalDragging, isModalResizing, modalDragOffset, modalSize, modalPosition]);
-
-  useEffect(() => {
-    if (showNotesModal) {
-      setModalPosition({
-        x: (window.innerWidth - modalSize.width) / 2,
-        y: (window.innerHeight - modalSize.height) / 2
-      });
-    }
-  }, [showNotesModal, modalSize.width, modalSize.height]);
-
-  useEffect(() => {
-    setButtonPosition({
-      x: window.innerWidth - 140,
-      y: window.innerHeight - 80
-    });
+    fetchData();
   }, []);
+
+  if (!lessonData) {
+    return (
+      <div className="min-h-screen bg-gray-50 py-8">
+        <div className="max-w-6xl mx-auto px-4 text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto"></div>
+          <p className="mt-4 text-gray-600">Đang tải dữ liệu bài học...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -184,38 +53,18 @@ export default function N5GrammarLesson5Page() {
                 </svg>
                 Quay lại danh sách bài học
               </Link>
-              <h1 className="text-3xl font-bold text-gray-900 mt-2">Bài 5: Di chuyển và phương tiện</h1>
-              <p className="text-lg text-gray-600 mt-1">第5課 - いどうとほうほう</p>
+              <h1 className="text-3xl font-bold text-gray-900 mt-2">{lessonData.vietnameseTitle}</h1>
+              <p className="text-lg text-gray-600 mt-1">{lessonData.japaneseTitle}</p>
             </div>
             <div className="text-right">
-              <div className="text-sm text-gray-500">Thời gian: 4-6 giờ</div>
-              <div className="text-lg font-semibold text-blue-600">⭐☆☆☆☆</div>
+              <div className="text-sm text-gray-500">Thời gian: {lessonData.estimatedTime}</div>
+              <div className="text-lg font-semibold text-blue-600">{lessonData.difficulty}</div>
             </div>
           </div>
         </div>
       </div>
 
       <div className="max-w-6xl mx-auto px-4 py-8">
-        {/* Floating Notes Button - Always Visible */}
-        <div 
-          className="fixed z-50 cursor-move select-none"
-          style={{ 
-            left: `${buttonPosition.x}px`, 
-            top: `${buttonPosition.y}px` 
-          }}
-        >
-          <button 
-            className={`bg-green-500 hover:bg-green-600 text-white w-12 h-12 rounded-full font-medium transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center ${isDragging ? 'opacity-80 scale-105' : ''}`}
-            onMouseDown={handleMouseDown}
-            onClick={() => setShowNotesModal(true)}
-            title="Ghi chú"
-          >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-            </svg>
-          </button>
-        </div>
-
         {/* Navigation Tabs */}
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 mb-8">
           <div className="border-b border-gray-200">
@@ -246,39 +95,8 @@ export default function N5GrammarLesson5Page() {
 
         {/* Content */}
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
-          {/* Grammar Tab */}
-          {activeTab === 'grammar' && (
-            <GrammarContent />
-          )}
-
-          {/* Other tabs */}
-          {activeTab === 'exercises' && (
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Bài tập ôn luyện</h2>
-              <p className="text-gray-600 mb-4">Chức năng bài tập sẽ được phát triển trong phiên bản tiếp theo.</p>
-            </div>
-          )}
-
-          {activeTab === 'quiz' && (
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Kiểm tra kiến thức</h2>
-              <p className="text-gray-600 mb-4">Chức năng kiểm tra sẽ được phát triển trong phiên bản tiếp theo.</p>
-            </div>
-          )}
-
-          {activeTab === 'summary' && (
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Tóm tắt bài học</h2>
-              <p className="text-gray-600 mb-4">Đang phát triển nội dung tóm tắt...</p>
-            </div>
-          )}
-
-          {activeTab === 'culture' && (
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Ghi chú văn hóa</h2>
-              <p className="text-gray-600 mb-4">Đang phát triển nội dung văn hóa...</p>
-            </div>
-          )}
+          {activeTab === 'grammar' && <GrammarContent lessonData={lessonData} />}
+          {/* Other tabs content can be added here */}
         </div>
 
         {/* Navigation Footer */}
@@ -297,52 +115,6 @@ export default function N5GrammarLesson5Page() {
           </Link>
         </div>
       </div>
-
-      {/* Notes Modal */}
-      {showNotesModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center">
-          <div 
-            className="bg-white rounded-lg shadow-2xl border border-gray-300 overflow-hidden"
-            style={{
-              position: 'absolute',
-              left: `${modalPosition.x}px`,
-              top: `${modalPosition.y}px`,
-              width: `${modalSize.width}px`,
-              height: `${modalSize.height}px`
-            }}
-          >
-            {/* Resize Handle */}
-            <div 
-              className="absolute bottom-0 right-0 w-4 h-4 cursor-se-resize bg-gray-300 hover:bg-gray-400 transition-colors"
-              onMouseDown={(e) => handleModalMouseDown(e, 'resize', 'bottom-right')}
-            />
-            
-            {/* Modal Content */}
-            <div className="p-4 h-full flex flex-col">
-              <textarea
-                value={notes}
-                onChange={(e) => setNotes(e.target.value)}
-                placeholder="Ghi chú của bạn về bài học này..."
-                className="flex-1 w-full p-3 border border-gray-300 rounded-lg resize-none focus:ring-2 focus:ring-blue-500 focus:border-transparent overflow-y-auto"
-              />
-              <div className="flex justify-end space-x-3 mt-4">
-                <button 
-                  onClick={() => setShowNotesModal(false)}
-                  className="px-4 py-2 text-gray-600 hover:text-gray-800 transition-colors"
-                >
-                  Hủy
-                </button>
-                <button 
-                  onClick={saveNotes}
-                  className="px-6 py-2 bg-green-500 hover:bg-green-600 text-white rounded-lg transition-colors"
-                >
-                  Lưu ghi chú
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 }

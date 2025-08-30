@@ -1,0 +1,95 @@
+{
+  "id": "n5-grammar-lesson-11",
+  "lessonNumber": 11,
+  "japaneseTitle": "第１１課",
+  "vietnameseTitle": "Bài 11",
+  "englishTitle": "Lesson 11",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Số đếm và cách hỏi về số lượng, khoảng thời gian.",
+    "content": "Bài học này giới thiệu các cách đếm đồ vật, người, số lần, và cách hỏi về số lượng, khoảng thời gian trong tiếng Nhật.",
+    "keyPoints": [
+      "Cách dùng số đếm chung và các trợ từ số đếm.",
+      "Vị trí của số đếm trong câu.",
+      "Các từ để hỏi cho số đếm và khoảng thời gian."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n5-l11-p1",
+      "pattern": "[Số đếm] / [Trợ từ số đếm]",
+      "meaning": "Cách đếm đồ vật, người, số lần",
+      "explanation": "- Trong tiếng Nhật, có nhiều cách đếm khác nhau tùy thuộc vào loại đối tượng.\n- Đối với đồ vật nói chung, sử dụng 「ひとつ、ふたつ...とお」cho số từ 1 đến 10. Từ 11 trở đi, sử dụng số đếm thông thường.\n- Có các trợ từ số đếm chuyên biệt:\n    - 「にん」dùng đếm người (đặc biệt đếm 1, 2 người dùng ひとり, ふたり).\n    - 「ひき･ぴき」dùng đếm con vật kích thước nhỏ.\n    - 「まい」dùng đếm những vật mỏng như giấy, đĩa, áo....\n    - 「かい」dùng đếm số lần.\n- Số đếm thường đứng ngay trước động từ mà nó bổ nghĩa (không có trợ từ ở giữa).\n- Tuy nhiên, với các từ chỉ khoảng thời gian lại được đặt ở mọi vị trí trong câu (trừ cuối câu).",
+      "examples": [
+        {
+          "japanese": "りんごを 4 つ 買います。",
+          "vietnamese": "Tôi mua 4 quả táo."
+        },
+        {
+          "japanese": "日本人の学生が ふたり います。",
+          "vietnamese": "Có 2 sinh viên người Nhật."
+        },
+        {
+          "japanese": "国で 2 か月 日本語を 勉強しました。",
+          "vietnamese": "Tôi đã học tiếng Nhật ở trong nước 2 tháng."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l11-p2",
+      "pattern": "いくつ / なん + [Trợ từ số đếm]",
+      "meaning": "Hỏi về số lượng",
+      "explanation": "- Để hỏi về số lượng đồ vật đếm bằng 「～つ」, sử dụng từ 「いくつ」.\n- Đối với các cách đếm khác (sử dụng trợ từ số đếm), dùng cấu trúc 「なん＋trợ từ số đếm」.\n    - Ví dụ: 「何枚」 (mấy cái - cho vật mỏng), 「何人」 (mấy người).",
+      "examples": [
+        {
+          "japanese": "みかんを いくつ食べましたか。",
+          "vietnamese": "Bạn đã ăn bao nhiêu quýt? ... ７つ 食べました。 (… Tôi đã ăn 7 quả.)"
+        },
+        {
+          "japanese": "きってを 何枚買いますか。",
+          "vietnamese": "Bạn mua mấy cái tem? ... ５枚 買います。 (… Tôi mua 5 cái.)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l11-p3",
+      "pattern": "どのぐらい V ますか。 / N くらい（ぐらい）V ます。",
+      "meaning": "Hỏi và trả lời về khoảng thời gian",
+      "explanation": "- 「どのぐらい」là từ để hỏi về khoảng thời gian.\n- Thường đi kèm với động từ 「かかります」 (mất bao nhiêu lâu).\n- Để trả lời, sử dụng danh từ chỉ lượng thời gian (N) kèm theo 「くらい」hoặc 「ぐらい」, có nghĩa là “khoảng”.",
+      "examples": [
+        {
+          "japanese": "どのぐらい日本語を勉強しましたか。",
+          "vietnamese": "Bạn đã học tiếng Nhật bao nhiêu lâu? ... 2 年ぐらい 勉強しました。 (… Tôi đã học khoảng 2 năm.)"
+        },
+        {
+          "japanese": "ハノイから ホーチミンまで ひこうきで どのぐらい かかりますか。",
+          "vietnamese": "Từ Hà Nội đến TP Hồ Chí Minh đi bằng máy bay mất bao nhiêu lâu? ...二時間くらい かかります。 (… Mất khoảng 2 tiếng.)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l11-p4",
+      "pattern": "N だけ",
+      "meaning": "Chỉ N",
+      "explanation": "- Trợ từ 「だけ」được đặt sau danh từ.\n- Mang ý nghĩa giới hạn, có nghĩa là “chỉ”.\n- Nhấn mạnh rằng chỉ có đối tượng được đề cập là đúng hoặc tồn tại, không có gì khác.",
+      "examples": [
+        {
+          "japanese": "うちから 大学まで 5 分だけ かかります。",
+          "vietnamese": "Từ nhà tôi đến trường chỉ mất 5 phút."
+        },
+        {
+          "japanese": "休みは 日曜日だけです。",
+          "vietnamese": "Ngày nghỉ chỉ có chủ nhật."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}

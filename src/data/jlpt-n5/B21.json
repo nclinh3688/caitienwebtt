@@ -1,0 +1,100 @@
+{
+  "id": "n5-grammar-lesson-21",
+  "lessonNumber": 21,
+  "japaneseTitle": "第２１課",
+  "vietnameseTitle": "Bài 21",
+  "englishTitle": "Lesson 21",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Cách diễn tả suy nghĩ, trích dẫn và xác nhận thông tin.",
+    "content": "Bài học này giới thiệu các mẫu câu để diễn tả suy nghĩ, quan điểm cá nhân, cách trích dẫn lời nói của người khác (trực tiếp và gián tiếp), cách xác nhận thông tin, và cách diễn tả sự kiện diễn ra tại một địa điểm.",
+    "keyPoints": [
+      "Mẫu câu diễn tả suy nghĩ/quan điểm: Thể thông thường + と おもいます.",
+      "Mẫu câu trích dẫn lời nói/ý kiến: 「Sentence」Dạng thông thường と 言います／言いました.",
+      "Mẫu câu xác nhận thông tin: Thể thông thường ～だ / ～だ でしょう？.",
+      "Mẫu câu diễn tả sự kiện diễn ra tại địa điểm: N1 (địa điểm)で N2 があります."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n5-l21-p1",
+      "pattern": "[Thể thông thường] と おもいます。",
+      "meaning": "(Tôi) nghĩ rằng ~ / (tôi) cho rằng ~.",
+      "explanation": "- Mẫu câu này dùng để thể hiện sự phỏng đoán, ý kiến chủ quan của cá nhân về một vấn đề, sự việc nào đó.\n- Nội dung phỏng đoán, ý kiến được đưa ra ở thể thông thường và được xác định bởi trợ từ 「と」.\n- Cấu trúc:\n    - Động từ: V る･V ない･V た + と おもいます.\n    - Tính từ đuôi i: ～い (dạng ngắn) + と おもいます.\n    - Tính từ đuôi na: ～だ (dạng ngắn) + と おもいます.\n    - Danh từ: ～だ (dạng ngắn) + と おもいます.",
+      "examples": [
+        {
+          "japanese": "明日 雨が降ると 思います。",
+          "vietnamese": "Tôi nghĩ ngày mai trời sẽ mưa."
+        },
+        {
+          "japanese": "彼女は 日本人だと 思います。",
+          "vietnamese": "Tôi nghĩ cô ấy là người Nhật Bản."
+        },
+        {
+          "japanese": "新しい空港に ついて どう思いますか。",
+          "vietnamese": "Bạn nghĩ thế nào về sân bay mới? ...きれいですが、ちょっと交通が不 tiệnだと 思います。 (… Tôi nghĩ rằng nó đẹp nhưng giao thông hơi bất tiện.)"
+        }
+      ],
+      "notes": [
+        "Khi nói câu phủ định, có 2 cách thể hiện. Trong sơ cấp và trong bài này, chúng ta chỉ dùng cách nói ① (… むずかしくないと 思います。).",
+        "Cách nói ngắn khi đồng ý hay không đồng ý với quan điểm của ai đó: はい、そうです。/ わたしも そう思います。(Vâng, đúng vậy. / Tôi cũng nghĩ như vậy.) hoặc いいえ、そうでは（じゃ）ありません。/ 私は そう［は］思いません。(Không, không phải thế. / Tôi thì không nghĩ là như vậy.)",
+        "Khi muốn hỏi quan điểm của ai đó về 1 vấn đề nào đó, ta dùng mẫu câu ～に ついて どう思いますか (không cần trợ từ と sau どう nữa)."
+      ]
+    },
+    {
+      "id": "n5-l21-p2",
+      "pattern": "[Sentence (thông thường)] と 言います／言いました。",
+      "meaning": "(ai đó) nói rằng / đã nói rằng ～.",
+      "explanation": "- Mẫu câu này dùng để trích dẫn trực tiếp hoặc gián tiếp một câu nói, một ý kiến mà ai đó đã đưa ra.\n- Nội dung trích dẫn được xác định bởi trợ từ 「と」.\n- Có hai kiểu trích dẫn:\n    - Trích dẫn trực tiếp: nhắc lại chính xác nội dung câu nói, đặt trong ngoặc kép 「 」.\n    - Trích dẫn gián tiếp: sử dụng thể thông thường của câu trích dẫn trước trợ từ 「と」.\n- Thì của câu trích dẫn không bị ảnh hưởng bởi thì của câu chính.",
+      "examples": [
+        {
+          "japanese": "寝る前に「お休みなさい」と 言います。",
+          "vietnamese": "Trước khi đi ngủ thì nói “Chúc ngủ ngon”. "
+        },
+        {
+          "japanese": "ミラーさんは 来週 東京へ 出張 すると 言いました。",
+          "vietnamese": "Ông Miler đã nói rằng tuần sau ống ấy sẽ đi công tác Tokyo."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l21-p3",
+      "pattern": "[Thể thông thường] でしょう？",
+      "meaning": "～có đúng không? / ～có đúng không nhỉ? (Xác nhận thông tin)",
+      "explanation": "- Mẫu câu này dùng để xác nhận một thông tin nào đó với mong muốn người nghe tán đồng với ý kiến của mình, tương tự như câu hỏi đuôi trong tiếng Anh.\n- 「でしょう」được đọc lên giọng giống như một câu hỏi để xác nhận sự đồng tình của người nghe.\n- Trước 「でしょう」là thể thông thường.\n- Tuy nhiên, đối với tính từ đuôi な và danh từ, bỏ 「だ」và ghép thẳng với 「でしょう」.",
+      "examples": [
+        {
+          "japanese": "明日パーティーに行くでしょう？",
+          "vietnamese": "Ngày mai bạn đi party chứ nhỉ? ...ええ、行きます。 (… Ừ, đi chứ.)"
+        },
+        {
+          "japanese": "北海道は 寒かったでしょう。",
+          "vietnamese": "Hokkaido chắc là lạnh lắm nhỉ? ...いいえ、そんなに寒くなかったです。 (… Không, không lạnh đến thế đâu.)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l21-p4",
+      "pattern": "N1 で N2 があります。",
+      "meaning": "Ở N1 được tổ chức, diễn ra N2.",
+      "explanation": "- Mẫu câu này dùng để diễn tả rằng một sự kiện (N2) được tổ chức hoặc diễn ra tại một địa điểm (N1).\n- Khi N2 là các sự kiện như bữa tiệc, buổi hòa nhạc, ngày hội, vụ tai nạn hay thảm họa, thì động từ 「あります」có nghĩa là 'được tổ chức', 'diễn ra', 'xảy ra'.\n- Trợ từ 「で」chỉ địa điểm diễn ra sự kiện.",
+      "examples": [
+        {
+          "japanese": "東京で 日本とブラジルのサッカー試合が あります。",
+          "vietnamese": "Ở Tokyo sẽ (có) diễn ra trận bóng đá giữa Nhật Bản và Braxin."
+        },
+        {
+          "japanese": "神戸で 大きい地震が ありました。",
+          "vietnamese": "Ở Kobe đã (có) xảy ra trận động đất lớn."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}

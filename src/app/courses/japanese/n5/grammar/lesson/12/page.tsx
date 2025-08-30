@@ -163,7 +163,7 @@ export default function N5GrammarLesson1Page() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/api/grammar/n5/lesson1');
+        const response = await fetch('/api/grammar/n5/lesson12');
         if (response.ok) {
           const data = await response.json();
           setLessonData(data);
@@ -324,13 +324,13 @@ export default function N5GrammarLesson1Page() {
                     {/* Grammar Pattern */}
                     <div className="bg-yellow-100 p-4 rounded-lg mb-4">
                       <h3 className="text-xl font-bold text-gray-900 mb-2">
-                        {pattern.id}. {pattern.pattern}
+                        {pattern.pattern}
                       </h3>
                       <p className="text-lg font-medium text-blue-800 mb-2">
                         {pattern.meaning}
                       </p>
                       <p className="text-base text-gray-700">
-                        {pattern.vietnamese}
+                        {pattern.pattern}
                       </p>
                     </div>
                     

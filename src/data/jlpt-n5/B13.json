@@ -1,0 +1,114 @@
+{
+  "id": "n5-grammar-lesson-13",
+  "lessonNumber": 13,
+  "japaneseTitle": "第１３課",
+  "vietnameseTitle": "Bài 13",
+  "englishTitle": "Lesson 13",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Cách thể hiện mong muốn và mục đích di chuyển.",
+    "content": "Bài học này giới thiệu các mẫu câu để diễn tả mong muốn sở hữu một vật gì đó, mong muốn làm một hành động nào đó, và cách nói về mục đích của việc di chuyển đến một địa điểm.",
+    "keyPoints": [
+      "Mẫu câu thể hiện mong muốn sở hữu: N が ほしいです.",
+      "Mẫu câu thể hiện mong muốn làm gì đó: V-ます＋たいです.",
+      "Mẫu câu diễn tả mục đích di chuyển: N (Địa điểm)へ V-ます／N に 行きます/来ます/帰ります.",
+      "Cách dùng các từ chỉ sự không xác định: どこか／なにか."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n5-l13-p1",
+      "pattern": "N が ほしいです。",
+      "meaning": "(Tôi) muốn/ muốn có/ mong có N.",
+      "explanation": "- Mẫu câu này dùng để diễn tả ước muốn, ham thích của người nói về việc muốn sở hữu một danh từ (N).\n- 「ほしい」là một tính từ đuôi い, nên cách chia phủ định hay quá khứ sẽ tương tự như tính từ đuôi い.\n- Mẫu câu này không dùng để nói về mong muốn của người thứ ba.",
+      "examples": [
+        {
+          "japanese": "私は カメラが ほしいです。",
+          "vietnamese": "Tôi muốn có máy ảnh."
+        },
+        {
+          "japanese": "私は 友達が ほしいです。",
+          "vietnamese": "Tôi muốn có bạn bè."
+        },
+        {
+          "japanese": "私は 子供が ほしくないです。",
+          "vietnamese": "Tôi không muốn có con."
+        },
+        {
+          "japanese": "誕生日に 何が ほしいですか。",
+          "vietnamese": "Vào ngày sinh nhật bạn thích gì? ...時計が ほしいです。 (… Tôi muốn cái đồng hồ.)"
+        }
+      ],
+      "notes": [
+        "「ほしいです」không sử dụng để nói về mong muốn của người thứ ba."
+      ]
+    },
+    {
+      "id": "n5-l13-p2",
+      "pattern": "N を V-たいです。",
+      "meaning": "(Tôi) thích, muốn làm ~.",
+      "explanation": "- Mẫu câu này thể hiện mong muốn làm một hành động nào đó của người nói.\n- Động từ được chia sang thể ます (bỏ đuôi ます) rồi thêm 「たいです」.\n- Có thể dùng trợ từ 「を」hoặc 「が」 (「が」thường dùng nhiều hơn) cho tân ngữ.\n- Các trợ từ khác (như に, へ, と) giữ nguyên.\n- Động từ thể ます + たい được coi như một tính từ đuôi い, nên cách biến đổi sang thể phủ định hay quá khứ đều giống với tính từ đuôi い.\n- Mẫu câu này không dùng để nói về mong muốn của người thứ ba.",
+      "examples": [
+        {
+          "japanese": "私は 日本へ 行きたいです。",
+          "vietnamese": "Tôi muốn đi Nhật."
+        },
+        {
+          "japanese": "私は 自動車を（が）買いたいです。",
+          "vietnamese": "Tôi muốn mua ô tô."
+        },
+        {
+          "japanese": "今、何を 食べたいですか。",
+          "vietnamese": "Bây giờ, bạn muốn ăn gì? ...何も 食べたくないです。 (… Tôi chả muốn ăn gì cả.)"
+        }
+      ],
+      "notes": [
+        "「～たいです」không sử dụng để nói về mong muốn của người thứ ba."
+      ]
+    },
+    {
+      "id": "n5-l13-p3",
+      "pattern": "N (Địa điểm) へ V-ます に 行きます/来ます/帰ります。",
+      "meaning": "Đi/đến/về N để làm ~.",
+      "explanation": "- Mẫu câu này dùng để diễn tả mục đích của việc di chuyển đến một địa điểm.\n- Động từ chỉ mục đích được chia sang thể ます (bỏ đuôi ます) rồi thêm 「に」, hoặc danh từ chỉ mục đích (là các danh động từ) thêm 「に」.\n- Trợ từ 「へ」hoặc 「に」được dùng để chỉ hướng đến của hành động di chuyển.\n- Các động từ di chuyển phổ biến là 「行きます」 (đi), 「来ます」 (đến), 「帰ります」 (về).",
+      "examples": [
+        {
+          "japanese": "私は スーパーへ 服を買いに 行きました。",
+          "vietnamese": "Tôi đã đi siêu thị (để) mua quần áo."
+        },
+        {
+          "japanese": "田中さんは 日本へ 日本語を 勉強しに 来ました。",
+          "vietnamese": "Anh Tanaka đến Nhật (để) học tiếng Nhật."
+        },
+        {
+          "japanese": "Giang Vo へ 桜 の祭りに 行きました。",
+          "vietnamese": "Tôi đi đến Giảng Võ để tham gia vào Lễ hội Hoa anh đào."
+        }
+      ],
+      "notes": [
+        "Danh từ trước 「に」cũng có thể là các sự kiện như lễ hội, buổi hòa nhạc... Khi đó, ý của người nói là việc xem hay tham gia vào sự kiện đó."
+      ]
+    },
+    {
+      "id": "n5-l13-p4",
+      "pattern": "どこか / なにか",
+      "meaning": "Chỗ nào đó, cái gì đó không xác định.",
+      "explanation": "- 「どこか」có nghĩa là 'chỗ nào đó, nơi nào đó' không xác định rõ.\n- 「なにか」có nghĩa là 'cái gì đó, một cái gì đó' không xác định rõ.\n- 「どこか」được dùng như một danh từ chỉ địa điểm, còn 「なにか」được dùng như một danh từ chỉ đồ vật, sự việc.\n- Khi đứng trước các động từ đi với các trợ từ 「へ、が、を」, các trợ từ này có thể được lược bỏ. Các trợ từ khác vẫn giữ nguyên.",
+      "examples": [
+        {
+          "japanese": "夏休みは どこか（へ）行きましたか。",
+          "vietnamese": "Nghỉ hè, bạn có đi đâu không? ...はい、行きました。 (… Có, tôi có đi.)"
+        },
+        {
+          "japanese": "暑いですから、何か（を）飲みたいです。",
+          "vietnamese": "Vì trời nóng nên tôi muốn uống gì đó."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}

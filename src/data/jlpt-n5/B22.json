@@ -1,0 +1,87 @@
+{
+  "id": "n5-grammar-lesson-22",
+  "lessonNumber": 22,
+  "japaneseTitle": "第２２課",
+  "vietnameseTitle": "Bài 22",
+  "englishTitle": "Lesson 22",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Định ngữ: Cách bổ nghĩa cho danh từ bằng câu động từ.",
+    "content": "Bài học này giới thiệu về định ngữ, tức là cách sử dụng một câu động từ để bổ nghĩa cho một danh từ, tạo thành một cụm danh từ phức tạp hơn. Đồng thời, làm rõ vai trò của trợ từ 「が」trong mệnh đề bổ nghĩa.",
+    "keyPoints": [
+      "Định nghĩa và cách cấu thành định ngữ: Động từ dạng ngắn + DANH TỪ.",
+      "Vị trí và vai trò của định ngữ trong câu.",
+      "Cách xác định chủ ngữ trong mệnh đề bổ nghĩa bằng trợ từ 「が」."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n5-l22-p1",
+      "pattern": "[Định ngữ]",
+      "meaning": "Bổ nghĩa cho danh từ bằng đơn vị câu với động từ",
+      "explanation": "- Định ngữ là cách sử dụng một câu động từ (ở dạng ngắn) để bổ nghĩa cho một danh từ, tạo thành một cụm danh từ.\n- Ví dụ: 「行く人」 (người sẽ đi), 「京都へ 行かない人」 (người không đi Kyoto), 「行った人」 (người đã đi Kyoto), 「行かなかった人」 (người đã không đi Kyoto).\n- Đây là cách mở rộng khả năng diễn đạt, giúp câu văn trở nên chi tiết và phong phú hơn.",
+      "examples": [
+        {
+          "japanese": "ミラーさんの家",
+          "vietnamese": "Ngôi nhà của anh Miler"
+        },
+        {
+          "japanese": "新しい家",
+          "vietnamese": "Ngôi nhà mới"
+        },
+        {
+          "japanese": "行く人",
+          "vietnamese": "Người sẽ đi Kyoto"
+        }
+      ],
+      "notes": [
+        "Đã học: Bổ nghĩa bằng đơn vị từ. Bài này học: Bổ nghĩa bằng đơn vị câu với động từ (→ định ngữ)."
+      ]
+    },
+    {
+      "id": "n5-l22-p2",
+      "pattern": "V (dạng ngắn) + N",
+      "meaning": "Bổ nghĩa danh từ bằng câu động từ",
+      "explanation": "- Để cấu thành định ngữ, động từ của câu bổ nghĩa phải ở dạng ngắn (thể từ điển, thể ない, thể た, thể なかった) và được đặt ngay trước danh từ mà nó bổ nghĩa.\n- Khi danh từ được bổ nghĩa, các trợ từ như 「を, で, に」ở câu gốc thường được lược bỏ.\n- Định ngữ có thể đứng ở nhiều vị trí trong câu và đóng vai trò như một danh từ bình thường.",
+      "examples": [
+        {
+          "japanese": "わたしは 先週 映画を 見ました。 → 私が 先週 見た映画",
+          "vietnamese": "Tuần trước tôi đã xem phim. → Bộ phim mà tuần trước tôi đã xem."
+        },
+        {
+          "japanese": "ワンさんは 病院で 働 いています。 → ワンさんが 働 いている病院",
+          "vietnamese": "Ông Wang làm việc tại bệnh viện. → Bệnh viện nơi ông Wang làm việc."
+        },
+        {
+          "japanese": "これは ミラーさんが 住んでいる家です。",
+          "vietnamese": "Đây là ngôi nhà ông Miller đang ở."
+        }
+      ],
+      "notes": [
+        "Khi các danh từ được bổ nghĩa thì các trợ từ 「を, で, に」ở câu gốc sẽ không cần nữa.",
+        "Định ngữ (danh từ được bổ nghĩa bằng câu động từ) có thể ở nhiều vị trí trong câu, đóng vai trò nhiều thành phần của câu (như 1 danh từ bình thường)."
+      ]
+    },
+    {
+      "id": "n5-l22-p3",
+      "pattern": "N が (trong mệnh đề bổ nghĩa)",
+      "meaning": "Chủ ngữ trong mệnh đề bổ nghĩa",
+      "explanation": "- Khi một câu động từ bổ nghĩa cho một danh từ (tạo thành định ngữ), chủ ngữ (chủ thể của hành động) trong câu bổ nghĩa đó sẽ được xác định bằng trợ từ 「が」, thay vì 「は」.\n- Điều này giúp phân biệt rõ chủ ngữ của mệnh đề chính và chủ ngữ của mệnh đề phụ (định ngữ).",
+      "examples": [
+        {
+          "japanese": "ミラーさんは ケーキを 作りました。 → これは ミラーさんが 作ったケーキです。",
+          "vietnamese": "Ông Miller đã làm bánh ngọt. → Đây là cái bánh ngọt ông Miller đã làm."
+        },
+        {
+          "japanese": "カリナさんは 絵を 書きました。 → わたしは カリナさんが 書いた絵が 好きです。",
+          "vietnamese": "Chị Carina đã vẽ tranh. → Tôi thích bức tranh mà chị Carina đã vẽ."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}

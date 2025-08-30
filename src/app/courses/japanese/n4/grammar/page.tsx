@@ -44,7 +44,7 @@ export default function N4GrammarPage() {
         const demoLessons: GrammarLesson[] = [
           // TRỢ TỪ NÂNG CAO
           {
-            id: 'g001',
+            id: '26',
             title: 'Trợ từ によって (ni yotte)',
             japaneseTitle: 'Bài 26\n第26課',
             description: 'Theo, bởi, do',
@@ -172,7 +172,7 @@ export default function N4GrammarPage() {
             icon: '📝'
           },
           {
-            id: 'g010',
+            id: '35',
             title: 'Thể なくても (nakutemo)',
             japaneseTitle: 'Bài 35\n第35課',
             description: 'Không cần, không phải',

@@ -1,0 +1,137 @@
+{
+  "id": "n5-grammar-lesson-18",
+  "lessonNumber": 18,
+  "japaneseTitle": "第１８課",
+  "vietnameseTitle": "Bài 18",
+  "englishTitle": "Lesson 18",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Động từ thể từ điển và các mẫu câu diễn tả khả năng, sở thích, trình tự thời gian.",
+    "content": "Bài học này giới thiệu về động từ thể từ điển (V る), cách diễn tả khả năng (có thể làm gì), sở thích, và cách nói về hành động xảy ra trước một thời điểm hoặc hành động khác.",
+    "keyPoints": [
+      "Cách chia động từ sang thể từ điển (V る) cho cả 3 nhóm.",
+      "Mẫu câu diễn tả khả năng: N / V ること が できます.",
+      "Mẫu câu diễn tả sở thích: 私の 趣味は N / V ること.",
+      "Mẫu câu diễn tả hành động xảy ra trước: V る / N の / Số tự (thời gian) まえに、V2.",
+      "Cách dùng các phó từ なかなか (mãi mà không) và ぜひ (nhất định)."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n5-l18-p1",
+      "pattern": "V る",
+      "meaning": "Dạng nguyên mẫu của động từ",
+      "explanation": "- Thể từ điển (V る) là dạng cơ bản, nguyên mẫu của động từ, được dùng để tra cứu trong từ điển.\n- Cách chia thể từ điển phụ thuộc vào nhóm động từ:\n  - Nhóm 1: thay âm cuối hàng 'i' trước ます bằng âm cuối hàng 'u'.\n  - Nhóm 2: bỏ ます thêm る.\n  - Nhóm 3: 「します」→「する」, 「きます」→「くる」.\n- Có một số động từ đặc biệt thuộc nhóm 2 nhưng có cách chia giống nhóm 1.",
+      "examples": [
+        {
+          "japanese": "かいます ← かう",
+          "vietnamese": "mua ← mua (thể từ điển)"
+        },
+        {
+          "japanese": "たべます ← たべる",
+          "vietnamese": "ăn ← ăn (thể từ điển)"
+        },
+        {
+          "japanese": "します → する",
+          "vietnamese": "làm → làm (thể từ điển)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l18-p2",
+      "pattern": "N / V ること が できます",
+      "meaning": "Có thể làm…, biết làm… (Diễn tả khả năng)",
+      "explanation": "- Mẫu câu này dùng để diễn tả khả năng thực hiện một hành động hoặc có một năng lực nào đó.\n- Có hai trường hợp:\n  - Với danh từ: Sử dụng danh từ có tính động tác (danh động từ) hoặc danh từ chỉ khả năng (ví dụ: 日本語, ピアノ) kèm với 「が できます」.\n  - Với động từ: Động từ được chuyển sang thể từ điển (V る) rồi thêm 「こと が できます」để danh từ hóa động từ, biểu thị khả năng làm được hành động đó.",
+      "examples": [
+        {
+          "japanese": "運転が できます。",
+          "vietnamese": "Tôi biết/có thể lái xe."
+        },
+        {
+          "japanese": "ミラーさんは 日本語が できます。",
+          "vietnamese": "Anh Miler biết tiếng Nhật (có thể nói tiếng Nhật)."
+        }
+      ],
+      "notes": [
+        "Nghĩa của động từ できます: ① Năng lực: 漢字を 読むことが できます。(→ Biết đọc chữ Hán.). ② Khả năng: 受付で タクシーを 呼ぶことが できます。(→ Có thể gọi taxi tại quầy lễ tân.)."
+      ]
+    },
+    {
+      "id": "n5-l18-p3",
+      "pattern": "私の 趣味は N / V ること です",
+      "meaning": "Sở thích (của tôi) là… (Diễn tả sở thích)",
+      "explanation": "- Mẫu câu này dùng để nói về sở thích của người nói.\n- Nếu sở thích là một danh từ đơn thuần, dùng 「N です」.\n- Nếu sở thích là một hành động, động từ được chuyển sang thể từ điển (V る) rồi thêm 「こと」để danh từ hóa, sau đó dùng 「です」.\n- Điều này giúp diễn tả sở thích một cách rõ ràng và cụ thể hơn.",
+      "examples": [
+        {
+          "japanese": "私の趣味は 絵です。",
+          "vietnamese": "Sở thích của tôi là hội họa."
+        },
+        {
+          "japanese": "私の趣味は 絵を描くことです。",
+          "vietnamese": "Sở thích của tôi là (việc) vẽ tranh."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l18-p4",
+      "pattern": "V る / N の / [Số tự (thời gian)] まえに、V2",
+      "meaning": "Làm V2 trước..., trước khi làm V1… (Diễn tả trình tự thời gian)",
+      "explanation": "- Mẫu câu này diễn tả rằng hành động V2 xảy ra trước một hành động V1, một danh từ chỉ hành động, hoặc một khoảng thời gian.\n- Động từ V1 luôn ở thể từ điển (V る).\n- Nếu là danh từ, thêm 「の」trước 「まえに」.\n- Nếu là số tự (thời gian), không cần 「の」.\n- Thì của câu được quyết định bởi động từ V2.",
+      "examples": [
+        {
+          "japanese": "日本へ 来る 前に、日本語を 勉強しました。",
+          "vietnamese": "Tôi đã học tiếng Nhật trước khi đến Nhật."
+        },
+        {
+          "japanese": "食事の まえに、手を洗います。",
+          "vietnamese": "Trước bữa cơm/ Trước khi ăn cơm, (tôi) rửa tay."
+        },
+        {
+          "japanese": "３年前に、結婚しました。",
+          "vietnamese": "Tôi đã kết hôn cách đây 3 năm."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l18-p5",
+      "pattern": "なかなか",
+      "meaning": "Mãi mà không…",
+      "explanation": "- Phó từ 「なかなか」luôn đi kèm với động từ ở dạng phủ định.\n- Diễn tả ý nghĩa rằng một việc gì đó đã được mong đợi hoặc cố gắng nhưng vẫn chưa đạt được, hoặc khó có thể xảy ra.\n- Nó mang sắc thái thất vọng hoặc ngạc nhiên.",
+      "examples": [
+        {
+          "japanese": "日本で なかなか 馬を 見ることが できません。",
+          "vietnamese": "Ở Nhật, mãi mà tôi không thể nhìn thấy con ngựa nào."
+        },
+        {
+          "japanese": "バスが なかなか 来ません。",
+          "vietnamese": "Xe buýt mãi mà không thấy tới."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l18-p6",
+      "pattern": "ぜひ",
+      "meaning": "Nhất định.",
+      "explanation": "- Phó từ 「ぜひ」được dùng để biểu thị sự hy vọng mạnh mẽ, mong muốn tha thiết, hoặc một yêu cầu nhấn mạnh.\n- Nó thường đi kèm với các dạng câu diễn tả mong muốn như 「ほしいです」, 「V たいです」, hoặc câu yêu cầu 「V てください」.",
+      "examples": [
+        {
+          "japanese": "ぜひ 北海道へ 行きたいです。",
+          "vietnamese": "Tôi rất muốn đi Hokkaido (nhất định sẽ đi)."
+        },
+        {
+          "japanese": "ぜひ 遊びに 来てください。",
+          "vietnamese": "Bạn nhất định phải đến nhà tôi chơi đấy nhé!"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}

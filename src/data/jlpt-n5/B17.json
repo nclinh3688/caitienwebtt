@@ -1,0 +1,138 @@
+{
+  "id": "n5-grammar-lesson-17",
+  "lessonNumber": 17,
+  "japaneseTitle": "第１７課",
+  "vietnameseTitle": "Bài 17",
+  "englishTitle": "Lesson 17",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Động từ thể ない và các mẫu câu liên quan.",
+    "content": "Bài học này giới thiệu về cách chia động từ sang thể ない (dạng phủ định ngắn) và các mẫu câu quan trọng sử dụng thể này để diễn tả sự cấm đoán, bắt buộc, cho phép không làm gì, cũng như cách nhấn mạnh tân ngữ và giới hạn thời gian.",
+    "keyPoints": [
+      "Cách chia động từ sang thể ない (phủ định dạng ngắn) cho cả 3 nhóm.",
+      "Mẫu câu yêu cầu/khuyên không làm gì: V ないで ください.",
+      "Mẫu câu diễn tả sự bắt buộc: V なければ なりません.",
+      "Mẫu câu diễn tả sự cho phép không làm gì: V なくても いいです.",
+      "Cách nhấn mạnh tân ngữ bằng cách thay trợ từ を bằng は.",
+      "Trợ từ 「までに」chỉ giới hạn thời gian cuối cùng."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n5-l17-p1",
+      "pattern": "V ない",
+      "meaning": "Động từ phủ định dạng ngắn (thể ない)",
+      "explanation": "Thể ない là dạng phủ định ngắn của động từ, được sử dụng rộng rãi trong giao tiếp thân mật và là nền tảng cho nhiều mẫu câu khác. Cách chia thể ない phụ thuộc vào nhóm động từ: Nhóm I: thay vần [-i] bằng [-a] (đặc biệt: い → わ). Nhóm II: bỏ [-ます] thêm ない. Nhóm III: 「します」→「しない」, 「きます」→「こない」.",
+      "examples": [
+        {
+          "japanese": "あい－ます→ あわ－ない",
+          "vietnamese": "gặp → không gặp"
+        },
+        {
+          "japanese": "たべ－ます → たべ－ない",
+          "vietnamese": "ăn → không ăn"
+        },
+        {
+          "japanese": "し－ます → し－ない",
+          "vietnamese": "làm → không làm"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l17-p2",
+      "pattern": "V ないで ください",
+      "meaning": "Xin đừng… (Yêu cầu, khuyên bảo lịch sự ở dạng phủ định)",
+      "explanation": "Mẫu câu này dùng để khuyên bảo hoặc yêu cầu ai đó không làm một việc gì đó một cách lịch sự. Động từ được chia sang thể ない rồi thêm 「で ください」.",
+      "examples": [
+        {
+          "japanese": "私は 元気ですから、心配しないで ください。",
+          "vietnamese": "Tôi khỏe lắm nên đừng lo lắng."
+        },
+        {
+          "japanese": "ここに 写真を 撮らないで ください。",
+          "vietnamese": "Xin đừng chụp ảnh ở đây."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l17-p3",
+      "pattern": "V なければ なりません",
+      "meaning": "Phải…, bắt buộc phải…",
+      "explanation": "Mẫu câu này biểu thị một việc mà người nói coi là nghĩa vụ hoặc sự bắt buộc phải làm, bất kể ý muốn cá nhân. Động từ được chia sang thể ない, bỏ い rồi thêm 「ければ なりません」. Mặc dù động từ ở dạng phủ định, nhưng cả câu mang ý nghĩa khẳng định (phủ định của phủ định: 'không làm thì không được').",
+      "examples": [
+        {
+          "japanese": "薬を 飲まなければなりません。",
+          "vietnamese": "Phải uống thuốc."
+        },
+        {
+          "japanese": "毎日 日本語を 勉強しなければなりません。",
+          "vietnamese": "Hàng ngày (tôi) phải học tiếng Nhật."
+        }
+      ],
+      "notes": [
+        "Mặc dù động từ chia ở dạng phủ định nhưng cả câu không mang nghĩa phủ định (thực chất là phủ định của phủ định → “không làm gì thì không được”)."
+      ]
+    },
+    {
+      "id": "n5-l17-p4",
+      "pattern": "V なくても いいです",
+      "meaning": "Không cần … cũng được.",
+      "explanation": "Mẫu câu này biểu thị sự không cần thiết của một hành vi, có nghĩa là 'không cần làm V cũng được'. Động từ được chia sang thể ない, bỏ い rồi thêm 「くても いいです」. Khi dùng ở thể nghi vấn (V なくても いいですか), nó trở thành câu hỏi xin phép không làm gì có được không.",
+      "examples": [
+        {
+          "japanese": "明日 来なくても いいです。",
+          "vietnamese": "Ngày mai bạn không đến cũng được."
+        },
+        {
+          "japanese": "土曜日の午後 勉強しなくても いいです。",
+          "vietnamese": "Chiều thứ 7 không học cũng được."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l17-p5",
+      "pattern": "N は",
+      "meaning": "Nhấn mạnh vào tân ngữ",
+      "explanation": "Mẫu câu này dùng để đưa tân ngữ lên làm chủ đề của câu, nhằm nhấn mạnh ý muốn diễn tả về tân ngữ đó. Khi tân ngữ được đưa lên làm chủ đề, trợ từ 「を」của tân ngữ sẽ được thay bằng 「は」.",
+      "examples": [
+        {
+          "japanese": "ここに 荷物を 置かないでください。 → 荷物は ここに 置かないでください。",
+          "vietnamese": "Đừng để hành lý ở đây. → Hành lý thì xin đừng để ở đây."
+        },
+        {
+          "japanese": "会社の食堂で 昼ごはんを 食べます。 → 昼ごはんは 会社の食堂で 食べます。",
+          "vietnamese": "Tôi ăn cơm trưa tại nhà ăn công ty. → Cơm trưa thì tôi ăn tại nhà ăn cty."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l17-p6",
+      "pattern": "N までに V",
+      "meaning": "Chậm nhất, trễ nhất, trước (thời điểm).",
+      "explanation": "Trợ từ 「までに」chỉ rõ thời gian cuối cùng mà một hành động hoặc công việc phải được hoàn thành. Có nghĩa là, hành động phải được tiến hành trước thời hạn được chỉ định bởi 「までに」. Cần phân biệt với 「まで」 (chỉ thời điểm kết thúc hành động) và 「に」 (chỉ thời điểm hành động diễn ra).",
+      "examples": [
+        {
+          "japanese": "会議は ５時までに 終わります。",
+          "vietnamese": "Cuộc họp sẽ kết thúc trước 5 giờ."
+        },
+        {
+          "japanese": "土曜日までに 本を 返さなければなりません。",
+          "vietnamese": "Phải trả sách trước thứ 7."
+        }
+      ],
+      "notes": [
+        "Phân biệt 「までに」với trợ từ 「まで」và trợ từ 「に」.",
+        "① 「まで」：chỉ thời điểm chấm dứt một hành động. Ví dụ: 昼 １２時まで 日本語を勉強します。 (Buổi trưa, tôi học đến 12 giờ.)",
+        "② 「に」：chỉ thời điểm mà một hành động diễn ra. Ví dụ: 朝 ６時に 起きます。 (Tôi thức dậy vào lúc 6 giờ.)"
+      ]
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}

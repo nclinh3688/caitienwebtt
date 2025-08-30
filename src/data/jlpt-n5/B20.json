@@ -1,0 +1,101 @@
+{
+  "id": "n5-grammar-lesson-20",
+  "lessonNumber": 20,
+  "japaneseTitle": "第２０課",
+  "vietnameseTitle": "Bài 20",
+  "englishTitle": "Lesson 20",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Thể văn thông thường và thể văn lịch sự.",
+    "content": "Bài học này giới thiệu về sự khác biệt giữa thể văn thông thường (casual form) và thể văn lịch sự (polite form) trong tiếng Nhật, cách chuyển đổi các loại từ sang thể thông thường, và cách sử dụng chúng trong các tình huống giao tiếp khác nhau.",
+    "keyPoints": [
+      "Phân biệt thể văn thông thường và thể văn lịch sự.",
+      "Cách dùng thể lịch sự và thể thông thường trong các trường hợp cụ thể.",
+      "Cách chuyển đổi động từ, tính từ đuôi い, tính từ đuôi な, và danh từ sang thể thông thường.",
+      "Cách chuyển đổi các mẫu câu đã học sang thể thông thường.",
+      "Cách đặt câu hỏi ở thể thông thường và cách trả lời."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n5-l20-p1",
+      "pattern": "[Thể thông thường] / [Thể lịch sự]",
+      "meaning": "Phân biệt cách nói lịch sự và thân mật",
+      "explanation": "- Trong tiếng Nhật, có hai thể văn chính: thể lịch sự và thể thông thường.\n- Thể lịch sự:\n    - Kết thúc bằng –desu (với tính từ, danh từ) và –masu (với động từ) và các dạng phái sinh của nó.\n    - Dùng cho người lớn tuổi, người gặp lần đầu tiên, cấp trên, mình là nhân viên mới, trong các sự kiện nghiêm túc.\n- Thể thông thường:\n    - Không có –desu hay –masu.\n    - Dùng dạng cơ bản, dạng gốc và các dạng phái sinh dạng ngắn của các loại từ đó.\n    - Thích hợp cho người kém tuổi, người ngang tuổi, bạn thân, người trong gia đình.\n- Việc sử dụng sai thể văn có thể bị coi là thất lễ.",
+      "examples": [],
+      "notes": [
+        "Trong trường hợp từ ① đến ④ mà sử dụng thể thông thường thì bị coi là thất lễ.",
+        "Người Nhật đối với người nước ngoài hay nhân viên lâu năm khi chỉ đạo, hướng dẫn nhân viên mới để thể hiện sự thân mật tùy thuộc vào ý đồ vẫn có thể sử dụng được thể thông thường.",
+        "Từ a~d, cũng tùy thuộc vào trường hợp vẫn có thể sử dụng thể lịch sự."
+      ]
+    },
+    {
+      "id": "n5-l20-p2",
+      "pattern": "[Thể lịch sự] → [Thể thông thường]",
+      "meaning": "Cách chuyển đổi các loại từ sang thể thông thường",
+      "explanation": "- Để chuyển đổi từ thể lịch sự sang thể thông thường, các loại từ có quy tắc riêng:\n    - Động từ:\n        - ます → thể từ điển (V る)\n        - ません → thể ない (V ない)\n        - ました → thể た (V た)\n        - ませんでした → thể ない quá khứ (V なかった)\n    - Tính từ đuôi い: bỏ です.\n    - Tính từ đuôi な/Danh từ:\n        - です → だ\n        - ではありません → ではない\n        - でした → だった\n        - ではありませんでした → ではなかった.",
+      "examples": [
+        {
+          "japanese": "かきます → かく",
+          "vietnamese": "viết (lịch sự) → viết (thông thường)"
+        },
+        {
+          "japanese": "あついです → あつい",
+          "vietnamese": "nóng (lịch sự) → nóng (thông thường)"
+        },
+        {
+          "japanese": "ひまです → ひまだ",
+          "vietnamese": "rảnh (lịch sự) → rảnh (thông thường)"
+        }
+      ],
+      "notes": [
+        "Khi đổi những câu được nối với nhau bằng 「から」hay 「が、けど」 (thường sử dụng trong hội thoại) thành thể văn thông thường thì tất cả các từ lịch sự trong câu phải được đổi sang thể thông thường."
+      ]
+    },
+    {
+      "id": "n5-l20-p3",
+      "pattern": "[Câu hỏi thông thường]",
+      "meaning": "Cách đặt câu hỏi thân mật",
+      "explanation": "- Trong thể thông thường, để đặt câu hỏi, thường bỏ trợ từ nghi vấn 「か」ở cuối câu và thay vào đó là ngữ điệu lên giọng ở cuối câu.\n- Đối với câu nghi vấn danh từ hay tính từ, chữ 「だ」 (thể thông thường của 「です」) thường được giản lược.\n- Các trợ từ như 「を, へ, は, が」trong câu nghi vấn ở thể thông thường cũng thường được lược bỏ.\n- Trong mẫu câu V ている, chữ 「い」cũng thường được lược bỏ.",
+      "examples": [
+        {
+          "japanese": "コーヒーを 飲む？",
+          "vietnamese": "Uống cà phê không? ...うん、飲む (… Ừ, uống.)"
+        },
+        {
+          "japanese": "今晩 暇？",
+          "vietnamese": "Tối nay rảnh không? ...うん、暇（だよ） (… Ừ, rảnh.)"
+        },
+        {
+          "japanese": "ご飯「を」食べる？",
+          "vietnamese": "Ăn cơm không?"
+        }
+      ],
+      "notes": [
+        "Cũng có những câu nghi vấn ở thể văn thông thường mà không bỏ chữ 「か」ở sau như: 飲むか、見たか…, nhưng chỉ được sử dụng giới hạn trong phạm vi nam giới khi người trên hỏi người dưới hoặc những người quá thân nhau (như cha hỏi con trai).",
+        "Khi đàm thoại thường dùng じゃない cho phủ định."
+      ]
+    },
+    {
+      "id": "n5-l20-p4",
+      "pattern": "はい → うん / いいえ → ううん",
+      "meaning": "Cách trả lời 'có' hoặc 'không' thân mật",
+      "explanation": "- Trong thể thông thường, cách trả lời 'có' và 'không' cũng thay đổi:\n    - はい (vâng) → うん (un)\n    - いいえ (không) → ううん (uun).",
+      "examples": [
+        {
+          "japanese": "はい → うん",
+          "vietnamese": "vâng → ừ"
+        },
+        {
+          "japanese": "いいえ → ううん",
+          "vietnamese": "không → không (thân mật)"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "n5-grammar-lesson-19",
+  "lessonNumber": 19,
+  "japaneseTitle": "第１９課",
+  "vietnameseTitle": "Bài 19",
+  "englishTitle": "Lesson 19",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Động từ quá khứ dạng ngắn và các mẫu câu diễn tả kinh nghiệm, liệt kê hành động, sự thay đổi.",
+    "content": "Bài học này giới thiệu về động từ quá khứ dạng ngắn (V た), cách diễn tả kinh nghiệm đã từng làm gì, cách liệt kê các hành động không theo thứ tự, và cách diễn tả sự thay đổi trạng thái.",
+    "keyPoints": [
+      "Cách chia động từ sang thể quá khứ dạng ngắn (V た) cho cả 3 nhóm.",
+      "Mẫu câu diễn tả kinh nghiệm trong quá khứ: V たことが あります.",
+      "Mẫu câu liệt kê hành động không quan tâm thứ tự: V たり、V たり します.",
+      "Mẫu câu diễn tả sự thay đổi trạng thái: A い（～い）→ ～く / A な「な」→ に / N に なります."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n5-l19-p1",
+      "pattern": "V た",
+      "meaning": "Dạng quá khứ ngắn của động từ",
+      "explanation": "- Thể quá khứ dạng ngắn (V た) của động từ có cách chia tương tự như thể て.\n- Cụ thể, những chỗ nào trong thể て là 「て」thì trong thể た là 「た」, và những chỗ nào là 「で」thì là 「だ」.\n- Thể này là một dạng cơ bản và quan trọng, được sử dụng trong nhiều mẫu câu phức tạp hơn.",
+      "examples": [
+        {
+          "japanese": "かいて → かいた",
+          "vietnamese": "viết (thể て) → đã viết (thể た)"
+        },
+        {
+          "japanese": "たべて → たべた",
+          "vietnamese": "ăn (thể て) → đã ăn (thể た)"
+        },
+        {
+          "japanese": "して → した",
+          "vietnamese": "làm (thể て) → đã làm (thể た)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l19-p2",
+      "pattern": "V たことが あります",
+      "meaning": "Đã từng (làm)… (Diễn tả kinh nghiệm trong quá khứ)",
+      "explanation": "- Mẫu câu này dùng để nói về một kinh nghiệm, một trải nghiệm đã từng xảy ra trong quá khứ.\n- Động từ được chia sang thể た rồi thêm 「ことが あります」.\n- Nó khác với việc chỉ đơn thuần diễn tả một hành động xảy ra ở quá khứ (sử dụng V ました) ở chỗ nhấn mạnh vào việc 'đã từng có kinh nghiệm' đó.",
+      "examples": [
+        {
+          "japanese": "馬に 乗ったことが あります。",
+          "vietnamese": "Tôi đã từng cưỡi ngựa."
+        },
+        {
+          "japanese": "日本へ 行ったことが ありますか。",
+          "vietnamese": "Bạn đã bao giờ đi Nhật Bản chưa? ...はい、あります／…はい、３回 あります。(Có, đã từng/Có, đã 3 lần.)"
+        }
+      ],
+      "notes": [
+        "Thể câu văn này khác cơ bản với thể câu văn muốn diễn tả một hành động chỉ đơn thuần xảy ra ở quá khứ."
+      ]
+    },
+    {
+      "id": "n5-l19-p3",
+      "pattern": "V たり、V たり します",
+      "meaning": "Lúc thì… lúc thì… và… (Liệt kê hành động không quan tâm thứ tự)",
+      "explanation": "- Mẫu câu này dùng để liệt kê một vài hành động tiêu biểu trong số nhiều hành động mà chủ thể thực hiện, mà không cần quan tâm đến thứ tự thời gian diễn ra của chúng.\n- Động từ được chia sang thể た rồi thêm 「り」, lặp lại với các động từ khác, và kết thúc bằng 「します」.\n- Thì của mẫu câu được biểu thị ở động từ 「します」cuối cùng.",
+      "examples": [
+        {
+          "japanese": "日曜日は テニスを したり、映画を 見たり します。",
+          "vietnamese": "Chủ Nhật, lúc thì tôi chơi tenis, lúc thì xem phim."
+        },
+        {
+          "japanese": "昨日 買い物したり、音楽を 聞いたり しました。",
+          "vietnamese": "Hôm qua, lúc thì tôi đi mua sắm, lúc thì nghe nhạc."
+        }
+      ],
+      "notes": [
+        "Không nhầm với câu văn sử dụng 「て」để nối câu đã học ở bài 16, vì 「て」thể hiện trình tự thời gian, còn 「たり」không có mối quan hệ thời gian giữa các hành động được liệt kê."
+      ]
+    },
+    {
+      "id": "n5-l19-p4",
+      "pattern": "A い → ～く / A な → に / N に なります",
+      "meaning": "Trở nên (được) ~ (Diễn tả sự thay đổi trạng thái)",
+      "explanation": "- Mẫu câu này dùng để diễn tả sự thay đổi của một tình trạng hoặc điều kiện.\n- Tính từ đuôi い bỏ い thêm 「く なります」.\n- Tính từ đuôi な bỏ な thêm 「に なります」.\n- Danh từ thêm 「に なります」.\n- Nó có nghĩa là 'trở nên', 'trở thành'.",
+      "examples": [
+        {
+          "japanese": "寒いです → 寒く なります",
+          "vietnamese": "Lạnh → Trở nên lạnh."
+        },
+        {
+          "japanese": "元気「な」 → 元気に なります",
+          "vietnamese": "Khỏe mạnh → Trở nên khỏe mạnh."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}

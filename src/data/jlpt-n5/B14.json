@@ -1,0 +1,120 @@
+{
+  "id": "n5-grammar-lesson-14",
+  "lessonNumber": 14,
+  "japaneseTitle": "第１４課",
+  "vietnameseTitle": "Bài 14",
+  "englishTitle": "Lesson 14",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Các nhóm động từ và thể て.",
+    "content": "Bài học này giới thiệu về cách phân loại động từ trong tiếng Nhật thành 3 nhóm, cách chia động từ sang thể て, và các mẫu câu cơ bản sử dụng thể て.",
+    "keyPoints": [
+      "Phân loại động từ thành 3 nhóm.",
+      "Cách chia động từ sang thể て.",
+      "Mẫu câu yêu cầu, nhờ vả lịch sự: V てください.",
+      "Mẫu câu diễn tả hành động đang diễn ra: V ています.",
+      "Mẫu câu đề nghị giúp đỡ: V（thể ます）しょうか."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n5-l14-p1",
+      "pattern": "Các nhóm động từ",
+      "meaning": "Phân loại động từ trong tiếng Nhật",
+      "explanation": "- Động từ trong tiếng Nhật được chia thành 3 nhóm chính dựa trên cách chúng được chia sang các thể khác nhau:\n    - Nhóm 1: Bao gồm các động từ có âm tiết trước 「ます」thuộc hàng 'i'.\n    - Nhóm 2: Hầu hết các động từ có âm tiết trước 「ます」thuộc hàng 'e', nhưng cũng có một số ngoại lệ thuộc hàng 'i'.\n    - Nhóm 3: Bao gồm hai động từ đặc biệt: 「します」 (làm) và 「きます」 (đến).",
+      "examples": [
+        {
+          "japanese": "かきます, のみます.",
+          "vietnamese": "Nhóm 1: viết, uống."
+        },
+        {
+          "japanese": "たべます, みせます, みます, おきます.",
+          "vietnamese": "Nhóm 2: ăn, cho xem, nhìn, thức dậy."
+        },
+        {
+          "japanese": "します, きます.",
+          "vietnamese": "Nhóm 3: làm, đến."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l14-p2",
+      "pattern": "V て",
+      "meaning": "Dạng て của động từ",
+      "explanation": "- Thể て là một dạng quan trọng của động từ trong tiếng Nhật, được sử dụng để cấu thành nhiều mẫu câu khác nhau.\n- Cách chia thể て phụ thuộc vào nhóm động từ:\n    - Nhóm 1: Có nhiều quy tắc nhỏ dựa trên âm cuối của động từ trước 「ます」.\n    - Nhóm 2: Thường bỏ 「ます」thêm 「て」.\n    - Nhóm 3: Là hai động từ đặc biệt 「します」→「して」và 「きます」→「きて」.\n- Ý nghĩa cơ bản của động từ không thay đổi khi chuyển sang thể て.",
+      "examples": [
+        {
+          "japanese": "かきます → かいて",
+          "vietnamese": "viết → viết (thể て)"
+        },
+        {
+          "japanese": "食べます → 食べて",
+          "vietnamese": "ăn → ăn (thể て)"
+        },
+        {
+          "japanese": "べんきょうします → べんきょうして",
+          "vietnamese": "học → học (thể て)"
+        }
+      ],
+      "notes": [
+        "Khi chia sang thể て, ý nghĩa của động từ không thay đổi. Thể て là 1 thể của động từ, dùng để cấu thành các mẫu câu khác nhau."
+      ]
+    },
+    {
+      "id": "n5-l14-p3",
+      "pattern": "V てください",
+      "meaning": "Hãy làm ~, Vui lòng làm ~.",
+      "explanation": "- Mẫu câu này dùng để yêu cầu, nhờ vả ai đó làm một việc gì đó một cách lịch sự.\n- Động từ được chia sang thể て rồi thêm 「ください」.\n- Đây là một trong những cách phổ biến nhất để đưa ra yêu cầu trong tiếng Nhật.",
+      "examples": [
+        {
+          "japanese": "ちょっと待ってください。",
+          "vietnamese": "Vui lòng/Xin hãy chờ một chút."
+        },
+        {
+          "japanese": "辞書を 貸してください。",
+          "vietnamese": "Vui lòng/Hãy cho tôi mượn quyển từ điển."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l14-p4",
+      "pattern": "V ています",
+      "meaning": "Đang làm ~.",
+      "explanation": "- Mẫu câu này dùng để diễn tả một hành động đang diễn ra tại thời điểm nói.\n- Động từ được chia sang thể て rồi thêm 「います」.\n- Đây là dạng tiếp diễn của động từ, tương tự như thì hiện tại tiếp diễn trong tiếng Anh.",
+      "examples": [
+        {
+          "japanese": "田中さんは 今 日本語を勉強しています。",
+          "vietnamese": "Bạn Tanaka đang học tiếng Nhật."
+        },
+        {
+          "japanese": "今 雨が 降っています。",
+          "vietnamese": "Bây giờ trời đang mưa."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l14-p5",
+      "pattern": "V ましょうか",
+      "meaning": "Cùng làm...nhé! (Lời đề nghị giúp đỡ)",
+      "explanation": "- Mẫu câu này dùng khi người nói ngỏ ý muốn làm gì đó giúp cho người nghe.\n- Động từ được chia sang thể ます (bỏ đuôi ます) rồi thêm 「ましょうか」.\n- Đây là một cách lịch sự để đề nghị giúp đỡ hoặc đưa ra một gợi ý hành động.",
+      "examples": [
+        {
+          "japanese": "タクシーを よびましょうか。",
+          "vietnamese": "Tôi gọi taxi cho bạn nhé! ...すみません。おねがいします。 (… Xin lỗi. Bạn giúp tôi nhé!)"
+        },
+        {
+          "japanese": "荷物を 持ちましょうか。",
+          "vietnamese": "Tôi cầm hành lý giúp bạn nhé! ...いいえ、けっこうです。 (… Không, tôi làm được rồi.)"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}

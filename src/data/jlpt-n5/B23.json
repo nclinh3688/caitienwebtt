@@ -1,0 +1,118 @@
+{
+  "id": "n5-grammar-lesson-23",
+  "lessonNumber": 23,
+  "japaneseTitle": "第２３課",
+  "vietnameseTitle": "Bài 23",
+  "englishTitle": "Lesson 23",
+  "difficulty": "Beginner",
+  "estimatedTime": "60 phút",
+  "summary": {
+    "title": "Các mẫu câu diễn tả thời điểm, điều kiện và cách thức.",
+    "content": "Bài học này tập trung vào các mẫu câu diễn tả thời điểm xảy ra hành động (khi, lúc), các dạng câu giả định (nếu... thì...), và cách diễn tả địa điểm đi qua.",
+    "keyPoints": [
+      "Mẫu câu diễn tả thời điểm: Động từ dạng ngắn / Tính từ đuôi i / Tính từ đuôi na / Danh từ + とき、～.",
+      "Phân biệt V る とき、～ và V た とき、～.",
+      "Mẫu câu giả định loại 1 (chắc chắn xảy ra): V る / V ない と、～.",
+      "Cách biểu thị tình trạng hoặc quang cảnh với N が Adj／V.",
+      "Cách chỉ địa điểm đi qua với N (địa điểm) を V (động từ di chuyển)."
+    ]
+  },
+  "grammarPatterns": [
+    {
+      "id": "n5-l23-p1",
+      "pattern": "[Dạng ngắn] とき、～",
+      "meaning": "Khi ~, lúc ~.",
+      "explanation": "- Mẫu câu này dùng để diễn tả thời điểm hoặc tình huống mà một hành động hoặc sự việc khác xảy ra.\n- 「とき」về bản chất là một danh từ, nên cách cấu thành mẫu câu này tuân theo quy tắc bổ nghĩa danh từ.\n- Động từ được chia ở dạng ngắn (V る, V ない, V た).\n- Tính từ đuôi い giữ nguyên い.\n- Tính từ đuôi な thêm な.\n- Danh từ thêm の trước とき.\n- Thì của mệnh đề chính không ảnh hưởng đến thì của mệnh đề trước とき.",
+      "examples": [
+        {
+          "japanese": "図書館で 本を借りるとき、カードが 要ります。",
+          "vietnamese": "Khi mượn sách ở thư viện cần có thẻ."
+        },
+        {
+          "japanese": "暇なとき、うちへ 遊びに行きませんか。",
+          "vietnamese": "Bạn sẽ đến nhà tôi chơi khi rảnh rỗi chứ?"
+        },
+        {
+          "japanese": "子供のとき、よく川で 泳ぎました。",
+          "vietnamese": "Hồi còn bé / Khi còn là trẻ con, tôi rất hay bơi trên sông."
+        }
+      ],
+      "notes": [
+        "Thì của câu tính từ và câu danh từ bổ nghĩa cho 「とき」không bị ảnh hưởng bởi thì của mệnh đề chính trong câu."
+      ]
+    },
+    {
+      "id": "n5-l23-p2",
+      "pattern": "V る とき、～ / V た とき、～",
+      "meaning": "Phân biệt 'khi' với hành động chưa hoàn thành và đã hoàn thành.",
+      "explanation": "- Cả hai mẫu câu đều có nghĩa là 'khi', nhưng sự khác biệt nằm ở thì của động từ trước 「とき」.\n- 「V る とき」biểu thị một hành động chưa hoàn thành hoặc một hành động thường xuyên xảy ra.\n- 「V た とき」biểu thị một hành động hoặc tình trạng đã hoàn tất.\n- Sự lựa chọn giữa hai dạng này phụ thuộc vào thời điểm tương đối của hành động trong mệnh đề chính so với hành động trong mệnh đề phụ.",
+      "examples": [
+        {
+          "japanese": "東京へ行くとき、このかばんを 買いました。",
+          "vietnamese": "Tôi đã mua chiếc cặp này khi đi Tokyo (Chiếc cặp này được mua trên đường đi đến Tokyo)."
+        },
+        {
+          "japanese": "東京へ行ったとき、このかばんを 買いました。",
+          "vietnamese": "Tôi đã mua chiếc cặp này khi đi Tokyo (Chiếc cặp này được mua sau khi đã đến Tokyo)."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l23-p3",
+      "pattern": "V る / V ない と、～",
+      "meaning": "Nếu… thì…; cứ … thì sẽ…. (Giả định loại 1)",
+      "explanation": "- Mẫu câu giả định này dùng để diễn tả một tình huống mà ở đó, do kết quả của một hành động nào đó, một hành động hoặc sự việc khác chắc chắn sẽ xảy ra.\n- Trợ từ 「と」được đặt ở giữa để nối hai câu và đóng vai trò xác định mệnh đề giả sử.\n- Động từ trước 「と」luôn ở thể từ điển (V る) hoặc thể phủ định (V ない).\n- Mệnh đề sau 「～と」không sử dụng để biểu hiện một ý hướng, hy vọng, rủ rê hay nhờ vả.",
+      "examples": [
+        {
+          "japanese": "このボタンを 押すと、お釣りが 出ます。",
+          "vietnamese": "Nếu bấm nút này thì tiền thừa sẽ chạy ra."
+        },
+        {
+          "japanese": "日本語が 分からないと、困りますよ。",
+          "vietnamese": "Nếu không biết tiếng Nhật thì sẽ khó khăn đấy."
+        }
+      ],
+      "notes": [
+        "Mệnh đề đứng sau 「～と」không sử dụng để biểu hiện một ý hướng, một hy vọng, một sự rủ rê hay một sự nhờ vả."
+      ]
+    },
+    {
+      "id": "n5-l23-p4",
+      "pattern": "N が Adj／V",
+      "meaning": "N có tính chất Adj / N thực hiện V (Diễn tả tình trạng, quang cảnh)",
+      "explanation": "- Mẫu câu này dùng để biểu thị một tình trạng hoặc một quang cảnh như nó vốn có.\n- Nhấn mạnh vào chủ thể (N) và tính chất (Adj) hoặc hành động (V) của nó.\n- Trợ từ 「が」được sử dụng sau chủ ngữ (N) để xác định chủ thể của tính chất hoặc hành động được mô tả.",
+      "examples": [
+        {
+          "japanese": "音が 小さいです。",
+          "vietnamese": "Tiếng nhỏ."
+        },
+        {
+          "japanese": "天気が 明るくなりました。",
+          "vietnamese": "Thời tiết trở nên quang đãng."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "n5-l23-p5",
+      "pattern": "N を V (động từ di chuyển)",
+      "meaning": "Đi qua địa điểm N.",
+      "explanation": "- Mẫu câu này dùng để chỉ địa điểm hoặc vị trí mà một người hay một vật nào đó đi qua.\n- Trợ từ 「を」được sử dụng sau danh từ chỉ địa điểm.\n- Các động từ di chuyển thường dùng trong mẫu câu này bao gồm: 「あるきます」 (đi bộ), 「わたります」 (băng qua), 「さんぽします」 (đi dạo).",
+      "examples": [
+        {
+          "japanese": "橋を 渡ります。",
+          "vietnamese": "Đi qua cầu."
+        },
+        {
+          "japanese": "公園を 散歩します。",
+          "vietnamese": "Đi dạo trong công viên."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "vocabulary": [],
+  "exercises": [],
+  "culturalNotes": []
+}
