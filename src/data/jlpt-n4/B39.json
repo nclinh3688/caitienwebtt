@@ -1,0 +1,73 @@
+{
+  "vietnameseTitle": "第３９課 (Bài 39)",
+  "japaneseTitle": "",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "V-て / A-くて / A-で、～",
+      "meaning": "Vì... nên...",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Dùng để nối hai mệnh đề, trong đó mệnh đề đầu (V-て, A-くて, A-で) là nguyên nhân hoặc lý do dẫn đến kết quả ở mệnh đề sau.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể て",
+          "• Tính từ-い → くて",
+          "• Tính từ-な/Danh từ → で",
+          "• Vế sau thường là các từ chỉ cảm xúc (びっくりしました), trạng thái (困っています) hoặc các động từ thể khả năng phủ định (行けませんでした)."
+        ],
+        "note": "Lưu ý: Mệnh đề kết quả không thể là câu mệnh lệnh, cấm đoán, rủ rê hay thể hiện ý chí."
+      },
+      "explanation": "Đây là cách đơn giản để nối nguyên nhân và kết quả. Mệnh đề đầu tiên giải thích lý do cho hành động hoặc trạng thái ở mệnh đề thứ hai.",
+      "examples": [
+        {
+          "japanese": "じこが あって、バスが おくれてしまいました。",
+          "kanji": "事故が あって、バスが 遅れてしまいました。",
+          "vietnamese": "Vì có tai nạn nên xe buýt đã đến muộn.",
+          "english": "The bus was late because there was an accident."
+        },
+        {
+          "japanese": "しゅくだいが おおくて、たいへんです。",
+          "kanji": "宿題が 多くて、大変です。",
+          "vietnamese": "Vì bài tập nhiều nên vất vả.",
+          "english": "It's tough because there is a lot of homework."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "～ので、～",
+      "meaning": "Vì... nên... (lý do khách quan)",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Cũng dùng để chỉ nguyên nhân, lý do nhưng mang tính khách quan hơn. Cách nói mềm mại và lịch sự hơn 「から」.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ/Tính từ-い (thể thông thường) + ので。",
+          "• Tính từ-な (giữ な) / Danh từ (thêm な) + ので。"
+        ],
+        "note": "Lưu ý: Vì là cách nói lịch sự, vế sau có thể là câu xin phép hoặc nhờ vả."
+      },
+      "explanation": "「ので」 dùng để trình bày một lý do một cách khách quan, tự nhiên. Vì nó nhẹ nhàng và lịch sự hơn 「から」, nó thường được dùng khi xin phép hoặc nhờ vả.",
+      "examples": [
+        {
+          "japanese": "にほんごが わからないので、えいごで はなして いただけませんか。",
+          "kanji": "日本語が 分からないので、英語で 話して いただけませんか。",
+          "vietnamese": "Vì tôi không hiểu tiếng Nhật nên anh có thể nói bằng tiếng Anh được không ạ?",
+          "english": "I don't understand Japanese, so could you please speak in English?"
+        },
+        {
+          "japanese": "ようじが あるので、おさきに しつれいします。",
+          "kanji": "用事が あるので、お先に 失礼します。",
+          "vietnamese": "Vì có việc bận nên tôi xin phép về trước.",
+          "english": "I have an errand, so I'll be leaving first."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

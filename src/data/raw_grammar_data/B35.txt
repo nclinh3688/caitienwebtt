@@ -1,0 +1,18 @@
+5. Ý nghĩa chung: nếu…, nếu như… (giống ～と、～たら).
+6. Cách sử dụng:
+    ◦ 3.1. Diễn đạt điều kiện (hành động, trạng thái ở vế điều kiện) để dẫn đến 1 hành động, trạng thái ở vế sau (vế kết quả).
+        ▪ Ví dụ:
+            • この説明書を よめば、使い方が わかります。 (Nếu đọc sách hướng dẫn này sẽ hiểu được cách sử dụng.)
+            • カタログを 見なければ、値段が わかりません。 (Nếu không xem cuốn catalogue thì không biết được giá.)
+            • やすければ、この車を 買います。 (Nếu rẻ sẽ mua chiếc ô tô này.)
+            • 日曜日は ひまなら、広島へ 行きます。 (Nếu chủ nhật rỗi, tôi sẽ đi Hiroshima.)
+            • 雨なら、うちで テレビを 見ます。 (Nếu trời mưa sẽ ở nhà xem tivi.)
+        ▪ Chú ý: Khác với 「～と」, vế sau của thể điều kiện loại này có thể là những mẫu câu diễn đạt ý chí, mong muốn như: 「～Ｖてください」、「Ｖましょう」、「Ｖたです」.
+            • Ví dụ: 何か 意見が あれば、どうぞ 言ってください。 (Nếu có ý kiến gì, xin hãy phát biểu.)
+            • dụ**:
+            • A: 「ワープロが ほしいんですが、どこのほうが いいですか。」 (Tôi muốn có 1 cái máy soạn văn bản, đồ của hãng nào thì tốt nhỉ?)
+            • B: 「ワープロなら、東京電気が いいです。」 (Nếu là máy soạn văn bản thì (hàng của) Cty điện lực Tokyo tốt đấy.)
+            • A: 「カメラが 買いたいんですが、どこかいい店を知っていますか。」 (Tôi muốn mua 1 cái máy ảnh, bạn có biết cửa hàng nào tốt ko?)
+            • B: 「カメラなら、秋葉原の藤屋が いいです。」 (Nếu là máy ảnh thì (hàng của) cửa hàng Fujiya ở Akihabara hay lắm đấy.)
+            • A: 「あなたは フランス語が 分かりますか。」 (Bạn có biết tiếng Pháp không?)
+            • B: 「いいえ、分かりません。英語なら、分かります。」 (Không, tôi ko biết. Nếu là tiếng Anh thì tôi biết.)

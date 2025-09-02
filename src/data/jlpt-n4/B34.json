@@ -1,0 +1,41 @@
+{
+  "vietnameseTitle": "第３４課 (Bài 34)",
+  "japaneseTitle": "",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "V-た / V-ない + ほうがいいです",
+      "meaning": "Nên / Không nên làm gì (Lời khuyên)",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Dùng để đưa ra lời khuyên hoặc đề xuất cho người nghe. Mẫu câu này mang sắc thái khá mạnh, ý nói 'nếu không làm theo thì có thể sẽ không tốt'.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• **Khuyên nên làm:** Động từ thể た + ほうがいいです。",
+          "• **Khuyên không nên làm:** Động từ thể ない + ほうがいいです。"
+        ],
+        "note": "Lưu ý: Đây là lời khuyên mạnh, trực tiếp. Khi khuyên người lớn tuổi hoặc cấp trên, nên dùng cách nói nhẹ nhàng hơn như 「～たらどうですか」 hoặc 「～たらいいと思います」."
+      },
+      "explanation": "Mẫu câu này dùng để đưa ra lời khuyên mạnh mẽ. Người nói tin rằng làm theo lời khuyên sẽ tốt hơn cho người nghe. Nó thường được dùng giữa bạn bè, người thân, hoặc từ bác sĩ cho bệnh nhân. Vì nó có thể mang tính áp đặt, cần cẩn thận khi sử dụng với người có địa vị cao hơn.",
+      "examples": [
+        {
+          "japanese": "まいにち うんどうしたほうが いいですよ。",
+          "kanji": "毎日 運動したほうが いいですよ。",
+          "vietnamese": "Bạn nên vận động mỗi ngày.",
+          "english": "You should exercise every day."
+        },
+        {
+          "japanese": "むりしないほうが いいです。",
+          "kanji": "無理しないほうが いいです。",
+          "vietnamese": "Bạn không nên làm việc quá sức.",
+          "english": "You shouldn't overdo it."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

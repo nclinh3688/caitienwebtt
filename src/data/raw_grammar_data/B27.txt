@@ -1,0 +1,54 @@
+第２７課 (Bài 27)
+1. I. Động từ thể khả năng.（可能形）
+    ◦ 1. Cách chia
+        ▪ Nhóm I: Là các động từ có vần [ i ] đứng trước 「ます」. Để chuyển sang động từ thể khả năng chỉ cần chuyển [ i ] thành [ e ].
+            • Ví dụ: およぎます → およげます, よみます → よめます, いきます → いけます, はしります → はしれます, うたいます → うたえます, もちます → もてます, なおします → なおせます.
+        ▪ Nhóm II: Bỏ 「ます」thêm 「られます」.
+            • Ví dụ: たべます → たべられます, おぼえます → おぼえられます, たてます → たてられます.
+        ▪ Nhóm III: します → できます, きます → こられます.
+        ▪ Chú ý: Tất cả các động từ sau khi chuyển sang thể khả năng đều trở thành động từ nhóm II.
+    ◦ 2. Ý nghĩa: thể hiện khả năng, năng lực làm việc gì đó (Những động từ khi được biến đổi sang thể khả năng sẽ mất đi nghĩa gốc của nó, thay vào đó là từ “có thể”).
+        ▪ Chú ý: Trong câu, trợ từ [を] được chuyển thành [が], Các trợ từ khác vẫn giữ nguyên.
+        ▪ Ví dụ: 私は 日本語 を 話 します。→ 私 は 日本語 が 話せます。 (Tôi nói tiếng Nhật → Tôi có thể nói tiếng Nhật.)
+        ▪ 一人で 病院へ 行きますか。→ 一人で 病院へ 行けますか。 (Bạn đi một mình đến bệnh viện à? → Bạn có thể đi một mình đến bệnh viện không?)
+    ◦ 3. Cách dùng: Giống như cách dùng của 「V ることができます」học ở bài 18.
+        ▪ a) Dùng để chỉ khả năng của ai đó có thể làm được gì.
+            • Ví dụ: 私は 漢字が 読めます。 (Tôi có thể đọc được chữ Hán.)
+            • (Hoặc: 私は 漢字を 読むことが できます。)
+        ▪ b) Dùng để chỉ tính khả thi. Ở đâu đó có thể xảy ra việc gì đó.
+            • Ví dụ: 銀行で お金が 換えられます。 (Có thể đổi tiền ở ngân hàng.)
+2. II. 見えます (nhìn thấy) và 聞こえます (nghe thấy) (phân biệt 2 động từ rất dễ nhầm lẫn)
+    ◦ Cách dùng: 「見えます」và 「聞こえます」là 2 động từ đặc biệt của 「見る」và 「聞く」. Hai động từ này chỉ khả năng của mắt, tai một cách tự nhiên. Được dùng khi hình ảnh hay âm thanh đập vào mắt, tai một cách tự nhiên, không liên quan đến khả năng của con người. Tân ngữ của chúng cũng đi với trợ từ [が].
+    ◦ Ví dụ:
+        ▪ ２階から 山が 見えます。 (Từ tầng 2 có thể nhìn thấy núi.)
+        ▪ ここから 波の音が 聞こえます。 (Từ đây có thể nghe thấy tiếng sóng biển.)
+    ◦ Chú ý: Phân biệt với 「見られます」và 「聞けます」. Hai động từ này mới chính là thể khả năng (theo đúng quy tắc và ý nghĩa) của 「見る」và 「聞く」. Thể hiện về khả năng, năng lực thực hiện hành động.
+    ◦ Ví dụ:
+        ▪ 忙 しいですから、テレビが 見られません。 (Vì bận nên tôi không thể xem được tivi.)
+        ▪ ラジオが ありませんから、音楽が 聞けません。 (Vì không có đài nên không thể nghe được nhạc.)
+3. III. ～まだ 「V khả năng」～ません (cách nói chưa thể làm được gì)
+    ◦ Ý nghĩa: Chưa thể (làm gì).
+    ◦ Cách dùng: Thể hiện 1 việc trong thời điểm nói thì chưa thể làm được nhưng sẽ cố gắng để sau này có thể thực hiện được.
+    ◦ Ví dụ:
+        ▪ 日本の歌が まだ 歌えません。 (Tôi chưa thể hát được bài hát Nhật.)
+        ▪ 日本語が まだ 上手に 話せません。 (Tôi chưa thể nói giỏi tiếng Nhật được.)
+4. IV. ～しか ～ません
+    ◦ Ý nghĩa: Chỉ.
+    ◦ Cách dùng: Thể hiện sự giới hạn trong thực hiện hành động. Động từ đi sau 「しか」luôn chia ở dạng phủ định. Loại câu này thuộc hình thức phủ định nhưng luôn mang nghĩa khẳng định (người Nhật dùng với ý khiêm tốn).
+    ◦ Chú ý: Trước đây chúng ta đã học 「だけ」với ý nghĩa là “chỉ”. Sự khác nhau cơ bản ở đây là: 「だけ」đi với câu dạng khẳng định. 「しか」đi với câu dạng phủ định. Ngoài ra, 「しか」có thể thay thế cho các trợ từ như 「が、を」.
+    ◦ Ví dụ:
+        ▪ わたしは ひらがなだけ 書け ます。 (Tôi chỉ có thể viết được chữ Hiragana.)
+        ▪ わたしは ひらがなしか 書け ません。 (Tôi chỉ có thể viết được chữ Hiragana.)
+        ▪ 彼は 英語しか 分かりません。 (Anh ấy chỉ biết tiếng Anh thôi.)
+5. V. N１は～が、N２は～ (cách nói 2 điều trái ngược nhau với 2 vế khác nhau)
+    ◦ Ý nghĩa: N1 thì ～, nhưng N2 thì ～.
+    ◦ Cách dùng: Dùng để thể hiện 2 điều trái ngược hoàn toàn, thường là về khả năng với ý nghĩa “cái này thì làm được, còn cái kia thì không làm được”. Khi đó, trợ từ được dùng ở đây là [は] thay cho [が]; còn trợ từ [が] ở giữa là để nối 2 vế với nghĩa là “nhưng”.
+    ◦ Ví dụ:
+        ▪ ひらがなは 書けますが、漢字は 書けません。 (Chữ Hiragana thì tôi có thể viết nhưng chữ Hán thì không thể.)
+        ▪ テニスは できますが、スキーは できません。 (Tenis thì tôi chơi được nhưng trượt tuyết thì không.)
+6. VI. N1 に N2 が できます
+    ◦ Ý nghĩa: Ở N1 có N2 được hoàn thành.
+    ◦ Cách dùng: Dùng để thể hiện sự hoàn thành của sự vật. Trợ từ cho danh từ chỉ nơi chốn trong mẫu câu này là [に].
+    ◦ Ví dụ:
+        ▪ 駅の前に 大きいスーパーが できました。 (Trước cửa nhà ga, một siêu thị lớn đã được xây xong.)
+        ▪ 大阪に 新 しい空港が できました。 (Ở Osaka một sân bay mới đã hoàn thành.)

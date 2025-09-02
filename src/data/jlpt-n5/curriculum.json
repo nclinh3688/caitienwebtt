@@ -57,7 +57,7 @@
       "units": [
         {
           "unit_number": 1,
-          "title": "Bài 1: Tự giới thiệu",
+          "title": "Bài 1",
           "lessons": [
             {
               "id": "B01-1",
@@ -234,4 +234,4 @@
       "peer_review": "Nhận xét chéo bài tập"
     }
   }
-} 
+}

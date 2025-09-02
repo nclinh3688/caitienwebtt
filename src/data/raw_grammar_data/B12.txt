@@ -1,0 +1,43 @@
+第１２課 (Bài 12)
+1. Các thì của câu kết thúc bởi danh từ và tính từ đuôi な
+    ◦ Hiện tại Khẳng định: N / な-adj + です. (Ví dụ: あめ です, しずか です)
+    ◦ Hiện tại Phủ định: N / な-adj + ではありません（じゃ）. (Ví dụ: あめ ではありません, しずか ではありません)
+    ◦ Quá khứ Khẳng định: N / な-adj + でした. (Ví dụ: あめ でした, しずか でした)
+    ◦ Quá khứ Phủ định: N / な-adj + ではありませんでした（じゃ）. (Ví dụ: あめ ではありませんでした, しずか ではありませんでした)
+    ◦ Ví dụ:
+        ▪ きのうは 雨でした。 (Hôm qua (đã) mưa.)
+        ▪ きのうの試験は 簡単ではありませんでした。 (Kỳ thi hôm qua (đã) không đơn giản.)
+2. Các thì của câu kết thúc bằng tính từ đuôi い
+    ◦ Hiện tại Khẳng định: い-adj + いです.
+    ◦ Hiện tại Phủ định: い-adj + くないです.
+    ◦ Quá khứ Khẳng định: い-adj + かったです.
+    ◦ Quá khứ Phủ định: い-adj + くなかったです.
+    ◦ Ví dụ:
+        ▪ おとといは 寒かったです。 (Hôm kia (đã) lạnh.)
+        ▪ おとといのパーティーは あまり楽しくなかったです。 (Bữa tiệc hôm kia (đã) không vui lắm.)
+3. N1 は N2 より Adj です。 (Cách nói so sánh hơn, kém)
+    ◦ Ý nghĩa: N1 ~ hơn N2.
+    ◦ Cách dùng: Đây là câu so sánh hơn. Trong đó, N1 được đưa ra so sánh với N2.
+    ◦ Ví dụ:
+        ▪ ひこうきは 自動車より はやいです。 (Máy bay nhanh hơn ô tô.)
+        ▪ 田中さんは 私 より 高いです。 (Anh Tanaka cao hơn tôi.)
+4. N1 と N2 と どちらが Adj ですか。 ...N1(N2)のほうが Adj です。 (Cách hỏi và nói so sánh hơn, kém giữa 2 vật)
+    ◦ Ý nghĩa: N1 và N2 cái nào ~ hơn? ...N1 (N2) ~ hơn.
+    ◦ Cách dùng: Luôn sử dụng từ để hỏi 「どちら」khi muốn so sánh giữa 2 vật hay người.
+    ◦ Ví dụ:
+        ▪ テニスとサッカーと どちらが おもしろいですか。 (Tennis và bóng đá cái nào thú vị hơn?)
+            • ...サッカーのほうが おもしろいです。 (… Bóng đá thú vị hơn.)
+        ▪ 春と秋と どちらが 好きですか。 (Mùa xuân và mùa thu bạn thích mùa nào hơn?)
+            • ...秋のほうが 好きです。 (… Tôi thích mùa thu hơn.)
+5. N [のなか] で なに／どこ／だれ／いつが いちばん Adj ですか。 / N1[のなか]で N2 が いちばん Adj です。 (Cách nói so sánh cao nhất)
+    ◦ Ý nghĩa: Trong phạm vi N1 thì N2 ~ nhất.
+    ◦ Cách dùng: Đây là câu so sánh cao nhất. Trong đó: N2 thuộc phạm vi của N1 và có tính chất [Adj] nhất trong phạm vi đó.
+    ◦ Ví dụ:
+        ▪ くだもののなかで、りんごが いちばん すきです。 (Trong các loại quả, tôi thích nhất táo.)
+        ▪ スポーツで サッカーが いちばん おもしろいです。 (Trong các môn thể thao, bóng đá thú vị nhất.)
+    ◦ Câu hỏi: N [のなか] で なに／どこ／だれ／いつが いちばん Adj ですか。 (Trong phạm vi N thì cái gì/nơi nào/ai/khi nào thì Adj nhất?).
+    ◦ Ví dụ:
+        ▪ 1 年で いつが いちばん 寒いですか。 (Trong 1 năm khi nào lạnh nhất?)
+            • ...2 月が いちばん 寒いです。 (… Tháng 2 lạnh nhất.)
+        ▪ クラスで だれが いちばん 若いですか。 (Trong lớp, ai trẻ nhất?)
+            • … An さん です。 (Bạn A (trẻ nhất).)

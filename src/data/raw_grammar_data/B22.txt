@@ -1,0 +1,26 @@
+第２２課 (Bài 22)
+1. ĐỊNH NGỮ (Các cách bổ nghĩa cho danh từ)
+    ◦ Đã học: Bổ nghĩa bằng đơn vị từ.
+        ▪ Ví dụ: ミラーさんの家 (Ngôi nhà của anh Miler - bài 2), 新しい家 (Ngôi nhà mới - bài 8), きれいな家 (Ngôi nhà đẹp - bài 8).
+    ◦ Bài này học: Bổ nghĩa bằng đơn vị câu với động từ (→ định ngữ).
+        ▪ Ví dụ: 行く人 (Người sẽ đi Kyoto), 京都へ 行かない人 (Người không đi Kyoto), 行った人 (Người đã đi Kyoto), 行かなかった人 (Người đã không đi Kyoto).
+2. Cách cấu thành định ngữ: Động từ dạng ngắn + DANH TỪ (bổ nghĩa danh từ bằng câu động từ)
+    ◦ Cách dùng: Các danh từ đóng vai trò là các yếu tố khác nhau trong câu có thể được chọn ra và bổ nghĩa bằng chính động từ của câu đó → định ngữ.
+    ◦ Ví dụ:
+        ▪ わたしは 先週 映画を 見ました。 → 私が 先週 見た映画 (Tuần trước tôi đã xem phim. → Bộ phim mà tuần trước tôi đã xem.)
+        ▪ ワンさんは 病院で 働 いています。 → ワンさんが 働 いている病院 (Ông Wang làm việc tại bệnh viện. → Bệnh viện nơi ông Wang làm việc.)
+        ▪ わたしは 明日 友達に 会います。 → 私が 明日 会う友達 (Ngày mai tôi sẽ gặp bạn tôi. → Người bạn mà ngày mai tôi sẽ gặp.)
+    ◦ Chú ý: Khi các danh từ được bổ nghĩa thì các trợ từ 「を, で, に」ở câu gốc sẽ không cần nữa.
+    ◦ Định ngữ (danh từ được bổ nghĩa bằng câu động từ) có thể ở nhiều vị trí trong câu, đóng vai trò nhiều thành phần của câu (như 1 danh từ bình thường).
+    ◦ Ví dụ: (Với định ngữ ミラーさんが 住んでいる家 - ngôi nhà ông Miler đang ở)
+        ▪ これは ミラーさんが 住んでいる家です。 (Đây là ngôi nhà ông Miller đang ở.)
+        ▪ ミラーさんが 住んでいる家は 古いです。 (Ngôi nhà ông Milller đang ở thật là cũ.)
+        ▪ ミラーさんが 住んでいる家を 買いました。 (Tôi đã mua căn nhà mà ông Miller đang ở.)
+        ▪ 私は ミラーさんが 住んでいる家が 好きです。 (Tôi thích căn nhà mà ông Miller đang ở.)
+        ▪ ミラーさんが 住んでいる家に 猫が いました。 (Đã có một con mèo ở ngôi nhà ông Miller đang ở.)
+        ▪ ミラーさんが 住んでいる家へ 行ったことが あります。 (Tôi đã từng đến ngôi nhà mà ông Miller đang ở.)
+3. N が (Chủ ngữ trong mệnh đề bổ nghĩa được xác định bởi が)
+    ◦ Cách dùng: Khi câu động từ bổ nghĩa cho 1 danh từ (tạo ra định ngữ) thì chủ ngữ (chủ thể của hành động) trong câu bổ nghĩa đó được xác định bởi trợ từ 「が」.
+    ◦ Ví dụ:
+        ▪ ミラーさんは ケーキを 作りました。 → これは ミラーさんが 作ったケーキです。 (Ông Miller đã làm bánh ngọt. → Đây là cái bánh ngọt ông Miller đã làm.)
+        ▪ カリナさんは 絵を 書きました。 → わたしは カリナさんが 書いた絵が 好きです。 (Chị Carina đã vẽ tranh. → Tôi thích bức tranh mà chị Carina đã vẽ.)

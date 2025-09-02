@@ -1,0 +1,76 @@
+{
+  "vietnameseTitle": "第５０課 (Bài 50)",
+  "japaneseTitle": "Dai Gojukkka",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "おＶします (Khiêm nhường ngữ)",
+      "meaning": "Khiêm nhường ngữ của động từ",
+      "vietnamese": {
+        "meaning": "Thể hiện sự nhún nhường, hạ mình của người nói.",
+        "usage": "Chỉ dùng khi hành động của người nói liên quan đến người nghe hoặc người được nhắc tới.",
+        "usagePoints": [
+          "Nhóm I & II: お + V(bỏ ます) + します",
+          "Nhóm III (danh động từ): ご + N + します"
+        ],
+        "note": "Không dùng với động từ 1 âm tiết."
+      },
+      "explanation": "Đây là công thức chung để tạo động từ khiêm nhường ngữ.",
+      "examples": [
+        { "japanese": "荷物をお持ちします。", "kanji": "荷物をお持ちします。", "vietnamese": "Tôi xin phép mang hành lý ạ.", "english": "I will carry your luggage." },
+        { "japanese": "江戸東京博物館へご案内します。", "kanji": "江戸東京博物館へご案内します。", "vietnamese": "Tôi xin hướng dẫn tới Nhà bảo tàng Edo Tokyo.", "english": "I will guide you to the Edo-Tokyo Museum." },
+        { "japanese": "今日の予定をご説明します。", "kanji": "今日の予定をご説明します。", "vietnamese": "Tôi xin giải thích về dự định của ngày hôm nay.", "english": "I will explain today's schedule." }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "Khiêm nhường ngữ đặc biệt",
+      "meaning": "Các động từ có dạng khiêm nhường riêng",
+      "vietnamese": {
+        "meaning": "Một số động từ có dạng khiêm nhường ngữ đặc biệt cần phải ghi nhớ.",
+        "usage": "",
+        "usagePoints": [
+          "いきます, きます → まいります",
+          "います → おります",
+          "たべます, のみます → いただきます",
+          "します → いたします",
+          "いいます → もうします",
+          "しっています → ぞんじております",
+          "みます → はいけんします"
+        ],
+        "note": ""
+      },
+      "explanation": "Một số động từ có hình thức khiêm nhường đặc biệt không theo quy tắc chung.",
+      "examples": [],
+      "notes": []
+    },
+    {
+      "id": "GP3",
+      "pattern": "Thể lịch sự (丁寧語)",
+      "meaning": "Cách nói lịch sự",
+      "vietnamese": {
+        "meaning": "Sử dụng khi người nói muốn bày tỏ sự kính trọng với người nghe.",
+        "usage": "",
+        "usagePoints": [
+          "ございます (lịch sự của あります)",
+          "～でございます (lịch sự của ～です)",
+          "よろしいでしょうか (lịch sự của いいですか)"
+        ],
+        "note": ""
+      },
+      "explanation": "Đây là những cách nói lịch sự, trang trọng thường dùng trong các tình huống giao tiếp công việc, dịch vụ.",
+      "examples": [
+        { "japanese": "電話は階段の横にございます。", "kanji": "電話は階段の横にございます。", "vietnamese": "Điện thoại có ở bên cạnh cầu thang ạ.", "english": "The telephone is next to the stairs." },
+        { "japanese": "はい、IMCでございます。", "kanji": "はい、IMCでございます。", "vietnamese": "Vâng, IMC xin nghe.", "english": "Yes, this is IMC speaking." },
+        { "japanese": "お飲み物は何がよろしいでしょうか。", "kanji": "お飲み物は何がよろしいでしょうか。", "vietnamese": "Ngài sẽ dùng đồ uống gì ạ?", "english": "What would you like to drink?" }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

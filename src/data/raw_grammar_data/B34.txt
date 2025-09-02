@@ -1,0 +1,48 @@
+第３４課 (Bài 34)
+1. Ｖ１体 -た とおりに、Ｖ２ / Ｎ の とおりに、Ｖ２ (Câu chỉ nguyên nhân, lý do)
+    ◦ Ý nghĩa: theo như…, theo đúng như….
+    ◦ Cách dùng: Dùng để diễn đạt ý nói làm gì đó (V2) theo như hoặc giống y như những gì mà mình nghe thấy, nhìn thấy, đọc được....(V1) hoặc theo như hướng dẫn trong 1 cuốn sách, 1 sự chỉ dẫn nào đó… (N).
+    ◦ Cấu trúc:
+        ▪ V1 thể -た とおりに、V2.
+        ▪ N の とおりに、V2.
+    ◦ Ví dụ: 9]
+2. V１た / Ｎの / Số từ あとで、Ｖ２ (Sau khi…)
+    ◦ Ý nghĩa: sau khi….
+    ◦ Cách dùng: Dùng để diễn tả tuần tự của các hành động. Tùy từng loại từ mà cách kết hợp sẽ khác nhau: (+) với động từ thì chia ở dạng –ta ; (+) với danh từ thì có 「の」; (+) với số từ thì ghép trực tiếp.
+    ◦ Cấu trúc:
+        ▪ V1た あとで、V2.
+        ▪ N の あとで、V2.
+        ▪ Số từ あとで、V2.
+    ◦ Ví dụ:
+        ▪ 新しいのを 買ったあとで、なくした時計が みつかりました。 (Sau khi mua đồng hồ mới, tôi đã tìm thấy chiếc đồng hồ cũ.)
+        ▪ 仕事のあとで、飲みに 行きませんか。 (Sau khi làm việc xong, mình đi uống cà phê nhé.)
+        ▪ ２週間 あとで、国へ 帰ります。 (2 tuần sau, tôi sẽ về nước.)
+    ◦ Chú ý:
+            1. Với mẫu câu này, ở vế 「～たあとで」động tư luôn chia ở thể 「～た」, không bị ảnh hưởng của thời điểm diễn ra.
+            2. Tổng hợp các cách kết hợp của 「まえに」、「あとで」、「から」.
+            3. Phân biệt sự khác nhau giữa 「～たあとで」và 「～てから」.
+3. V１て / V１ないで Ｖ２ (Làm V2 (trong trạng thái) V1)
+    ◦ Cách dùng: Động từ dạng 「～て」hoặc 「～ないで」có thể được dùng để diễn tả trạng thái, tình huống làm nền để 1 hành động khác xảy ra.
+    ◦ Ví dụ:
+        ▪ あの人は 立って、話しています。 (Người kia đang đứng nói chuyện.)
+        ▪ わたしは 座って、話しています。 (Tôi đang ngồi nói chuyện.)
+        ▪ ヘルメットをかぶって、運転します。 (Đội mũ lái xe (trong trạng thái đội mũ).)
+        ▪ めがねを かけて、本を 読みます。 (Đeo kính đọc sách (trong trạng thái đeo kính).)
+        ▪ めがねを かけないで、本を 読みます。 (Đọc sách mà không đeo kính.)
+        ▪ マニュアルを見ないで、機械を操作します。 (Thao tác máy mà không đọc sách hướng dẫn.)
+4. Ｖ １ないで、Ｖ２ (CHỌN 1 TRONG 2) (Làm V2 mà không làm V1)
+    ◦ Ý nghĩa: làm V2 mà không làm V1 (chọn 1 trong 2 hành động).
+    ◦ Cách dùng: Mẫu câu này được dùng khi người nói chỉ một hành động không diễn ra như dự đoán mà được thay thế bởi một hành động khác.    *   1. Cách chia:
+        ▪ a) Thể khẳng định:
+            • Động từ: Chuyển đuôi 「u」sang「e」+ -ba (động từ dạng –masu thì bỏ -masu và đổi đuôi –i thành –e + ba).
+                ◦ Ví dụ: 行く（いく） → いけば, 急ぐ（いそぐ） → いそげば, 頼む（たのむ） → たのめば, 呼ぶ（よぶ） → よべば, ある → あれば, 買う（かう） → かえば, 待つ（まつ） → まてば, 話す（はなす） → はなせば.
+            • Nhóm II: bỏ 「ru」+ -reba (động từ dạng –masu thì bỏ -masu và thêm –reba).
+                ◦ Ví dụ: 調べる（しらべる） → しらべれば, 変える（かえる） → かえれば, 見る（みる） → みれば, いる → いれば.
+            • Nhóm III: 来る（くる） → くれば, する → すれば.
+            • Tính từ đuôi i: Bỏ い thêm ければ. Ví dụ: やすい → やすければ, ちいさい → ちいさければ, いい → よければ.
+            • Tính từ đuôi na và danh từ: Tính từ đuôi na bỏ な thêm なら. Danh từ thêm なら.
+                ◦ Ví dụ: かんたん（な） → かんたんなら, しずか（な） → しずかなら, びょうき → びょうきなら, がくせい → がくせいなら.
+        ▪ b) Thể phủ định:
+            • Động từ: Chuyển từ động từ thể -nai và chia như 1 tính từ đuôi –i.
+            • Tính từ đuôi i: Chuyển sang thể phủ định (～くない) và chia như 1 tính từ đuôi –i.
+            • Tính từ đuôi na+ danh từ: Chuyển sang thể phủ định (～ではない／～じゃない) và chia như 1 tính từ đuôi –i.

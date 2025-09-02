@@ -1,0 +1,75 @@
+
+{
+  "vietnameseTitle": "第３７課 (Bài 37)",
+  "japaneseTitle": "",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "Động từ thể bị động (受身形)",
+      "meaning": "Bị/Được làm gì đó",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Dùng để diễn tả một hành động tác động lên chủ thể, trong đó chủ thể là người/vật 'bị' hoặc 'được' nhận hành động đó.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "**1. Cách chia:**",
+          "  • **Nhóm I:** Chuyển đuôi cột「い」sang cột「あ」và thêm「れます」. (例: かきます → かかれます)",
+          "  • **Nhóm II:** Bỏ「ます」thêm「られます」. (例: ほめます → ほめられます)",
+          "  • **Nhóm III:** します → されます, きます → こられます",
+          "**2. Cấu trúc câu:**",
+          "  • [Người/Vật bị tác động] は [Người tác động] に [Hành động bị động]."
+        ],
+        "note": "Lưu ý: Tất cả các động từ sau khi chuyển sang thể bị động đều trở thành động từ nhóm II."
+      },
+      "explanation": "Thể bị động được dùng khi muốn nói về một sự việc từ góc nhìn của người/vật chịu tác động của hành động. Người thực hiện hành động được đánh dấu bằng trợ từ 「に」.",
+      "examples": [
+        {
+          "japanese": "わたしは ぶちょうに ほめられました。",
+          "kanji": "私は 部長に ほめられました。",
+          "vietnamese": "Tôi đã được trưởng phòng khen.",
+          "english": "I was praised by the department manager."
+        },
+        {
+          "japanese": "わたしは だれかに あしを ふまれました。",
+          "kanji": "私は だれかに 足を 踏まれました。",
+          "vietnamese": "Tôi bị ai đó dẫm vào chân.",
+          "english": "Someone stepped on my foot."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "N1(người) によって N2 が V-bị động",
+      "meaning": "N2 được tạo ra/phát minh bởi N1",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Dùng trong câu bị động để chỉ người đã tạo ra hoặc phát minh ra một cái gì đó.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Dùng trợ từ 「によって」 thay cho 「に」 khi người thực hiện hành động là người tạo ra một tác phẩm, phát minh."
+        ],
+        "note": ""
+      },
+      "explanation": "Khi hành động bị động là một sự sáng tạo (viết sách, phát minh, xây dựng...), người ta dùng 「によって」 để chỉ tác giả hoặc người thực hiện.",
+      "examples": [
+        {
+          "japanese": "でんわは ベルによって はつめいされました。",
+          "kanji": "電話は ベルによって 発明されました。",
+          "vietnamese": "Điện thoại được phát minh bởi Bell.",
+          "english": "The telephone was invented by Bell."
+        },
+        {
+          "japanese": "このえは ゆうめいな がかによって かかれました。",
+          "kanji": "この絵は 有名な 画家によって 描かれました。",
+          "vietnamese": "Bức tranh này được vẽ bởi một họa sĩ nổi tiếng.",
+          "english": "This picture was painted by a famous artist."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

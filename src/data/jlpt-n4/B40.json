@@ -1,0 +1,71 @@
+{
+  "vietnameseTitle": "第４０課 (Bài 40)",
+  "japaneseTitle": "",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "[Câu nghi vấn có từ để hỏi] + か、～",
+      "meaning": "Lồng câu hỏi vào trong câu khác",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Dùng để lồng một câu hỏi có từ để hỏi (何, いつ, どこ, だれ, どうして...) vào trong một câu khác.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Câu hỏi được chuyển về thể thông thường và thêm 「か」 ở cuối.",
+          "• Toàn bộ cụm [Câu hỏi + か] đóng vai trò như một cụm danh từ."
+        ],
+        "note": ""
+      },
+      "explanation": "Mẫu câu này cho phép bạn trích dẫn một câu hỏi như một phần của câu trần thuật. Ví dụ, thay vì hỏi 'Bữa tiệc bắt đầu lúc mấy giờ?', bạn có thể nói 'Tôi không biết bữa tiệc bắt đầu lúc mấy giờ'.",
+      "examples": [
+        {
+          "japanese": "パーティーは いつ はじまるか、しっていますか。",
+          "kanji": "パーティーは いつ 始まるか、知っていますか。",
+          "vietnamese": "Bạn có biết bữa tiệc khi nào bắt đầu không?",
+          "english": "Do you know when the party starts?"
+        },
+        {
+          "japanese": "なにを いちばん たいせつに しなければならないか、かんがえてください。",
+          "kanji": "何を 一番 大切に しなければならないか、考えてください。",
+          "vietnamese": "Hãy suy nghĩ xem điều gì là phải coi trọng nhất.",
+          "english": "Please think about what you must value the most."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "[Câu nghi vấn Có/Không] + かどうか、～",
+      "meaning": "Có... hay không",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Dùng để lồng một câu hỏi dạng Có/Không vào trong một câu khác.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Câu hỏi được chuyển về thể thông thường và thêm 「かどうか」 ở cuối.",
+          "• 「かどうか」 có nghĩa là 'có... hay không'."
+        ],
+        "note": ""
+      },
+      "explanation": "Khi câu hỏi không có từ để hỏi (câu hỏi Yes/No), chúng ta dùng 「かどうか」 để lồng nó vào một câu khác. Nó thể hiện sự không chắc chắn về việc một điều gì đó có đúng hay không.",
+      "examples": [
+        {
+          "japanese": "そのはなしは ほんとうか どうか、わかりません。",
+          "kanji": "その話は 本当か どうか、分かりません。",
+          "vietnamese": "Tôi không biết câu chuyện đó có thật hay không.",
+          "english": "I don't know whether that story is true or not."
+        },
+        {
+          "japanese": "まちがいが ないか どうか、しらべてください。",
+          "kanji": "間違いが ないか どうか、調べてください。",
+          "vietnamese": "Hãy kiểm tra xem có lỗi sai nào không.",
+          "english": "Please check whether there are any mistakes."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

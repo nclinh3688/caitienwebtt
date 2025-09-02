@@ -1,0 +1,41 @@
+第４４課 (Dai Yonjūyon-ka)
+1. 「V、A、Nａ＋すぎます」 (Quá mức)
+* Ý nghĩa: (Cái gì đó) quá.
+* Cách dùng: Diễn đạt ý vượt quá một mức độ nào đó của động tác, tác dụng, trạng thái, tình trạng. Thường dùng trong trường hợp có ý xấu, nằm ngoài mong đợi.
+* Cách ghép:
+    * Động từ: Bỏ ます thêm すぎます.
+    * Tính từ đuôi い: Bỏ い thêm すぎます.
+    * Tính từ đuôi な: Bỏ な thêm すぎます.
+* Ví dụ:
+    * 昨日のお酒を飲みすぎました。(Tối qua, tôi đã uống quá nhiều rượu.)
+    * このシャツは大きすぎます。(Cái áo sơ mi này quá to.)
+    * 試験の問題は複雑すぎて、何もわかりませんでした。(Bài thi khó quá nên chả hiểu gì cả.)
+2. 「V ます＋やすいです／にくいです」 (Dễ/Khó làm)
+* Ý nghĩa: Dễ (làm gì) / khó (làm gì).
+* Cách dùng: Ghép tính từ với động từ để thể hiện mức độ khó hay dễ khi thực hiện hành động nào đó.
+* Cách chia: Bỏ ます của động từ thêm やすいです hoặc にくいです.
+* Ví dụ:
+    * この薬は飲みやすいです。(Thuốc này dễ uống.)
+    * 白いシャツは汚れやすいです。(Áo sơ mi trắng dễ bị bẩn.)
+    * 東京は住みにくいです。(Tokyo khó sống.)
+    * このコップは割れにくいです。(Cốc này khó bị vỡ.)
+* Lưu ý: Cả cụm mang tính chất của tính từ đuôi い.
+3. 「A い／Nａ／Ｎに します」 (Làm cho ~ trở thành)
+* Ý nghĩa: Làm cho ~ trở thành.
+* Cách dùng: Diễn tả việc làm thay đổi một cái gì đó sang một trạng thái khác, hoàn toàn do ý chí của người nói (khác với ～なります diễn tả sự thay đổi tự nhiên).
+* Cách ghép:
+    * Tính từ đuôi い: Bỏ い thêm くします.
+    * Tính từ đuôi な: Bỏ な thêm にします.
+    * Danh từ: Thêm にします.
+* Ví dụ:
+    * 音を大きくします。(Tôi vặn tiếng to hơn (làm cho to hơn).)
+    * 髪を短くします。(Tôi sẽ cắt tóc (làm cho tóc ngắn).)
+    * 部屋をきれいにします。(Tôi dọn cho phòng sạch hơn (làm cho phòng sạch).)
+4. 「Nに します」 (Chọn, Quyết định)
+* Ý nghĩa: Chọn, quyết định (làm).
+* Cách dùng: Biểu thị quyết định và lựa chọn có ý chí của con người.
+* Ví dụ:
+    * 会議は明日にします。(Để đến mai họp (quyết định dời buổi học sang ngày mai).)
+    * 晩ご飯は寿司にします。(Bữa tối tôi chọn sushi (chọn món sushi để ăn).)
+    * ホテルはどこにしますか。(Bạn chọn khách sạn nào?)
+    * …ハノイホテルにします。(Tôi chọn khách sạn Hà nội.)

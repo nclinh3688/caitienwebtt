@@ -1,0 +1,35 @@
+第３９課 (Bài 39)
+1. V て / V ないなくて / A  い A  くて / A な で (Câu chỉ nguyên nhân, lý do)
+    ◦ Cách dùng: Những thể văn ở trên được sử dụng để chỉ nguyên nhân, lý do. Trong mẫu câu này, mệnh đề trước của câu chỉ nguyên nhân và mệnh đề sau chỉ kết quả xảy ra bởi nguyên nhân đó. Khác với 「~から」mà chúng ta đã học ở bài 9, mẫu câu này có nhiều hạn chế.
+    ◦ 1.1 Mệnh đề sau thường là những từ không bao hàm ý chí, cụ thể:
+        ▪ Tính từ, động từ biểu hiện cảm xúc: びっくりする、安心する、困る、さびしい、残念だ....
+            • Ví dụ: ニュースを聞いて、びっくりしました。 (Tôi đã ngạc nhiên khi nghe tin.)
+            • 暑くて、寝られませんでした。 (Không thể ngủ được vì trời nóng.)
+        ▪ わからない và thể phủ định của động từ khả năng: いけない、のめない、食べられない....
+            • Ví dụ: 土曜日は 都合が悪くて、いけません。 (Tôi không thể đi được vì thứ 7 bận rồi.)
+            • 話が複雑で、あまりわかりませんでした。 (Tôi không hiểu lắm vì câu chuyện phức tạp.)
+        ▪ Tình huống trong quá khứ:.
+            • Ví dụ: じこがあって、バスが 遅れて7].
+        ▪ Ví dụ: あぶないですから、きかいに触らないで ください。(○) (Vì nguy hiểm, xin đừng sờ vào máy.)
+        ▪ あぶなくて、きかいに 触らないで ください。(×)
+    ◦ 1.3 Trong mẫu câu này, mệnh đề trước và mệnh đề sau của câu có sự liên hệ trước sau về mặt thời gian. Nghĩa là sự việc của mệnh đề trước có trước, sự việc của mệnh đề sau có sau.
+        ▪ Ví dụ: あした 会議が ありますから、今日 準備しなければ なりません。(○) (Vì ngày mai có cuộc họp nên hôm nay phải chuẩn bị.)
+        ▪ あした 会議が あって、今日 準備しなければなりません。(×)
+2. N で (Trợ từ で chỉ nguyên nhân)
+    ◦ 2.1. Trợ từ 「で」nhiều khi chỉ nguyên nhân, trong trường hợp này danh từ được sử dụng thường là các từ có đủ sức gây nên một kết quả nào đó như: じこ(tai nạn), じしん (động đất), かじ (hỏa hoạn)....
+    ◦ Ví dụ:
+        ▪ じこで 電車が とまりました。 (Tai nạn khiến xe điện ngừng chạy.)
+        ▪ ゆきで 新幹線が 遅れました。 (Tuyết rơi khiến tàu Shinkansen bị trễ.)
+    ◦ 2.2. Không sử dụng khi phần mệnh đề sau có hàm chứa chủ ý.
+        ▪ Ví dụ: 病 khách quan về liên hệ giữa nguyên nhân và kết quả theo diễn biến tự nhiên. Sử dụng 「～ので」để làm cho sự chủ quan của người nói nhẹ nhàng đi khiến người nghe không có cảm tưởng bị ép buộc, nó cũng thường được sử dụng để trình bày một cách nhẹ nhàng về lý do khi xin phép.
+    ◦ Ví dụ:
+        ▪ 気分が悪いので、先に 帰っても いいですか。 (Vì trong người cảm thấy khó chịu nên tôi có thể về trước được không ạ?)
+        ▪ バスが なかなか 来なかったので、大学に遅れました。 (Vì xe buýt mãi không đến nên tôi bị đi học muộn.)
+    ◦ Chú ý: Vì là sự biểu hiện nhẹ nhàng, mang tính khách quan nên không sử dụng thể mệnh lệnh, thể cấm đoán ở mệnh đề sau.
+    ◦ 3.3. Cách dùng: 「～ので」đi tiếp ngay sau danh từ, động từ, tính ở chia ở thể thường.
+        ▪ Cấu trúc:
+            • Động từ: Thể thông thường + sự.
+        ▪ Ví dụ: レポートを 書かなければなりませんので、今日は はやく 帰ります。 (Vì phải viết báo cáo, nên hôm nay tôi sẽ về sớm.)
+    ◦ 3.4. Phân biệt 気持ちがいい và 気分がいい.
+        ▪ 気持ちがいい: Được sử dụng khi người nói cảm thấy thoải mái, sảng khoái do sự kích thích ngoại cảnh. Ví dụ: 今日は天気がよくて、気持ちがいいです。 (Hôm nay trời đẹp khiến tôi cảm thấy sảng khoái.).
+        ▪ 気分がいい: Được sử dụng khi người nói cảm thấy thoải mái, sảng khoái từ nội tâm phát ra như sảng khoái về tâm lý, sinh lý. Ví dụ: 薬を飲んで、熱が下がったので、気分がいいです。 (Uống thuốc vào, cơn sốt giảm xuống khiến tôi cảm thấy khỏe.).

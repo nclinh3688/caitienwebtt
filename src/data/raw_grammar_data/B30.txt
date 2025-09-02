@@ -1,0 +1,43 @@
+第３０課 (Bài 30)
+1. V てあります / N１ に N２ が V てあります / N２は N１に V てあります (diễn tả trạng thái, kết quả hành động với tha động từ)
+    ◦ Ý nghĩa: Mẫu câu 「～てあります」dùng để diễn tả trạng thái của sự vật như là kết quả của hành động được ai đó thực hiện trước đó với mục đích hay ý đồ gì đó. Mẫu câu này thường sử dụng tha động từ, tức là những động từ chỉ động tác của con người.
+    ◦ Cách dùng:
+        ▪ 1.1. (diễn tả trạng thái, kết quả hành động: ở đâu có … cái gì)
+            • Cách dùng: Thể hiện trạng thái của đồ vật sau khi xảy ra 1 việc gì đó và hiện giờ (thời điểm nói) kết quả của việc đó vẫn còn tồn tại và người nói nhìn thấy được. Trong đó, đặt trọng tâm ý muốn nói ở hành động và mục đích thực hiện hành động đó.
+            • Ví dụ:
+                ◦ 壁に 地図が はってあります。 (Trên tường có dán bản đồ.)
+                ◦ 教室に テレビが 置いてあります。 (Trong lớp học có đặt tivi.)
+                ◦ これは 私 の本です。名前が書いてありますから。 (Đây là quyển sách của tôi. Vì có ghi tên mà.)
+        ▪ 1.2. (diễn tả trạng thái, kết quả hành động: cái gì thì… ở đâu)
+            • Cách dùng: Về ý nghĩa thì không khác gì mẫu câu trên nhưng trọng tâm ý muốn nói trong mẫu câu này là ở vị trí tồn tại của kết quả nói đến.
+            • Ví dụ:
+                ◦ A：地図は どこですか。 (Bản đồ ở đâu vậy?)
+                ◦ B：地図は 壁に 張ってあります。 (Bản đồ có dán ở trên tường.)
+                ◦ パスポートは 引き出しの中に しまってあります。 (Hộ chiếu được cất ở trong ngăn kéo.)
+        ▪ Chú ý: Cần phân biệt sự khác nhau giữa 「V てあります」và 「V ています」.
+            • 「V てあります」：Các động từ dùng trong mẫu câu này là tha động từ.
+            • 「V ています」：Các động từ dùng trong mẫu câu này là tự động từ.
+            • Ví dụ: 窓が閉まっています。 (Cửa sổ (đang) đóng.). 窓が閉めてあります。 (Cửa sổ (đang) được đóng.).
+2. V ておきます (1 mẫu câu mới với động từ dạng -te)
+    ◦ Ý nghĩa: (1) (làm gì) trước (để chuẩn bị); (2) (làm gì) tiếp theo (sau 1 hành động nào đó sẽ kết thúc); (3) (làm gì) giữ nguyên trạng thái ban đầu.
+    ◦ Cách dùng:
+        ▪ 2.1. Diễn tả 1 hành động cần làm trước để chuẩn bị cho 1 hành động khác xảy ra.
+            • Ví dụ: 旅行の まえに、切符を 買っておきます。 (Trước khi đi du lịch tôi sẽ mua vé trước.)
+            • パーティの まえに、部屋を 掃除しておきます。 (Trước bước tiệc, tôi sẽ dọn dẹp phòng trước.)
+            • パーティの まえに、料理を 作っておいたほうがいいです。 (Trước bước tiệc, bạn nên chuẩn bị các món ăn trước.)
+        ▪ 2.2. Diễn tả 1 hành động cần thiết phải làm sau khi 1 việc nào đó kết thúc.
+            • Ví dụ: 授業が 終わったら、電気を 消しておきます。 (Khi kết thúc giờ học thì sẽ tắt điện.)
+            • パーティーが 終わったら、部屋を 片付けておきます。 (Khi bữa tiệc kết thúc thì sẽ dọn phòng.)
+            • 練習が 終わったら、道具を 元の 所 に しまっておいてください。 (Khi buổi luyện tập kết thúc thì hãy cất đồ vào chỗ cũ nhé!.)
+        ▪ 2.3. Giữ nguyên trạng thái ban đầu..
+            • Ví dụ: まだ 使っていますから、そのままに しておいてください。 (Vì tôi còn đang dùng nên cứ để nguyen như thế nhé!)
+            • A：テレビを消してもいいですか。 (Tôi tắt tivi có được không?)
+            • B：もうすぐ ニュースの 時間ですから、つけておいてください。 (Vì sắp đến giờ thời sự rồi nên cứ để bật như thế.)
+3. まだ V ています／V ていません (cách diễn đạt 1 hành động vẫn đang tiếp diễn hoặc chưa hoàn thành)
+    ◦ Ý nghĩa: vẫn đang… / vẫn chưa….
+    ◦ Cách dùng: Diễn tả hành động hay trạng thái vẫn đang tiếp diễn thì dùng câu ở dạng khẳng định; còn diễn đạt ý vẫn chưa hoàn thành tại thời điểm hiện tại thì dùng câu phủ định.
+    ◦ Ví dụ:
+        ▪ まだ 雨が 降っています。 (Trời vẫn đang mưa.)
+        ▪ まだ 漢字を 覚えていません。 (Tôi vẫn chưa nhớ được chữ Hán.)
+        ▪ 彼は まだ 発 表 しています。 (Anh ấy vẫn đang phát biểu.)
+        ▪ 田中さんは まだ 来ていません。 (Anh Tanaka vẫn chưa đến.)

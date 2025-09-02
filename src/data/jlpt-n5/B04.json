@@ -21,219 +21,170 @@
   "grammarPatterns": [
     {
       "id": 1,
-      "pattern": "今 ～ 時 ～ 分 です",
-      "meaning": "Bây giờ là ~ giờ ~ phút",
-      "explanation": "「じ」đặt sau số đếm, dùng chỉ giờ. 「ふん（ぷん）」đặt sau số đếm, dùng chỉ phút.",
+      "pattern": "今 ～ 時 ふん／ぷん です",
+      "meaning": "Bây giờ là ~ giờ ~ phút.",
+      "explanation": "じ (ji): Đặt sau số đếm, dùng chỉ giờ. ふん（ぷん） (fun/pun): Đặt sau số đếm, dùng chỉ phút.",
       "examples": [
         {
           "japanese": "今 ８じです。",
-          "kanji": "今 ８時です。",
-          "vietnamese": "Bây giờ là 8 giờ.",
-          "english": "It's 8 o'clock now."
+          "vietnamese": "Bây giờ là 8 giờ."
         },
         {
-          "japanese": "とうきょうは 今 ９時３０分です。",
-          "kanji": "東京は 今 ９時３０分です。",
-          "vietnamese": "Tokyo bây giờ là 9 giờ 30 phút.",
-          "english": "It's 9:30 in Tokyo now."
-        },
-        {
-          "japanese": "いま９時半です。",
-          "kanji": "今９時半です。",
-          "vietnamese": "Bây giờ là 9 rưỡi.",
-          "english": "It's 9:30 now."
+          "japanese": "とうきょうは 今 ９時 ３０分 です。",
+          "vietnamese": "Tokyo bây giờ là 9 giờ 30 phút."
         }
       ],
-      "notes": "「～じはん」：Sử dụng khi nói giờ rưỡi. Câu hỏi: 今 なんじ（なんぷん）ですか。"
+      "notes": [
+        "Câu hỏi: 今 なんじ（なんぷん）ですか。 (Bây giờ là mấy giờ (mấy phút)?).",
+        "～じはん (ji-han): Sử dụng khi nói giờ rưỡi. Ví dụ: いま９時半 です。(Bây giờ là 9 rưỡi.)"
+      ]
     },
     {
       "id": 2,
-      "pattern": "N (danh từ chỉ ngày) は ～曜日 です",
-      "meaning": "N là thứ ~",
-      "explanation": "Cách nói thứ ngày tháng",
+      "pattern": "N (danh từ chỉ ngày) は ～曜日 です。",
+      "meaning": "N là thứ ~.",
+      "explanation": "Dùng để chỉ thứ của một ngày nào đó.",
       "examples": [
         {
           "japanese": "今日は 火曜日です。",
-          "kanji": "今日は 火曜日です。",
-          "vietnamese": "Hôm nay là thứ ba.",
-          "english": "Today is Tuesday."
+          "vietnamese": "Hôm nay là thứ ba."
         },
         {
-          "japanese": "明日は水曜日です",
-          "kanji": "明日は水曜日です",
-          "vietnamese": "Ngày mai là thứ tư.",
-          "english": "Tomorrow is Wednesday."
+          "japanese": "明日は水曜日です。",
+          "vietnamese": "Ngày mai là thứ tư."
         },
         {
           "japanese": "あさっては木曜日です。",
-          "kanji": "あさっては木曜日です。",
-          "vietnamese": "Ngày kia là thứ năm.",
-          "english": "The day after tomorrow is Thursday."
+          "vietnamese": "Ngày kia là thứ năm."
         }
       ],
-      "notes": "Câu hỏi: N (danh từ chỉ ngày) は 何曜日ですか。N là thứ mấy?"
+      "notes": [
+        "Câu hỏi: N (danh từ chỉ ngày) は 何曜日 ですか。 (N là thứ mấy?). Ví dụ: あさっては何曜日 ですか。(Ngày kia là thứ mấy?) … 土曜日 です。(Thứ bẩy.)"
+      ]
     },
     {
       "id": 3,
       "pattern": "V ます",
       "meaning": "Động từ dạng ます",
-      "explanation": "「～ます」là một dạng động từ, biểu thị thái độ lịch sự với người nghe, thể hiện một hành động ở thì hiện tại hoặc tương lai.",
+      "explanation": "～ます là một dạng động từ, biểu thị thái độ lịch sự với người nghe. Thể hiện một hành động ở thì hiện tại hoặc tương lai.",
       "examples": [
         {
           "japanese": "あしたはたらきます。",
-          "kanji": "明日働きます。",
-          "vietnamese": "Ngày mai tôi sẽ làm việc.",
-          "english": "I will work tomorrow."
+          "vietnamese": "Ngày mai tôi sẽ làm việc."
         },
         {
           "japanese": "まいばんべんきょうします。",
-          "kanji": "毎晩勉強します。",
-          "vietnamese": "Hàng ngày tôi đều học bài.",
-          "english": "I study every evening."
-        },
-        {
-          "japanese": "まいあさべんきょうします。",
-          "kanji": "毎朝勉強します。",
-          "vietnamese": "Hàng sáng tôi đều học bài.",
-          "english": "I study every morning."
+          "vietnamese": "Hàng ngày tôi đều học bài."
         }
       ],
-      "notes": "Đây là dạng động từ cơ bản trong tiếng Nhật, thể hiện sự lịch sự."
+      "notes": []
     },
     {
       "id": 4,
-      "pattern": "Cách chia thời của động từ",
-      "meaning": "Cách chia thể và thời của động từ",
-      "explanation": "Cách chia thể (khẳng định, phủ định) và thời (hiện tại, quá khứ, tương lai) của động từ dạng 「～ます」.",
+      "pattern": "V ます／V ません／V ました／V ませんでした",
+      "meaning": "Cách chia thời của động từ",
+      "explanation": "Bảng sau đây thể hiện cách chia thể (khẳng định, phủ định) và thời (hiện tại, quá khứ, tương lai) của động từ dạng ～ます。 Hiện tại/Tương lai: Khẳng định: ～ます, Phủ định: ～ません. Quá khứ: Khẳng định: ～ました, Phủ định: ～ませんでした.",
       "examples": [
         {
           "japanese": "まいあさべんきょうします。",
-          "kanji": "毎朝勉強します。",
-          "vietnamese": "Hàng ngày tôi đều học bài.",
-          "english": "I study every morning."
+          "vietnamese": "Hàng ngày tôi đều học bài."
         },
         {
           "japanese": "あしたべんきょうしません。",
-          "kanji": "明日勉強しません。",
-          "vietnamese": "Ngày mai tôi sẽ không học bài.",
-          "english": "I will not study tomorrow."
+          "vietnamese": "Ngày mai tôi sẽ không học bài."
         },
         {
           "japanese": "きのうべんきょうしました。",
-          "kanji": "昨日勉強しました。",
-          "vietnamese": "Hôm qua tôi đã học bài.",
-          "english": "I studied yesterday."
+          "vietnamese": "Hôm qua tôi đã học bài."
+        },
+        {
+          "japanese": "おとといべんきょうしませんでした。",
+          "vietnamese": "Hôm kia tôi đã không học bài."
         }
       ],
-      "notes": "Hiện tại/Tương lai Khẳng định: ます, Phủ định: ません, Quá khứ Khẳng định: ました, Phủ định: ませんでした"
+      "notes": []
     },
     {
       "id": 5,
       "pattern": "N (chỉ thời gian) に＋V ます",
-      "meaning": "Làm gì vào lúc nào",
-      "explanation": "Để chỉ thời điểm tiến hành một hành động ta thêm trợ từ 「に」sau danh từ chỉ thời gian.",
+      "meaning": "Làm gì vào lúc nào.",
+      "explanation": "Để chỉ thời điểm tiến hành một hành động ta thêm trợ từ に sau danh từ chỉ thời gian.",
       "examples": [
         {
           "japanese": "わたしはまいあさ 6 時におきます。",
-          "kanji": "私は毎朝 6 時に起きます。",
-          "vietnamese": "Hàng sáng tôi dậy lúc 6 giờ.",
-          "english": "I wake up at 6 o'clock every morning."
+          "vietnamese": "Hàng sáng tôi dậy lúc 6 giờ."
         },
         {
           "japanese": "きのうの 7 時に ねました。",
-          "kanji": "昨日の 7 時に 寝ました。",
-          "vietnamese": "Hôm qua tôi ngủ lúc 7 giờ.",
-          "english": "I went to bed at 7 o'clock yesterday."
+          "vietnamese": "Hôm qua tôi ngủ lúc 7 giờ."
         },
         {
           "japanese": "あしたにはたらきます。",
-          "kanji": "明日働きます。",
-          "vietnamese": "Ngày mai tôi sẽ làm việc.",
-          "english": "I will work tomorrow."
+          "vietnamese": "Ngày mai tôi sẽ làm việc."
         }
       ],
-      "notes": "Nếu thời gian không biểu hiện bằng những con số thì không thêm 「に」. Sau danh từ là các thứ trong tuần ta có thể có 「に」hay không đều được."
+      "notes": [
+        "Nếu thời gian không biểu hiện bằng những con số thì không thêm に.",
+        "Tuy nhiên, sau danh từ là các thứ trong tuần ta có thể có に hay không đều được. Ví dụ: 日曜日（に）べんきょうしません。(Chủ nhật tôi thường không học bài.)"
+      ]
     },
     {
       "id": 6,
       "pattern": "～から～まで",
-      "meaning": "Từ ~ đến ~",
-      "explanation": "Trợ từ 「から」biểu thị điểm bắt đầu của thời gian hay nơi chốn, trợ từ 「まで」biểu thị điểm kết thúc của thời gian hay nơi chốn.",
+      "meaning": "Từ ~ đến ~.",
+      "explanation": "Trợ từ から (kara) biểu thị điểm bắt đầu của thời gian hay nơi chốn. Trợ từ まで (made) biểu thị điểm kết thúc của thời gian hay nơi chốn.",
       "examples": [
         {
           "japanese": "８時半から 5 時半まではたらきます。",
-          "kanji": "８時半から 5 時半まで働きます。",
-          "vietnamese": "Tôi làm việc từ 8 rưỡi đến 5 rưỡi.",
-          "english": "I work from 8:30 to 5:30."
+          "vietnamese": "Tôi làm việc từ 8 rưỡi đến 5 rưỡi."
         },
         {
           "japanese": "９時から べんきょうします。",
-          "kanji": "９時から 勉強します。",
-          "vietnamese": "Tôi học từ 9 giờ.",
-          "english": "I study from 9 o'clock."
+          "vietnamese": "Tôi học từ 9 giờ."
         },
         {
           "japanese": "５時まで べんきょうします。",
-          "kanji": "５時まで 勉強します。",
-          "vietnamese": "Tôi học đến 5 giờ.",
-          "english": "I study until 5 o'clock."
+          "vietnamese": "Tôi học đến 5 giờ."
         }
       ],
-      "notes": "「から」và 「まで」không nhất thiết phải sử dụng cùng nhau. Ta có thể sử dụng 「です」ngay sau 「～から」、「～まで」hay 「～から～まで」."
+      "notes": [
+        "から và まで không nhất thiết phải sử dụng cùng nhau.",
+        "Không giống như に phải có động từ đi sau, ta có thể sử dụng です ngay sau～から、～まで hay ～から～まで。Ví dụ: こうぎは ８時半から１１時半までです。(Bài giảng sẽ từ 8 rưỡi đến 11 rưỡi.) 日本語のべんきょうは ８時から４時までです。(Học tiếng Nhật từ 8 giờ đến 4 giờ.)"
+      ]
     },
     {
       "id": 7,
       "pattern": "N1 と N2",
-      "meaning": "N1 và, với, cùng với N2",
-      "explanation": "Trợ từ 「と」dùng để nối 2 danh từ.",
+      "meaning": "N1 và, với, cùng với N2.",
+      "explanation": "Trợ từ と (to) dùng để nối 2 danh từ.",
       "examples": [
         {
           "japanese": "ぎんこうの休みは 土曜日と日曜日です。",
-          "kanji": "銀行の休みは 土曜日と日曜日です。",
-          "vietnamese": "Buổi nghỉ của ngân hàng là thứ 7 và CN.",
-          "english": "The bank's holidays are Saturday and Sunday."
-        },
-        {
-          "japanese": "わたしは さかなと たまごを たべます。",
-          "kanji": "私は 魚と 卵を 食べます。",
-          "vietnamese": "Tôi ăn cá và trứng.",
-          "english": "I eat fish and eggs."
-        },
-        {
-          "japanese": "ともだちと 大学へ きます。",
-          "kanji": "友達と 大学へ 来ます。",
-          "vietnamese": "Tôi đến trường cùng với bạn.",
-          "english": "I come to university with my friend."
+          "vietnamese": "Buổi nghỉ của ngân hàng là thứ 7 và CN."
         }
       ],
-      "notes": "「と」có ý nghĩa xác định đối tượng cùng tham gia hành động, có thể dịch tiếng Việt là \"cùng, với, cùng với\"."
+      "notes": []
     },
     {
       "id": 8,
-      "pattern": "～ね",
-      "meaning": "Đặt ở cuối câu",
-      "explanation": "「ね」được đặt ở cuối câu để truyền đạt cho người nghe tình cảm của mình hoặc kỳ vọng người nghe đồng ý với những gì mình nói.",
+      "pattern": "(câu văn) ～ね",
+      "meaning": "Dùng ở cuối câu để truyền đạt tình cảm",
+      "explanation": "ね (ne) được đặt ở cuối câu để truyền đạt cho người nghe tình cảm của mình hoặc kỳ vọng người nghe đồng ý với những gì mình nói. ね sẽ được phát âm dài và giọng xuống thấp.",
       "examples": [
         {
-          "japanese": "何時から何時まで はたらきますか。",
-          "kanji": "何時から何時まで 働きますか。",
-          "vietnamese": "Bạn làm việc từ mấy giờ đến mấy giờ?",
-          "english": "What time do you work from and until?"
+          "japanese": "A: 何時から何時まで はたらきますか。",
+          "vietnamese": "A: Bạn làm việc từ mấy giờ đến mấy giờ?"
         },
         {
-          "japanese": "７じはんから５じはんまでです。",
-          "kanji": "７時半から５時半までです。",
-          "vietnamese": "Từ 7 rưỡi đến 5 rưỡi.",
-          "english": "From 7:30 to 5:30."
+          "japanese": "B: ７じはんから５じはんまでです。",
+          "vietnamese": "B: Từ 7 rưỡi đến 5 rưỡi."
         },
         {
-          "japanese": "たいへんですね。",
-          "kanji": "大変ですね。",
-          "vietnamese": "Bạn vất vả nhỉ!",
-          "english": "That must be tough!"
+          "japanese": "A: たいへんですね。",
+          "vietnamese": "A: Bạn vất vả nhỉ!"
         }
       ],
-      "notes": "「ね」sẽ được phát âm dài và giọng xuống thấp."
+      "notes": []
     }
   ],
   "exercises": [

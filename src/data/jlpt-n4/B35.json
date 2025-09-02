@@ -1,0 +1,72 @@
+{
+  "vietnameseTitle": "第３５課 (Bài 35)",
+  "japaneseTitle": "",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "～でしょう",
+      "meaning": "Chắc là... / Có lẽ... (Suy đoán với độ chắc chắn cao)",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Dùng để diễn tả sự suy đoán của người nói dựa trên thông tin có được. Mức độ chắc chắn khá cao.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ/Tính từ-い (thể thông thường) + でしょう。",
+          "• Tính từ-な/Danh từ (bỏ だ) + でしょう。",
+          "• Thường đi kèm với các phó từ như 「たぶん」 (chắc là), 「きっと」 (chắc chắn)."
+        ],
+        "note": "Lưu ý: Khi lên giọng ở cuối câu (でしょう？), nó được dùng để xác nhận sự đồng tình của người nghe. 「だろう」 là thể thông thường của 「でしょう」."
+      },
+      "explanation": "「でしょう」 được dùng khi người nói đưa ra một phán đoán với độ tin cậy tương đối cao. Nó thường được dùng trong các bối cảnh như dự báo thời tiết hoặc khi nói về một điều gì đó có khả năng xảy ra cao.",
+      "examples": [
+        {
+          "japanese": "あしたは あめが ふるでしょう。",
+          "kanji": "明日は 雨が 降るでしょう。",
+          "vietnamese": "Ngày mai chắc trời sẽ mưa.",
+          "english": "It will probably rain tomorrow."
+        },
+        {
+          "japanese": "かれは ごうかくするでしょう。",
+          "kanji": "彼は 合格するでしょう。",
+          "vietnamese": "Anh ấy chắc sẽ đỗ thôi.",
+          "english": "He will probably pass."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "～かもしれません",
+      "meaning": "Có lẽ là... / Có thể là... (Suy đoán với độ chắc chắn thấp)",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Dùng để diễn tả một khả năng hoặc một sự suy đoán của người nói, nhưng với mức độ chắc chắn thấp hơn 「でしょう」.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ/Tính từ-い (thể thông thường) + かもしれません。",
+          "• Tính từ-な/Danh từ (bỏ だ) + かもしれません。"
+        ],
+        "note": "Lưu ý: Mẫu câu này chỉ đơn thuần nêu ra một khả năng, không mang tính khẳng định mạnh."
+      },
+      "explanation": "「かもしれません」 (có thể được rút gọn thành 「かもしれない」 trong văn nói thân mật) được dùng khi bạn muốn nói về một khả năng có thể xảy ra, tương đương với 'maybe' hoặc 'perhaps' trong tiếng Anh. Nó thể hiện sự không chắc chắn của người nói.",
+      "examples": [
+        {
+          "japanese": "ごごから ゆきが ふるかもしれません。",
+          "kanji": "午後から 雪が 降るかもしれません。",
+          "vietnamese": "Có thể tuyết sẽ rơi vào buổi chiều.",
+          "english": "It might snow in the afternoon."
+        },
+        {
+          "japanese": "やくそくの じかんに まにあわないかもしれません。",
+          "kanji": "約束の 時間に 間に合わないかもしれません。",
+          "vietnamese": "Có lẽ sẽ không kịp giờ hẹn mất.",
+          "english": "I might not make it in time for the appointment."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

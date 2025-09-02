@@ -1,0 +1,35 @@
+第１５課 (Bài 15)
+1. V てもいいです (Cách nói ý cho phép làm gì, làm gì thì được)
+    ◦ Ý nghĩa: Có thể làm ~, được phép làm ~, làm ~ cũng được.
+    ◦ Cấu tạo: Động từ thể て thêm もいいです.
+    ◦ Cách dùng: Mẫu câu này ám chỉ một sự cho phép làm gì đó.
+    ◦ Ví dụ:
+        ▪ その部屋でタバコを吸ってもいいです。 (Được phép hút thuốc ở phòng đó.)
+    ◦ Chú ý: Thể nghi vấn của mẫu câu này được sử dụng như một câu xin phép làm gì đó.
+    ◦ Ví dụ:
+        ▪ ここで 写真を撮ってもいいですか。 (Tôi chụp ảnh ở đây có được không?)
+            • ...ええ、いいです。 (… Vâng, được.)
+        ▪ タバコを 吸ってもいいですか。 (Tôi hút thuốc có được không?)
+            • ...すみません。いけません。 (… Xin lỗi. Không được.)
+2. V ては いけません (Cách nói ý cấm đoán, không được làm gì)
+    ◦ Ý nghĩa: Không được làm ~.
+    ◦ Cấu tạo: Động từ thể て thêm はいけません.
+    ◦ Cách dùng: Mẫu câu này sử dụng khi muốn nói ý không được phép làm gì.
+    ◦ Ví dụ:
+        ▪ ここでタバコを吸ってはいけません。 (Không được hút thuốc ở đây.)
+        ▪ ここで 写真を撮ってもいいですか。 (Tôi chụp ảnh ở đây được không?)
+            • ...いいえ、いけません。 (… Không, không được.)
+3. V ています (Cách nói và ý nghĩa khác của động từ dạng tiếp diễn)
+    ◦ Cách dùng (1): Ngoài cách dùng đã được nói đến trong bài 14 thì mẫu câu này còn thể hiện ý một hành động nào đó đã diễn ra trong quá khứ và hiện tại vẫn còn tiếp diễn, kết quả của nó vẫn hiển hiện trong hiện tại và tương lai.
+        ▪ Một số động từ luôn chia ở thể tiếp diễn mặc dù hành động đã thực hiện trong quá khứ: 知っています、住んでいます、結婚しています、持っています.
+    ◦ Ví dụ:
+        ▪ 私は 結婚しています。 (Tôi đã kết hôn (đã, và đang có gia đình).)
+        ▪ 私は 鈴木さんを 知っています。 (Tôi biết cô Suzuki (đã và đang biết).)
+        ▪ 私は カメラを 持っています。 (Tôi có máy ảnh (đã và đang có).)
+        ▪ 私は ハノイに 住んでいます。 (Tôi sống ở Hà Nội (đã, đang và sẽ).)
+    ◦ Chú ý: 「持っています」ở đây mang nghĩa sở hữu.
+    ◦ Cách dùng (2): Thể tiếp diễn còn được sử dụng để biểu thị những tập quán, thói quen, những hành động được lặp đi lặp lại trong thời gian dài.
+    ◦ Ví dụ:
+        ▪ FPT は コンピューターソフトを作っています。 (FPT sản xuất phần mềm máy tính.)
+        ▪ 私は CMC で 働 いています。 (Tôi làm việc ở CMC.)
+        ▪ 私は FPT 大学で 勉強しています。 (Tôi học ở trường đại học FPT.)

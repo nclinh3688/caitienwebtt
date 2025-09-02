@@ -1,0 +1,154 @@
+### 第２課 (Bài 2)
+
+1. **Các từ chỉ thị: これ／それ／あれ は N です**
+
+* **Ý nghĩa**: Cái này/cái đó/cái kia là N.
+
+* **Cách dùng**: Đây là các danh từ chỉ thị. Được sử dụng như một danh từ. Không có danh từ đi liền sau chúng.
+
+* **これ** dùng để chỉ vật ở gần người nói, xa người nghe (trong phạm vi người nói).
+
+* **それ** dùng để chỉ vật ở gần người nghe, xa người nói (trong phạm vi người nghe).
+
+* **あれ** dùng để chỉ vật ở xa cả hai người.
+
+* **Ví dụ**:
+
+* これは 本ですか。 (Đây là quyển sách à?)
+
+* …いいえ、それはノートです。 (… Không, đó là quyển vở.)
+
+* あれは じどうしゃです。 (Kia là cái ô tô.)
+
+
+
+2. **この N／その N／あの N**
+
+* **Ý nghĩa**: Cái N này / đó / kia.
+
+* **Cách dùng**: 「この」、「その」、「あの」là các từ chỉ thị bổ nghĩa cho danh từ. Về tương quan khoảng cách thì giống với 「これ」、「それ」、「あれ」nhưng khác về cách sử dụng vì luôn phải có danh từ đi liền đằng sau.
+
+* **この N** dùng để chỉ vật hoặc người ở gần người nói, xa người nghe.
+
+* **その N** dùng để chỉ vật hay người ở gần người nghe, xa người nói.
+
+* **あの N** dùng để chỉ vật hay người ở xa cả hai người.
+
+* **Ví dụ**:
+
+* あの人は 山田さんです。 (Người kia là anh Yamada.)
+
+* **Chú ý**: Khi một vật ở gần cả hai người thì cả hai người đều có thể dùng 「これ」hay 「この」.
+
+
+
+3. **Câu hỏi với từ để hỏi なん**
+
+* **Ý nghĩa**: N là cái gì?.
+
+* **Chú ý**: 「なん」là từ để hỏi dùng cho vật,「だれ」là từ để hỏi dùng cho người.
+
+* **Ví dụ**:
+
+* これは なんですか。 (Đây là cái gì?)
+
+* …それは いすです。 (… Đó là cái ghế.)
+
+* このひとはだれですか。 (Người này là ai?)
+
+* …そのひとは 田中さんです。 (… Người đó là anh Tanaka.)
+
+
+
+4. **そうです／そうではありません**
+
+* **Cách dùng**: 「そう」được sử dụng để trả lời câu hỏi nghi vấn mà tận cùng là danh từ.
+
+* Trong câu khẳng định dùng: はい、そうです。(Vâng, đúng vậy.)
+
+* Trong câu phủ định dùng: いいえ、そうでは（じゃ）ありません。(Không, không phải thế.)
+
+* **Chú ý**: Trong trường hợp câu nghi vấn mà tận cùng là động từ hay tính từ thì không sử dụng 「そうです」hay 「そうではありません」để trả lời.
+
+* **Ví dụ**:
+
+* これは えんぴつですか。 (Đây là cái bút chì phải không?)
+
+* …はい、えんぴつです。 (…Vâng, đó là cái bút chì.)
+
+* Hoặc …はい、そうです。 (…Vâng, đúng vậy.)
+
+* それは テレホンカードですか。 (Đó là cái thẻ điện thoại phải không?)
+
+* …いいえ、テレホンカードではありません。 (…Không, không phải cái thẻ điện thoại.)
+
+* Hoặc …いいえ、そうではありません。 (…Không, không phải thế.)
+
+
+
+5. **N1 ですか、N2 ですか**
+
+* **Ý nghĩa**: N1 hay là N2?.
+
+* **Cách dùng**: Đây là loại câu hỏi lựa chọn, được cấu tạo bởi hai câu đơn, dùng khi phân vân, không biết rõ đối tượng là cái gì (có thể vì hình dạng khá giống nhau). Mỗi mệnh đề trước chữ 「か」đều là một câu hỏi về cùng 1 đối tượng.
+
+* **Ví dụ**:
+
+* それは ボールペンですか,シャープペンシルですか。(Đó là cái bút bi hay là bút chì kim?)
+
+* …ボールペンです。 (…Là cái bút bi.)
+
+* **Chú ý**: Khi trả lời câu hỏi này không dùng 「はい」hay 「いいえ」.
+
+
+
+6. **N1 の N2 (tiếp)**
+
+* **Ý nghĩa**: N2 của N1.
+
+* **Cách dùng**: Ở bài trước, N1 là một tổ chức mà N2 thuộc vào đó. Ở bài này, trợ từ 「の」có ý nghĩa chỉ sự sở hữu. N2 thuộc sở hữu của N1.
+
+* **Ví dụ**:
+
+* これは わたしの ほんです。 (Đây là quyển sách của tôi.)
+
+* **Chú ý**:
+
+* N2 đôi khi được lược bỏ khi đã được nhắc đến trước đó hay đã rõ nghĩa.
+
+* Khi N2 là một từ chỉ người thì không được bỏ.
+
+* **Ví dụ lược bỏ N2**:
+
+* あれは だれのかばんですか。 (Kia là cái cặp của ai?)
+
+* … わたしのです。 (… Là của tôi.)
+
+* そのつくえは ラオさんのですか。 (Cái bàn đó là của Rao phải không?)
+
+* … いいえ、ラオさんのではありません。 (… Không, không phải của Rao.)
+
+* **Ví dụ không lược bỏ N2 (khi N2 là người)**:
+
+* ミラーさんは IMC のしゃいんですか。 (Mira là nhân viên công ty IMC phải không?)
+
+* … はい、IMC のしゃいんです。 (… Vâng, (anh ấy) là nhân viên công ty IMC.)
+
+* (Không dùng : IMC のです)
+
+
+
+7. **そうですか**
+
+* **Ý nghĩa**: Ra vậy.
+
+* **Cách dùng**: Sử dụng khi người nói nhận được thông tin mới và thể hiện rằng đã hiểu về nó.
+
+* **Ví dụ**:
+
+* A: このかさは あなたのですか。 (Cái ô này là của bạn à?)
+
+* B: いいえ、タンさんのです。 (…Không, của anh Tân.)
+
+* A: そうですか。 (À, ra vậy.)
+

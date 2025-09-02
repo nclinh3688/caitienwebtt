@@ -1,0 +1,64 @@
+第２０課 (Bài 20)
+1. Thể văn thông thường và thể văn lịch sự
+    ◦ Thể lịch sự: là cách nói mà kết thúc câu luôn là –desu (với tính từ, danh từ) và –masu (với động từ) và các dạng phái sinh của nó (-deshita, -dewa arimasen, -masen, -mashita).
+    ◦ Thể thông thường: là cách nói không có –desu hay –masu. Dùng luôn dạng cơ bản, dạng gốc và các dạng phái sinh dạng ngắn của các loại từ đó.
+    ◦ Cách dùng (Phân biệt trường hợp sử dụng):
+        ▪ Thể lịch sự: Người lớn tuổi, người gặp lần đầu tiên, cấp trên, mình là nhân viên mới, trong các sự kiện nghiêm túc (họp hành, phát biểu…).
+        ▪ Thể thông thường: Người kém tuổi, người ngang tuổi, bạn thân, người trong gia đình.
+    ◦ Chú ý:
+        ▪ (1) Trong trường hợp từ ① đến ⑤ mà sử dụng thể thông thường thì bị coi là thất lễ.
+        ▪ (2) Người Nhật đối với người nước ngoài hay nhân viên lâu năm khi chỉ đạo, hướng dẫn nhân viên mới để thể hiện sự thân mật tùy thuộc vào ý đồ vẫn có thể sử dụng được thể thông thường.
+        ▪ (3) Từ a~d, cũng tùy thuộc vào trường hợp vẫn có thể sử dụng thể lịch sự.
+2. a. Thể văn lịch sự và thông thường của động từ, tính từ, danh từ
+    ◦ Động từ:
+        ▪ かきます (masu) → かく (thể từ điển)
+        ▪ かきません (masen) → かかない (thể ない)
+        ▪ かきました (mashita) → かいた (thể た)
+        ▪ かきませんでした (masen deshita) → かかなかった (thể ない quá khứ)
+    ◦ Tính từ -i:
+        ▪ あついです → あつい (bỏ です)
+        ▪ あつくないです → あつくない
+        ▪ あつかったです → あつかった
+        ▪ あつくなかったです → あつくなかった
+    ◦ Tính từ -na / Danh từ:
+        ▪ ひまです → ひまだ
+        ▪ ひまではありません → ひまではない
+        ▪ ひまでした → ひまだった
+        ▪ ひまではありませんでした → ひまではなかった b. Thể văn lịch sự và thông thường của các nhóm từ ngữ theo sau
+    ◦ 飲みたいです → 飲みたい (Muốn uống - Bài 13)
+    ◦ 飲みに 行きます → 飲みに 行く (Đi uống)
+    ◦ 書いてください → 書いて (Xin hãy viết - Bài 14)
+    ◦ 書いています → 書いている (Đang viết)
+    ◦ 書いても いいです → 書いても いい (Có thể viết - Bài 15)
+    ◦ 書かなくてもいいです → 書かなくても いい (Không cần phải viết)
+    ◦ 書いてあげます → 書いてあげる (Sẽ viết giúp cho - Bài 24)
+    ◦ 書いてもらいます → 書いてもらう (Nhờ viết giúp)
+    ◦ 書いてくれます → 書いてくれる (Viết giúp đi)
+    ◦ 行かなければなりません → 行かなければならない (Phải đi - Bài 17)
+    ◦ 食べることが できます → 食べることが できる (Có thể ăn - Bài 18)
+    ◦ 食べることです → 食べることだ ((là) để ăn)
+    ◦ 読んだことがあります → 読んだことがある (Có đọc - Bài 19)
+    ◦ 読んだり、書いたりします → 読んだり、書いたりする (Đọc, viết và…)
+    ◦ Chú ý: Khi đổi những câu được nối với nhau bằng 「から」hay 「が、けど」 (thường sử dụng trong hội thoại) thành thể văn thông thường thì tất cả các từ lịch sự trong câu phải được đổi sang thể thông thường.
+        ▪ Ví dụ: おなかが 痛いですから、病院へ行きます。→ おなかが 痛いから、病院へいく。 (Vì đau bụng nên đi bệnh viện.)
+        ▪ 日本の食べ物は おいしいですが、高いです。→ 日本の食べ物は おいしいが、高い。 (Đồ ăn Nhật ngon nhưng đắt.)
+3. Câu nghi vấn ở thể văn thông thường
+    ◦ Cách dùng: Bỏ trợ từ chỉ sự nghi vấn là 「か」ở cuối câu, thay vào đó đọc cao giọng chữ ở cuối câu để biểu thị sự nghi vấn.
+    ◦ Ví dụ:
+        ▪ コーヒーを 飲む？ (Uống cà phê không?)
+            • …うん、飲む (… Ừ, uống.)
+    ◦ Chú ý: Cũng có những câu nghi vấn ở thể văn thông thường mà không bỏ chữ 「か」ở sau như: 飲むか、見たか…, nhưng chỉ được sử dụng giới hạn trong phạm vi nam giới khi người trên hỏi người dưới hoặc những người quá thân nhau (như cha hỏi con trai).
+    ◦ Đối với câu nghi vấn danh từ hay tính từ thì chữ 「だ」thể thông thường của 「です」được giản lược.
+        ▪ Ví dụ: 今晩 暇？ (Tối nay rảnh không?)
+            • …うん、暇（だよ） (… Ừ, rảnh.)
+            • …ううん、暇ではない。 (… Không, không rảnh.)
+            • …ううん、暇じゃない。 (… Không, không rảnh.) (→ Khi đàm thoại thường dùng じゃない).
+    ◦ Trợ từ trong câu nghi vấn ở thể văn thông văn cũng thường được lược bỏ.
+        ▪ Ví dụ: ご飯「を」食べる？ (Ăn cơm không?), 明日 京都「へ」行かない？ (Ngày mai không đi Kyoto à?), このりんご「は」おいしいですね。 (Quả táo này ngon nhỉ.), そこに はさみ「が」ある？ (Có kéo ở đó không?).
+    ◦ Trong thể thông thường, chữ い trong mẫu câu V ている cũng thường được lược bỏ.
+        ▪ Ví dụ: 辞書、持って「い」る？ (Có mang từ điển không?)
+            • …うん、持って「い」る。 (… Ừ, có mang.)
+            • …ううん、持って「い」ない。 (… Không, không mang.)
+4. Thể thông thường của はい、いいえ
+    ◦ はい → うん
+    ◦ いいえ → ううん (phát âm u u n )

@@ -1,0 +1,46 @@
+第１８課 (Bài 18)
+1. ĐỘNG TỪ THỂ TỪ ĐIỂN (V る)
+    ◦ Cách dùng: Thể nguyên mẫu (còn gọi là thể từ điển) là thể cơ bản (động từ gốc) của động từ, trong sách từ điển các động từ được trình bày ở thể này.
+    ◦ (1) Nhóm 1: Là các động từ có kết thúc bởi các âm sau: [-う]、[-つ]、[-る] [-む]、[-ぬ]、[-ぶ] [-す]、[-く]、[-ぐ].
+        ▪ Ví dụ: （かいます ←）かう, （まちます ←）まつ, （とります ←）とる, （すみます ←）すむ, （しにます ←）しぬ, （よびます ←）まぶ, （はなします ←）はなす, （かきます ←）かく, （およぎます ←）およぐ.
+    ◦ (2) Nhóm 2: Là các động từ có dạng [-e る] [-i る].
+        ▪ Ví dụ: （たべます ←）たべる (ăn), （みます ←）みる (xem). Trừ một số động từ đặc biệt: （かえります ←）かえる (trở về), （しります ←）しる (biết).
+    ◦ (3) Nhóm 3: Bao gồm 2 động từ: （します →）する, （きます →）くる.
+2. N / V ること が できます (Cách thể hiện khả năng)
+    ◦ Ý nghĩa: có thể làm…, biết làm….
+    ◦ Cách dùng:
+        ▪ a) Trường hợp danh từ: Danh từ được sử dụng phải có tính động tác (tức là những danh từ có thể ghép với し ます để trở thành động từ có nghĩa tương ứng) như: 運転、買い物、ダンス (→ gọi chung là danh động từ) ... Ngoài ra, các danh từ chỉ về những khả năng như 日本語、ピアノ、スキー cũng có thể sử dụng.
+            • Ví dụ: 運転が できます。 (Tôi biết/có thể lái xe.), ミラーさんは 日本語が できます。 (Anh Miler biết tiếng Nhật (có thể nói tiếng Nhật)).
+        ▪ b) Trường hợp động từ: Khi biểu thị một khả năng có thể làm được một chuyện gì thì phải thêm 「こと」sau động từ thể nguyên mẫu để biến thành một nhóm danh từ (→ danh từ hóa).
+            • Ví dụ: ミラーさんは 漢字を 読むことが できます。 (Anh Miler biết/có thể đọc được chữ Hán.), カードで 払うことが できます。 (Có thể thanh toán/trả tiền bằng thẻ.).
+    ◦ Nghĩa của động từ できます:
+        ▪ ① Năng lực: 漢字を 読むことが できます。(→ Biết đọc chữ Hán.).
+        ▪ ② Khả năng: 受付で タクシーを 呼ぶことが できます。(→ Có thể gọi taxi tại quầy lễ tân.).
+3. 私の 趣味は N / V ること (Cách thể hiện sở thích)
+    ◦ Ý nghĩa: sở thích (của tôi) là….
+    ◦ Cách dùng: Nói về sở thích. Khi một danh từ không thể biểu hiện đầy đủ ý nghĩa thì ta có thể diễn tả dùng cách danh từ hóa để trình bày rõ, cụ thể hơn.
+    ◦ Ví dụ:
+        ▪ 私の趣味は 絵です。 (Sở thích của tôi là hội họa.)
+        ▪ 私の趣味は 絵を描くことです。 (Sở thích của tôi là (việc) vẽ tranh.)
+        ▪ 私の趣味は 絵を見ることです。 (Sở thích của tôi là (việc) ngắm tranh.)
+4. V る / N の / Số tự (thời gian) まえに、V2 (Cách nói câu “trước khi làm gì thì làm gì”)
+    ◦ Ý nghĩa: làm V2 trước..., trước khi làm V1….
+    ◦ Cách dùng:
+        ▪ a) Động từ: Hành động thứ 2 diễn ra trước hành động thứ nhất. Không thay đổi theo thì của động từ. Nghĩa là khi thì của động từ thứ 2 là quá khứ hay tương lai thì thì của động từ 1 luôn ở thể từ điển.
+            • Ví dụ: 日本へ 来る 前に、日本語を 勉強しました。 (Tôi đã học tiếng Nhật trước khi đến Nhật.), 寝る まえに、本を 読みます。 (Trước khi đi ngủ, tôi đọc sách.).
+        ▪ b) Danh từ: Thêm trợ từ 「の」ở giữa danh từ và 「まえに」. Danh từ đứng trước 「まえに」là những danh từ biểu thị hành động.
+            • Ví dụ: 食事の まえに、手を洗います。 (Trước bữa cơm/Trước khi ăn cơm, (tôi) rửa tay.), 講義の まえに、事務所へ 行ってください。 (Hãy đến văn phòng trước giờ học.).
+        ▪ c) Số tự (thời gian): Đứng sau danh từ chỉ số thì không cần 「の」.
+            • Ví dụ: ３年前に、結婚しました。(Tôi đã kết hôn cách đây 3 năm.), 田中さんは １時間前に、出かけました。(Tanaka đã ra ngoài cách đây 1 tiếng.).
+5. なかなか
+    ◦ Ý nghĩa: mãi mà không….
+    ◦ Cách dùng: luôn đi với động từ ở dạng phủ định.
+    ◦ Ví dụ:
+        ▪ 日本で なかなか 馬を 見ることが できません。 (Ở Nhật, mãi mà tôi không thể nhìn thấy con ngựa nào.)
+        ▪ バスが なかなか 来ません。 (Xe buýt mãi mà không thấy tới.)
+6. ぜひ
+    ◦ Ý nghĩa: nhất định.
+    ◦ Cách dùng: Được dùng để biểu thị sự hy vọng hay yêu cầu. Thường đi với các dạng câu 「ほしいです」、「V たいです」、「V てください」với ý nghĩa nhấn mạnh sự biểu thị.
+    ◦ Ví dụ:
+        ▪ ぜひ 北海道へ 行きたいです。(Tôi rất muốn đi Hokkaido (nhất định sẽ đi).)
+        ▪ ぜひ 遊びに 来てください。 (Bạn nhất định phải đến nhà tôi chơi đấy nhé!)

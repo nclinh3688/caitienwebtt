@@ -1,0 +1,68 @@
+{
+  "vietnameseTitle": "第４３課 (Bài 43)",
+  "japaneseTitle": "Dai Yonjūsan-ka",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "Vます + そうです／だ",
+      "meaning": "Sắp sửa",
+      "vietnamese": {
+        "meaning": "Sắp sửa (làm ~), chuẩn bị (làm ~).",
+        "usage": "Diễn tả tình trạng, trạng thái hiện hữu bề ngoài, nói lên ấn tượng từ một hiện tượng nhìn thấy tận mắt, hoặc giải thích về tình trạng sự vật, sự việc ngay trước khi nó thay đổi. Thường đi kèm これから, （ちょうど）今から.",
+        "usagePoints": ["Bỏ ます của động từ và thêm そうです."],
+        "note": ""
+      },
+      "explanation": "Diễn tả một hành động hoặc sự thay đổi sắp xảy ra, dựa trên quan sát trực tiếp.",
+      "examples": [
+        { "japanese": "曇っていますね。雨が降りそうです。", "kanji": "曇っていますね。雨が降りそうです。", "vietnamese": "Bầu trời nhiều mây quá. Trời sắp mưa.", "english": "It's cloudy. It looks like it's going to rain." },
+        { "japanese": "もうすぐ桜が咲きそうです。", "kanji": "もうすぐ桜が咲きそうです。", "vietnamese": "Hoa sakura sắp nở.", "english": "The cherry blossoms look like they are about to bloom." },
+        { "japanese": "今にも荷物が落ちそうです。", "kanji": "今にも荷物が落ちそうです。", "vietnamese": "Hành lý sắp rơi.", "english": "The luggage looks like it's about to fall." }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "Aい／Nａ + そうです／だ",
+      "meaning": "Có vẻ",
+      "vietnamese": {
+        "meaning": "Có vẻ ~.",
+        "usage": "Diễn tả phán đoán, suy xét trực tiếp khi nhìn thấy sự vật, sự việc nào đó. Hiểu là \"nhìn và nghĩ là, cho là nó như thế\".",
+        "usagePoints": [
+          "Tính từ đuôi い: Bỏ い thêm そうです.",
+          "Tính từ đuôi な: Bỏ な thêm そうです.",
+          "Trường hợp đặc biệt: いい → よさそうです, ない → なさそうです."
+        ],
+        "note": "Không áp dụng với tính từ thể hiện trạng thái quá rõ ràng như 赤い, きれい, 有名, かわいい. Đối với tính từ thể hiện tình cảm, cảm giác của con người (ví dụ うれしい), chỉ dùng ～そうです để suy đoán về người khác, không phải của bản thân. Không kết hợp với danh từ."
+      },
+      "explanation": "Dùng để diễn tả sự phỏng đoán của người nói dựa trên những gì họ nhìn thấy.",
+      "examples": [
+        { "japanese": "この料理はおいしそうです。", "kanji": "この料理はおいしそうです。", "vietnamese": "Món ăn này có vẻ ngon.", "english": "This dish looks delicious." },
+        { "japanese": "彼女は忙しそうです。", "kanji": "彼女は忙しそうです。", "vietnamese": "Cô ấy có vẻ bận.", "english": "She looks busy." },
+        { "japanese": "あのケーキはおいしくなさそうです。", "kanji": "あのケーキはおいしくなさそうです。", "vietnamese": "Cái bánh kia có vẻ không ngon.", "english": "That cake doesn't look delicious." }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP3",
+      "pattern": "Vて来ます",
+      "meaning": "Đi đâu đó, làm gì đó rồi quay lại",
+      "vietnamese": {
+        "meaning": "Làm gì đó (rồi sẽ trở lại).",
+        "usage": "Biểu thị hành động đi đâu đó làm gì rồi sau đó quay lại. Bao hàm 3 hành động: (1) đi đâu đó → (2) làm gì đó → (3) quay trở lại.",
+        "usagePoints": [],
+        "note": "Địa điểm đi đến và thực hiện hành động được thể hiện bằng trợ từ で, nhưng khi là nơi lấy đi một vật thì dùng trợ từ から."
+      },
+      "explanation": "Dùng để diễn tả việc đi làm một hành động nào đó rồi quay trở lại.",
+      "examples": [
+        { "japanese": "ちょっとタバコを買って来ます。", "kanji": "ちょっとタバコを買って来ます。", "vietnamese": "Tôi đi mua thuốc lá một chút (rồi về).", "english": "I'm going to buy cigarettes for a moment (and will be back)." },
+        { "japanese": "教室に時計を忘れたので、ちょっと取って来ます。", "kanji": "教室に時計を忘れたので、ちょっと取って来ます。", "vietnamese": "Vì quên đồng hồ ở lớp học nên tôi sẽ đi lấy.", "english": "I forgot my watch in the classroom, so I'll go get it." }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

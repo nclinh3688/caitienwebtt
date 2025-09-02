@@ -1,0 +1,71 @@
+{
+  "vietnameseTitle": "第３６課 (Bài 36)",
+  "japaneseTitle": "",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "V-る / V-ない + ように、～",
+      "meaning": "Để..., Sao cho...",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả mục đích hoặc kết quả mong muốn. Vế trước 「ように」 chỉ mục tiêu, vế sau chỉ hành động để đạt được mục tiêu đó.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ ở vế trước thường là thể khả năng hoặc các động từ không chủ ý (わかる, 見える, 聞こえる).",
+          "• Mẫu câu này nhấn mạnh vào kết quả cần đạt được."
+        ],
+        "note": "Lưu ý: Khác với 「ために」 (chỉ mục đích có ý chí), 「ように」 thường dùng cho các mục tiêu liên quan đến trạng thái hoặc khả năng."
+      },
+      "explanation": "Mẫu câu này dùng để diễn tả mục đích, với ý nghĩa 'làm V2 để đạt được trạng thái V1'. Nó thường được dùng khi mục tiêu là một trạng thái hoặc một khả năng mới.",
+      "examples": [
+        {
+          "japanese": "にほんごが はなせるように、まいにち れんしゅうしています。",
+          "kanji": "日本語が 話せるように、毎日 練習しています。",
+          "vietnamese": "Để có thể nói được tiếng Nhật, hàng ngày tôi đều luyện tập.",
+          "english": "I practice every day so that I can speak Japanese."
+        },
+        {
+          "japanese": "わすれないように、メモします。",
+          "kanji": "忘れないように、メモします。",
+          "vietnamese": "Tôi ghi chú lại để không quên.",
+          "english": "I'll take a note so I don't forget."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "V-る + ようになりました",
+      "meaning": "Đã trở nên có thể...",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả sự thay đổi về khả năng hoặc thói quen, từ trạng thái 'không thể/không làm' sang 'có thể/làm'.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Dùng với động từ thể khả năng để chỉ sự thay đổi về năng lực.",
+          "• Dùng với động từ thường để chỉ sự thay đổi về thói quen."
+        ],
+        "note": ""
+      },
+      "explanation": "Mẫu câu này dùng để diễn tả một sự thay đổi tích cực. Trước đây không thể làm được việc gì đó, nhưng sau một quá trình luyện tập, bây giờ đã có thể làm được.",
+      "examples": [
+        {
+          "japanese": "やっと じてんしゃに のれるように なりました。",
+          "kanji": "やっと 自転車に 乗れるように なりました。",
+          "vietnamese": "Cuối cùng thì tôi cũng đã biết đi xe đạp.",
+          "english": "I finally became able to ride a bicycle."
+        },
+        {
+          "japanese": "まえは さしみが たべられませんでしたが、いまは たべられるように なりました。",
+          "kanji": "前は 刺身が 食べられませんでしたが、今は 食べられるように なりました。",
+          "vietnamese": "Trước đây tôi không ăn được sashimi, nhưng bây giờ thì ăn được rồi.",
+          "english": "I couldn't eat sashimi before, but now I can."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

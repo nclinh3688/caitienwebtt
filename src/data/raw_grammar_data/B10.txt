@@ -1,0 +1,57 @@
+第１０課 (Bài 10)
+1. N が あります／います (Cách thể hiện sự sở hữu (người và đồ vật))
+    ◦ Ý nghĩa: Có N.
+    ◦ Cách dùng: Hai động từ 「あります／います」để chỉ sự sở hữu. 「あります」sử dụng khi N là đồ vật. 「います」sử dụng khi N là người và động vật.
+    ◦ Ví dụ:
+        ▪ コンピューターが あります。 (Tôi có máy vi tính.)
+        ▪ 兄が います。 (Tôi có anh trai.)
+2. N1(địa điểm)に N2 が あります／います (Cách thể hiện sự tồn tại (người và đồ vật) - nhấn mạnh vào vị trí)
+    ◦ Ý nghĩa: Có N2 ở N1 / Ở N1 có N2.
+    ◦ Cách dùng: Đây là câu miêu tả một sự thật (như quang cảnh, vị trí...). N1 là địa điểm tồn tại của N2 và được xác định bằng trợ từ 「に」. Nếu N2 là đồ vật: dùng 「あります」; nếu N2 là người, động vật: dùng 「います」.
+    ◦ Ví dụ:
+        ▪ 私の部屋に 電話があります。 (Trong phòng tôi có cái điện thoại.)
+        ▪ 庭に さくらの木があります。 (Ở ngoài sân có cây hoa Anh đào.)
+        ▪ 教室に 田中さんがいます。 (Trong phòng học có bạn Tanaka.)
+    ◦ Câu hỏi (cho sự tồn tại của người, đồ vật):
+        ▪ N に なにが ありますか。 (Ở N (nơi chốn) có cái gì?)
+        ▪ N に なにが いますか。 (Ở N (nơi chốn) có con gì?)
+        ▪ N に だれが いますか。 (Ở N (nơi chốn) có ai?)
+    ◦ Ví dụ:
+        ▪ かばんに 何が ありますか。 (Trong cặp có gì thế?)
+            • … 本や ペンが あります。 (… Có sách và bút...)
+        ▪ にわに 何が いますか。 (Ngoài sân có con gì thế?)
+            • … 犬が います。 (… Có con chó.)
+        ▪ 教室に だれが いますか。 (Trong phòng học có ai thế?)
+            • … 鈴木先生が います。 (… Có cô Suzuki.)
+3. N1 は N2 (địa điểm) に あります／います (Cách thể hiện sự tồn tại (người và đồ vật) - nhấn mạnh vào chủ thể)
+    ◦ Ý nghĩa: N1 ở N2.
+    ◦ Cách dùng: Đây là câu chỉ về nơi tồn tại của người hay vật. N1 được đưa lên làm chủ đề của cả câu.
+    ◦ Ví dụ:
+        ▪ ランさんの電話は うけつけにあります。 (Điện thoại của Lan ở quầy tiếp tân.)
+        ▪ パソコンは 事務所に あります。 (Máy Laptop ở văn phòng.)
+        ▪ 犬は にわに います。 (Con chó ở ngoài sân.)
+        ▪ 鈴木さんは 食堂に います。 (Cô Suzuki ở phòng ăn.)
+    ◦ Chú ý: 「です」thỉnh thoảng được sử dụng thay thế cho động từ chỉ vị trí 「あります・います」khi những động từ đó đã được nói đến hoặc đã xác định.
+    ◦ Ví dụ:
+        ▪ Dam Sen は どこに ありますか。 (Đầm Sen ở đâu?)
+            • ... Sai Gon です。 (… Ở Sài Gòn.)
+4. N1 (vật, người, địa điểm) の N2 (danh từ chỉ vị trí) (Cách thể hiện tương quan vị trí)
+    ◦ Ví dụ:
+        ▪ つくえの 上 (Trên bàn.)
+        ▪ としょかんの 前 (Trước thư viện.)
+        ▪ ビルの となり (Bên cạnh tòa nhà.)
+    ◦ Cách dùng: Cả cụm “N1 の N2” được sử dụng như một danh từ chỉ địa điểm.
+    ◦ Ví dụ:
+        ▪ つくえの上に 本があります。 (Ở trên bàn có quyển sách.)
+        ▪ としょかんの前に こうえんがあります。 (Ở trước thư viện có công viên.)
+        ▪ 駅の近くで ともだちと会います。 (Tôi gặp bạn ở gần nhà ga.)
+5. N1 や N2
+    ◦ Ý nghĩa: N1 và N2.
+    ◦ Cách dùng: 「や」dùng để nối các danh từ. Khác với 「と」dùng để liệt kê toàn bộ, 「や」chỉ liệt kê mang tính chất tượng trưng.
+    ◦ Ví dụ:
+        ▪ 教室の中に つくえや いすが あります。 (Trong phòng học có bàn, ghế...)
+        ▪ かばんの中に ペンや 本が あります。 (Trong cặp có bút, sách...)
+    ◦ Chú ý: Đôi khi 「など」được đặt sau danh từ cuối cùng để nhấn mạnh thêm là vẫn còn những vật khác nữa.
+    ◦ Ví dụ:
+        ▪ 教室の中に つくえや いすなどが あります。 (Trong phòng học có bàn, ghế...)
+        ▪ かばんの中に ペンや 本などが あります。 (Trong cặp có bút, sách.)

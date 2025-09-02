@@ -1,0 +1,31 @@
+第４３課 (Dai Yonjūsan-ka)
+1. 「V ます＋そうです／だ」 (Sắp sửa)
+* Ý nghĩa: Sắp sửa (làm ~), chuẩn bị (làm ~).
+* Cách dùng: Diễn tả tình trạng, trạng thái hiện hữu bề ngoài, nói lên ấn tượng từ một hiện tượng nhìn thấy tận mắt, hoặc giải thích về tình trạng sự vật, sự việc ngay trước khi nó thay đổi. Thường đi kèm これから, （ちょうど）今から.
+* Cách chia: Bỏ ます của động từ và thêm そうです.
+* Ví dụ:
+    * 曇っていますね。雨が降りそうです。(Bầu trời nhiều mây quá. Trời sắp mưa.)
+    * もうすぐ桜が咲きそうです。(Hoa sakura sắp nở.)
+    * 今にも荷物が落ちそうです。(Hành lý sắp rơi.)
+2. 「A い／Nａ＋そうです／だ」 (Có vẻ)
+* Ý nghĩa: Có vẻ ~.
+* Cách dùng: Diễn tả phán đoán, suy xét trực tiếp khi nhìn thấy sự vật, sự việc nào đó. Hiểu là "nhìn và nghĩ là, cho là nó như thế".
+* Cách chia:
+    * Tính từ đuôi い: Bỏ い thêm そうです.
+    * Tính từ đuôi な: Bỏ な thêm そうです.
+    * Trường hợp đặc biệt: いい → よさそうです, ない → なさそうです.
+* Ví dụ:
+    * この料理はおいしそうです。(Món ăn này có vẻ ngon.)
+    * 彼女は忙しそうです。(Cô ấy có vẻ bận.)
+    * あのケーキはおいしくなさそうです。(Cái bánh kia có vẻ không ngon.)
+* Lưu ý:
+    * Không áp dụng với tính từ thể hiện trạng thái quá rõ ràng như 赤い, きれい, 有名, かわいい.
+    * Đối với tính từ thể hiện tình cảm, cảm giác của con người (ví dụ うれしい), chỉ dùng ～そうです để suy đoán về người khác, không phải của bản thân.
+    * Không kết hợp với danh từ.
+3. 「V て来ます」 (Đi đâu đó, làm gì đó rồi quay lại)
+* Ý nghĩa: Làm gì đó (rồi sẽ trở lại).
+* Cách dùng: Biểu thị hành động đi đâu đó làm gì rồi sau đó quay lại. Bao hàm 3 hành động: (1) đi đâu đó → (2) làm gì đó → (3) quay trở lại.
+* Ví dụ:
+    * ちょっとタバコを買って来ます。(Tôi đi mua thuốc lá một chút (rồi về).)
+    * 教室に時計を忘れたので、ちょっと取って来ます。(Vì quên đồng hồ ở lớp học nên tôi sẽ đi lấy.)
+* Lưu ý: Địa điểm đi đến và thực hiện hành động được thể hiện bằng trợ từ で, nhưng khi là nơi lấy đi một vật thì dùng trợ từ から. Ví dụ: スーパーで牛乳を買って来ます (Tôi đi đến mua sữa ở siêu thị), 台所からコップを取って来ます (Tôi đi lấy cốc từ nhà bếp).

@@ -1,0 +1,169 @@
+### 第８課 (Bài 8)
+
+
+
+1. **Giới thiệu về tính từ trong tiếng Nhật**
+
+* **Tính từ đuôi い**: Có đuôi tận cùng là い.
+
+* **Ví dụ**: 小さい(nhỏ)、大きい(to)、熱い(nóng)、寒い(lạnh)、高い(cao, đắt).
+
+* **Tính từ đuôi な**: Có đuôi tận cùng là な.
+
+* **Ví dụ**: ハンサム（な） (đẹp trai)、しんせつ（な）(tốt bụng)、しずか（な）(yên tĩnh)、べんり（な）(thuận tiện).
+
+* **Chú ý**:
+
+* Không giống tính từ đuôi い, do một số chức năng về ngữ pháp mà đuôi な có lúc xuất hiện có lúc không xuất hiện trong từ và câu. Vì thế, về mặt thể hiện, người ta hay để đuôi な trong ngoặc đơn.
+
+* Một số từ dễ nhầm với tình từ đuôi い: きれい（な）(đẹp, sạch)、有名な (nổi tiếng)、きらい（な）(ghét, không thích).
+
+
+
+2. **Các mẫu câu với tính từ**
+
+* **2.1. Câu khẳng định**
+
+* **Cách dùng**: Tương tự mẫu câu với danh từ, trong đó 「です」được đặt sau tính từ trong câu khẳng định để biểu thị sự lịch sự đối với người nghe.
+
+* **Chú ý**: Tính từ đứng trước 「です」, nếu là tính từ đuôi い thì giữ nguyên い còn nếu là tính từ đuôi な thì sẽ không có な.
+
+* **Ví dụ**:
+
+* 田中先生は しんせつです。 (Thầy Takaka tốt bụng.)
+
+* 富士山は 高いです。 (Núi Phú Sĩ cao.)
+
+* ハノイは あたたかいです。 (Hà Nội ấm áp.)
+
+* あの人は ゆうめいです。 (Người kia nổi tiếng.)
+
+* **2.2. Câu phủ định**
+
+* **Cách dùng**:
+
+* **Đối với tính từ đuôi な**: Biến đổi như với trường hợp danh từ. Tức là đổi 「です」thành 「ではありません」hoặc 「じゃありません」.
+
+* **Ví dụ**: ハノイは 静かではありません。（じゃありません） (Hà Nội không yên tĩnh.)
+
+* **Đối với tính từ đuôi い**: đổi cụm いです thành くないです.
+
+* **Ví dụ**: この映画は おもしろくないです。 (Bộ phim này không hay.)
+
+* **Chú ý**: Trường hợp đặc biệt tính từ いい sẽ đổi いいです thành よくないです.
+
+
+
+3. **N は どうですか。** (Hỏi tính chất, cảm tưởng về vật, sự vật, người)
+
+* **Cách dùng**: 「どう」là từ để hỏi cho tính chất, cảm tưởng về vật, sự vật, người.
+
+* **Ví dụ**:
+
+* 日本の生活は どうですか。 (Cuộc sống ở Nhật thế nào?)
+
+* ... 楽しいです。 (… Rất vui.)
+
+
+
+4. **な-Adj な N / い-Adj（～い）N** (Cách dùng tính từ để bổ sung ý nghĩa cho danh từ)
+
+* **Cách dùng**: Tính từ được đặt trước danh từ để bổ nghĩa cho danh từ đó.
+
+* Khi đứng trước danh từ: Tính từ đuôi な giữ nguyên な. Tính từ đuôi い thì giữ nguyên い.
+
+* **Ví dụ**:
+
+* ジョンさんは ハンサムな人です。 (Anh John là người đẹp trai.)
+
+* 今日は 暑い日です。 (Hôm nay là một ngày nóng.)
+
+* Ａｎさんは ゆうめいな ひとです。 (Bạn An là người nổi tiếng.)
+
+* 富士山は たかい山です。 (Núi Phú Sĩ là ngọn núi cao.)
+
+
+
+5. **あまり＋．．．phủ định của tính từ** (Không ~ lắm / Không ~ mấy)
+
+* **Ý nghĩa**: Không ~ lắm / Không ~ mấy.
+
+* **Cách dùng**: 「あまり」đứng trước tính từ dạng phủ định thể hiện sự phủ định một phần.
+
+* **Ví dụ**:
+
+* この食べ物は あまり おいしくないです。 (Đồ ăn này không ngon lắm.)
+
+* この辞書は あまり 便利ではありません。 (Quyển từ điển này không tiện lợi lắm.)
+
+* 日本語は 難しいですか。 (Tiếng Nhật khó phải không?)
+
+* ...いいえ、あまり 難しくないです。 (… Không, không khó lắm.)
+
+
+
+6. **N1 は どんな N2 ですか。** (N1 là N2 như thế nào?)
+
+* **Ý nghĩa**: N1 là N2 như thế nào?.
+
+* **Ví dụ**:
+
+* Hue は どんな町ですか。 (Huế là thành phố như thế nào?)
+
+* ... 静かな 町です。 (Là thành phố yên tĩnh.)
+
+
+
+7. **どう／どんな** (Phân biệt nghi vấn từ)
+
+* **Cách dùng**: 「どう・どんな」đều là nghi vấn từ để hỏi về cảm tưởng, tính chất, tình trạng của người hay vật.
+
+* **どう** thì hỏi trực tiếp vào tính chất của danh từ (không có danh từ đằng sau).
+
+* **どんな** thì hỏi 1 danh từ nào có tính chất gì (phải có danh từ đi sau).
+
+* **Ví dụ**:
+
+* 日本の料理は どうですか。 (Món ăn Nhật thế nào?)
+
+* ...おいしいですが、高いです。 (… Ngon nhưng đắt.)
+
+* 鈴木さんは どんな 人ですか。 (Suzuki là người thế nào?)
+
+* ... 親切な人です。 (… Chị ấy là người tốt.)
+
+
+
+8. **Sentence1 が、Sentence2** (Nối 2 vế ngược nghĩa)
+
+* **Ý nghĩa**: S1 nhưng mà S2.
+
+* **Cách dùng**: Trợ từ 「が」có nghĩa là “nhưng”, dùng để nối 2 mệnh đề có ý nghĩa tương phản nhau.
+
+* **Ví dụ**:
+
+* 日本の食べ物は どうですか。 (Đồ ăn Nhật như thế nào?)
+
+* ... おいしいですが、高いです。 (… Ngon nhưng đắt.)
+
+
+
+9. **Sentence1。そして Sentence2** (Nối 2 vế có nghĩa tương đồng)
+
+* **Ý nghĩa**: S1. Và S2.
+
+* **Cách dùng**: 「そして」là liên từ có nghĩa là “và”. 「そして」dùng để nối 2 câu có nội dung tương đồng.
+
+* **Ví dụ**:
+
+* ベトナムの食べ物は おいしいです。そして、安いです。 (Đồ ăn Việt Nam ngon. Và rẻ nữa.)
+
+* **Chú ý**: Cách dùng 「そして」khác với 「と」 (「と」dùng để nối 2 danh từ).
+
+
+
+10. **N はどれですか** (N là cái nào?)
+
+* **Ý nghĩa**: N là cái nào?.
+
+* **Cách dùng**: 「どれ」là từ để hỏi có nghĩa là “cái nào”. 

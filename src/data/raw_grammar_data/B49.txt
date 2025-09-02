@@ -1,0 +1,38 @@
+第４９課 (Dai Yonjūkyū-ka)
+「尊敬語」 (Tôn kính ngữ)
+1. Dùng tiền tố 「お」 và「 ご」
+* Cách dùng: Được thêm vào trước danh từ, tính từ, phó từ.
+    * お đi với từ thuần Nhật (和語). Ví dụ: お休み (oyasumi), お忙しい (oisogashii).
+    * ご đi với từ gốc Hán (漢語). Ví dụ: ご質問 (goshitsumon), ご家族 (gokazoku).
+    * Lưu ý: Có một số từ gốc Hán vẫn đi với お, ví dụ: お洗濯する (osentaku suru).
+2. Sử dụng động từ THỂ BỊ ĐỘNG 「V（ら）れます」
+* Ý nghĩa: Thể hiện sự kính trọng.
+* Cách dùng: Chia giống động từ bị động. Áp dụng cho hầu hết các động từ, trừ động từ khả năng và một số động từ như できます, わかります, いります. Cả nam và nữ đều dùng được.
+* Ví dụ:
+    * 社長はさっき出かけられました。(Giám đốc đã đi ra ngoài lúc nãy rồi ạ.)
+    * いつベトナムに来られましたか。(Ngài đến Việt Nam lúc nào thế ạ?)
+* Lưu ý: Không dùng tôn kính ngữ cho hành động của người nói khi trả lời.
+3. Biến đổi động từ dạng -MASU 「おＶます になります」
+* Ý nghĩa: Thể hiện sự tôn kính, kính trọng ở mức độ cao nhất.
+* Cách dùng: Rất mềm dẻo, mức độ tôn kính cao hơn thể bị động. Cả nam và nữ đều dùng được, nữ giới thường dùng nhiều hơn. Không áp dụng với động từ nhóm 3 và động từ 1 âm tiết (ví dụ: 見ます, 寝ます, います).
+* Ví dụ:
+    * 社長はお帰りになりました。(Giám đốc đã về rồi ạ.)
+    * 新聞をお読みになりますか。(Ngài/Bạn có đọc báo không ạ?)
+* Lưu ý: Không dùng tôn kính ngữ cho hành động của người nói khi trả lời.
+4. Tôn kính ngữ đặc biệt (Bảng KÍNH NGỮ ĐẶC BIỆT của động từ)
+* Là các động từ có dạng kính ngữ riêng biệt, ví dụ:
+    * いきます, きます, います → いらっしゃいます.
+    * たべます, のみます → めしあがります.
+    * します → なさいます.
+    * いいます → おっしゃいます.
+    * しっています → ごぞんじです.
+    * みます → ごらんになります.
+    * くれます → くださいます.
+5. Tôn kính ngữ của Danh từ & Tính từ:
+* 5.1. Tôn kính ngữ của Danh từ:
+    * Dùng tiếp đầu ngữ お và ご (theo quy tắc Hòa ngữ/Hán ngữ). Tuy nhiên, có danh từ không thể ghép.
+    * Các danh từ chỉ chức danh (ví dụ: 部長, 先生) bản thân đã bao hàm ý tôn kính nên không thêm さん.
+    * Có thể thêm さん (hoặc さま) để tăng ý lịch sự với danh từ chưa có.
+    * Lưu ý quan hệ trong/ngoài: Khi nói về người bề trên thuộc nhóm "trong" của mình với người "ngoài" nhóm, không dùng kính ngữ mà dùng từ bình thường hoặc khiêm nhường ngữ.
+* 5.2. Tôn kính ngữ của Tính từ:
+    * Cũng có thể thêm tiền tố お và ご. Ví dụ: わかい → おわかい, じょうず（な） → おじょうず（な）.

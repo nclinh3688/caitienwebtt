@@ -1,134 +1,290 @@
 {
-  "id": "n4-grammar-lesson-27",
-  "lessonNumber": 27,
-  "japaneseTitle": "第２７課",
-  "vietnameseTitle": "Bài 27",
-  "englishTitle": "Lesson 27",
-  "difficulty": "Beginner",
-  "estimatedTime": "60 phút",
-  "summary": {
-    "title": "Động từ thể khả năng và các mẫu câu so sánh, giới hạn.",
-    "content": "Bài học này giới thiệu về động từ thể khả năng, cách phân biệt 見えます và 聞こえます, các mẫu câu diễn tả sự giới hạn và so sánh.",
-    "keyPoints": [
-      "Cách chia và ý nghĩa của động từ thể khả năng (可能形).",
-      "Phân biệt 見えます (nhìn thấy tự nhiên) và 聞こえます (nghe thấy tự nhiên).",
-      "Mẫu câu diễn tả 'chưa thể làm được gì': ～まだ 「V khả năng」～ません.",
-      "Mẫu câu diễn tả sự giới hạn 'chỉ': ～しか ～ません.",
-      "Mẫu câu so sánh hai điều trái ngược: N１は～が、N２は～.",
-      "Mẫu câu diễn tả sự hoàn thành của sự vật: N1 に N2 が できます."
-    ]
-  },
+  "vietnameseTitle": "第２７課 (Bài 27)",
+  "japaneseTitle": "",
+  "estimatedTime": "",
+  "difficulty": "N4",
   "grammarPatterns": [
     {
-      "id": "n4-l27-p1",
-      "pattern": "V (可能形)",
-      "meaning": "Động từ thể khả năng.",
-      "explanation": "- Thể khả năng biểu hiện khả năng, năng lực làm việc gì đó. Các động từ sau khi chuyển sang thể khả năng đều trở thành động từ nhóm II.\n- Cách chia:\n  - Nhóm I: Chuyển vần [i] thành [e] (ví dụ: およぎます → およげます).\n  - Nhóm II: Bỏ 「ます」thêm 「られます」 (ví dụ: たべます → たべられます).\n  - Nhóm III: 「します」→「できます」, 「きます」→「こられます」.\n- Trong câu, trợ từ [を] được chuyển thành [が], các trợ từ khác vẫn giữ nguyên.\n- Cách dùng giống như 「V ることができます」 (Bài 18): dùng để chỉ khả năng của ai đó hoặc tính khả thi của việc gì đó.",
+      "id": "GP1.1",
+      "pattern": "Nhóm I: る → れる",
+      "meaning": "Động từ nhóm I chuyển sang thể khả năng",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả khả năng thực hiện hành động",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ nhóm I: る → れる",
+          "• Ví dụ: かく → かける (có thể viết)",
+          "• Thể hiện khả năng tự nhiên hoặc học được"
+        ],
+        "note": "Lưu ý: Một số động từ có dạng đặc biệt"
+      },
+      "explanation": "Động từ nhóm I chuyển từ る thành れる để diễn tả khả năng",
       "examples": [
         {
-          "japanese": "私は 日本語 を 話 します。→ 私 は 日本語 が 話せます。",
-          "vietnamese": "Tôi nói tiếng Nhật → Tôi có thể nói tiếng Nhật."
+          "japanese": "かく → かける",
+          "kanji": "書く → 書ける",
+          "vietnamese": "viết → có thể viết",
+          "english": ""
         },
         {
-          "japanese": "銀行で お金が 換えられます。",
-          "vietnamese": "Có thể đổi tiền ở ngân hàng."
-        }
-      ],
-      "notes": [
-        "Tất cả các động từ sau khi chuyển sang thể khả năng đều trở thành động từ nhóm II."
-      ]
-    },
-    {
-      "id": "n4-l27-p2",
-      "pattern": "見えます / 聞こえます",
-      "meaning": "Nhìn thấy / Nghe thấy (tự nhiên)",
-      "explanation": "- 「見えます」và 「聞こえます」là hai động từ đặc biệt, chỉ khả năng của mắt, tai một cách tự nhiên.\n- Được dùng khi hình ảnh hay âm thanh đập vào mắt, tai một cách tự nhiên, không liên quan đến khả năng của con người.\n- Tân ngữ của chúng cũng đi với trợ từ [が].\n- Cần phân biệt với thể khả năng 「見られます」và 「聞けます」, vốn thể hiện năng lực thực hiện hành động.",
-      "examples": [
-        {
-          "japanese": "２階から 山が 見えます。",
-          "vietnamese": "Từ tầng 2 có thể nhìn thấy núi."
-        },
-        {
-          "japanese": "ここから 波の音が 聞こえます。",
-          "vietnamese": "Từ đây có thể nghe thấy tiếng sóng biển."
-        },
-        {
-          "japanese": "忙 しいですから、テレビが 見られません。",
-          "vietnamese": "Vì bận nên tôi không thể xem được tivi."
+          "japanese": "よむ → よめる",
+          "kanji": "読む → 読める",
+          "vietnamese": "đọc → có thể đọc",
+          "english": ""
         }
       ],
       "notes": []
     },
     {
-      "id": "n4-l27-p3",
-      "pattern": "まだ V (可能形) ません",
-      "meaning": "Chưa thể (làm gì).",
-      "explanation": "- Mẫu câu này thể hiện một việc tại thời điểm nói thì chưa thể làm được, nhưng người nói sẽ cố gắng để sau này có thể thực hiện được.",
+      "id": "GP1.2",
+      "pattern": "Nhóm II: る → られる",
+      "meaning": "Động từ nhóm II chuyển sang thể khả năng",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả khả năng thực hiện hành động",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ nhóm II: る → られる",
+          "• Ví dụ: たべる → たべられる (có thể ăn)",
+          "• Thể hiện khả năng tự nhiên hoặc học được"
+        ],
+        "note": "Lưu ý: Tất cả động từ nhóm II đều theo quy tắc này"
+      },
+      "explanation": "Động từ nhóm II chuyển từ る thành られる để diễn tả khả năng",
       "examples": [
         {
-          "japanese": "日本の歌が まだ 歌えません。",
-          "vietnamese": "Tôi chưa thể hát được bài hát Nhật."
+          "japanese": "たべる → たべられる",
+          "kanji": "食べる → 食べられる",
+          "vietnamese": "ăn → có thể ăn",
+          "english": ""
         },
         {
-          "japanese": "日本語が まだ 上手に 話せません。",
-          "vietnamese": "Tôi chưa thể nói giỏi tiếng Nhật được."
+          "japanese": "みる → みられる",
+          "kanji": "見る → 見られる",
+          "vietnamese": "xem → có thể xem",
+          "english": ""
         }
       ],
       "notes": []
     },
     {
-      "id": "n4-l27-p4",
-      "pattern": "～しか ～ません",
-      "meaning": "Chỉ.",
-      "explanation": "- Mẫu câu này thể hiện sự giới hạn trong thực hiện hành động.\n- Động từ đi sau 「しか」luôn chia ở dạng phủ định.\n- Loại câu này thuộc hình thức phủ định nhưng luôn mang nghĩa khẳng định (người Nhật dùng với ý khiêm tốn).\n- 「しか」có thể thay thế cho các trợ từ như 「が、を」.\n- Cần phân biệt với 「だけ」: 「だけ」đi với câu dạng khẳng định, còn 「しか」đi với câu dạng phủ định.",
+      "id": "GP1.3",
+      "pattern": "Nhóm III: する → できる / くる → こられる",
+      "meaning": "Động từ nhóm III chuyển sang thể khả năng",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả khả năng thực hiện hành động",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• する → できる (có thể làm)",
+          "• くる → こられる (có thể đến)",
+          "• Thể hiện khả năng tự nhiên hoặc học được"
+        ],
+        "note": "Lưu ý: Động từ nhóm III có dạng đặc biệt"
+      },
+      "explanation": "Động từ nhóm III có dạng đặc biệt khi chuyển sang thể khả năng",
       "examples": [
         {
-          "japanese": "わたしは ひらがなしか 書け ません。",
-          "vietnamese": "Tôi chỉ có thể viết được chữ Hiragana."
+          "japanese": "べんきょうする → べんきょうできる",
+          "kanji": "勉強する → 勉強できる",
+          "vietnamese": "học → có thể học",
+          "english": ""
         },
         {
-          "japanese": "彼は 英語しか 分かりません。",
-          "vietnamese": "Anh ấy chỉ biết tiếng Anh thôi."
+          "japanese": "くる → こられる",
+          "kanji": "来る → 来られる",
+          "vietnamese": "đến → có thể đến",
+          "english": ""
         }
       ],
       "notes": []
     },
     {
-      "id": "n4-l27-p5",
-      "pattern": "N1 は ～が、N2 は ～",
-      "meaning": "N1 thì ～, nhưng N2 thì ～. (So sánh hai điều trái ngược)",
-      "explanation": "- Mẫu câu này dùng để thể hiện hai điều trái ngược hoàn toàn, thường là về khả năng với ý nghĩa 'cái này thì làm được, còn cái kia thì không làm được'.\n- Trợ từ [は] được dùng thay cho [が] để biểu thị chủ đề của từng vế.\n- Trợ từ [が] ở giữa dùng để nối hai vế với nghĩa là 'nhưng'.",
+      "id": "GP2",
+      "pattern": "V ことができます",
+      "meaning": "Cách diễn tả khả năng lịch sự hơn",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả khả năng một cách lịch sự",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể từ điển + ことができます",
+          "• Lịch sự hơn thể khả năng trực tiếp",
+          "• Thường dùng trong văn viết hoặc tình huống trang trọng"
+        ],
+        "note": "Lưu ý: Cách nói lịch sự hơn ～れる/～られる"
+      },
+      "explanation": "Sử dụng ことができる để diễn tả khả năng một cách lịch sự",
       "examples": [
         {
-          "japanese": "ひらがなは 書けますが、漢字は 書けません。",
-          "vietnamese": "Chữ Hiragana thì tôi có thể viết nhưng chữ Hán thì không thể."
+          "japanese": "にほんごをはなすことができます。",
+          "kanji": "日本語を話すことができます",
+          "vietnamese": "Tôi có thể nói tiếng Nhật",
+          "english": ""
         },
         {
-          "japanese": "テニスは できますが、スキーは できません。",
-          "vietnamese": "Tenis thì tôi chơi được nhưng trượt tuyết thì không."
+          "japanese": "ピアノをひくことができます。",
+          "kanji": "ピアノを弾くことができます",
+          "vietnamese": "Tôi có thể chơi piano",
+          "english": ""
         }
       ],
       "notes": []
     },
     {
-      "id": "n4-l27-p6",
-      "pattern": "N1 に N2 が できます",
-      "meaning": "Ở N1 có N2 được hoàn thành.",
-      "explanation": "- Mẫu câu này dùng để thể hiện sự hoàn thành của một sự vật hoặc công trình tại một địa điểm cụ thể.\n- Trợ từ [に] được dùng cho danh từ chỉ nơi chốn (N1) để chỉ địa điểm mà N2 được hoàn thành hoặc xây dựng.",
+      "id": "GP3",
+      "pattern": "V ことができません",
+      "meaning": "Diễn tả không có khả năng",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả không có khả năng thực hiện hành động",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể từ điển + ことができません",
+          "• Dùng để nói về việc không thể làm gì",
+          "• Cách nói lịch sự của ～れない/～られない"
+        ],
+        "note": "Lưu ý: Cách nói lịch sự để diễn tả không có khả năng"
+      },
+      "explanation": "Sử dụng ことができません để diễn tả không có khả năng một cách lịch sự",
       "examples": [
         {
-          "japanese": "駅の前に 大きいスーパーが できました。",
-          "vietnamese": "Trước cửa nhà ga, một siêu thị lớn đã được xây xong."
+          "japanese": "フランスごをはなすことができません。",
+          "kanji": "フランス語を話すことができません",
+          "vietnamese": "Tôi không thể nói tiếng Pháp",
+          "english": ""
         },
         {
-          "japanese": "大阪に 新 しい空港が できました。",
-          "vietnamese": "Ở Osaka một sân bay mới đã hoàn thành."
+          "japanese": "車をうんてんすることができません。",
+          "kanji": "車を運転することができません",
+          "vietnamese": "Tôi không thể lái xe",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP4",
+      "pattern": "V ことができました",
+      "meaning": "Diễn tả khả năng trong quá khứ",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả khả năng đã có trong quá khứ",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể từ điển + ことができました",
+          "• Dùng để nói về khả năng đã có trước đây",
+          "• Thường dùng để kể về kinh nghiệm"
+        ],
+        "note": "Lưu ý: Diễn tả khả năng đã có trong quá khứ"
+      },
+      "explanation": "Sử dụng ことができました để diễn tả khả năng đã có trong quá khứ",
+      "examples": [
+        {
+          "japanese": "むかし、ピアノをひくことができました。",
+          "kanji": "昔、ピアノを弾くことができました",
+          "vietnamese": "Trước đây tôi có thể chơi piano",
+          "english": ""
+        },
+        {
+          "japanese": "こどものころ、えいごをはなすことができました。",
+          "kanji": "子供の頃、英語を話すことができました",
+          "vietnamese": "Khi còn nhỏ tôi có thể nói tiếng Anh",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP5",
+      "pattern": "V ことができませんでした",
+      "meaning": "Diễn tả không có khả năng trong quá khứ",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả không có khả năng trong quá khứ",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể từ điển + ことができませんでした",
+          "• Dùng để nói về việc không thể làm gì trước đây",
+          "• Thường dùng để kể về kinh nghiệm"
+        ],
+        "note": "Lưu ý: Diễn tả không có khả năng trong quá khứ"
+      },
+      "explanation": "Sử dụng ことができませんでした để diễn tả không có khả năng trong quá khứ",
+      "examples": [
+        {
+          "japanese": "むかし、にほんごをはなすことができませんでした。",
+          "kanji": "昔、日本語を話すことができませんでした",
+          "vietnamese": "Trước đây tôi không thể nói tiếng Nhật",
+          "english": ""
+        },
+        {
+          "japanese": "こどものころ、車をうんてんすることができませんでした。",
+          "kanji": "子供の頃、車を運転することができませんでした",
+          "vietnamese": "Khi còn nhỏ tôi không thể lái xe",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP6",
+      "pattern": "V ことができますか",
+      "meaning": "Hỏi về khả năng",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Hỏi xem ai đó có thể làm gì không",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể từ điển + ことができますか",
+          "• Dùng để hỏi về khả năng của người khác",
+          "• Cách hỏi lịch sự và tôn trọng"
+        ],
+        "note": "Lưu ý: Cách hỏi lịch sự về khả năng"
+      },
+      "explanation": "Sử dụng ことができますか để hỏi về khả năng một cách lịch sự",
+      "examples": [
+        {
+          "japanese": "ピアノをひくことができますか。",
+          "kanji": "ピアノを弾くことができますか",
+          "vietnamese": "Bạn có thể chơi piano không?",
+          "english": ""
+        },
+        {
+          "japanese": "にほんごをはなすことができますか。",
+          "kanji": "日本語を話すことができますか",
+          "vietnamese": "Bạn có thể nói tiếng Nhật không?",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP7",
+      "pattern": "V ことができれば",
+      "meaning": "Điều kiện về khả năng",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Nếu có thể làm gì đó thì...",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể từ điển + ことができれば",
+          "• Dùng để diễn tả điều kiện về khả năng",
+          "• Thường dùng trong câu điều kiện"
+        ],
+        "note": "Lưu ý: Diễn tả điều kiện về khả năng"
+      },
+      "explanation": "Sử dụng ことができれば để diễn tả điều kiện về khả năng",
+      "examples": [
+        {
+          "japanese": "にほんごをはなすことができれば、にほんにいけます。",
+          "kanji": "日本語を話すことができれば、日本に行けます",
+          "vietnamese": "Nếu có thể nói tiếng Nhật thì có thể đi Nhật",
+          "english": ""
+        },
+        {
+          "japanese": "車をうんてんすることができれば、りょこうにいけます。",
+          "kanji": "車を運転することができれば、旅行に行けます",
+          "vietnamese": "Nếu có thể lái xe thì có thể đi du lịch",
+          "english": ""
         }
       ],
       "notes": []
     }
   ],
-  "vocabulary": [],
   "exercises": [],
+  "summary": {},
   "culturalNotes": []
 }

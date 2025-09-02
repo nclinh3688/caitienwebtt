@@ -1,0 +1,79 @@
+{
+  "vietnameseTitle": "第４６課 (Bài 46)",
+  "japaneseTitle": "Dai Yonjūrokka",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "Vる ところです",
+      "meaning": "Hành động chuẩn bị xảy ra",
+      "vietnamese": {
+        "meaning": "Sắp sửa (làm ~), chuẩn bị (làm ~).",
+        "usage": "Nhấn mạnh vào thời điểm ngay trước khi hành động diễn ra. Thường đi kèm これから, （ちょうど）今から.",
+        "usagePoints": [],
+        "note": ""
+      },
+      "explanation": "Dùng để diễn tả một hành động sắp bắt đầu.",
+      "examples": [
+        { "japanese": "いいえ、これから食べるところです。", "kanji": "いいえ、これから食べるところです。", "vietnamese": "Chưa, tôi chuẩn bị ăn bây giờ.", "english": "No, I'm about to eat now." },
+        { "japanese": "ちょうど今からお茶を飲むところです。", "kanji": "ちょうど今からお茶を飲むところです。", "vietnamese": "Đúng lúc tôi chuẩn bị uống trà.", "english": "I'm just about to drink tea now." }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "Vている ところです",
+      "meaning": "Hành động đang diễn ra",
+      "vietnamese": {
+        "meaning": "Đang (làm ~), đang trong lúc (làm ~).",
+        "usage": "Nhấn mạnh vào thời điểm hành động đang xảy ra (mạnh hơn V ています). Thường đi kèm trạng từ 今.",
+        "usagePoints": [],
+        "note": ""
+      },
+      "explanation": "Dùng để nhấn mạnh một hành động đang diễn ra tại thời điểm nói.",
+      "examples": [
+        { "japanese": "今勉強しているところですから、あとで行きます。", "kanji": "今勉強しているところですから、あとで行きます。", "vietnamese": "Vì bây giờ tôi đang học bài, nên tôi sẽ đi sau.", "english": "I'm studying right now, so I'll go later." },
+        { "japanese": "今コピーしているところですから、もう少し待ってください。", "kanji": "今コピーしているところですから、もう少し待ってください。", "vietnamese": "Vì bây giờ đang phôtô nên hãy chờ thêm chút nữa.", "english": "I'm copying right now, so please wait a little longer." }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP3",
+      "pattern": "Vた ところです",
+      "meaning": "Hành động vừa diễn ra, vừa kết thúc",
+      "vietnamese": {
+        "meaning": "Vừa mới (làm ~) xong.",
+        "usage": "Nhấn mạnh vào thời điểm ngay sau khi hành động hoàn thành. Chỉ đi với trạng từ たった今.",
+        "usagePoints": [],
+        "note": ""
+      },
+      "explanation": "Dùng để diễn tả một hành động vừa mới kết thúc.",
+      "examples": [
+        { "japanese": "はい、たった今出たところです。", "kanji": "はい、たった今出たところです。", "vietnamese": "Vâng, vừa mới đi.", "english": "Yes, he just left." },
+        { "japanese": "良子さんはたった今うちへ帰ったところです。", "kanji": "良子さんはたった今うちへ帰ったところです。", "vietnamese": "Yoshiko vừa trở về nhà.", "english": "Yoshiko has just returned home." }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP4",
+      "pattern": "Vた ばかりです",
+      "meaning": "Vừa mới, chưa lâu",
+      "vietnamese": {
+        "meaning": "Mới / vừa mới (làm ~).",
+        "usage": "Diễn tả hành động vừa mới hoàn thành nhưng chưa lâu lắm. Thời điểm \"chưa lâu\" này hoàn toàn do phán đoán chủ quan của người nói.",
+        "usagePoints": [],
+        "note": "Khác với Vたところ, Vたばかり diễn tả cảm xúc, tâm lý của người nói rằng việc đó mới xảy ra không lâu."
+      },
+      "explanation": "Dùng để diễn tả một hành động vừa mới xảy ra theo cảm nhận chủ quan của người nói.",
+      "examples": [
+        { "japanese": "山田さんと山本さんは3ヶ月まえに結婚したばかりです。", "kanji": "山田さんと山本さんは3ヶ月まえに結婚したばかりです。", "vietnamese": "Cô Yamada và anh Yamamoto vừa kết hôn 3 tháng trước.", "english": "Ms. Yamada and Mr. Yamamoto just got married 3 months ago." },
+        { "japanese": "このカメラは昨日買ったばかりです。", "kanji": "このカメラは昨日買ったばかりです。", "vietnamese": "Cái máy ảnh này hôm qua tôi vừa mua.", "english": "I just bought this camera yesterday." }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

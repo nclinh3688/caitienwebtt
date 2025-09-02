@@ -1,0 +1,39 @@
+第２５課 (Bài 25)
+1. Thể quá khứ thông thường + ら、～ (Biểu hiện điều kiện - cách nói giả định, giả sử loại 2: dùng cho hầu hết các tình huống)
+    ◦ Ý nghĩa: nếu…, giả sử….
+    ◦ Cách dùng: Thêm chữ 「ら」ở thể quá khứ thông thường của động từ, tính từ… thì sẽ biến mệnh đề đứng trước nó thành mệnh đề biểu hiện điều kiện. Có thể dùng khi người nói muốn bày tỏ lập trường, ý kiến, yêu cầu, lời mời… của mình trong điều kiện đó.
+        ▪ Động từ: V た + ら.
+        ▪ Tính từ đuôi i: ～かった + ら.
+        ▪ Tính từ đuôi na: ～だった + ら.
+        ▪ Danh từ: ～だった + ら.
+    ◦ Ví dụ:
+        ▪ お金が あったら、旅行します。 (Nếu có tiền tôi sẽ đi du lịch.)
+        ▪ 時間が なかったら、テレビを 見ません。 (Nếu không có thời gian tôi sẽ không xem ti vi.)
+        ▪ 安かったら、パソコンを 買いたいです。 (Nếu rẻ tôi muốn mua 1 cái máy tính cá nhân.)
+        ▪ 暇だったら、手伝ってください。 (Nếu rỗi thì giúp tôi một tay nhé.)
+        ▪ いい天気だったら、散歩しませんか。 (Nếu thời tiết đẹp thì bạn có đi bộ cùng tôi không?)
+2. (ý nghĩa thứ 2 của mẫu câu ～たら: khi, sau khi)
+    ◦ Ý nghĩa: khi, sau khi.
+    ◦ Cách dùng: Ngoài cách dùng thể hiện điều kiện, mẫu câu 「～たら」còn được dùng để thể hiện 1 hành động sẽ được thực hiện, hoặc 1 tình huống sẽ xảy ra khi 1 sự việc nào đó mà được cho là chắc chắn sẽ xảy ra trong tương lai được hoàn thành hoặc đạt được. Thì của mệnh đề chính luôn ở thời hiện tại.
+    ◦ Ví dụ:
+        ▪ １０時になったら、出かけましょう。 (Chúng ta sẽ đi ra ngoài khi nào 10 giờ.)
+        ▪ 家へ 帰ったら、すぐ シャワーを 浴びます。 (Về nhà là tôi đi tắm ngay.)
+        ▪ 何時ごろ 見学に 行きますか。 (Khoảng mấy giờ thì đi tham quan?)
+            • …昼ごはんを 食べたら、すぐ 行きます。 (… Sau khi ăn cơm trưa xong là đi ngay.)
+3. V て / い-Adj（～い）→ て / な-Adj「な」→ で / N で + も (Biểu hiện về giả thuyết tương phản - cách nói mệnh đề ngược nghĩa)
+    ◦ Ý nghĩa: dù…, mặc dù…, cho dù….
+    ◦ Cách dùng: Thêm 「も」sau 「て」là có được một từ chỉ điều kiện nghịch. Ngược với mẫu câu 「～たら」, mẫu câu 「～ても」dùng trong tình huống hy vọng một việc gì đó đương nhiên sẽ xảy ra trong điều kiện cho trước nhưng lại không xảy ra, hoặc kết quả xảy ra trái ngược với những gì đã kỳ vọng.
+        ▪ Động từ: V て + も.
+        ▪ Tính từ đuôi i: い-Adj（～い）→ い-Adj くても.
+        ▪ Tính từ đuôi na: な-Adj「な」→ な-Adj でも.
+        ▪ Danh từ: N で + も.
+    ◦ Ví dụ:
+        ▪ スイッチを 入れても、機械が 動きません。 (Dù đã bật công tắc nhưng máy vẫn không chạy.)
+        ▪ 高くても、このラジカセを 買いたいです。 (Mặc dù đắt nhưng tôi vẫn muốn mua cái radio-cassette này.)
+        ▪ 静かでも、寝ることが できません。 (Mặc dù yên tĩnh nhưng cũng không ngủ được.)
+        ▪ 日曜日でも、仕事を します。 (Mặc dù là chủ nhật nhưng vẫn làm việc.)
+4. もし ＆ いくら
+    ◦ Cách dùng: 「もし」được sử dụng trong mẫu câu 「～たら」, bao hàm ý nhấn mạnh về giả thuyết của người nói. 「いくら」được sử dụng trong mẫu câu 「～ても（～でも）」, nhấn mạnh về mức độ điều kiện.
+    ◦ Ví dụ:
+        ▪ もし １億円あったら、いろいろな国を 旅行したいです。 (Giả sử, nếu có 100 triệu yên tôi muốn đi du lịch thật nhiều nước.)
+        ▪ いくら 考 えても、分かりません。 (Mặc dù có suy nghĩ bao nhiêu đi chăng nữa cũng chẳng hiểu được.)

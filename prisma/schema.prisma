@@ -147,6 +147,7 @@ model Vocabulary {
   reading     String?  // Pronunciation/reading (for Japanese/Chinese)
   meaning     String   // Vietnamese meaning
   example     String?  // Example sentence
+  section     String?  // Section like 'main', 'conversation', 'reading'
   difficulty  String   @default("beginner")
   order       Int      @default(0)
   createdAt   DateTime @default(now())

@@ -1,0 +1,34 @@
+第４６課 (Dai Yonjūrokka)
+1. Các mẫu câu với cụm từ 「～ところです」 (Thời điểm)
+* ところ trong bài này thể hiện thời điểm, và ý nghĩa thay đổi tùy theo thì của động từ đi trước nó (động từ luôn ở dạng ngắn).
+    * 1.1. 「V dict. ところです」 (Hành động chuẩn bị xảy ra)
+        * Ý nghĩa: Sắp sửa (làm ~), chuẩn bị (làm ~).
+        * Cách dùng: Nhấn mạnh vào thời điểm ngay trước khi hành động diễn ra. Thường đi kèm これから, （ちょうど）今から.
+        * Ví dụ:
+            * いいえ、これから食べるところです。(…Chưa, tôi chuẩn bị ăn bây giờ.)
+            * ちょうど今からお茶を飲むところです。(Đúng lúc tôi chuẩn bị uống trà.)
+    * 1.2. 「V ている ところです」 (Hành động đang diễn ra)
+        * Ý nghĩa: Đang (làm ~), đang trong lúc (làm ~).
+        * Cách dùng: Nhấn mạnh vào thời điểm hành động đang xảy ra (mạnh hơn V ています). Thường đi kèm trạng từ 今.
+        * Ví dụ:
+            * 今勉強しているところですから、あとで行きます。(Vì bây giờ tôi đang học bài, nên tôi sẽ đi sau.)
+            * 今コピーしているところですから、もう少し待ってください。(Vì bây giờ đang phôtô nên hãy chờ thêm chút nữa.)
+    * 1.3. 「V た ところです」 (Hành động vừa diễn ra, vừa kết thúc)
+        * Ý nghĩa: Vừa mới (làm ~) xong.
+        * Cách dùng: Nhấn mạnh vào thời điểm ngay sau khi hành động hoàn thành. Chỉ đi với trạng từ たった今.
+        * Ví dụ:
+            * はい、たった今出たところです。(Vâng, vừa mới đi.)
+            * 良子さんはたった今うちへ帰ったところです。(Yoshiko vừa trở về nhà.)
+* Tổng kết:
+    * ご飯を食べるところです。(Sắp ăn cơm.)
+    * ご飯を食べているところです。(Đang ăn cơm.)
+    * ご飯を食べたところです。(Vừa ăn cơm xong.)
+2. 「V た ばかりです」 (Vừa mới, chưa lâu)
+* Ý nghĩa: Mới / vừa mới (làm ~).
+* Cách dùng: Diễn tả hành động vừa mới hoàn thành nhưng chưa lâu lắm. Thời điểm "chưa lâu" này hoàn toàn do phán đoán chủ quan của người nói.
+* Ví dụ:
+    * 山田さんと山本さんは3ヶ月まえに結婚したばかりです。(Cô Yamada và anh Yamamoto vừa kết hôn 3 tháng trước.)
+    * このカメラは昨日買ったばかりです。(Cái máy ảnh này hôm qua tôi vừa mua.)
+* So sánh với 「V たところ」:
+    * V たところ nhấn mạnh thời điểm ngay sau hành động kết thúc, không bao gồm cảm xúc.
+    * V たばかり diễn tả hành động vừa xảy ra và bao gồm cảm xúc, tâm lý của người nói (việc đó mới xảy ra cách đây không lâu).

@@ -1,0 +1,51 @@
+{
+  "vietnameseTitle": "第４８課 (Bài 48)",
+  "japaneseTitle": "Dai Yonjūhachi-ka",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "V(さ)せる (Thể sai khiến)",
+      "meaning": "Bắt làm, cho phép làm",
+      "vietnamese": {
+        "meaning": "Thể hiện sự cho phép hoặc bắt buộc.",
+        "usage": "Không dùng với quan hệ ngang bằng hoặc người trên.",
+        "usagePoints": [
+          "Nhóm I: Chuyển đuôi u sang a + せる.",
+          "Nhóm II: Bỏ る thêm させる.",
+          "Nhóm III: する → させる, 来る → 来させる."
+        ],
+        "note": ""
+      },
+      "explanation": "Thể sai khiến dùng để diễn tả hành động bắt buộc hoặc cho phép ai đó làm gì.",
+      "examples": [
+        { "japanese": "部長は加藤さんを大阪へ出張させます。", "kanji": "部長は加藤さんを大阪へ出張させます。", "vietnamese": "Trưởng phòng sai anh Kato đi công tác Osaka.", "english": "The manager makes Mr. Kato go on a business trip to Osaka." },
+        { "japanese": "私は娘を自由に遊ばせました。", "kanji": "私は娘を自由に遊ばせました。", "vietnamese": "Tôi để cho con gái chơi tự do.", "english": "I let my daughter play freely." },
+        { "japanese": "先生は生徒にまどを開けさせました。", "kanji": "先生は生徒にまどを開けさせました。", "vietnamese": "Giáo viên sai (bảo) sinh viên mở cửa sổ.", "english": "The teacher made the student open the window." },
+        { "japanese": "朝は忙しいですから、娘に朝ごはんの準備を手伝わせます。", "kanji": "朝は忙しいですから、娘に朝ごはんの準備を手伝わせます。", "vietnamese": "Vì buổi sáng bận nên tôi bắt con gái cùng phụ chuẩn bị bữa sáng.", "english": "Because I'm busy in the morning, I have my daughter help prepare breakfast." }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "V(さ)せて いただけませんか",
+      "meaning": "Xin phép làm gì một cách lịch sự",
+      "vietnamese": {
+        "meaning": "Cho phép tôi (làm gì), hãy để tôi (làm gì) được không?",
+        "usage": "Dùng để xin phép, nhờ vả, yêu cầu người nghe xác nhận và cho phép mình được thực hiện hành động nào đó. Là cách nói lịch sự hơn.",
+        "usagePoints": [],
+        "note": ""
+      },
+      "explanation": "Đây là cách nói rất lịch sự để xin phép làm một việc gì đó.",
+      "examples": [
+        { "japanese": "すみませんが、早く帰らせていただけませんか。", "kanji": "すみませんが、早く帰らせていただけませんか。", "vietnamese": "Xin lỗi cho phép tôi về sớm được không ạ?", "english": "Excuse me, could you please let me go home early?" },
+        { "japanese": "コピー機を使わせていただけませんか。", "kanji": "コピー機を使わせていただけませんか。", "vietnamese": "Cho phép tôi sử dụng máy photo được không ạ?", "english": "Could you please let me use the copy machine?" }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

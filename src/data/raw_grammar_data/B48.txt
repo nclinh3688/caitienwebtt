@@ -1,0 +1,26 @@
+第４８課 (Dai Yonjūhachi-ka)
+「使役文」 (Thể sai khiến)
+1. Cách chia động từ thể sai khiến:
+* Nhóm I: Chuyển đuôi u sang a + せる. Ví dụ: 書く (kaku) → 書かせる (kakaseru).
+* Nhóm II: Bỏ る thêm させる. Ví dụ: 食べる (taberu) → 食べさせる (tabesaseru).
+* Nhóm III: する (suru) → させる (saseru), 来る (kuru) → 来させる (kosaseru).
+2. Cách sử dụng và mẫu câu:
+* Thể sai khiến biểu hiện ý cho phép (cho làm gì) hay mệnh lệnh, yêu cầu, cưỡng chế (bắt làm gì). Mang ý nghĩa sai khiến mạnh của người trên với người dưới. Không dùng với quan hệ ngang bằng hoặc người trên.
+    * 2.2.1. Đối với “tự động từ” (自動詞)
+        * Ý nghĩa: Cho (ai đó) làm ~; bắt (ai đó) làm ~.
+        * Cách dùng: Biến tự động từ sang thể sai khiến. Người thực hiện hành động đi với trợ từ を.
+        * Ví dụ:
+            * 部長は加藤さんを大阪へ出張させます。(Trưởng phòng sai anh Kato đi công tác Osaka.)
+            * 私は娘を自由に遊ばせました。(Tôi để cho con gái chơi tự do.)
+    * 2.2.2. Đối với “tha động từ” (他動詞)
+        * Ý nghĩa: Cho (ai đó) làm ~; bắt (ai đó) làm ~.
+        * Cách dùng: Biến tha động từ sang thể sai khiến. Người thực hiện hành động đi với trợ từ に, tân ngữ đi với trợ từ を.
+        * Ví dụ:
+            * 先生は生徒にまどを開けさせました。(Giáo viên sai (bảo) sinh viên mở cửa sổ.)
+            * 朝は忙しいですから、娘に朝ごはんの準備を手伝わせます。(Vì buổi sáng bận nên tôi bắt con gái cùng phụ chuẩn bị bữa sáng.)
+    * 2.2.3. 「V（さ）せて いただけませんか。」 (Xin phép làm gì một cách lịch sự)
+        * Ý nghĩa: Cho phép tôi (làm gì), hãy để tôi (làm gì) được không?
+        * Cách dùng: Dùng để xin phép, nhờ vả, yêu cầu người nghe xác nhận và cho phép mình được thực hiện hành động nào đó. Là cách nói lịch sự hơn.
+        * Ví dụ:
+            * すみませんが、早く帰らせていただけませんか。(Xin lỗi cho phép tôi về sớm được không ạ?)
+            * コピー機を使わせていただけませんか。(Cho phép tôi sử dụng máy photo được không ạ?)

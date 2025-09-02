@@ -604,6 +604,15 @@ export default function VocabularyN5Interface() {
                   </motion.button>
                 ))}
               </div>
+
+              <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-3 rounded-lg hover:shadow-lg transition-all flex items-center justify-center space-x-2 mt-4"
+              >
+                <Trophy size={16} />
+                <span>Làm bài kiểm tra</span>
+              </motion.button>
             </div>
 
             {/* Quick Actions */}
@@ -623,14 +632,7 @@ export default function VocabularyN5Interface() {
                   <span>Ôn tập</span>
                 </motion.button>
                 
-                <motion.button
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                  className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-3 rounded-lg hover:shadow-lg transition-all flex items-center justify-center space-x-2"
-                >
-                  <Trophy size={16} />
-                  <span>Làm bài kiểm tra</span>
-                </motion.button>
+                
               </div>
             </div>
           </motion.aside>

@@ -1,0 +1,70 @@
+{
+  "vietnameseTitle": "第３８課 (Bài 38)",
+  "japaneseTitle": "",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "V-る + のは + A-いです",
+      "meaning": "Việc... thì...",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Dùng 「の」 để biến một động từ hoặc một mệnh đề thành một cụm danh từ. Cụm danh từ này có thể làm chủ ngữ trong câu.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể từ điển + のは + Tính từ です。",
+          "• Toàn bộ vế 「Vるの」 trở thành chủ ngữ của câu."
+        ],
+        "note": "Lưu ý: Mẫu câu này dùng để bình luận hoặc đưa ra đánh giá về một hành động nào đó."
+      },
+      "explanation": "Trợ từ 「の」 có thể biến một động từ thành danh từ. Trong mẫu câu này, 'việc làm V' (Vるの) trở thành chủ đề của câu, và được mô tả bằng một tính từ ở vế sau.",
+      "examples": [
+        {
+          "japanese": "ひとりで このにもつを はこぶのは むりです。",
+          "kanji": "一人で この荷物を 運ぶのは 無理です。",
+          "vietnamese": "Việc một mình vận chuyển hành lý này là không thể.",
+          "english": "It is impossible to carry this luggage alone."
+        },
+        {
+          "japanese": "えを かくのは たのしいです。",
+          "kanji": "絵を 描くのは 楽しいです。",
+          "vietnamese": "Việc vẽ tranh thì rất vui.",
+          "english": "Drawing pictures is fun."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "V-る + のが + A-いです",
+      "meaning": "Thích/ghét/giỏi/kém việc gì đó",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Dùng để biến động từ thành cụm danh từ làm tân ngữ cho các tính từ chỉ sự yêu thích, kỹ năng như 「好き、嫌い、上手、下手」.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể từ điển + のが + 好きです/嫌いです/上手です/下手です。"
+        ],
+        "note": ""
+      },
+      "explanation": "Tương tự như mẫu câu trên, 「の」 biến động từ thành danh từ. Cụm danh từ này sẽ là đối tượng của các tính từ chỉ cảm xúc hoặc năng lực.",
+      "examples": [
+        {
+          "japanese": "わたしは ほしを みるのが すきです。",
+          "kanji": "私は 星を 見るのが 好きです。",
+          "vietnamese": "Tôi thích việc ngắm sao.",
+          "english": "I like watching stars."
+        },
+        {
+          "japanese": "たなかさんは ピアノを ひくのが じょうずです。",
+          "kanji": "田中さんは ピアノを 弾くのが 上手です。",
+          "vietnamese": "Anh Tanaka giỏi chơi đàn piano.",
+          "english": "Mr. Tanaka is good at playing the piano."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

@@ -1,0 +1,84 @@
+{
+  "vietnameseTitle": "第４９課 (Bài 49)",
+  "japaneseTitle": "Dai Yonjūkyū-ka",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "お／ご + N (Tôn kính ngữ)",
+      "meaning": "Tiền tố tôn kính",
+      "vietnamese": {
+        "meaning": "Thêm vào trước danh từ, tính từ, phó từ để thể hiện sự tôn trọng.",
+        "usage": "お đi với từ thuần Nhật (和語). ご đi với từ gốc Hán (漢語).",
+        "usagePoints": [],
+        "note": "Có một số từ gốc Hán vẫn đi với お, ví dụ: お洗濯する."
+      },
+      "explanation": "Sử dụng tiền tố お và ご là một cách để thể hiện sự tôn kính trong tiếng Nhật.",
+      "examples": [
+        { "japanese": "ご質問はありますか。", "kanji": "ご質問はありますか。", "vietnamese": "Ngài có câu hỏi nào không ạ?", "english": "Do you have any questions?" },
+        { "japanese": "お忙しいところ、すみません。", "kanji": "お忙しいところ、すみません。", "vietnamese": "Xin lỗi đã làm phiền lúc ngài đang bận.", "english": "Excuse me for bothering you while you are busy." }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "V(ら)れます (Thể bị động tôn kính)",
+      "meaning": "Tôn kính ngữ của động từ",
+      "vietnamese": {
+        "meaning": "Thể hiện sự kính trọng.",
+        "usage": "Chia giống động từ bị động. Áp dụng cho hầu hết các động từ.",
+        "usagePoints": [],
+        "note": "Không dùng tôn kính ngữ cho hành động của người nói khi trả lời."
+      },
+      "explanation": "Sử dụng thể bị động là một cách phổ biến để tạo thành động từ tôn kính ngữ.",
+      "examples": [
+        { "japanese": "社長はさっき出かけられました。", "kanji": "社長はさっき出かけられました。", "vietnamese": "Giám đốc đã đi ra ngoài lúc nãy rồi ạ.", "english": "The president went out a little while ago." },
+        { "japanese": "いつベトナムに来られましたか。", "kanji": "いつベトナムに来られましたか。", "vietnamese": "Ngài đến Việt Nam lúc nào thế ạ?", "english": "When did you come to Vietnam?" }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP3",
+      "pattern": "おＶます になります",
+      "meaning": "Tôn kính ngữ (mức độ cao)",
+      "vietnamese": {
+        "meaning": "Thể hiện sự tôn kính, kính trọng ở mức độ cao nhất.",
+        "usage": "Rất mềm dẻo, mức độ tôn kính cao hơn thể bị động. Không áp dụng với động từ nhóm 3 và động từ 1 âm tiết.",
+        "usagePoints": [],
+        "note": "Không dùng tôn kính ngữ cho hành động của người nói khi trả lời."
+      },
+      "explanation": "Đây là một dạng tôn kính ngữ đặc biệt, thể hiện mức độ kính trọng cao.",
+      "examples": [
+        { "japanese": "社長はお帰りになりました。", "kanji": "社長はお帰りになりました。", "vietnamese": "Giám đốc đã về rồi ạ.", "english": "The president has returned." },
+        { "japanese": "新聞をお読みになりますか。", "kanji": "新聞をお読みになりますか。", "vietnamese": "Ngài/Bạn có đọc báo không ạ?", "english": "Do you read the newspaper?" }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP4",
+      "pattern": "Tôn kính ngữ đặc biệt",
+      "meaning": "Các động từ có dạng tôn kính riêng",
+      "vietnamese": {
+        "meaning": "Một số động từ có dạng tôn kính ngữ đặc biệt cần phải ghi nhớ.",
+        "usage": "",
+        "usagePoints": [
+          "いきます, きます, います → いらっしゃいます",
+          "たべます, のみます → めしあがります",
+          "します → なさいます",
+          "いいます → おっしゃいます",
+          "しっています → ごぞんじです",
+          "みます → ごらんになります",
+          "くれます → くださいます"
+        ],
+        "note": ""
+      },
+      "explanation": "Một số động từ có hình thức tôn kính đặc biệt không theo quy tắc chung.",
+      "examples": [],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

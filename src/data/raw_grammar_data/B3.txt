@@ -1,0 +1,144 @@
+### 第３課 (Bài 3)
+
+
+
+1. **ここ、そこ、あそこ は N (địa điểm) です** (Chỗ này/đó/kia là N)
+
+* **Ý nghĩa**: Chỗ này/đó/kia là N.
+
+* **Cách dùng**: 「ここ」、「そこ」、「あそこ」là các đại danh từ chỉ nơi chốn.
+
+* **ここ** chỉ chỗ của người nói. (Trong phạm vi của người nói).
+
+* **そこ** là chỗ của người nghe. (Trong phạm vi của người nghe).
+
+* **あそこ** chỉ nơi xa cả hai người.
+
+* **Ví dụ**:
+
+* ここは きょうしつです。 (Đây là phòng học.)
+
+* そこは おてあらいです。 (Đó là nhà vệ sinh.)
+
+* あそこは しょくどうです。 (Kia là nhà ăn tập thể.)
+
+* **Chú ý**: Khi người nói và người nghe ở cùng một địa điểm thì cả hai người đều sử dụng 「ここ」.
+
+
+
+2. **N (địa điểm) は ここ・そこ・あそこです。/ N (địa điểm) は どこ ですか。** (N ở chỗ này (chỗ đó, chỗ kia) - chỉ vị trí, tồn tại)
+
+* **Ý nghĩa**: N ở chỗ này (chỗ đó, chỗ kia) (chỉ vị trí, tồn tại).
+
+* **Ví dụ**:
+
+* ロビーは ここです。 (Hành lang ở đây.)
+
+* エレベーターは あそこです。 (Cầu thang máy ở chỗ kia.)
+
+* うけつけはそこです。 (Tiếp tân ở chỗ đó.)
+
+* **Câu hỏi cho địa điểm**: N (địa điểm) は どこ ですか。 (N ở đâu?).
+
+* **Chú ý**: Có thể mở rộng trường hợp này cho địa điểm tồn tại của người và vật. **N１( người hoặc vật ) は N２ (địa điểm) です。** N1 ở N2.
+
+* **Ví dụ**:
+
+* ラオさんは うちです。 (Anh Rao ở nhà.)
+
+* マイさんは あそこです。 (Bạn Mai ở đằng kia.)
+
+* せんせいは きょうしつです。 (Cô giáo ở trong phòng học.)
+
+* マリアさんは どこですか。 (Bạn Maria ở đâu?)
+
+* …にわです。 (…Ngoài sân.)
+
+
+
+3. **こちら・そちら・あちら・どちら**
+
+* **Cách dùng**: Nghĩa tương đương với 「ここ・そこ・あそこ・どこ」nhưng trang trọng, lịch sự hơn. Nghĩa gốc của chúng là các đại danh từ chỉ phương hướng.
+
+* **Ví dụ**:
+
+* でんわは どちらですか。 (Điện thoại ở đâu nhỉ?)
+
+* … あちらです。 (… Ở đằng kia.)
+
+* （お）くには どちらですか。 (Đất nước của bạn là ở đâu?)
+
+* … ベトナムです。 (… Việt Nam.)
+
+* **Chú ý**: Với câu hỏi 「あなたのかいしゃは どちらですか。」thì có thể hiểu theo 2 nghĩa: Công ty bạn ở đâu? và Công ty bạn là công ty nào? (tên công ty). Nhưng phần lớn được hiểu theo nghĩa thứ 2. Và ở đây, quy định là hiểu theo nghĩa thứ 2.
+
+* **Ví dụ**:
+
+* あなたのかいしゃはどちらですか。 (Công ty của bạn là công ty nào?)
+
+* … FPT です。 (… FPT.)
+
+
+
+4. **これ・それ・あれ は N1 の N2 です。** (Cái này/cái kia/cái đó là N2 của N1 - xuất xứ)
+
+* **Ý nghĩa**: Cái này/cái kia/cái đó là N2 của N1.
+
+* **Cách dùng 1**: Dùng khi muốn nói 1 đồ vật nào đó có xuất xứ từ đâu, do nước nào hoặc công ty nào sản xuất ra.
+
+* **Ví dụ**:
+
+* あれは 日本の シャープペンシルです。 (Kia là bút chì kim của Nhật.)
+
+* それは ソニーの テレビです。 (Đó là tivi của Sony.)
+
+* **Câu hỏi どこの**: これ・それ・あれ は どこ の N2 ですか。 Là câu hỏi cho mẫu câu trên, dùng để hỏi xuất xứ của đồ vật, muốn biết đồ vật đó có nguồn gốc từ đâu, do nước nào, công ty nào sản xuất.
+
+* **Ví dụ**:
+
+* これは どこの じどうしゃですか。 (Đây là ôtô của nước nào/của công ty nào?)
+
+* …日本 の じどうしゃです。 (Ôtô của Nhật.)
+
+
+
+5. **これ・それ・あれ は N1（Loại hình, thể loại）の N2 です。** (Cái này/cái kia/cái đó là N2 thuộc loại hình/thể loại N1 - thuộc tính)
+
+* **Cách dùng 2**: Dùng khi muốn nói về thuộc tính của đồ vật: thuộc lĩnh vực gì, về chuyên ngành nào, tiếng nước nào….
+
+* **Ví dụ**:
+
+* これは じどうしゃの ほんです。 (Đây là quyển sách về xe ôtô.)
+
+* それは にほんごの しんぶんです。 (Đó là tờ báo tiếng Nhật.)
+
+* **Câu hỏi なんの**: これ・それ・あれ は なん の N ですか. Là câu hỏi cho mẫu câu trên, dùng để khi muốn hỏi 1 vật nào đó thuộc lĩnh vực gì, về chuyên ngành nào, viết bằng tiếng nước nào….
+
+* **Ví dụ**:
+
+* これは なんの ざっしですか。 (Đây là tạp chí gì?)
+
+* … それは コンピューターのです。 (Đó là tạp chí (về) máy tính.)
+
+* **Mở rộng**: Có thể dùng để nói 1 công ty nào đó hoạt động trong lĩnh vực nào.
+
+* **Ví dụ**:
+
+* FPT は コンピューターの かいしゃです。 (FPT là công ty máy tính.)
+
+* ひたちは なんの かいしゃです。 (Hitachi là công ty gì?)
+
+* …. テレビ の かいしゃです。 (… Là công ty sản xuất TV.)
+
+
+
+6. **N は いくらですか。**
+
+* **Ý nghĩa**: N bao nhiêu tiền.
+
+* **Ví dụ**:
+
+* このざっし は いくらですか。 (Cái áo này bao nhiêu tiền?)
+
+* …１００円です。 (…100 Yên.)
+

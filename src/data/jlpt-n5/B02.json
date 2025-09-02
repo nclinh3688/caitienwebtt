@@ -1,311 +1,250 @@
 {
-  "id": "B02",
-  "title": "Bài 2: Đồ vật, địa điểm",
-  "description": "Từ vựng về đồ vật, hỏi đáp vị trí, mẫu câu chỉ định.",
-  "vocabulary": [
+  "lessonNumber": 2,
+  "japaneseTitle": "第2課",
+  "vietnameseTitle": "Bài 2: Đồ vật, địa điểm",
+  "englishTitle": "Lesson 2: Objects and Locations",
+  "summary": {
+    "title": "Tóm tắt bài học",
+    "content": "Bài 2 tập trung vào các từ chỉ thị (cái này, cái đó, cái kia), cách hỏi và trả lời về vật và người, cách hỏi lựa chọn, và trợ từ sở hữu. Học viên sẽ nắm vững cách sử dụng các đại từ chỉ thị và các mẫu câu cơ bản.",
+    "keyPoints": [
+      "Các từ chỉ thị (これ, それ, あれ, この, その, あの)",
+      "Câu hỏi với なん và だれ",
+      "そうです／そうではありません",
+      "N1 ですか、N2 ですか",
+      "Trợ từ の chỉ sở hữu",
+      "そうですか"
+    ]
+  },
+  "estimatedTime": "4-6 giờ",
+  "difficulty": "⭐⭐⭐⭐⭐",
+  "grammarPatterns": [
     {
-      "content": "これ",
-      "kanji": "",
-      "reading": "これ",
-      "meaning": "cái này"
+      "id": 1,
+      "pattern": "これ／それ／あれ は N です",
+      "meaning": "Cái này/cái đó/cái kia là N",
+      "explanation": "Đây là các danh từ chỉ thị. Chúng được sử dụng như một danh từ. Không có danh từ nào đi liền sau chúng. これ (kore): Dùng để chỉ vật ở gần người nói, xa người nghe (trong phạm vi người nói). それ: Dùng để chỉ vật ở gần người nghe, xa người nói (trong phạm vi người nghe). あれ: Dùng để chỉ vật ở xa cả người nói và người nghe.",
+      "examples": [
+        {
+          "japanese": "これは 本ですか。",
+          "kanji": "",
+          "vietnamese": "Đây là quyển sách à?",
+          "english": ""
+        },
+        {
+          "japanese": "…いいえ、それはノートです。",
+          "kanji": "",
+          "vietnamese": "…Không, đó là quyển vở.",
+          "english": ""
+        },
+        {
+          "japanese": "あれは じどうしゃです。",
+          "kanji": "",
+          "vietnamese": "Kia là cái ô tô.",
+          "english": ""
+        }
+      ],
+      "notes": []
     },
     {
-      "content": "それ",
-      "kanji": "",
-      "reading": "それ",
-      "meaning": "cái đó"
+      "id": 2,
+      "pattern": "この N／その N／あの N",
+      "meaning": "Danh từ N này/đó/kia",
+      "explanation": "この (kono)、その (sono)、あの (ano) là các từ chỉ thị bổ nghĩa cho danh từ. Về tương quan khoảng cách thì giống với これ、それ、あれ。Nhưng khác về cách sử dụng vì luôn phải có danh từ đi liền đằng sau。この N: Dùng để chỉ vật hoặc người ở gần người nói, xa người nghe。その N: Dùng để chỉ vật hay người ở gần người nghe, xa người nói。あの N: Dùng để chỉ vật hay người ở xa cả người nói và người nghe。",
+      "examples": [
+        {
+          "japanese": "あの人は 山田さんです。",
+          "kanji": "",
+          "vietnamese": "Người kia là anh Yamada.",
+          "english": ""
+        }
+      ],
+      "notes": []
     },
     {
-      "content": "あれ",
-      "kanji": "",
-      "reading": "あれ",
-      "meaning": "cái kia"
+      "id": 3,
+      "pattern": "N は なんですか。/ N は だれですか。",
+      "meaning": "N là cái gì? / N là ai?",
+      "explanation": "なん là từ để hỏi dùng cho vật. だれ là từ để hỏi dùng cho người.",
+      "examples": [
+        {
+          "japanese": "これは なんですか。",
+          "kanji": "",
+          "vietnamese": "Đây là cái gì?",
+          "english": ""
+        },
+        {
+          "japanese": "…それは いすです。",
+          "kanji": "",
+          "vietnamese": "… Đó là cái ghế.",
+          "english": ""
+        },
+        {
+          "japanese": "このひとはだれですか。",
+          "kanji": "",
+          "vietnamese": "Người này là ai?",
+          "english": ""
+        },
+        {
+          "japanese": "…そのひとは 田中さんです。",
+          "kanji": "",
+          "vietnamese": "… Người đó là anh Tanaka.",
+          "english": ""
+        }
+      ],
+      "notes": [
+        "Khi một vật ở gần cả hai người thì cả hai người đều có thể dùng これ hay この。"
+      ]
     },
     {
-      "content": "この",
-      "kanji": "",
-      "reading": "この",
-      "meaning": "~này"
+      "id": 4,
+      "pattern": "そうです／そうではありません",
+      "meaning": "Đúng vậy / Không phải thế",
+      "explanation": "そう được sử dụng để trả lời câu hỏi nghi vấn mà tận cùng là danh từ. Trong câu khẳng định dùng: はい、そうです。 (Vâng, đúng vậy.). Trong câu phủ định dùng: いいえ、そうでは（じゃ）ありません。 (Không, không phải thế.).",
+      "examples": [
+        {
+          "japanese": "これは えんぴつですか。",
+          "kanji": "",
+          "vietnamese": "Đây là cái bút chì phải không?",
+          "english": ""
+        },
+        {
+          "japanese": "…はい、えんぴつです。",
+          "kanji": "",
+          "vietnamese": "…Vâng, đó là cái bút chì.",
+          "english": ""
+        },
+        {
+          "japanese": "…はい、そうです。",
+          "kanji": "",
+          "vietnamese": "…Vâng, đúng vậy.",
+          "english": ""
+        },
+        {
+          "japanese": "それは テレホンカードですか。",
+          "kanji": "",
+          "vietnamese": "Đó là cái thẻ điện thoại phải không?",
+          "english": ""
+        },
+        {
+          "japanese": "…いいえ、テレホンカードではありません。",
+          "kanji": "",
+          "vietnamese": "…Không, không phải cái thẻ điện thoại.",
+          "english": ""
+        },
+        {
+          "japanese": "…いいえ、そうではありません。",
+          "kanji": "",
+          "vietnamese": "…Không, không phải thế.",
+          "english": ""
+        }
+      ],
+      "notes": [
+        "Trong trường hợp câu nghi vấn mà tận cùng là động từ hay tính từ thì không sử dụng そうです hay そうではありません để trả lời。"
+      ]
     },
     {
-      "content": "その",
-      "kanji": "",
-      "reading": "その",
-      "meaning": "~đó"
+      "id": 5,
+      "pattern": "N1 ですか、N2 ですか",
+      "meaning": "N1 hay là N2?",
+      "explanation": "Đây là loại câu hỏi lựa chọn, được cấu tạo bởi hai câu đơn, dùng khi phân vân, không biết rõ đối tượng là cái gì (có thể vì hình dạng khá giống nhau). Mỗi mệnh đề trước chữ か đều là một câu hỏi về cùng 1 đối tượng.",
+      "examples": [
+        {
+          "japanese": "それは ボールペンですか,シャープペンシルですか。",
+          "kanji": "",
+          "vietnamese": "Đó là cái bút bi hay là bút chì kim?",
+          "english": ""
+        },
+        {
+          "japanese": "…ボールペンです。",
+          "kanji": "",
+          "vietnamese": "…Là cái bút bi.",
+          "english": ""
+        }
+      ],
+      "notes": [
+        "Khi trả lời câu hỏi này không dùng はい hay いいえ。"
+      ]
     },
     {
-      "content": "あの",
-      "kanji": "",
-      "reading": "あの",
-      "meaning": "~kia"
+      "id": 6,
+      "pattern": "N1 の N2",
+      "meaning": "N2 của N1, N2 thuộc về N1",
+      "explanation": "Ở bài trước, N1 là một tổ chức mà N2 thuộc vào đó. Ở bài này, trợ từ の có ý nghĩa chỉ sự sở hữu. N2 thuộc sở hữu của N1.",
+      "examples": [
+        {
+          "japanese": "これは わたしの ほんです。",
+          "kanji": "",
+          "vietnamese": "Đây là quyển sách của tôi.",
+          "english": ""
+        },
+        {
+          "japanese": "あれは だれのかばんですか。",
+          "kanji": "",
+          "vietnamese": "Kia là cái cặp của ai?",
+          "english": ""
+        },
+        {
+          "japanese": "… わたしのです。",
+          "kanji": "",
+          "vietnamese": "… Là của tôi.",
+          "english": ""
+        },
+        {
+          "japanese": "そのつくえは ラオさんのですか。",
+          "kanji": "",
+          "vietnamese": "Cái bàn đó là của Rao phải không?",
+          "english": ""
+        },
+        {
+          "japanese": "… いいえ、ラオさんのではありません。",
+          "kanji": "",
+          "vietnamese": "… Không, không phải của Rao.",
+          "english": ""
+        },
+        {
+          "japanese": "ミラーさんは IMC のしゃいんですか。",
+          "kanji": "",
+          "vietnamese": "Mira là nhân viên công ty IMC phải không?",
+          "english": ""
+        },
+        {
+          "japanese": "… はい、IMC のしゃいんです。",
+          "kanji": "",
+          "vietnamese": "… Vâng, (anh ấy) là nhân viên công ty IMC.",
+          "english": ""
+        }
+      ],
+      "notes": [
+        "N2 đôi khi được lược bỏ khi đã được nhắc đến trước đó hay đã rõ nghĩa。",
+        "Khi N2 là một từ chỉ người thì không được bỏ。"
+      ]
     },
     {
-      "content": "ほん",
-      "kanji": "本",
-      "reading": "ほん",
-      "meaning": "sách"
-    },
-    {
-      "content": "じしょ",
-      "kanji": "辞書",
-      "reading": "じしょ",
-      "meaning": "từ điển"
-    },
-    {
-      "content": "ざっし",
-      "kanji": "雑誌",
-      "reading": "ざっし",
-      "meaning": "tạp chí"
-    },
-    {
-      "content": "しんぶん",
-      "kanji": "新聞",
-      "reading": "しんぶん",
-      "meaning": "báo"
-    },
-    {
-      "content": "ノート",
-      "kanji": "",
-      "reading": "ノート",
-      "meaning": "sổ ghi chép"
-    },
-    {
-      "content": "てちょう",
-      "kanji": "手帳",
-      "reading": "てちょう",
-      "meaning": "sổ tay"
-    },
-    {
-      "content": "なまえ",
-      "kanji": "名前",
-      "reading": "なまえ",
-      "meaning": "tên"
-    },
-    {
-      "content": "じゅうしょ",
-      "kanji": "住所",
-      "reading": "じゅうしょ",
-      "meaning": "địa chỉ"
-    },
-    {
-      "content": "でんわばんごう",
-      "kanji": "電話番号",
-      "reading": "でんわばんごう",
-      "meaning": "số điện thoại"
-    },
-    {
-      "content": "えんぴつ",
-      "kanji": "鉛筆",
-      "reading": "えんぴつ",
-      "meaning": "bút chì"
-    },
-    {
-      "content": "ボールペン",
-      "kanji": "",
-      "reading": "ボールペン",
-      "meaning": "bút bi"
-    },
-    {
-      "content": "シャープペンシル",
-      "kanji": "",
-      "reading": "シャープペンシル",
-      "meaning": "bút chì kim"
-    },
-    {
-      "content": "かぎ",
-      "kanji": "鍵",
-      "reading": "かぎ",
-      "meaning": "chìa khóa"
-    },
-    {
-      "content": "とけい",
-      "kanji": "時計",
-      "reading": "とけい",
-      "meaning": "đồng hồ"
-    },
-    {
-      "content": "かばん",
-      "kanji": "鞄",
-      "reading": "かばん",
-      "meaning": "cặp"
-    },
-    {
-      "content": "カセットテープ",
-      "kanji": "",
-      "reading": "カセットテープ",
-      "meaning": "băng cassette"
-    },
-    {
-      "content": "テープレコーダー",
-      "kanji": "",
-      "reading": "テープレコーダー",
-      "meaning": "máy ghi âm"
-    },
-    {
-      "content": "テレビ",
-      "kanji": "",
-      "reading": "テレビ",
-      "meaning": "tivi"
-    },
-    {
-      "content": "ラジオ",
-      "kanji": "",
-      "reading": "ラジオ",
-      "meaning": "radio"
-    },
-    {
-      "content": "カメラ",
-      "kanji": "",
-      "reading": "カメラ",
-      "meaning": "máy ảnh"
-    },
-    {
-      "content": "コンピューター",
-      "kanji": "",
-      "reading": "コンピューター",
-      "meaning": "máy tính"
-    },
-    {
-      "content": "くるま",
-      "kanji": "車",
-      "reading": "くるま",
-      "meaning": "xe hơi"
-    },
-    {
-      "content": "つくえ",
-      "kanji": "机",
-      "reading": "つくえ",
-      "meaning": "bàn"
-    },
-    {
-      "content": "いす",
-      "kanji": "椅子",
-      "reading": "いす",
-      "meaning": "ghế"
-    },
-    {
-      "content": "チョコレート",
-      "kanji": "",
-      "reading": "チョコレート",
-      "meaning": "socola"
-    },
-    {
-      "content": "コーヒー",
-      "kanji": "",
-      "reading": "コーヒー",
-      "meaning": "cà phê"
-    },
-    {
-      "content": "えいご",
-      "kanji": "英語",
-      "reading": "えいご",
-      "meaning": "tiếng Anh"
-    },
-    {
-      "content": "にほんご",
-      "kanji": "日本語",
-      "reading": "にほんご",
-      "meaning": "tiếng Nhật"
-    },
-    {
-      "content": "なん",
-      "kanji": "何",
-      "reading": "なん",
-      "meaning": "gì"
-    },
-    {
-      "content": "そう",
-      "kanji": "",
-      "reading": "そう",
-      "meaning": "đúng vậy"
-    },
-    {
-      "content": "ちがいます",
-      "kanji": "違います",
-      "reading": "ちがいます",
-      "meaning": "sai, khác"
-    },
-    {
-      "content": "そうですか",
-      "kanji": "",
-      "reading": "そうですか",
-      "meaning": "thế à"
-    },
-    {
-      "content": "あのう",
-      "kanji": "",
-      "reading": "あのう",
-      "meaning": "này/ừm (để bắt đầu câu)"
-    },
-    {
-      "content": "ほんとうですか",
-      "kanji": "本当ですか",
-      "reading": "ほんとうですか",
-      "meaning": "thật không ạ?"
-    },
-    {
-      "content": "そうですね",
-      "kanji": "",
-      "reading": "そうですね",
-      "meaning": "đúng thế nhỉ"
-    },
-    {
-      "content": "ありがとうございます",
-      "kanji": "",
-      "reading": "ありがとうございます",
-      "meaning": "cám ơn ạ"
-    },
-    {
-      "content": "どういたしまして",
-      "kanji": "",
-      "reading": "どういたしまして",
-      "meaning": "không có gì"
-    },
-    {
-      "content": "これからおせわになります",
-      "kanji": "これからお世話になります",
-      "reading": "これからおせわになります",
-      "meaning": "từ nay xin được sự chăm sóc"
-    },
-    {
-      "content": "こちらこそよろしくおねがいします",
-      "kanji": "こちらこそよろしくお願いします",
-      "reading": "こちらこそよろしくおねがいします",
-      "meaning": "tôi mới là người mong được sự giúp đỡ"
-    }
-  ],
-  "grammar": [
-    {
-      "content": "これ/それ/あれは～です",
-      "reading": "これ/それ/あれは～です",
-      "meaning": "Cái này/đó/kia là ~",
-      "example": "これはほんです。",
-      "translation_example": "Cái này là sách.",
-      "additional_notes": "Dùng để chỉ và giới thiệu đồ vật. これ: gần người nói, それ: gần người nghe, あれ: xa cả hai"
-    },
-    {
-      "content": "この/その/あの～は～です",
-      "reading": "この/その/あの～は～です",
-      "meaning": "~này/đó/kia là ~",
-      "example": "このほんはにほんごのほんです。",
-      "translation_example": "Cuốn sách này là sách tiếng Nhật.",
-      "additional_notes": "Dùng với danh từ, chỉ định cụ thể đồ vật"
-    },
-    {
-      "content": "～はなんですか",
-      "reading": "～はなんですか",
-      "meaning": "~ là gì?",
-      "example": "これはなんですか。",
-      "translation_example": "Cái này là gì?",
-      "additional_notes": "Hỏi về tên gọi của đồ vật"
-    },
-    {
-      "content": "～のです",
-      "reading": "～のです",
-      "meaning": "của ~",
-      "example": "これはわたしのほんです。",
-      "translation_example": "Đây là sách của tôi.",
-      "additional_notes": "Chỉ sự sở hữu. だれの để hỏi của ai"
+      "id": 7,
+      "pattern": "そうですか",
+      "meaning": "Ra vậy, à thế à",
+      "explanation": "Sử dụng khi người nói nhận được thông tin mới và thể hiện rằng đã hiểu về nó.",
+      "examples": [
+        {
+          "japanese": "A: このかさは あなたのですか。",
+          "kanji": "",
+          "vietnamese": "A: Cái ô này là của bạn à?",
+          "english": ""
+        },
+        {
+          "japanese": "B: いいえ、タンさんのです。",
+          "kanji": "",
+          "vietnamese": "B: …Không, của anh Tân.",
+          "english": ""
+        },
+        {
+          "japanese": "A: そうですか。",
+          "kanji": "",
+          "vietnamese": "A: À, ra vậy.",
+          "english": ""
+        }
+      ],
+      "notes": []
     }
   ],
   "conversation_examples": [
@@ -325,12 +264,10 @@
           "text": "そうですか。"
         },
         {
-          "speaker": "B",
-          "text": "これはわたしのじしょです。"
+          "speaker": "B","text": "これはわたしのじしょです。"
         },
         {
-          "speaker": "A",
-          "text": "いいじしょですね。"
+          "speaker": "A","text": "いいじしょですね。"
         }
       ]
     },
@@ -367,7 +304,7 @@
       "instructions": "Điền これ、それ、あれ vào chỗ trống",
       "questions": [
         {
-          "question": "____はほんです。",
+          "question": "____はほんです.",
           "answer": "これ",
           "explanation": "Chỉ đồ vật gần người nói"
         }
@@ -378,7 +315,7 @@
       "instructions": "Chuyển từ これ thành この + danh từ",
       "questions": [
         {
-          "question": "これはえんぴつです。→ ____えんぴつです。",
+          "question": "これはえんぴつです。→ ____えんぴつです.",
           "answer": "この",
           "explanation": "Chuyển từ đại từ chỉ định thành tính từ chỉ định"
         }
@@ -390,7 +327,7 @@
       "questions": [
         {
           "question": "A: これはなんですか。B: ____",
-          "answer": "それは〜です。",
+          "answer": "それは〜です.",
           "explanation": "Trả lời câu hỏi về tên đồ vật"
         }
       ]
@@ -406,7 +343,7 @@
       "meaning": "sách, gốc",
       "examples": [
         "ほん（本）- sách",
-        "にほん（日本）- Nhật Bản"
+        "niほん（日本）- Nhật Bản"
       ]
     },
     {
@@ -433,7 +370,7 @@
       ]
     }
   ],
-  "transcript": "A: これはなんですか。\nB: それはにほんごのほんです。\nA: そうですか。\nB: これはわたしのじしょです。\nA: いいじしょですね。\nB: ありがとうございます。",
+  "transcript": "A: これはなんですか.\nB: それはにほんごのほんです.\nA: そうですか.\nB: これはわたしのじしょです.\nA: いいじしょですね.\nB: ありがとうございます.",
   "audio_files": {
     "vocabulary": "/audio/n5/lesson2/vocabulary.mp3",
     "conversation": "/audio/n5/lesson2/conversation.mp3",
@@ -446,7 +383,7 @@
   "listening": {
     "dialogue": {
       "title": "Hội thoại mẫu",
-      "audioFile": "lesson-02-dialogue.mp3",
+      "audioFile": "lesson-1-question.mp3",
       "transcript": "A: はじめまして。B: はじめまして。どうぞよろしく。",
       "translation": "A: Rất vui được gặp bạn. B: Rất vui được gặp bạn. Rất mong được sự giúp đỡ."
     },

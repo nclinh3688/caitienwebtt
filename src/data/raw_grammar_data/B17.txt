@@ -1,0 +1,49 @@
+第１７課 (Bài 17)
+1. V ない (Cách chia và các mẫu câu với động từ phủ định dạng ngắn (thể ない))
+    ◦ Cách dùng: Động từ đi với 「ない」được gọi là thể ない (còn gọi là động từ phủ định dạng ngắn).
+    ◦ Cách chia:
+        ▪ Nhóm I: Là các động từ đều có vần [-i] đứng trước 「ます」. Để chuyển sang thể ない chỉ cần thay thế [-i] bằng vần [-a]. Trường hợp đặc biệt, những động từ có đuôi là い thì chuyển thành わ.
+            • Ví dụ: あい－ます→ あわ－ない, かき－ます→ かか－ない, いそぎ－ます→ いそが－ない, はなし－ます→ はなさ－ない, まち－ます→ また－ない, あそび－ます→ あそば－ない, よみ－ます→ よま－ない, とり－ます→ とら－ない.
+        ▪ Nhóm II: Bỏ [-ます] thêm ない.
+            • Ví dụ: たべ－ます → たべ－ない, み－ます → み－ない.
+        ▪ Nhóm III: (là 2 động từ đặc biệt nên phải nhớ).
+            • Ví dụ: し－ます → し－ない, き－ます → こ－ない.
+2. V ないで ください (Câu sai khiến, nhờ vả, khuyên bảo lịch sự ở dạng phủ định - Xin đừng…)
+    ◦ Ý nghĩa: Xin đừng….
+    ◦ Cách dùng: Khi muốn khuyên hay yêu cầu ai không làm gì việc gì đó.
+    ◦ Ví dụ:
+        ▪ 私は 元気ですから、心配しないで ください。 (Tôi khỏe lắm nên đừng lo lắng.)
+        ▪ ここで 写真を 撮らないで ください。 (Xin đừng chụp ảnh ở đây.)
+3. V なければ なりません (Cách nói bắt buộc - phải làm gì)
+    ◦ Cách dùng: Động từ chia sang thể ない, bỏ い + ければ なりません.
+    ◦ Ý nghĩa: phải…, bắt buộc phải….
+    ◦ Cách dùng: Mẫu câu này biểu thị một việc coi như nghĩa vụ phải làm, bất chấp ý hướng của người làm.
+        ▪ Chú ý: Mặc dù động từ chia ở dạng phủ định nhưng cả câu không mang nghĩa phủ định (thực chất là phủ định của phủ định → “không làm gì thì không được”).
+    ◦ Ví dụ:
+        ▪ 薬を 飲まなければなりません。 (Phải uống thuốc.)
+        ▪ 毎日 日本語を 勉強しなければなりません。 (Hàng ngày (tôi) phải học tiếng Nhật.)
+4. V なくても いいです (Cách nói cho phép ở dạng phủ định - không cần làm gì cũng được)
+    ◦ Ý nghĩa: không cần … cũng được.
+    ◦ Cách dùng: Biểu thị sự không cần thiết của hành vi mà động từ diễn tả.
+    ◦ Ví dụ:
+        ▪ 明日 来なくても いいです。 (Ngày mai bạn không đến cũng được.)
+        ▪ 土曜日の午後 勉強しなくても いいです。 (Chiều thứ 7 không học cũng được.)
+    ◦ Mở rộng: Áp dụng mẫu câu này ở thể nghi vấn, ta sẽ được câu hỏi, xin phép không làm gì có được không.
+    ◦ Ví dụ:
+        ▪ 明日 来なくても いいですか。 (Ngày mai không đến cũng được chứ ạ?)
+        ▪ 土曜日の午後 勉強しなくても いいですか。 (Chiều thứ 7 không học có được không ạ?)
+5. N (tân ngữ) は (Cách nói nhấn mạnh vào tân ngữ)
+    ◦ Ý nghĩa: đưa tân ngữ lên làm chủ đề nhằm nhấn mạnh ý muốn diễn tả.
+    ◦ Cách dùng: Vì được đưa lên làm chủ đề nên trợ từ 「を」của tân ngữ được thay bằng 「は」.
+    ◦ Ví dụ:
+        ▪ ここに 荷物を 置かないでください。 (Đừng để hành lý ở đây.) → 荷物は ここに 置かないでください。 (→ Hành lý thì xin đừng để ở đây.)
+        ▪ 会社の食堂で 昼ごはんを 食べます。 (Tôi ăn cơm trưa tại nhà ăn công ty.) → 昼ごはんは 会社の食堂で 食べます。 (→ Cơm trưa thì tôi ăn tại nhà ăn cty.)
+6. N(thời gian)までに V (Trợ từ chỉ giới hạn, hạn định)
+    ◦ Ý nghĩa: chậm nhất, trễ nhất, trước (thời điểm).
+    ◦ Cách dùng: Chỉ rõ thời gian cuối mà một hành động hay một công việc phải được tiến hành. Có nghĩa là, hành động hay công việc phải được tiến hành trước thời hạn được chỉ định bởi 「までに」.
+    ◦ Ví dụ:
+        ▪ 会議は ５時までに 終わります。 (Cuộc họp sẽ kết thúc trước 5 giờ.)
+        ▪ 土曜日までに 本を 返さなければなりません。 (Phải trả sách trước thứ 7.)
+    ◦ Chú ý: Phân biệt 「までに」với trợ từ 「まで」và trợ từ 「に」.
+        ▪ ① 「まで」：chỉ thời điểm chấm dứt một hành động. Ví dụ: 昼 １２時まで 日本語を勉強します。 (Buổi trưa, tôi học đến 12 giờ.)
+        ▪ ② 「に」：chỉ thời điểm mà một hành động diễn ra. Ví dụ: 朝 ６時に 起きます。 (Tôi thức dậy vào lúc 6 giờ.)

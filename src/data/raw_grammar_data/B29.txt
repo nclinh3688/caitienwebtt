@@ -1,0 +1,34 @@
+第２９課 (Bài 29)
+1. V ています。 / N は V ています (ý nghĩa mới, cách dùng mới của động từ dạng tiếp diễn - diễn tả trạng thái)
+    ◦ Cách dùng: Mẫu câu này được dùng để diễn tả trạng thái của sự vật diễn ra ngay trước mắt và kết quả của nó hiện vẫn còn như thế. Các động từ dùng trong mẫu câu này là tự động từ, tức là các động từ chỉ trạng thái và hầu hết là diễn tả các hành động tức thời.
+    ◦ 1.1. (câu thể hiện trạng thái của đồ vật)
+        ▪ Cách dùng: Thể hiện trạng thái của đồ vật sau khi xảy ra 1 việc gì đó và hiện giờ (thời điểm nói) kết quả của việc đó vẫn còn tồn tại và người nói nhìn thấy được.
+        ▪ Ví dụ:
+            • まどが 閉まっています。 (Cửa sổ đóng - → cửa sổ đang trong trạng thái đóng, có thể là do gió hoặc ai đó làm nó đóng lại)
+            • いすが 壊れています。 (Cái ghế bị hỏng - → cái ghế đang trong trạng thái hỏng, có thể là do ai đó làm hỏng)
+            • ふくろが 破 れています。 (Cái túi bị rách - → cái túi đang trong trạng thái rách, có thể là do vướng vào đâu đó hoặc ai đó làm rách)
+            • 窓のガラスが 割れていますから、危ないです。 (Kính cửa sổ bị vỡ nên rất nguy hiểm - → kính cửa sổ đang trong trạng thái vỡ, có thể là do ai đó ném đá… làm vỡ)
+        ▪ Chú ý: Khi diễn tả trạng thái xảy ra trong quá khứ, chúng ta dùng V ていました.
+            • Ví dụ: 今朝 道が 込んでいました。 (Sáng nay đường đông nghịt.)
+    ◦ 1.2. (cách giới hạn chủ đề câu chuyện với trợ từ は)
+        ▪ Cách dùng: Khi muốn đưa 1 sự vật, sự việc nào đó làm chủ đề của câu nói thì thay trợ từ 「が」 bằng 「は」. Với cách nói này người ta thường sử dụng các đại từ chỉ định như「この」「その」「あの」 để chỉ rõ chủ thể được nhắc đến.
+        ▪ Ví dụ:
+            • このいすは 壊 れています。 (Cái ghế này thì bị hỏng rồi.)
+            • その皿は 割れています。 (Cái đĩa đó thì vỡ rồi.)
+            • あの皿は 汚 れていますから、洗ってください。 (Cái đĩa kia thì bẩn quá, đem đi rửa đi.)
+2. V てしまいました／V ていしまいます
+    ◦ Ý nghĩa: (1) (làm gì) hết / xong rồi; (2) (làm gì) mất rồi (nuối tiếc).
+    ◦ Cách dùng: Có 2 cách dùng tương ứng với 2 ý nghĩa bên trên.
+    ◦ 2.1. (diễn tả sự hoàn thành, hoàn tất 1 hành động)
+        ▪ a) V ていしまいました : Đã hoàn thành; Đã xong (1 hành động trong quá khứ). Mẫu câu này dùng để nhấn mạnh sự hoàn thành thật sự của hành động. Vì vậy đứng trước nó thường là các trạng từ như 「もう、ぜんぶ」.
+            • Ví dụ: 宿題は もう やってしまいました。 (Bài tập thì tôi đã làm hết rồi.)
+            • お酒を 全部 飲んでしまいました。 (Tôi đã uống hết rượu rồi.)
+        ▪ b) V ていしまいます : Sẽ hoàn thành, sẽ xong (1 hành động trong tương lai). Mẫu câu này dùng để diễn tả sự hoàn thành của hành động trong tương lai.
+            • Ví dụ: 明日までに レポートを 書いてしまいます。 (Đến ngày mai tôi sẽ viết xong báo cáo.)
+    ◦ 2.2. (diễn tả sự nuối tiếc trước 1 hành động)
+        ▪ Ý nghĩa: (làm gì) mất rồi.
+        ▪ Cách dùng: Mẫu câu này được dùng để biểu thị sự hối tiếc, tâm trạng biết lỗi của người nói trong một tình huống xấu.
+        ▪ Ví dụ:
+            • パスポートを 無くしてしまいました。 (Tôi làm mất hộ chiếu mất rồi.)
+            • 電車に かばんを 忘れてしまいました。 (Tôi để quên cặp trên xe điện mất rồi.)
+            • スーパーで 財布を 落としてしまいました。 (Tôi đánh rơi ví tại siêu thị mất rồi.)

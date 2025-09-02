@@ -1,192 +1,288 @@
 {
-  "metadata": {
-    "id": "B10",
-    "title": "Bài 10: Hobbies & Activities",
-    "level": "N5",
-    "theme": "Hobbies & Activities",
-    "estimatedTime": 45,
-    "difficulty": "Beginner",
-    "lastUpdated": "2025-08-01T16:34:15.679Z"
-  },
-  "vocabulary": [
-    {
-      "japanese": "しゅみ",
-      "reading": "shumi",
-      "meaning": "hobby",
-      "example": "しゅみは読書です (My hobby is reading)"
-    },
-    {
-      "japanese": "スポーツ",
-      "reading": "supōtsu",
-      "meaning": "sports",
-      "example": "スポーツが好きです (I like sports)"
-    },
-    {
-      "japanese": "サッカー",
-      "reading": "sakkā",
-      "meaning": "soccer",
-      "example": "サッカーをします (I play soccer)"
-    },
-    {
-      "japanese": "テニス",
-      "reading": "tenisu",
-      "meaning": "tennis",
-      "example": "テニスが上手です (I am good at tennis)"
-    },
-    {
-      "japanese": "えいが",
-      "reading": "eiga",
-      "meaning": "movie",
-      "example": "えいがを見ます (I watch movies)"
-    },
-    {
-      "japanese": "おんがく",
-      "reading": "ongaku",
-      "meaning": "music",
-      "example": "おんがくを聞きます (I listen to music)"
-    },
-    {
-      "japanese": "りょこう",
-      "reading": "ryokō",
-      "meaning": "travel",
-      "example": "りょこうが好きです (I like traveling)"
-    },
-    {
-      "japanese": "カメラ",
-      "reading": "kamera",
-      "meaning": "camera",
-      "example": "カメラで写真を撮ります (I take photos with a camera)"
-    },
-    {
-      "japanese": "ゲーム",
-      "reading": "gēmu",
-      "meaning": "game",
-      "example": "ゲームをします (I play games)"
-    },
-    {
-      "japanese": "インターネット",
-      "reading": "intānetto",
-      "meaning": "internet",
-      "example": "インターネットを使います (I use the internet)"
-    }
-  ],
-  "grammar": [
-    {
-      "pattern": "〜が上手です",
-      "meaning": "I am good at ~",
-      "explanation": "Used to express being good at something",
-      "examples": [
-        "テニスが上手です (I am good at tennis)",
-        "えいごが上手です (I am good at English)",
-        "料理が上手です (I am good at cooking)"
-      ]
-    },
-    {
-      "pattern": "〜をします",
-      "meaning": "I do ~ (activities)",
-      "explanation": "Used to express doing activities or hobbies",
-      "examples": [
-        "サッカーをします (I play soccer)",
-        "ゲームをします (I play games)",
-        "かいものをします (I go shopping)"
-      ]
-    }
-  ],
-  "kanji": [
-    {
-      "character": "好",
-      "reading": "す",
-      "meaning": "like",
-      "strokeCount": 6,
-      "examples": [
-        "好き",
-        "好む",
-        "好意"
-      ]
-    },
-    {
-      "character": "楽",
-      "reading": "らく",
-      "meaning": "fun/easy",
-      "strokeCount": 13,
-      "examples": [
-        "楽しい",
-        "音楽",
-        "楽器"
-      ]
-    },
-    {
-      "character": "映",
-      "reading": "えい",
-      "meaning": "reflect",
-      "strokeCount": 9,
-      "examples": [
-        "映画",
-        "映す",
-        "上映"
-      ]
-    },
-    {
-      "character": "音",
-      "reading": "おん",
-      "meaning": "sound",
-      "strokeCount": 9,
-      "examples": [
-        "音楽",
-        "音",
-        "音読"
-      ]
-    },
-    {
-      "character": "写",
-      "reading": "しゃ",
-      "meaning": "copy/photograph",
-      "strokeCount": 5,
-      "examples": [
-        "写真",
-        "写す",
-        "描写"
-      ]
-    }
-  ],
-  "listening": {
-    "audioFile": "/audio/n5/B10.mp3",
-    "transcript": "Bài nghe B10: Hobbies & Activities",
-    "exercises": [
-      {
-        "question": "Bạn nghe được từ nào?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "correctAnswer": "A"
-      }
+  "lessonNumber": 10,
+  "japaneseTitle": "第10課",
+  "vietnameseTitle": "Bài 10: Tồn tại và Vị trí",
+  "englishTitle": "Lesson 10: Existence and Location",
+  "summary": {
+    "title": "Tóm tắt bài học",
+    "content": "Bài 10 tập trung vào cách diễn đạt sự tồn tại của người và vật, cũng như cách chỉ vị trí của chúng. Học viên sẽ nắm vững cách sử dụng あります và います, các trợ từ chỉ vị trí, và cách liệt kê tượng trưng.",
+    "keyPoints": [
+      "あります và います (sở hữu và tồn tại)",
+      "Trợ từ に chỉ vị trí",
+      "Cách thể hiện tương quan vị trí (N の N)",
+      "Cách dùng や để liệt kê tượng trưng"
     ]
   },
-  "exercises": [
+  "estimatedTime": "8-10 giờ",
+  "difficulty": "⭐⭐⭐⭐⭐",
+  "grammarPatterns": [
     {
-      "type": "vocabulary",
-      "question": "Chọn từ đúng nghĩa",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+      "id": 1,
+      "pattern": "N が あります／います",
+      "meaning": "Có N.",
+      "explanation": "Hai động từ あります (arimasu)／います (imasu) để chỉ sự sở hữu. あります: Sử dụng khi N là đồ vật. います: Sử dụng khi N là người và động vật.",
+      "examples": [
+        {
+          "japanese": "コンピューターが あります。",
+          "kanji": "",
+          "vietnamese": "Tôi có máy vi tính.",
+          "english": ""
+        },
+        {
+          "japanese": "兄が います。",
+          "kanji": "",
+          "vietnamese": "Tôi có anh trai.",
+          "english": ""
+        }
       ],
-      "correctAnswer": "A"
+      "notes": []
     },
     {
-      "type": "grammar",
-      "question": "Chọn câu đúng ngữ pháp",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+      "id": 2,
+      "pattern": "N1(địa điểm)に N2 が あります／います",
+      "meaning": "Có N2 ở N1 / Ở N1 có N2.",
+      "explanation": "Đây là câu miêu tả một sự thật (như quang cảnh, vị trí...). N1 là địa điểm tồn tại của N2 và được xác định bằng trợ từ に (ni). Nếu N2 là đồ vật: dùng あります. Nếu N2 là N là người, động vật: dùng います. Câu hỏi cho sự tồn tại của người, đồ vật: N に ななにが ありますか。 (Ở N (nơi chốn) có cái gì?), N に なにが いますか。 (Ở N (nơi chốn) có con gì?), N に だれが いますか。 (Ở N (nơi chốn) có ai?).",
+      "examples": [
+        {
+          "japanese": "私 の部屋に 電話があります。",
+          "kanji": "",
+          "vietnamese": "Trong phòng tôi có cái điện thoại.",
+          "english": ""
+        },
+        {
+          "japanese": "庭に さくらの木があります。",
+          "kanji": "",
+          "vietnamese": "Ở ngoài sân có cây hoa Anh đào.",
+          "english": ""
+        },
+        {
+          "japanese": "教 室 に 田中さんがいます。",
+          "kanji": "",
+          "vietnamese": "Trong phòng học có bạn Tanaka.",
+          "english": ""
+        },
+        {
+          "japanese": "かばんに 何が ありますか。",
+          "kanji": "",
+          "vietnamese": "Trong cặp có gì thế?",
+          "english": ""
+        },
+        {
+          "japanese": "… 本や ペンが あります。",
+          "kanji": "",
+          "vietnamese": "... Có sách và bút...",
+          "english": ""
+        },
+        {
+          "japanese": "にわに 何が いますか。",
+          "kanji": "",
+          "vietnamese": "Ngoài sân có con gì thế?",
+          "english": ""
+        },
+        {
+          "japanese": "… 犬が います。",
+          "kanji": "",
+          "vietnamese": "... Có con chó.",
+          "english": ""
+        },
+        {
+          "japanese": "教 室 に だれが いますか。",
+          "kanji": "",
+          "vietnamese": "Trong phòng học có ai thế?",
+          "english": ""
+        },
+        {
+          "japanese": "… 鈴木先生が います。",
+          "kanji": "",
+          "vietnamese": "... Có cô Suzuki.",
+          "english": ""
+        }
       ],
-      "correctAnswer": "B"
+      "notes": []
+    },
+    {
+      "id": 3,
+      "pattern": "N1 は N2 (địa điểm) に あります／います",
+      "meaning": "N1 ở N2.",
+      "explanation": "Đây là câu chỉ về nơi tồn tại của người hay vật, trong đó N1 được đưa lên làm chủ đề của cả câu. Chú ý: です (desu) thỉnh thoảng được sử dụng thay thế cho động từ chỉ vị trí あります・います khi những động từ đó đã được nói đến hoặc đã xác định.",
+      "examples": [
+        {
+          "japanese": "ランさんの電話は うけつけにあります。",
+          "kanji": "",
+          "vietnamese": "Điện thoại của Lan ở quầy tiếp tân.",
+          "english": ""
+        },
+        {
+          "japanese": "パソコンは 事務所に あります。",
+          "kanji": "",
+          "vietnamese": "Máy Laptop ở văn phòng.",
+          "english": ""
+        },
+
+        {
+          "japanese": "犬は にわに います。",
+          "kanji": "",
+          "vietnamese": "Con chó ở ngoài sân.",
+          "english": ""
+        },
+        {
+          "japanese": "鈴木さんは 食 堂 に います。",
+          "kanji": "",
+          "vietnamese": "Cô Suzuki ở phòng ăn.",
+          "english": ""
+        },
+        {
+          "japanese": "Dam Sen は どこに ありますか。",
+          "kanji": "",
+          "vietnamese": "Đầm Sen ở đâu?",
+          "english": ""
+        },
+        {
+          "japanese": "... Sai Gon です。",
+          "kanji": "",
+          "vietnamese": "... Ở Sài Gòn.",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 4,
+      "pattern": "N1 (vật, người, địa điểm) の N2 (danh từ chỉ vị trí)",
+      "meaning": "Cách thể hiện tương quan vị trí",
+      "explanation": "Cả cụm “N1 の N2” được sử dụng như một danh từ chỉ địa điểm. N2 là các danh từ chỉ vị trí tương đối (ví dụ: 上 (trên), 前 (trước), となり (bên cạnh)...).",
+      "examples": [
+        {
+          "japanese": "つくえの 上",
+          "kanji": "",
+          "vietnamese": "Trên bàn",
+          "english": ""
+        },
+        {
+          "japanese": "としょかんの 前",
+          "kanji": "",
+          "vietnamese": "Trước thư viện",
+          "english": ""
+        },
+        {
+          "japanese": "ビルの となり",
+          "kanji": "",
+          "vietnamese": "Bên cạnh tòa nhà",
+          "english": ""
+        },
+        {
+          "japanese": "つくえの上に 本があります。",
+          "kanji": "",
+          "vietnamese": "Ở trên bàn có quyển sách.",
+          "english": ""
+        },
+        {
+          "japanese": "としょかんの前に こうえんがあります。",
+          "kanji": "",
+          "vietnamese": "Ở trước thư viện có công viên.",
+          "english": ""
+        },
+        {
+          "japanese": "駅の近くで ともだちと会います。",
+          "kanji": "",
+          "vietnamese": "Tôi gặp bạn ở gần nhà ga.",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 5,
+      "pattern": "N1 や N2",
+      "meaning": "N1 và N2 (trong số nhiều cái).",
+      "explanation": "や (ya) dùng để nối các danh từ. Khác với と dùng để liệt kê toàn bộ, や chỉ liệt kê mang tính chất tượng trưng (có nghĩa là còn nhiều thứ khác nữa ngoài những thứ được liệt kê). Mở rộng: Đôi khi など (nado) được đặt sau danh từ cuối cùng để nhấn mạnh thêm là vẫn còn những vật khác nữa.",
+      "examples": [
+        {
+          "japanese": "きょうしつの中に つくえや いすが あります。",
+          "kanji": "",
+          "vietnamese": "Trong phòng học có bàn, ghế...",
+          "english": ""
+        },
+        {
+          "japanese": "かばんの中に ペンや 本が あります。",
+          "kanji": "",
+          "vietnamese": "Trong cặp có bút, sách...",
+          "english": ""
+        },
+        {
+          "japanese": "きょうしつの中に つくえや いすなどが あります。",
+          "kanji": "",
+          "vietnamese": "Trong phòng học có bàn, ghế v.v.",
+          "english": ""
+        },
+        {
+          "japanese": "かばんの中に ペンや 本などが あります。",
+          "kanji": "",
+          "vietnamese": "Trong cặp có bút, sách v.v.",
+          "english": ""
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [
+    {
+      "title": "Bài tập 1: Điền từ",
+      "description": "Điền từ thích hợp vào chỗ trống",
+      "questions": [
+        {
+          "question": "コンピューターが ___。",
+          "answer": "あります",
+          "kanji": "あります",
+          "explanation": "Có máy vi tính - dùng あります cho đồ vật"
+        },
+        {
+          "question": "兄が ___。",
+          "answer": "います",
+          "kanji": "います",
+          "explanation": "Có anh trai - dùng います cho người"
+        },
+        {
+          "question": "つくえの ___ に 本があります。",
+          "answer": "上",
+          "kanji": "上",
+          "explanation": "Trên bàn có quyển sách - dùng danh từ chỉ vị trí"
+        }
+      ]
+    },
+    {
+      "title": "Bài tập 2: Dịch câu",
+      "description": "Dịch các câu sau sang tiếng Nhật",
+      "questions": [
+        {
+          "question": "Trong phòng tôi có cái điện thoại",
+          "answer": "私 の部屋に 電話があります。",
+          "kanji": "私の部屋に 電話があります。",
+          "explanation": "Dùng に để chỉ vị trí tồn tại"
+        },
+        {
+          "question": "Con chó ở ngoài sân",
+          "answer": "犬は にわに います。",
+          "kanji": "犬は 庭に います。",
+          "explanation": "Dùng は để nhấn mạnh chủ thể"
+        },
+        {
+          "question": "Trong phòng học có bàn, ghế...",
+          "answer": "きょうしつの中に つくえや いすが あります。",
+          "kanji": "教室の中に 机や 椅子が あります。",
+          "explanation": "Dùng や để liệt kê tượng trưng"
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "title": "Văn hóa Nhật Bản",
+      "content": "Trong tiếng Nhật, việc phân biệt giữa あります và います để chỉ sự tồn tại của vật và người/động vật là rất quan trọng. Điều này thể hiện sự tinh tế trong cách người Nhật nhìn nhận thế giới xung quanh."
+    },
+    {
+      "title": "Giao tiếp",
+      "content": "Khi hỏi về vị trí hoặc sự tồn tại của vật/người, việc sử dụng đúng trợ từ và cấu trúc câu sẽ giúp giao tiếp rõ ràng và tự nhiên hơn."
     }
   ]
 }

@@ -1,0 +1,21 @@
+第４５課 (Dai Yonjūgo-ka)
+1. 「V た／A い／A な／N の ばあ い」 (Trong trường hợp)
+* Ý nghĩa: Trong trường hợp…, Nếu….
+* Cách dùng: Diễn đạt giả định về một tình huống không hay, không mong đợi hoặc hiếm khi xảy ra. Hành động ở vế sau thể hiện điều cần làm hoặc kết quả do tình huống đó đem lại. 場合 là một danh từ.
+* Cách ghép:
+    * Động từ: Thể た + 場合. Ví dụ: 時間に遅れた場合は、教室に入れません。(Trong trường hợp đến muộn giờ thì sẽ không vào lớp học được.)
+    * Tính từ đuôi い: Thể thông thường + 場合. Ví dụ: ファックスの調子が悪い場合は、どうしたらいいですか。(Tôi nên làm thế nào trong trường hợp máy fax gặp trục trặc?)
+    * Tính từ đuôi な: Thể thông thường な + 場合. Ví dụ: パスポートが必要な場合は、彼に言ってください。(Anh hãy nói với anh ý trong trường hợp cần hộ chiếu.)
+    * Danh từ: N の + 場合. Ví dụ: 家事や地震の場合は、エレベーターを使わないでください。(Trong trường hợp xảy ra động đất và hỏa hoạn, không được dùng cầu thang máy.)
+* Lưu ý: Có thể thêm 万一 hoặc 万が一 vào đầu để nhấn mạnh.
+2. 「Thể thông thường + のに、～」 (Nghịch lý: …thế mà, vậy mà…)
+* Ý nghĩa: …thế mà, vậy mà….
+* Cách dùng: Diễn đạt việc không đạt được kết quả như mong đợi trong một tình huống nào đó, bao hàm cảm xúc mạnh mẽ như bất mãn, không ngờ.
+* Cách ghép: Động từ, tính từ, danh từ ở thể thông thường + のに. Với tính từ đuôi な và danh từ, bỏ だ và thêm なのに.
+* Ví dụ:
+    * ダイエットしているのに、太ってしまいました。(Tôi đã ăn kiêng thế mà vẫn bị béo.)
+    * 約束をしたのに、彼女は来ませんでした。(Hẹn rồi vậy mà cô ấy không đến.)
+    * 今日は日曜日なのに、働かなければなりません。(Hôm nay là chủ nhật mà tôi vẫn phải làm việc.)
+* Lưu ý:
+    * Khác với ～が (chỉ đối lập đơn thuần) và ～ても (giả định chưa xảy ra).
+    * Ngược hoàn toàn với ～ので (chỉ nguyên nhân, kết quả hợp lý).

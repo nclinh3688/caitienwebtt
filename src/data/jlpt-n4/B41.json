@@ -1,0 +1,184 @@
+{
+  "vietnameseTitle": "第４１課 (Bài 41)",
+  "japaneseTitle": "",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "～に N を いただきます",
+      "meaning": "Nhận (Khiêm nhường ngữ)",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Là khiêm nhường ngữ của 「もらいます」. Dùng khi mình nhận được thứ gì đó từ người có địa vị cao hơn (cấp trên, người lớn tuổi, thầy cô).",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• [Tôi] は [Người trên] に N を いただきます。",
+          "• Thể hiện sự biết ơn và khiêm tốn của người nhận."
+        ],
+        "note": "Lưu ý: Không dùng khi nhận từ người bằng hoặc dưới vai."
+      },
+      "explanation": "Khi bạn nhận một vật gì đó từ người có địa vị xã hội cao hơn, việc dùng 「いただきます」 thay cho 「もらいます」 thể hiện sự tôn trọng và khiêm tốn của bạn.",
+      "examples": [
+        {
+          "japanese": "わたしは ぶちょうに おみやげを いただきました。",
+          "kanji": "私は 部長に お土産を いただきました。",
+          "vietnamese": "Tôi đã nhận quà từ trưởng phòng.",
+          "english": "I received a souvenir from the department manager."
+        },
+        {
+          "japanese": "わたしは せんせいに ねんがじょうを いただきました。",
+          "kanji": "私は 先生に 年賀状を いただきました。",
+          "vietnamese": "Tôi đã nhận được thiệp mừng năm mới từ cô giáo.",
+          "english": "I received a New Year's card from the teacher."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "～が N を くださいます",
+      "meaning": "Cho (Tôn kính ngữ)",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Là tôn kính ngữ của 「くれます」. Dùng khi người có địa vị cao hơn cho mình (hoặc người trong gia đình mình) thứ gì đó.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• [Người trên] は/が [私に] N を くださいます。",
+          "• Chủ ngữ là người cho (người trên)."
+        ],
+        "note": "Lưu ý: Nếu người nhận là người trong gia đình (em trai, con gái...), vẫn dùng 「くださいます」."
+      },
+      "explanation": "Khi một người có địa vị cao hơn cho bạn thứ gì, dùng 「くださいます」 để thể hiện sự tôn trọng đối với người cho.",
+      "examples": [
+        {
+          "japanese": "ぶちょうが わたしに おみやげを くださいました。",
+          "kanji": "部長が 私に お土産を くださいました。",
+          "vietnamese": "Trưởng phòng đã cho tôi quà.",
+          "english": "The department manager gave me a souvenir."
+        },
+        {
+          "japanese": "ぶちょうの おくさんが むすこに おかしを くださいました。",
+          "kanji": "部長の 奥さんが 息子に お菓子を くださいました。",
+          "vietnamese": "Vợ của trưởng phòng đã cho con trai tôi bánh kẹo.",
+          "english": "The manager's wife gave my son some sweets."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP3",
+      "pattern": "～に N を やります",
+      "meaning": "Cho (người dưới/động vật/thực vật)",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Dùng khi mình cho người có địa vị thấp hơn, nhỏ tuổi hơn, hoặc cho động vật, thực vật.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• [Tôi] は [Người dưới/con vật] に N を やります。",
+          "• Là cách nói thông thường của 「あげます」 nhưng chỉ dùng trong các trường hợp cụ thể."
+        ],
+        "note": "Lưu ý: Tuyệt đối không dùng 「やります」 cho người có địa vị cao hơn hoặc ngang bằng."
+      },
+      "explanation": "「やります」 được dùng thay cho 「あげます」 khi đối tượng nhận là người có vai vế thấp hơn rõ rệt (em, con...), hoặc là động vật, thực vật.",
+      "examples": [
+        {
+          "japanese": "わたしは むすこに おかしを やりました。",
+          "kanji": "私は 息子に お菓子を やりました。",
+          "vietnamese": "Tôi đã cho con trai kẹo.",
+          "english": "I gave my son some sweets."
+        },
+        {
+          "japanese": "わたしは いぬに えさを やりました。",
+          "kanji": "私は 犬に えさを やりました。",
+          "vietnamese": "Tôi đã cho chó ăn.",
+          "english": "I fed the dog."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP4",
+      "pattern": "～に V-て いただきます",
+      "meaning": "Được ai đó (người trên) làm gì cho (Khiêm nhường ngữ)",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Là khiêm nhường ngữ của 「V-て もらいます」. Dùng khi mình được người có địa vị cao hơn làm cho một việc gì đó.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• [Tôi] は [Người trên] に V-て いただきます。",
+          "• Thể hiện sự biết ơn sâu sắc đối với hành động nhận được từ người trên."
+        ],
+        "note": "Lưu ý: Đây là cách nói rất lịch sự để thể hiện lòng biết ơn."
+      },
+      "explanation": "Khi bạn được một người cấp trên hoặc người lớn tuổi làm giúp một việc, dùng 「V-て いただきます」 để thể hiện sự khiêm tốn và lòng biết ơn của mình.",
+      "examples": [
+        {
+          "japanese": "わたしは ぶちょうに しごとを てつだって いただきました。",
+          "kanji": "私は 部長に 仕事を 手伝って いただきました。",
+          "vietnamese": "Tôi đã được trưởng phòng giúp đỡ công việc.",
+          "english": "I had the department manager help me with my work."
+        },
+        {
+          "japanese": "わたしは すずきさんに にほんごを おしえて いただきました。",
+          "kanji": "私は 鈴木さんに 日本語を 教えて いただきました。",
+          "vietnamese": "Tôi được cô Suzuki dạy cho tiếng Nhật.",
+          "english": "I had Ms. Suzuki teach me Japanese."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP5",
+      "pattern": "～が V-て くださいます",
+      "meaning": "Ai đó (người trên) làm gì cho mình (Tôn kính ngữ)",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Là tôn kính ngữ của 「V-て くれます」. Dùng khi người có địa vị cao hơn làm một việc gì đó cho mình hoặc người trong gia đình mình.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• [Người trên] は/が [私に] V-て くださいます。",
+          "• Chủ ngữ là người thực hiện hành động (người trên)."
+        ],
+        "note": "Người nhận (私に) thường được lược bỏ."
+      },
+      "explanation": "Khi một người cấp trên làm giúp bạn một việc, dùng 「V-て くださいます」 để thể hiện sự tôn trọng đối với người đó.",
+      "examples": [
+        {
+          "japanese": "ぶちょうの おくさんが にほんりょうりを つくってくださいました。",
+          "kanji": "部長の 奥さんが 日本料理を 作ってくださいました。",
+          "vietnamese": "Vợ của trưởng phòng đã nấu món ăn Nhật cho tôi.",
+          "english": "The manager's wife cooked Japanese food for me."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP6",
+      "pattern": "～に V-て やります",
+      "meaning": "Làm gì cho người dưới/động vật/thực vật",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Dùng khi mình làm một việc gì đó cho người có vai vế thấp hơn, động vật hoặc thực vật.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• [Tôi] は [Người dưới/con vật] に V-て やります。"
+        ],
+        "note": "Lưu ý: Không dùng cho người trên hoặc ngang hàng."
+      },
+      "explanation": "Đây là cách nói thay cho 「V-て あげます」 khi đối tượng nhận hành động có vai vế thấp hơn rõ rệt.",
+      "examples": [
+        {
+          "japanese": "わたしは むすこに おもちゃを かって やりました。",
+          "kanji": "私は 息子に おもちゃを 買って やりました。",
+          "vietnamese": "Tôi đã mua đồ chơi cho con trai.",
+          "english": "I bought a toy for my son."
+        },
+        {
+          "japanese": "わたしは むすめに おもちゃを かって やりました。",
+          "kanji": "私は 娘に おもちゃを 買って やりました。",
+          "vietnamese": "Tôi đã mua đồ chơi cho con gái.",
+          "english": "I bought a toy for my daughter."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

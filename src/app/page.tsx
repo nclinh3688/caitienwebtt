@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 // Icons
 import { BookOpen, GraduationCap, Brain, Users, Star, Play, Trophy, Clock, Target } from 'lucide-react';
@@ -109,14 +110,16 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <motion.button 
-                className="hero-button-primary"
-                whileHover={{ scale: 1.05, y: -3 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <Play size={20} />
-                Bắt đầu học miễn phí
-              </motion.button>
+              <Link href="/courses" passHref legacyBehavior>
+                <motion.button 
+                  className="hero-button-primary"
+                  whileHover={{ scale: 1.05, y: -3 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <Play size={20} />
+                  Bắt đầu học miễn phí
+                </motion.button>
+              </Link>
               <motion.button 
                 className="hero-button-secondary"
                 whileHover={{ scale: 1.05, y: -3 }}

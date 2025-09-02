@@ -1,0 +1,166 @@
+{
+  "vietnameseTitle": "第２９課 (Bài 29)",
+  "japaneseTitle": "",
+  "estimatedTime": "",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1.1",
+      "pattern": "V ています - trạng thái",
+      "meaning": "Diễn tả trạng thái hiện tại của sự vật, sự việc",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả trạng thái hiện tại của sự vật, sự việc",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể ています",
+          "• Diễn tả trạng thái đang diễn ra",
+          "• Thường dùng với động từ chỉ trạng thái"
+        ],
+        "note": "Lưu ý: Khác với ～てあります, ～ています nhấn mạnh trạng thái hiện tại"
+      },
+      "explanation": "Dùng để diễn tả trạng thái hiện tại của sự vật, sự việc",
+      "examples": [
+        {
+          "japanese": "窓が開いています。",
+          "kanji": "窓が開いています",
+          "vietnamese": "Cửa sổ đang mở",
+          "english": ""
+        },
+        {
+          "japanese": "電気がついています。",
+          "kanji": "電気がついています",
+          "vietnamese": "Đèn đang sáng",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP1.2",
+      "pattern": "N は V ています - giới hạn chủ đề",
+      "meaning": "Diễn tả trạng thái với chủ đề cụ thể",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả trạng thái với chủ đề cụ thể",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Danh từ + は + động từ thể ています",
+          "• Giới hạn chủ đề cần nói đến",
+          "• Nhấn mạnh trạng thái của chủ đề đó"
+        ],
+        "note": "Lưu ý: は dùng để giới hạn và nhấn mạnh chủ đề"
+      },
+      "explanation": "Sử dụng は để giới hạn chủ đề và nhấn mạnh trạng thái",
+      "examples": [
+        {
+          "japanese": "この本は売り切れています。",
+          "kanji": "この本は売り切れています",
+          "vietnamese": "Cuốn sách này đã bán hết",
+          "english": ""
+        },
+        {
+          "japanese": "その映画は終わっています。",
+          "kanji": "その映画は終わっています",
+          "vietnamese": "Bộ phim đó đã kết thúc",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2.1",
+      "pattern": "V てしまいました - hoàn thành",
+      "meaning": "Diễn tả việc đã hoàn thành",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả việc đã hoàn thành trong quá khứ",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể て + しまいました",
+          "• Dùng để nói về việc đã hoàn thành",
+          "• Thường mang ý nghĩa tích cực"
+        ],
+        "note": "Lưu ý: Diễn tả việc đã hoàn thành trong quá khứ"
+      },
+      "explanation": "Sử dụng để diễn tả việc đã hoàn thành trong quá khứ",
+      "examples": [
+        {
+          "japanese": "宿題を全部終わらせてしまいました。",
+          "kanji": "宿題を全部終わらせてしまいました",
+          "vietnamese": "Tôi đã hoàn thành tất cả bài tập về nhà",
+          "english": ""
+        },
+        {
+          "japanese": "仕事を片付けてしまいました。",
+          "kanji": "仕事を片付けてしまいました",
+          "vietnamese": "Tôi đã dọn dẹp xong công việc",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2.2",
+      "pattern": "V てしまいます - sẽ hoàn thành",
+      "meaning": "Diễn tả việc sẽ hoàn thành",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả việc sẽ hoàn thành trong tương lai",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể て + しまいます",
+          "• Dùng để nói về việc sẽ hoàn thành",
+          "• Thường mang ý nghĩa tích cực"
+        ],
+        "note": "Lưu ý: Diễn tả việc sẽ hoàn thành trong tương lai"
+      },
+      "explanation": "Sử dụng để diễn tả việc sẽ hoàn thành trong tương lai",
+      "examples": [
+        {
+          "japanese": "明日までにこの仕事を終わらせてしまいます。",
+          "kanji": "明日までにこの仕事を終わらせてしまいます",
+          "vietnamese": "Tôi sẽ hoàn thành công việc này trước ngày mai",
+          "english": ""
+        },
+        {
+          "japanese": "来週までに準備を整えてしまいます。",
+          "kanji": "来週までに準備を整えてしまいます",
+          "vietnamese": "Tôi sẽ chuẩn bị xong trước tuần sau",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2.3",
+      "pattern": "V てしまいました - nuối tiếc",
+      "meaning": "Diễn tả sự nuối tiếc, hối hận",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả sự nuối tiếc, hối hận về việc đã làm",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể て + しまいました",
+          "• Dùng để diễn tả sự nuối tiếc",
+          "• Thường mang ý nghĩa tiêu cực"
+        ],
+        "note": "Lưu ý: Diễn tả sự nuối tiếc, hối hận về kết quả"
+      },
+      "explanation": "Sử dụng để diễn tả sự nuối tiếc, hối hận về việc đã làm",
+      "examples": [
+        {
+          "japanese": "大切な書類を無くしてしまいました。",
+          "kanji": "大切な書類を無くしてしまいました",
+          "vietnamese": "Tôi đã làm mất tài liệu quan trọng",
+          "english": ""
+        },
+        {
+          "japanese": "約束の時間に遅れてしまいました。",
+          "kanji": "約束の時間に遅れてしまいました",
+          "vietnamese": "Tôi đã đến muộn giờ hẹn",
+          "english": ""
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

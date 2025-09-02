@@ -1,0 +1,50 @@
+第４１課 (Dai Yonjūikkka)
+Trong bài này, chúng ta sẽ học về các cách diễn đạt cho và nhận phản ánh mối quan hệ trên-dưới (địa vị, tuổi tác), quan hệ trong-ngoài, quan hệ thân thuộc giữa người cho và người nhận.
+1. 「～に Ｎを いただきます」 (Mình nhận (từ ai đó) cái gì)
+* Ý nghĩa: Khiêm nhường ngữ của もらいます.
+* Cách dùng: Diễn tả sự khiêm tốn, nhún nhường của người nhận khi nhận một vật gì đó từ người có tuổi tác, địa vị cao hơn, người không thân quen hoặc để thể hiện sự tôn trọng. Chủ thể luôn là わたし (tôi).
+* Ví dụ:
+    * 私は社長に時計をいただきます。(Tôi nhận được cái đồng hồ từ giám đốc.)
+    * 私は先生にプレゼントをいただきました。(Tôi đã nhận được một món quà từ thầy/cô giáo.).
+    * Lưu ý: Không dùng いただきます với người thân trong gia đình, dù là bề trên. Ví dụ: 私は父にお金をもらいます (Tôi nhận được tiền từ bố) chứ không phải いただきます.
+2. 「～は（が）Ｎを くださいます」 (Ai đó cho mình cái gì)
+* Ý nghĩa: Tôn kính ngữ của くれます.
+* Cách dùng: Diễn tả sự tôn trọng của người nhận khi người cho là người có tuổi tác, địa vị cao hơn hoặc người không thân quen. Chủ thể luôn là đại từ nhân xưng ngôi thứ 2 hoặc thứ 3, không bao giờ là わたし (tôi).
+* Ví dụ:
+    * 社長は私に時計をくださいます。(Giám đốc cho tôi cái đồng hồ.)
+    * 先生は私にボールペンをくださいます。(Cô giáo cho tôi cái bút bi.)
+    * Lưu ý: Tương tự, không dùng くださいます với người thân trong gia đình. Ví dụ: 母は私に花をくれます (Mẹ tặng tôi hoa) chứ không phải くださいます.
+3. 「～に Ｎを やります」 (Mình cho ai đó cái gì)
+* Ý nghĩa: Dùng thay cho あげます.
+* Cách dùng: Dùng khi đối tượng nhận có địa vị thấp hơn, ít tuổi hơn (em trai, em gái, con cái), động vật, thực vật.
+* Ví dụ:
+    * 私は弟に財布をやります。(Tôi cho em trai cái ví.)
+    * 私は猫に魚をやります。(Tôi cho mèo ăn cá.)
+    * 私は花に水をやります。(Tôi tưới nước cho hoa.)
+    * Lưu ý: Khi muốn thể hiện thái độ tôn kính với người nhận là bề trên, dùng さしあげます. Ví dụ: 私は社長にネクタイをさしあげます。(Tôi biếu ông giám đốc chiếc cà vạt.)
+4. Biểu hiện của hành động cho và nhận với 「V て」 (Cho và nhận hành động)
+* Tương tự như cho nhận đồ vật, các động từ いただきます, くださいます, やります cũng kết hợp với thể て của động từ để diễn tả hành động cho và nhận, kèm theo sắc thái tình cảm phù hợp.
+    * 4.1. 「～に ～を V て いただきます」 (Được ai đó làm cho việc gì)
+        * Ý nghĩa: Nhận (việc gì) từ ai; được ai đó làm gì cho, với hàm ý lịch sự, khiêm nhường hơn ～てもらいます.
+        * Cách dùng: Chủ ngữ của câu luôn là わたし (tôi).
+        * Ví dụ:
+            * 私は鈴木さんに日本語を教えていただきました。(Tôi được cô Suzuki dạy cho tiếng Nhật.)
+            * 私は中村さんに本社へ連れて行っていただきました。(Tôi được anh Nakamura dẫn đến trụ sở công ty.)
+    * 4.2. 「～は（が） ～を V て くださいます」 (Ai đó làm việc gì cho mình)
+        * Ý nghĩa: Ai làm cho việc gì, diễn tả sự cảm tạ của người nhận, tương tự ～てもらいます nhưng chủ ngữ là người thực hiện hành động.
+        * Cách dùng: Người nhận thường là người nói nên 私に (chỉ người nhận) thường được lược bỏ.
+        * Ví dụ:
+            * 部長の奥さんは（私に）日本料理を作ってくださいました。(Vợ của trưởng phòng đã nấu (cho tôi ăn) món ăn Nhật.)
+            * 会社の人は（私に）この機械の使い方を教えてくださいました。(Người trong công ty đã dạy (cho tôi) cách sử dụng của chiếc máy này.)
+    * 4.3. 「～に ～を V て やります」 (Làm việc gì cho ai)
+        * Ý nghĩa: Làm việc gì đó với ý thiện chí, lòng tốt (chỉ giới hạn dùng với em trai, em gái, con cái trong gia đình hay với động, thực vật).
+        * Ví dụ:
+            * 私は娘におもちゃを買ってやりました。(Tôi mua đồ chơi cho con gái.)
+            * 私は弟に誕生日のパーティーを準備してやりました。(Tôi đã chuẩn bị cho em trai bữa tiệc sinh nhật.)
+            * 私は犬を散歩に連れて行ってやります。(Tôi dắt chó đi dạo.)
+5. 「～V ていただけませんか」 (Yêu cầu, đề nghị lịch sự)
+* Ý nghĩa: Mong (ai đó) làm gì giúp được không?
+* Cách dùng: Là cách nhờ vả lịch sự nhất với những người có địa vị, tuổi tác cao hơn mình hay người không quen biết, lịch sự hơn V てくださいませんか.
+* Ví dụ:
+    * すみませんが、もう一度説明していただけませんか。(Xin lỗi, anh có thể giải thích thêm một lần nữa giúp tôi được không ạ?)
+    * 手紙の書き方が分からないんですが、ちょっと教えていただけませんか。(Tôi không biết cách viết thư, anh/chị chỉ giúp tôi được không ạ?)

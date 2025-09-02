@@ -9,7 +9,7 @@ export async function GET() {
     const lessonsList = JSON.parse(fs.readFileSync(lessonsListPath, 'utf8'));
 
     // Load individual lesson data for B01-B10
-    const lessonIds = ['B01', 'B02', 'B03', 'B04', 'B05', 'B06', 'B07', 'B08', 'B09', 'B10'];
+    const lessonIds = Array.from({ length: 25 }, (_, i) => `B${(i + 1).toString().padStart(2, '0')}`);
     const lessonsData = [];
 
     for (const lessonId of lessonIds) {

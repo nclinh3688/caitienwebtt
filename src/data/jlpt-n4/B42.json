@@ -1,0 +1,96 @@
+{
+  "vietnameseTitle": "第４２課 (Bài 42)",
+  "japaneseTitle": "Dai Yonjūnikka",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "～ために、V",
+      "meaning": "Để ~",
+      "vietnamese": {
+        "meaning": "Biểu hiện mục đích \"Để ~\".",
+        "usage": "Mệnh đề trước ために là mục đích, mệnh đề sau là hành vi có ý chí để thực hiện mục đích đó.",
+        "usagePoints": [
+          "Với động từ 「V るために、V2」 (Để thực hiện V1 thì V2): Động từ đi trước ために ở thể từ điển, là động từ có tính ý chí.",
+          "Với danh từ 「N のために、V」: Nếu N là danh từ chỉ sự việc, diễn tả mục đích. Nếu N là danh từ chỉ thiên tai, diễn tả nguyên nhân, lý do. Nếu N là danh từ chỉ người, diễn tả hành vi vì lợi ích của đối tượng đó."
+        ],
+        "note": "So sánh với 「～ように」 (Bài 36): Cả hai đều diễn tả mục đích, động từ ở mệnh đề trước đều ở thể từ điển. Tuy nhiên, ～ように có thể dùng với động từ không có tính ý chí (khả năng, trạng thái), còn ～ために thường dùng với động từ có tính ý chí."
+      },
+      "explanation": "Mệnh đề trước ために là mục đích, mệnh đề sau là hành vi có ý chí để thực hiện mục đích đó.",
+      "examples": [
+        {
+          "japanese": "来年世界旅行をするために、今お金をためています。",
+          "kanji": "来年世界旅行をするために、今お金をためています",
+          "vietnamese": "Bây giờ tôi đang tiết kiệm tiền để năm sau đi du lịch.",
+          "english": "I am saving money now to travel the world next year."
+        },
+        {
+          "japanese": "漢字を勉強するために、辞書を買いました。",
+          "kanji": "漢字を勉強するために、辞書を買いました",
+          "vietnamese": "Tôi đã mua từ điển để học chữ Hán.",
+          "english": "I bought a dictionary to study Kanji."
+        },
+        {
+          "japanese": "健康のために、たばこをやめた。",
+          "kanji": "健康のために、たばこをやめた",
+          "vietnamese": "Tôi bỏ thuốc lá (để) cho khỏe.",
+          "english": "I quit smoking for my health."
+        },
+        {
+          "japanese": "台風のために、木が倒れた。",
+          "kanji": "台風のために、木が倒れた",
+          "vietnamese": "Cây đổ tại (vì) bão.",
+          "english": "The tree fell because of the typhoon."
+        },
+        {
+          "japanese": "家族のために、一生懸命働かなければなりません。",
+          "kanji": "家族のために、一生懸命働かなければなりません",
+          "vietnamese": "Tôi phải cố làm việc hết sức vì gia đình.",
+          "english": "I have to work hard for my family."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "～に (mục đích)",
+      "meaning": "Sử dụng vào việc gì / có lợi cho việc gì",
+      "vietnamese": {
+        "meaning": "\"Sử dụng vào việc gì / có lợi cho việc gì / cần thiết cho cái gì\".",
+        "usage": "Mệnh đề sau thường giới hạn ở các động từ, tính từ trạng thái như ～に使います (cách sử dụng), ～に便利です、必要です、いいです、役に立ちます (đánh giá), ～に（時間、お金）がかかります (tính toán).",
+        "usagePoints": [
+          "Kết hợp với danh từ (N に).",
+          "Kết hợp với động từ (danh từ hóa động từ, ví dụ 曲げるのに).",
+          "Với động từ nhóm III dạng N します, ghép thẳng thành N に (ví dụ: 勉強します -> 勉強に, 修理します -> 修理に)."
+        ],
+        "note": ""
+      },
+      "explanation": "Trợ từ 「に」 thể hiện mục đích, cho biết một vật được sử dụng vào việc gì, hoặc có lợi/cần thiết cho việc gì.",
+      "examples": [
+        {
+          "japanese": "このはさみは紙を切るのに使います。",
+          "kanji": "このはさみは紙を切るのに使います",
+          "vietnamese": "Cái kéo này dùng để cắt giấy.",
+          "english": "These scissors are used for cutting paper."
+        },
+        {
+          "japanese": "この辞書は漢字を調べるのに便利です。",
+          "kanji": "この辞書は漢字を調べるのに便利です",
+          "vietnamese": "Cuốn từ điển này rất tiện cho việc tra chữ Hán.",
+          "english": "This dictionary is convenient for looking up Kanji."
+        },
+        {
+          "japanese": "この時計は直すのに１週間かかります。",
+          "kanji": "この時計は直すのに１週間かかります",
+          "vietnamese": "Cái đồng hồ này phải mất 1 tuần để sửa.",
+          "english": "It takes a week to fix this watch."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

@@ -1,192 +1,372 @@
 {
-  "metadata": {
-    "id": "B08",
-    "title": "Bài 08: Transportation & Travel",
-    "level": "N5",
-    "theme": "Transportation & Travel",
-    "estimatedTime": 45,
-    "difficulty": "Beginner",
-    "lastUpdated": "2025-08-01T16:34:15.674Z"
-  },
-  "vocabulary": [
-    {
-      "japanese": "でんしゃ",
-      "reading": "densha",
-      "meaning": "train",
-      "example": "でんしゃに乗ります (I ride the train)"
-    },
-    {
-      "japanese": "バス",
-      "reading": "basu",
-      "meaning": "bus",
-      "example": "バスで行きます (I go by bus)"
-    },
-    {
-      "japanese": "くるま",
-      "reading": "kuruma",
-      "meaning": "car",
-      "example": "くるまを運転します (I drive a car)"
-    },
-    {
-      "japanese": "ひこうき",
-      "reading": "hikōki",
-      "meaning": "airplane",
-      "example": "ひこうきで旅行します (I travel by plane)"
-    },
-    {
-      "japanese": "えき",
-      "reading": "eki",
-      "meaning": "station",
-      "example": "えきで待ちます (I wait at the station)"
-    },
-    {
-      "japanese": "ちかてつ",
-      "reading": "chikatetsu",
-      "meaning": "subway",
-      "example": "ちかてつを使います (I use the subway)"
-    },
-    {
-      "japanese": "りょこう",
-      "reading": "ryokō",
-      "meaning": "travel",
-      "example": "りょこうに行きます (I go on a trip)"
-    },
-    {
-      "japanese": "ホテル",
-      "reading": "hoteru",
-      "meaning": "hotel",
-      "example": "ホテルに泊まります (I stay at a hotel)"
-    },
-    {
-      "japanese": "きっぷ",
-      "reading": "kippu",
-      "meaning": "ticket",
-      "example": "きっぷを買います (I buy a ticket)"
-    },
-    {
-      "japanese": "じかん",
-      "reading": "jikan",
-      "meaning": "time",
-      "example": "じかんがあります (I have time)"
-    }
-  ],
-  "grammar": [
-    {
-      "pattern": "〜に〜ます",
-      "meaning": "To ~ do ~",
-      "explanation": "Used to express destination or target",
-      "examples": [
-        "でんしゃに乗ります (I ride the train)",
-        "ホテルに泊まります (I stay at the hotel)",
-        "えきに行きます (I go to the station)"
-      ]
-    },
-    {
-      "pattern": "〜で〜ます",
-      "meaning": "By ~ do ~",
-      "explanation": "Used to express means of transportation",
-      "examples": [
-        "バスで行きます (I go by bus)",
-        "ひこうきで旅行します (I travel by plane)",
-        "くるまで来ます (I come by car)"
-      ]
-    }
-  ],
-  "kanji": [
-    {
-      "character": "車",
-      "reading": "しゃ",
-      "meaning": "car",
-      "strokeCount": 7,
-      "examples": [
-        "車",
-        "電車",
-        "自動車"
-      ]
-    },
-    {
-      "character": "駅",
-      "reading": "えき",
-      "meaning": "station",
-      "strokeCount": 14,
-      "examples": [
-        "駅",
-        "駅前",
-        "新駅"
-      ]
-    },
-    {
-      "character": "旅",
-      "reading": "りょ",
-      "meaning": "travel",
-      "strokeCount": 10,
-      "examples": [
-        "旅行",
-        "旅館",
-        "旅人"
-      ]
-    },
-    {
-      "character": "空",
-      "reading": "くう",
-      "meaning": "sky/empty",
-      "strokeCount": 8,
-      "examples": [
-        "空",
-        "空港",
-        "空気"
-      ]
-    },
-    {
-      "character": "道",
-      "reading": "どう",
-      "meaning": "road/way",
-      "strokeCount": 12,
-      "examples": [
-        "道",
-        "道路",
-        "歩道"
-      ]
-    }
-  ],
-  "listening": {
-    "audioFile": "/audio/n5/B08.mp3",
-    "transcript": "Bài nghe B08: Transportation & Travel",
-    "exercises": [
-      {
-        "question": "Bạn nghe được từ nào?",
-        "options": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "correctAnswer": "A"
-      }
+  "lessonNumber": 8,
+  "japaneseTitle": "第8課",
+  "vietnameseTitle": "Bài 8: Tính từ",
+  "englishTitle": "Lesson 8: Adjectives",
+  "summary": {
+    "title": "Tóm tắt bài học",
+    "content": "Bài 8 giới thiệu về các loại tính từ trong tiếng Nhật (tính từ đuôi い và tính từ đuôi な), cách sử dụng chúng trong câu khẳng định, phủ định, và cách bổ nghĩa cho danh từ. Bài học cũng bao gồm các phó từ chỉ mức độ và cách so sánh các nghi vấn từ.",
+    "keyPoints": [
+      "Phân loại tính từ (i-adjective, na-adjective)",
+      "Mẫu câu khẳng định và phủ định với tính từ",
+      "Tính từ bổ nghĩa cho danh từ",
+      "Phó từ chỉ mức độ (あまり, ぜんぜん, よく, だいたい, たくさん, 少し)",
+      "So sánh cách dùng どう và どんな",
+      "Cách nối câu với が và そして"
     ]
   },
-  "exercises": [
+  "estimatedTime": "8-10 giờ",
+  "difficulty": "⭐⭐⭐⭐⭐",
+  "grammarPatterns": [
     {
-      "type": "vocabulary",
-      "question": "Chọn từ đúng nghĩa",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": "A"
+      "id": 1,
+      "pattern": "Giới thiệu về tính từ trong tiếng Nhật",
+      "meaning": "Introduction to Japanese Adjectives",
+      "explanation": "Tính từ trong tiếng Nhật bao gồm 2 loại: Tính từ đuôi い (i-adjective): Có đuôi tận cùng là い. Ví dụ: 小さい (nhỏ)、大きい (to)、熱い (nóng)、寒い (lạnh)、高い (cao, đắt). Tính từ đuôi な (na-adjective): Có đuôi tận cùng là な. Ví dụ: ハンサム（な）(đẹp trai)、しんせつ（な）(tốt bụng)、しずか（な）(yên tĩnh)、べんり（な）(thuận tiện). Chú ý: Không giống tính từ đuôi い, do một số chức năng về ngữ pháp mà đuôi な có lúc xuất hiện có lúc không xuất hiện trong từ và câu. Vì thế, về mặt thể hiện, người ta hay để đuôi な trong ngoặc đơn. Một số từ dễ nhầm với tính từ đuôi い: きれい（な）(đẹp, sạch)、有名な (nổi tiếng)、きらい（な）(ghét, không thích).",
+      "examples": [],
+      "notes": []
     },
     {
-      "type": "grammar",
-      "question": "Chọn câu đúng ngữ pháp",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D"
+      "id": 2,
+      "pattern": "N は な-Adj [な]です / N は い-Adj です",
+      "meaning": "N là ~ (khẳng định)",
+      "explanation": "Tương tự mẫu câu với danh từ, trong đó です (desu) được đặt sau tính từ trong câu khẳng định để biểu thị sự lịch sự đối với người nghe. Tính từ đứng trước です, nếu là tính từ đuôi い thì giữ nguyên い còn nếu là tính từ đuôi な thì sẽ không có な.",
+      "examples": [
+        {
+          "japanese": "田中先生は しんせつです。",
+          "kanji": "",
+          "vietnamese": "Thầy Tanaka tốt bụng.",
+          "english": ""
+        },
+        {
+          "japanese": "富士山は 高いです。",
+          "kanji": "",
+          "vietnamese": "Núi Phú Sĩ cao.",
+          "english": ""
+        },
+        {
+          "japanese": "ハノイは あたたかいです。",
+          "kanji": "",
+          "vietnamese": "Hà Nội ấm áp.",
+          "english": ""
+        },
+        {
+          "japanese": "あの人は ゆうめいです。",
+          "kanji": "",
+          "vietnamese": "Người kia nổi tiếng.",
+          "english": ""
+        }
       ],
-      "correctAnswer": "B"
+      "notes": []
+    },
+    {
+      "id": 3,
+      "pattern": "な-Adj [な] ではありません / い-Adj くないです",
+      "meaning": "N không phải là ~ (phủ định)",
+      "explanation": "Đối với tính từ đuôi な: Biến đổi như với trường hợp danh từ. Tức là đổi です thành ではありません hoặc じゃありません. Đối với tính từ đuôi い: đổi cụm いです thành くないです. Trường hợp đặc biệt tính từ いい (ii) sẽ đổi いいです thành よくないです (yokunai desu).",
+      "examples": [
+        {
+          "japanese": "ハノイは 静かではありません。",
+          "kanji": "",
+          "vietnamese": "Hà Nội không yên tĩnh.",
+          "english": ""
+        },
+        {
+          "japanese": "この映画は おもしろくないです。",
+          "kanji": "",
+          "vietnamese": "Bộ phim này không hay.",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 4,
+      "pattern": "N は どうですか。",
+      "meaning": "N thế nào?",
+      "explanation": "どう (dou) là từ để hỏi cho tính chất, cảm tưởng về vật, sự vật, người.",
+      "examples": [
+        {
+          "japanese": "日本の生活は どうですか。",
+          "kanji": "",
+          "vietnamese": "Cuộc sống ở Nhật thế nào?",
+          "english": ""
+        },
+        {
+          "japanese": "… 楽しいです。",
+          "kanji": "",
+          "vietnamese": "… Rất vui.",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 5,
+      "pattern": "な-Adj な N / い-Adj（～い）N",
+      "meaning": "Tính từ bổ nghĩa cho danh từ",
+      "explanation": "Tính từ được đặt trước danh từ để bổ nghĩa cho danh từ đó. Khi đứng trước danh từ: Tính từ đuôi な giữ nguyên な. Tính từ đuôi い thì giữ nguyên い.",
+      "examples": [
+        {
+          "japanese": "ジョンさんは ハンサムな人です。",
+          "kanji": "",
+          "vietnamese": "Anh John là người đẹp trai.",
+          "english": ""
+        },
+        {
+          "japanese": "今日は 暑い日です。",
+          "kanji": "",
+          "vietnamese": "Hôm nay là một ngày nóng.",
+          "english": ""
+        },
+        {
+          "japanese": "Ａｎさんは ゆうめいな ひとです。",
+          "kanji": "",
+          "vietnamese": "Bạn An là người nổi tiếng.",
+          "english": ""
+        },
+        {
+          "japanese": "富士山は たかい山です。",
+          "kanji": "",
+          "vietnamese": "Núi Phú Sĩ là ngọn núi cao.",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 6,
+      "pattern": "あまり＋．．．phủ định của tính từ",
+      "meaning": "Không ~ lắm / Không ~ mấy.",
+      "explanation": "あまり (amari) đứng trước tính từ dạng phủ định thể hiện sự phủ định một phần.",
+      "examples": [
+        {
+          "japanese": "この食べ物は あまり おいしくないです。",
+          "kanji": "",
+          "vietnamese": "Đồ ăn này không ngon lắm.",
+          "english": ""
+        },
+        {
+          "japanese": "この辞書は あまり 便利ではありません。",
+          "kanji": "",
+          "vietnamese": "Quyển từ điển này không tiện lợi lắm.",
+          "english": ""
+        },
+        {
+          "japanese": "日本語は 難しいですか。",
+          "kanji": "",
+          "vietnamese": "Tiếng Nhật khó phải không?",
+          "english": ""
+        },
+        {
+          "japanese": "...いいえ、あまり 難しくないです。",
+          "kanji": "",
+          "vietnamese": "... Không, không khó lắm.",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 7,
+      "pattern": "N1 は どんな N2 ですか。",
+      "meaning": "N1 là N2 như thế nào?",
+      "explanation": "Dùng để hỏi về tính chất của N2 mà N1 là.",
+      "examples": [
+        {
+          "japanese": "Hue は どんな町ですか。",
+          "kanji": "",
+          "vietnamese": "Huế là thành phố như thế nào?",
+          "english": ""
+        },
+        {
+          "japanese": "… 静かな 町です。",
+          "kanji": "",
+          "vietnamese": "Là thành phố yên tĩnh.",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 8,
+      "pattern": "どう／どんな",
+      "meaning": "So sánh cách dùng どう và どんな",
+      "explanation": "Cả どう (dou) và どんな (donna) đều là nghi vấn từ để hỏi về cảm tưởng, tính chất, tình trạng của người hay vật. どう (dou): Hỏi trực tiếp vào tính chất của danh từ (không có danh từ đằng sau). どんな (donna): Hỏi một danh từ nào có tính chất gì (phải có danh từ đi sau).",
+      "examples": [
+        {
+          "japanese": "日本の料理は どうですか。",
+          "kanji": "",
+          "vietnamese": "Món ăn Nhật thế nào?",
+          "english": ""
+        },
+        {
+          "japanese": "...おいしいですが、高いです。",
+          "kanji": "",
+          "vietnamese": "...Ngon nhưng đắt.",
+          "english": ""
+        },
+        {
+          "japanese": "鈴木さんは どんな 人ですか。",
+          "kanji": "",
+          "vietnamese": "Suzuki là người thế nào?",
+          "english": ""
+        },
+        {
+          "japanese": "... 親切な人です。",
+          "kanji": "",
+          "vietnamese": "... Chị ấy là người tốt.",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 9,
+      "pattern": "Sentence1 が、Sentence2",
+      "meaning": "S1 nhưng mà S2.",
+      "explanation": "Trợ từ が (ga) có nghĩa là “nhưng”, dùng để nối 2 mệnh đề có ý nghĩa tương phản nhau.",
+      "examples": [
+        {
+          "japanese": "日本の食べ物は どうですか。",
+          "kanji": "",
+          "vietnamese": "Đồ ăn Nhật như thế nào?",
+          "english": ""
+        },
+        {
+          "japanese": "... おいしいですが、高いです。",
+          "kanji": "",
+          "vietnamese": "... Ngon nhưng đắt.",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 10,
+      "pattern": "Sentence1。そして Sentence2",
+      "meaning": "S1. Và S2.",
+      "explanation": "そして (soshite) là liên từ có nghĩa là “và”. そして dùng để nối 2 câu có nội dung tương đồng. Khác với と (と dùng để nối 2 danh từ).",
+      "examples": [
+        {
+          "japanese": "ベトナムの食べ物は おいしいです。そして、安いです。",
+          "kanji": "",
+          "vietnamese": "Đồ ăn Việt Nam ngon. Và rẻ nữa.",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": 11,
+      "pattern": "N はどれですか",
+      "meaning": "N là cái nào?",
+      "explanation": "どれ (dore): Là từ để hỏi có nghĩa là “cái nào”. Sử dụng để yêu cầu người nghe chọn một trong số những cái đưa ra (từ 2 thứ trở lên).",
+      "examples": [
+        {
+          "japanese": "山田さんのとけいは どれですか。",
+          "kanji": "",
+          "vietnamese": "Đồng hồ của Yamada là cái nào?",
+          "english": ""
+        },
+        {
+          "japanese": "... あおい とけいです。",
+          "kanji": "",
+          "vietnamese": "... Đồng hồ màu xanh.",
+          "english": ""
+        },
+        {
+          "japanese": "... あおい のです。",
+          "kanji": "",
+          "vietnamese": "... Cái màu xanh.",
+          "english": ""
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [
+    {
+      "title": "Bài tập 1: Điền tính từ",
+      "description": "Điền tính từ thích hợp vào chỗ trống",
+      "questions": [
+        {
+          "question": "この本は ___ です。",
+          "answer": "おもしろい",
+          "kanji": "面白い",
+          "explanation": "Cuốn sách này thú vị - dùng tính từ đuôi い"
+        },
+        {
+          "question": "ハノイは ___ 町です。",
+          "answer": "しずかな",
+          "kanji": "静かな",
+          "explanation": "Hà Nội là thành phố yên tĩnh - dùng tính từ đuôi な"
+        },
+        {
+          "question": "日本語は ___ ですか。",
+          "answer": "むずかしい",
+          "kanji": "難しい",
+          "explanation": "Tiếng Nhật khó phải không? - dùng tính từ đuôi い"
+        }
+      ]
+    },
+    {
+      "title": "Bài tập 2: Dịch câu",
+      "description": "Dịch các câu sau sang tiếng Nhật",
+      "questions": [
+        {
+          "question": "Thầy Tanaka tốt bụng",
+          "answer": "田中先生は しんせつです。",
+          "kanji": "田中先生は 親切です。",
+          "explanation": "Dùng tính từ đuôi な"
+        },
+        {
+          "question": "Cuộc sống ở Nhật thế nào?",
+          "answer": "日本の生活は どうですか。",
+          "kanji": "日本の生活は どうですか。",
+          "explanation": "Dùng どう để hỏi tính chất"
+        },
+        {
+          "question": "Đồ ăn này không ngon lắm",
+          "answer": "この食べ物は あまり おいしくないです。",
+          "kanji": "この食べ物は あまり 美味しくないです。",
+          "explanation": "Dùng あまり + phủ định"
+        }
+      ]
+    },
+    {
+      "title": "Bài tập 3: Hoàn thành câu",
+      "description": "Hoàn thành các câu sau sử dụng tính từ đã học",
+      "questions": [
+        {
+          "question": "この映画は ___ です。 (hay)",
+          "answer": "おもしろいです",
+          "kanji": "面白いです",
+          "explanation": "Dùng tính từ đuôi い"
+        },
+        {
+          "question": "あの人は ___ です。 (đẹp trai)",
+          "answer": "ハンサムです",
+          "kanji": "ハンサムです",
+          "explanation": "Dùng tính từ đuôi な"
+        },
+        {
+          "question": "この辞書は ___ です。 (tiện lợi)",
+          "answer": "べんりです",
+          "kanji": "便利です",
+          "explanation": "Dùng tính từ đuôi な"
+        }
+      ]
+    }
+  ],
+  "culturalNotes": [
+    {
+      "title": "Văn hóa Nhật Bản",
+      "content": "Trong văn hóa Nhật Bản, việc sử dụng tính từ đúng cách thể hiện sự tinh tế trong giao tiếp. Người Nhật thường sử dụng các tính từ để miêu tả cảm xúc và trạng thái một cách gián tiếp."
+    },
+    {
+      "title": "Cách sử dụng tính từ",
+      "content": "Việc phân biệt tính từ đuôi い và tính từ đuôi な là rất quan trọng trong tiếng Nhật. Mỗi loại có cách chia và cách kết hợp với danh từ khác nhau."
     }
   ]
 }

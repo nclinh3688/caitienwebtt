@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import { 
   BookOpen, 
   Clock, 
@@ -11,7 +12,8 @@ import {
   Filter,
   Search,
   Globe,
-  GraduationCap
+  GraduationCap,
+  ChevronDown
 } from 'lucide-react';
 
 interface Course {
@@ -48,10 +50,16 @@ export default function CoursesPage() {
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   useEffect(() => {
     fetchCourses();
   }, []);
+
+  const handleFilterChange = (language: string) => {
+    setFilter(language);
+    setIsDropdownOpen(false);
+  };
 
   const fetchCourses = async () => {
     try {
@@ -172,20 +180,57 @@ export default function CoursesPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col sm:flex-row gap-4 items-center justify-between mb-8">
           {/* Language Filter */}
-          <div className="flex items-center gap-2">
-            <Filter className="w-5 h-5 text-gray-600" />
-            <select
-              value={filter}
-              onChange={(e) => setFilter(e.target.value)}
-              className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            >
-              <option value="all">Tất cả ngôn ngữ</option>
-              <option value="japanese">Tiếng Nhật</option>
-              <option value="chinese">Tiếng Trung</option>
-              <option value="english">Tiếng Anh</option>
-              <option value="korean">Tiếng Hàn</option>
-              <option value="vietnamese">Tiếng Việt</option>
-            </select>
+          <div
+            className="nav-item relative"
+            onMouseEnter={() => setIsDropdownOpen(true)}
+            onMouseLeave={() => setIsDropdownOpen(false)}
+          >
+            <button className="nav-button group">
+              <div className="nav-icon bg-gradient-to-r from-blue-500 to-blue-600">
+                <Filter className="w-5 h-5" />
+              </div>
+              <span className="nav-text">{filter === 'all' ? 'Tất cả ngôn ngữ' : getLevelText(filter)}</span>
+              <ChevronDown className={`lucide lucide-chevron-down nav-chevron ${isDropdownOpen ? 'rotate-180' : ''}`} />
+            </button>
+
+            {isDropdownOpen && (
+              <div className="dropdown-menu" style={{ opacity: 1, transform: 'none' }}>
+                <div className="py-1 dropdown-items">
+                  <a
+                    onClick={() => handleFilterChange('all')}
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dropdown-item group"
+                  >
+                    <span className="item-icon">🌍</span>
+                    <span className="item-title">Tất cả ngôn ngữ</span>
+                  </a>
+                  <Link href="/courses/japanese" passHref legacyBehavior>
+                    <a onClick={() => handleFilterChange('japanese')} className="dropdown-item group">
+                      <span className="item-icon">🇯🇵</span><span className="item-title">Tiếng Nhật</span>
+                    </a>
+                  </Link>
+                  <Link href="/courses/chinese" passHref legacyBehavior>
+                    <a onClick={() => handleFilterChange('chinese')} className="dropdown-item group">
+                      <span className="item-icon">🇨🇳</span><span className="item-title">Tiếng Trung</span>
+                    </a>
+                  </Link>
+                  <Link href="/courses/korean" passHref legacyBehavior>
+                    <a onClick={() => handleFilterChange('korean')} className="dropdown-item group">
+                      <span className="item-icon">🇰🇷</span><span className="item-title">Tiếng Hàn</span>
+                    </a>
+                  </Link>
+                  <Link href="/courses/english" passHref legacyBehavior>
+                    <a onClick={() => handleFilterChange('english')} className="dropdown-item group">
+                      <span className="item-icon">🇺🇸</span><span className="item-title">Tiếng Anh</span>
+                    </a>
+                  </Link>
+                  <Link href="/courses/vietnamese" passHref legacyBehavior>
+                    <a onClick={() => handleFilterChange('vietnamese')} className="dropdown-item group">
+                      <span className="item-icon">🇻🇳</span><span className="item-title">Tiếng Việt</span>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Search */}

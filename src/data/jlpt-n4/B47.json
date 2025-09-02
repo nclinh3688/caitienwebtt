@@ -1,0 +1,52 @@
+{
+  "vietnameseTitle": "第４７課 (Bài 47)",
+  "japaneseTitle": "Dai Yonjūnanaka",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "Thể thông thường + そうです",
+      "meaning": "Nghe nói là ~",
+      "vietnamese": {
+        "meaning": "(Tôi) nghe nói là ~.",
+        "usage": "Truyền đạt thông tin nghe được ở đâu đó đến người thứ 3 mà không có nhận định của bản thân. Có thể dẫn nguồn thông tin bằng ～によると.",
+        "usagePoints": ["Với tính từ đuôi な và danh từ, bỏ だ và thêm だそうです."],
+        "note": "Khác với Vます＋そうです (Bài 43), mẫu câu này chỉ truyền đạt thông tin, không phải phán đoán dựa trên quan sát."
+      },
+      "explanation": "Dùng để truyền đạt lại thông tin đã nghe được.",
+      "examples": [
+        { "japanese": "天気予報によると、あしたはいい天気になるそうです。", "kanji": "天気予報によると、あしたはいい天気になるそうです。", "vietnamese": "Theo như dự báo thời tiết thì nghe nói ngày mai thời tiết sẽ trở nên đẹp.", "english": "According to the weather forecast, it is said that the weather will be fine tomorrow." },
+        { "japanese": "田中さんは今年の12月にベトナムへ来るそうです。", "kanji": "田中さんは今年の12月にベトナムへ来るそうです。", "vietnamese": "Tôi nghe nói là anh Tanaka sẽ đến Việt Nam vào tháng 12 năm nay.", "english": "I heard that Mr. Tanaka will come to Vietnam this December." },
+        { "japanese": "東京はとてもきれいだそうです。", "kanji": "東京はとてもきれいだそうです。", "vietnamese": "Tôi nghe nói là Tokyo rất đẹp.", "english": "I heard that Tokyo is very beautiful." }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "Thể thông thường + ようです",
+      "meaning": "Hình như là ~",
+      "vietnamese": {
+        "meaning": "Hình như là ~.",
+        "usage": "Diễn đạt suy luận, phán đoán một cách trực quan, dựa trên cảm giác, cảm nhận (5 giác quan) của bản thân, có thể không chính xác.",
+        "usagePoints": [
+          "Động từ, tính từ đuôi い ở thể thông thường + ようです.",
+          "Tính từ đuôi な + なようです.",
+          "Danh từ + のようです."
+        ],
+        "note": ""
+      },
+      "explanation": "Dùng để diễn tả sự phỏng đoán dựa trên cảm nhận của các giác quan.",
+      "examples": [
+        { "japanese": "彼は今日とても忙しいようです。", "kanji": "彼は今日とても忙しいようです。", "vietnamese": "Hôm nay hình như anh ấy rất bận rộn.", "english": "It seems like he is very busy today." },
+        { "japanese": "昨日この道で交通事故が起こったようです。", "kanji": "昨日この道で交通事故が起こったようです。", "vietnamese": "Hôm qua hình như đã xảy ra tai nạn trên đường này.", "english": "It seems like there was a traffic accident on this road yesterday." },
+        { "japanese": "部屋に泥棒が入ったようです。", "kanji": "部屋に泥棒が入ったようです。", "vietnamese": "Hình như trộm đã vào phòng.", "english": "It seems like a thief entered the room." },
+        { "japanese": "田中さんはとても病気のようです。", "kanji": "田中さんはとても病気のようです。", "vietnamese": "Hình như anh Tanaka ốm nặng.", "english": "It seems like Mr. Tanaka is very sick." }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

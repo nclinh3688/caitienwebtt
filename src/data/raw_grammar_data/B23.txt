@@ -1,0 +1,47 @@
+第２３課 (Bài 23)
+1. Động từ dạng ngắn / Tính từ đuôi i / Tính từ đuôi na / Danh từ + とき、～ (cách thể hiện ý nói: khi (làm gì) thì (làm gì))
+    ◦ Ý nghĩa: khi ～, lúc ～.
+    ◦ Cách dùng: Giống hệt cách tạo 1 định ngữ. Về bản chất, 「とき」cũng là 1 danh từ, vì vậy, cách cấu thành mẫu câu này áp dụng toàn bộ quy tắc bổ nghĩa danh từ hay tạo 1 định ngữ (đối với động từ).
+        ▪ Động từ dạng ngắn: V る･V ない･V た + とき、～.
+        ▪ Tính từ đuôi i: ～い + とき、～.
+        ▪ Tính từ đuôi na: ～な + とき、～.
+        ▪ Danh từ: ～の + とき、～.
+    ◦ Ví dụ:
+        ▪ 図書館で 本を借りるとき、カードが 要ります。 (Khi mượn sách ở thư viện cần có thẻ.)
+        ▪ 使い方が 分からないとき、私に 聞いてください。 (Khi không biết cách sử dụng thì hãy hỏi tôi.)
+        ▪ 忙 しいとき、１０時ごろまで 働 きます。 (Khi bận rộn thì làm cho đến khoảng 10 giờ.)
+        ▪ 暇なとき、うちへ 遊びに行きませんか。 (Bạn sẽ đến nhà tôi chơi khi rảnh rỗi chứ?)
+        ▪ 妻が 病気のとき、会社を 休みます。 (Khi vợ ốm tôi sẽ xin nghỉ làm.)
+        ▪ 子供のとき、よく川で 泳ぎました。 (Hồi còn bé / Khi còn là trẻ con, tôi rất hay bơi trên sông.)
+        ▪ 若いとき、あまり 勉強しませんでした。 (Khi còn trẻ, tôi không học hành mấy.)
+    ◦ Chú ý: Thì của câu tính từ và câu danh từ bổ nghĩa cho 「とき」không bị ảnh hưởng bởi thì của mệnh đề chính trong câu.
+2. V る とき、～ vs V た とき、～ (phân biệt giữa V る＋とき、và V た＋とき)
+    ◦ Cách dùng: Đều có nghĩa là “khi” nhưng nếu thì của động từ trước 「とき」khác nhau thì nghĩa của câu cũng khác nhau.
+        ▪ V る: biểu thị một hành động chưa hoàn thành.
+        ▪ V た: biểu thị một việc, hành động hay tình trạng đã hoàn tất.
+    ◦ Ví dụ:
+        ▪ 東京へ行くとき、このかばんを 買いました。 (Tôi đã mua chiếc cặp này khi đi Tokyo - Chiếc cặp này được mua trên đường đi đến Tokyo.)
+        ▪ 東京へ行ったとき、このかばんを 買いました。 (Tôi đã mua chiếc cặp này khi đi Tokyo - Chiếc cặp này được mua sau khi đã đến Tokyo.)
+3. V る / V ない と、～ (cách nói giả định, giả sử loại 1: về 1 sự việc chắn chắn sẽ xảy ra)
+    ◦ Ý nghĩa: Nếu… thì…; cứ … thì sẽ….
+    ◦ Cách dùng: Câu giả sử kiểu này dùng khi diễn tả 1 tình huống mà ở đó, do kết quả của 1 hành động nào đó mà 1 hành động, 1 sự việc khác chắn chắn sẽ xảy ra. Trợ từ 「と」(mang nghĩa là “nếu”) được đặt ở giữa để nối 2 câu và đóng vai trò xác định mệnh đề giả sử.
+    ◦ Ví dụ:
+        ▪ このボタンを 押すと、お釣りが 出ます。 (Nếu bấm nút này thì tiền thừa sẽ chạy ra.)
+        ▪ これを 回すと、音が 大きく なります。 (Nếu vặn cái này thì tiếng sẽ to lên.)
+        ▪ 右へ 曲がると、郵便局が あります。 (Nếu rẽ phải thì sẽ có một cái bưu điện.)
+        ▪ 日本語が 分からないと、困りますよ。 (Nếu không biết tiếng Nhật thì sẽ khó khăn đấy.)
+        ▪ もっと がんばらないと、合格できません。 (Nếu không cố gắng hơn nữa thì sẽ không thể đỗ được.)
+    ◦ Chú ý: Mệnh đề đứng sau 「～と」không sử dụng để biểu hiện một ý hướng, một hy vọng, một sự rủ rê hay một sự nhờ vả.
+4. N が Adj／V
+    ◦ Cách dùng: Khi biểu thị một tình trạng hay một quang cảnh như nó vốn có, thì trợ từ được sử dụng sau chủ ngữ sẽ là 「が」.
+    ◦ Ví dụ:
+        ▪ 音が 小さいです。 (Tiếng nhỏ.)
+        ▪ 天気が 明るくなりました。 (Thời tiết trở nên quang đãng.)
+        ▪ このボタンを 押すと、切符が 出ます。 (Nếu bấm nút này thì vé sẽ ra.)
+5. N (địa điểm) を V (động từ di chuyển) (Chỉ địa điểm đi qua)
+    ◦ Cách dùng: Được sử dụng để chỉ địa điểm, vị trí nơi mà 1 người hay 1 vật nào đó đi qua.
+        ▪ Các động từ thường dùng: あるきます: đi bộ, わたります: băng qua, さんぽします: đi dạo.
+    ◦ Ví dụ:
+        ▪ 橋を 渡ります。 (Đi qua cầu.)
+        ▪ 公園を 散歩します。 (Đi dạo trong công viên.)
+        ▪ 交差点を 右へ 曲がります。 (Rẽ phải ở ngã tư.)

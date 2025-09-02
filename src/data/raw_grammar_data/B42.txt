@@ -1,0 +1,28 @@
+第４２課 (Dai Yonjūnikka)
+1. 「～ために、V」 (Để ~)
+* Ý nghĩa: Biểu hiện mục đích "Để ~".
+* Cách dùng: Mệnh đề trước ために là mục đích, mệnh đề sau là hành vi có ý chí để thực hiện mục đích đó.
+    * 1.1. Với động từ 「V るために、V2」 (Để thực hiện V1 thì V2)
+        * Cách dùng: Động từ đi trước ために ở thể từ điển, là động từ có tính ý chí.
+        * Ví dụ:
+            * 来年世界旅行をするために、今お金をためています。(Bây giờ tôi đang tiết kiệm tiền để năm sau đi du lịch.)
+            * 漢字を勉強するために、辞書を買いました。(Tôi đã mua từ điển để học chữ Hán.)
+        * So sánh với 「～ように」 (Bài 36):
+            * Cả hai đều diễn tả mục đích, động từ ở mệnh đề trước đều ở thể từ điển.
+            * Tuy nhiên, ～ように có thể dùng với động từ không có tính ý chí (khả năng, trạng thái), còn ～ために thường dùng với động từ có tính ý chí.
+    * 1.2. Với danh từ 「N のために、V」
+        * Cách dùng:
+            * Nếu N là danh từ chỉ sự việc, diễn tả mục đích (giống V るために). Ví dụ: 健康のために、たばこをやめた。(Tôi bỏ thuốc lá (để) cho khỏe.)
+            * Nếu N là danh từ chỉ thiên tai, diễn tả nguyên nhân, lý do. Ví dụ: 台風のために、木が倒れた。(Cây đổ tại (vì) bão.)
+            * Nếu N là danh từ chỉ người, diễn tả hành vi vì lợi ích của đối tượng đó. Ví dụ: 家族のために、一生懸命働かなければなりません。(Tôi phải cố làm việc hết sức vì gia đình.)
+2. Trợ từ 「に」 thể hiện mục đích (Sử dụng vào việc gì / có lợi cho việc gì)
+* Ý nghĩa: "Sử dụng vào việc gì / có lợi cho việc gì / cần thiết cho cái gì".
+* Cách dùng:
+    * Kết hợp với danh từ (N に).
+    * Kết hợp với động từ (danh từ hóa động từ, ví dụ 曲げるのに).
+    * Với động từ nhóm III dạng N します, ghép thẳng thành N に (ví dụ: 勉強します -> 勉強に, 修理します -> 修理に).
+    * Mệnh đề sau thường giới hạn ở các động từ, tính từ trạng thái như ～に使います (cách sử dụng), ～に便利です、必要です、いいです、役に立ちます (đánh giá), ～に（時間、お金）がかかります (tính toán).
+* Ví dụ:
+    * このはさみは紙を切るのに使います。(Cái kéo này dùng để cắt giấy.)
+    * この辞書は漢字を調べるのに便利です。(Cuốn từ điển này rất tiện cho việc tra chữ Hán.)
+    * この時計は直すのに１週間かかります。(Cái đồng hồ này phải mất 1 tuần để sửa.)

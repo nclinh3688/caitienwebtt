@@ -1,0 +1,53 @@
+{
+  "vietnameseTitle": "第４５課 (Bài 45)",
+  "japaneseTitle": "Dai Yonjūgo-ka",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "Vた／Aい／Aな／Nの + 場合 (ばあい)",
+      "meaning": "Trong trường hợp",
+      "vietnamese": {
+        "meaning": "Trong trường hợp…, Nếu….",
+        "usage": "Diễn đạt giả định về một tình huống không hay, không mong đợi hoặc hiếm khi xảy ra. Hành động ở vế sau thể hiện điều cần làm hoặc kết quả do tình huống đó đem lại. 場合 là một danh từ.",
+        "usagePoints": [
+          "Động từ: Thể た + 場合",
+          "Tính từ đuôi い: Thể thông thường + 場合",
+          "Tính từ đuôi な: Thể thông thường な + 場合",
+          "Danh từ: N の + 場合"
+        ],
+        "note": "Có thể thêm 万一 hoặc 万が一 vào đầu để nhấn mạnh."
+      },
+      "explanation": "Dùng để đưa ra một giả định và hành động tương ứng cần làm trong trường hợp đó.",
+      "examples": [
+        { "japanese": "時間に遅れた場合は、教室に入れません。", "kanji": "時間に遅れた場合は、教室に入れません。", "vietnamese": "Trong trường hợp đến muộn giờ thì sẽ không vào lớp học được.", "english": "In case you are late, you cannot enter the classroom." },
+        { "japanese": "ファックスの調子が悪い場合は、どうしたらいいですか。", "kanji": "ファックスの調子が悪い場合は、どうしたらいいですか。", "vietnamese": "Tôi nên làm thế nào trong trường hợp máy fax gặp trục trặc?", "english": "What should I do in case the fax machine is not working properly?" },
+        { "japanese": "パスポートが必要な場合は、彼に言ってください。", "kanji": "パスポートが必要な場合は、彼に言ってください。", "vietnamese": "Anh hãy nói với anh ý trong trường hợp cần hộ chiếu.", "english": "Please tell him in case a passport is needed." },
+        { "japanese": "家事や地震の場合は、エレベーターを使わないでください。", "kanji": "家事や地震の場合は、エレベーターを使わないでください。", "vietnamese": "Trong trường hợp xảy ra động đất và hỏa hoạn, không được dùng cầu thang máy.", "english": "In case of fire or earthquake, do not use the elevator." }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "Thể thông thường + のに、～",
+      "meaning": "Nghịch lý: …thế mà, vậy mà…",
+      "vietnamese": {
+        "meaning": "…thế mà, vậy mà….",
+        "usage": "Diễn đạt việc không đạt được kết quả như mong đợi trong một tình huống nào đó, bao hàm cảm xúc mạnh mẽ như bất mãn, không ngờ.",
+        "usagePoints": ["Với tính từ đuôi な và danh từ, bỏ だ và thêm なのに."],
+        "note": "Khác với ～が (chỉ đối lập đơn thuần) và ～ても (giả định chưa xảy ra). Ngược hoàn toàn với ～ので (chỉ nguyên nhân, kết quả hợp lý)."
+      },
+      "explanation": "Dùng để nối hai vế câu có ý nghĩa trái ngược, thể hiện sự bất ngờ hoặc không hài lòng của người nói.",
+      "examples": [
+        { "japanese": "ダイエットしているのに、太ってしまいました。", "kanji": "ダイエットしているのに、太ってしまいました。", "vietnamese": "Tôi đã ăn kiêng thế mà vẫn bị béo.", "english": "I was on a diet, but I still gained weight." },
+        { "japanese": "約束をしたのに、彼女は来ませんでした。", "kanji": "約束をしたのに、彼女は来ませんでした。", "vietnamese": "Hẹn rồi vậy mà cô ấy không đến.", "english": "We had a promise, but she didn't come." },
+        { "japanese": "今日は日曜日なのに、働かなければなりません。", "kanji": "今日は日曜日なのに、働かなければなりません。", "vietnamese": "Hôm nay là chủ nhật mà tôi vẫn phải làm việc.", "english": "Even though it's Sunday, I have to work." }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

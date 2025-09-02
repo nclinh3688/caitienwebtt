@@ -3,12 +3,12 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
-export default function N5GrammarLesson1Page() {
+export default function N4GrammarLesson43Page() {
   const [lessonData, setLessonData] = useState<any>(null);
   const [activeTab, setActiveTab] = useState('grammar');
   const [showAnswers, setShowAnswers] = useState<{ [key: string]: boolean }>({});
   const [showExamples, setShowExamples] = useState<{ [key: string]: boolean }>({});
-  const [showNotesModal, setShowNotesModal] = useState(false);
+    const [showNotesModal, setShowNotesModal] = useState(false);
   const [notes, setNotes] = useState('');
   const [grammarNotes, setGrammarNotes] = useState<{ [key: string]: string }>({});
   const [buttonPosition, setButtonPosition] = useState({ x: 0, y: 0 }); // Default values for SSR
@@ -66,7 +66,7 @@ export default function N5GrammarLesson1Page() {
 
   const saveNotes = () => {
     // Lưu ghi chú vào localStorage
-    localStorage.setItem('n5-grammar-lesson1-notes', notes);
+    localStorage.setItem('n4-grammar-lesson43-notes', notes);
     setShowNotesModal(false);
   };
 
@@ -78,7 +78,7 @@ export default function N5GrammarLesson1Page() {
     }
     
     // Tải ghi chú cho từng ngữ pháp
-    const savedGrammarNotes = localStorage.getItem('n5-grammar-lesson1-grammar-notes');
+    const savedGrammarNotes = localStorage.getItem('n4-grammar-lesson43-grammar-notes');
     if (savedGrammarNotes) {
       setGrammarNotes(JSON.parse(savedGrammarNotes));
     }
@@ -87,14 +87,14 @@ export default function N5GrammarLesson1Page() {
   const saveGrammarNote = (patternId: string, content: string) => {
     const newGrammarNotes = { ...grammarNotes, [patternId]: content };
     setGrammarNotes(newGrammarNotes);
-    localStorage.setItem('n5-grammar-lesson1-grammar-notes', JSON.stringify(newGrammarNotes));
+    localStorage.setItem('n4-grammar-lesson43-grammar-notes', JSON.stringify(newGrammarNotes));
   };
 
   const deleteGrammarNote = (patternId: string) => {
     const newGrammarNotes = { ...grammarNotes };
     delete newGrammarNotes[patternId];
     setGrammarNotes(newGrammarNotes);
-    localStorage.setItem('n5-grammar-lesson1-grammar-notes', JSON.stringify(newGrammarNotes));
+    localStorage.setItem('n4-grammar-lesson43-grammar-notes', JSON.stringify(newGrammarNotes));
   };
 
   const handleModalMouseDown = (e: React.MouseEvent, type: 'drag' | 'resize', direction?: string) => {
@@ -128,30 +128,6 @@ export default function N5GrammarLesson1Page() {
         x: Math.max(0, Math.min(newX, maxX)),
         y: Math.max(0, Math.min(newY, maxY))
       });
-    } else if (isModalResizing) {
-      const deltaX = e.clientX - modalDragOffset.x;
-      const deltaY = e.clientY - modalDragOffset.y;
-      
-      // Tính kích thước mới
-      const newWidth = modalSize.width + deltaX;
-      const newHeight = modalSize.height + deltaY;
-      
-      // Giới hạn kích thước
-      const minWidth = 400;
-      const minHeight = 200;
-      const maxWidth = window.innerWidth - 100;
-      const maxHeight = window.innerHeight - 100;
-      
-      setModalSize({
-        width: Math.max(minWidth, Math.min(newWidth, maxWidth)),
-        height: Math.max(minHeight, Math.min(newHeight, maxHeight))
-      });
-      
-      // Cập nhật offset để resize mượt mà
-      setModalDragOffset({
-        x: e.clientX,
-        y: e.clientY
-      });
     }
   };
 
@@ -163,18 +139,18 @@ export default function N5GrammarLesson1Page() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/api/grammar/n5/lesson1');
+        const response = await fetch('/api/grammar/n4/lesson43');
         if (response.ok) {
           const data = await response.json();
           setLessonData(data);
         } else {
           // Fallback to static data
-          const staticData = await import('../../../../../../../data/jlpt-n5/B01.json');
+          const staticData = await import('../../../../../../../data/jlpt-n4/B43.json');
           setLessonData(staticData.default);
         }
       } catch (error) {
         // Load static data directly
-        const staticData = await import('../../../../../../../data/jlpt-n5/B01.json');
+        const staticData = await import('../../../../../../../data/jlpt-n4/B43.json');
         setLessonData(staticData.default);
       }
     };
@@ -244,7 +220,7 @@ export default function N5GrammarLesson1Page() {
           <div className="flex items-center justify-between">
             <div>
               <Link 
-                href="/courses/japanese/n5/grammar"
+                href="/courses/japanese/n4/grammar"
                 className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors"
               >
                 <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -329,9 +305,16 @@ export default function N5GrammarLesson1Page() {
                       <p className="text-lg font-medium text-blue-800 mb-2">
                         {pattern.meaning}
                       </p>
-                      <p className="text-base text-gray-700">
-                        {pattern.vietnamese}
-                      </p>
+                      <div className="text-base text-gray-700 space-y-2">
+                        <p className="font-medium text-blue-800">{pattern.vietnamese.meaning}</p>
+                        <p className="font-medium text-gray-800">{pattern.vietnamese.usage}</p>
+                        <ul className="list-disc list-inside space-y-1 ml-4">
+                          {pattern.vietnamese.usagePoints?.map((point: string, index: number) => (
+                            <li key={index} className="text-gray-700">{point}</li>
+                          ))}
+                        </ul>
+                        <p className="font-medium text-orange-700">{pattern.vietnamese.note}</p>
+                      </div>
                     </div>
                     
                     {/* Explanation */}
@@ -358,9 +341,9 @@ export default function N5GrammarLesson1Page() {
                                   showExamples[`pattern-${pattern.id}-example-${index}`]
                                     ? 'bg-gray-200 text-gray-800 hover:bg-gray-300'
                                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                                }`}
-                              >
-                                {showExamples[`pattern-${pattern.id}-example-${index}`]
+                              }`}
+                            >
+                              {showExamples[`pattern-${pattern.id}-example-${index}`]
                                   ? 'Ẩn ví dụ'
                                   : 'Hiện ví dụ'
                                 }
@@ -547,7 +530,7 @@ export default function N5GrammarLesson1Page() {
             ← Quay lại danh sách bài học
           </Link>
           <Link
-            href="/courses/japanese/n5/grammar/lesson/2"
+            href="/courses/japanese/n4/grammar/lesson/44"
             className="px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
           >
             Bài tiếp theo →

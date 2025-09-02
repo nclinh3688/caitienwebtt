@@ -1,0 +1,73 @@
+{
+  "vietnameseTitle": "第３１課 (Bài 31)",
+  "japaneseTitle": "",
+  "estimatedTime": "",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "V てみます",
+      "meaning": "Thử làm gì đó",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả việc thử làm gì đó",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể て + みます",
+          "• Dùng để diễn tả việc thử làm",
+          "• Thường dùng để nói về kinh nghiệm mới"
+        ],
+        "note": "Lưu ý: Diễn tả việc thử làm lần đầu"
+      },
+      "explanation": "Sử dụng để diễn tả việc thử làm gì đó",
+      "examples": [
+        {
+          "japanese": "この料理を作ってみます。",
+          "kanji": "この料理を作ってみます",
+          "vietnamese": "Tôi sẽ thử nấu món ăn này",
+          "english": ""
+        },
+        {
+          "japanese": "日本語で話してみます。",
+          "kanji": "日本語で話してみます",
+          "vietnamese": "Tôi sẽ thử nói bằng tiếng Nhật",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "V てみました",
+      "meaning": "Đã thử làm gì đó",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả việc đã thử làm gì đó",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể て + みました",
+          "• Dùng để nói về việc đã thử làm",
+          "• Thường dùng để kể về kinh nghiệm"
+        ],
+        "note": "Lưu ý: Diễn tả việc đã thử làm trong quá khứ"
+      },
+      "explanation": "Sử dụng để diễn tả việc đã thử làm gì đó",
+      "examples": [
+        {
+          "japanese": "寿司を作ってみました。",
+          "kanji": "寿司を作ってみました",
+          "vietnamese": "Tôi đã thử làm sushi",
+          "english": ""
+        },
+        {
+          "japanese": "新しいレストランに行ってみました。",
+          "kanji": "新しいレストランに行ってみました",
+          "vietnamese": "Tôi đã thử đi nhà hàng mới",
+          "english": ""
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

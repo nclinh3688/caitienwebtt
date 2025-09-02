@@ -1,0 +1,23 @@
+第４７課 (Dai Yonjūnanaka)
+1. 「Thể thông thường + そうです。」 (Nghe nói là ~)
+* Ý nghĩa: (Tôi) nghe nói là ~.
+* Cách dùng: Truyền đạt thông tin nghe được ở đâu đó đến người thứ 3 mà không có nhận định của bản thân. Có thể dẫn nguồn thông tin bằng ～によると.
+* Cách kết hợp: Động từ, tính từ đuôi い, tính từ đuôi な, danh từ đều ở thể thông thường rồi thêm そうです. (Tính từ đuôi な và danh từ bỏ だ và thêm だそうです).
+* Ví dụ:
+    * 天気予報によると、あしたはいい天気になるそうです。(Theo như dự báo thời tiết thì nghe nói ngày mai thời tiết sẽ trở nên đẹp.)
+    * 田中さんは今年の12月にベトナムへ来るそうです。(Tôi nghe nói là anh Tanaka sẽ đến Việt Nam vào tháng 12 năm nay.)
+    * 東京はとてもきれいだそうです。(Tôi nghe nói là Tokyo rất đẹp.)
+* Lưu ý:
+    * Khác với V ます＋そうです (Bài 43), ～そうです này chỉ truyền đạt thông tin, không phải phán đoán dựa trên quan sát.
+    * Không kết hợp với thể ý chí, cấm đoán, mệnh lệnh, suy đoán, nhờ vả.
+    * Khi phủ định hoặc quá khứ, chỉ thay đổi thì của phần động từ/tính từ/danh từ trước そうです.
+    * ～そうです có thể dùng khi nghe từ nhiều nguồn khác nhau, khác với ～と言っていました (trực tiếp nghe từ người nói đó).
+2. 「Thể thông thường + ようです。」 (Hình như là ~)
+* Ý nghĩa: Hình như là ~.
+* Cách dùng: Diễn đạt suy luận, phán đoán một cách trực quan, dựa trên cảm giác, cảm nhận (5 giác quan) của bản thân, có thể không chính xác.
+* Cách kết hợp: Động từ, tính từ đuôi い ở thể thông thường + ようです. Tính từ đuôi な + なようです. Danh từ + のようです.
+* Ví dụ:
+    * 彼は今日とても忙しいようです。(Hôm nay hình như anh ấy rất bận rộn.)
+    * 昨日この道で交通事故が起こったようです。(Hôm qua hình như đã xảy ra tai nạn trên đường này.)
+    * 部屋に泥棒が入ったようです。(Hình như trộm đã vào phòng.)
+    * 田中さんはとても病気のようです。(Hình như anh Tanaka ốm nặng.)

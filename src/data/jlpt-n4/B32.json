@@ -1,0 +1,104 @@
+{
+  "vietnameseTitle": "第３２課 (Bài 32)",
+  "japaneseTitle": "",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "V-てあげます",
+      "meaning": "Làm gì đó cho ai đó",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả hành động mình (hoặc người trong nhóm mình) làm cho người khác.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• [Người làm] は [Người nhận] に V-てあげます。",
+          "• Hành động hướng từ người nói ra bên ngoài.",
+          "• Diễn tả ý tốt, làm việc gì đó như một sự giúp đỡ."
+        ],
+        "note": "Lưu ý: Không nên dùng mẫu câu này khi nói về hành động làm cho người có địa vị cao hơn mình, vì có thể mang sắc thái ban ơn. Trong trường hợp đó, nên dùng thể khiêm nhường ngữ."
+      },
+      "explanation": "Mẫu câu này được sử dụng khi người nói hoặc một người thuộc 'nhóm trong' (gia đình, công ty của mình) thực hiện một hành động cho một người khác thuộc 'nhóm ngoài'. Nó thể hiện thiện ý của người làm.",
+      "examples": [
+        {
+          "japanese": "わたしは きむらさんに ほんを かしてあげました。",
+          "kanji": "私は 木村さんに 本を 貸してあげました。",
+          "vietnamese": "Tôi đã cho chị Kimura mượn sách.",
+          "english": "I lent Ms. Kimura a book."
+        },
+        {
+          "japanese": "わたしは いもうとに しゅくだいを おしえてあげます。",
+          "kanji": "私は 妹に 宿題を 教えてあげます。",
+          "vietnamese": "Tôi dạy em gái làm bài tập.",
+          "english": "I teach my younger sister her homework."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "V-てもらいます",
+      "meaning": "Được ai đó làm gì cho mình",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả việc mình (hoặc người trong nhóm mình) được người khác làm cho một việc gì đó.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• [Người nhận] は [Người làm] に V-てもらいます。",
+          "• Chủ ngữ là người nhận hành động.",
+          "• Thể hiện lòng biết ơn của người nhận."
+        ],
+        "note": "Lưu ý: Đây là cách nói tập trung vào người nhận và sự biết ơn của họ."
+      },
+      "explanation": "Mẫu câu này được sử dụng khi người nói hoặc một người thuộc 'nhóm trong' nhận một hành động từ người khác. Chủ ngữ của câu là người nhận, và nó thể hiện rõ sự cảm kích đối với hành động đó.",
+      "examples": [
+        {
+          "japanese": "わたしは やまださんに びょういんへ つれていってもらいました。",
+          "kanji": "私は 山田さんに 病院へ 連れて行ってもらいました。",
+          "vietnamese": "Tôi đã được anh Yamada dẫn đến bệnh viện.",
+          "english": "I had Mr. Yamada take me to the hospital."
+        },
+        {
+          "japanese": "だれに にほんごを ならいましたか。…カリナさんに おしえてもらいました。",
+          "kanji": "だれに 日本語を 習いましたか。…カリナさんに 教えてもらいました。",
+          "vietnamese": "Bạn đã học tiếng Nhật từ ai vậy? ...Tôi được chị Karina dạy.",
+          "english": "Who did you learn Japanese from? ...I was taught by Ms. Karina."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP3",
+      "pattern": "V-てくれます",
+      "meaning": "Ai đó làm gì cho mình",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả việc người khác làm cho mình (hoặc người trong nhóm mình) một việc gì đó.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• [Người làm] は [私に] V-てくれます。",
+          "• Chủ ngữ là người làm hành động.",
+          "• Hành động hướng vào người nói hoặc 'nhóm trong'."
+        ],
+        "note": "Lưu ý: Người nhận thường là người nói (私) nên hay được lược bỏ."
+      },
+      "explanation": "Mẫu câu này cũng diễn tả việc nhận một hành động, nhưng chủ ngữ của câu là người thực hiện hành động đó. Nó cũng thể hiện sự biết ơn của người nói đối với hành động mà mình nhận được.",
+      "examples": [
+        {
+          "japanese": "ともだちは わたしに こどものしゃしんを おくってくれました。",
+          "kanji": "友達は 私に 子供の写真を 送ってくれました。",
+          "vietnamese": "Bạn tôi đã gửi ảnh con của anh ấy cho tôi.",
+          "english": "My friend sent me a picture of their child."
+        },
+        {
+          "japanese": "だれが てつだってくれますか。…ミラーさんが てつだってくれます。",
+          "kanji": "だれが 手伝ってくれますか。…ミラーさんが 手伝ってくれます。",
+          "vietnamese": "Ai sẽ giúp bạn? ...Anh Miller sẽ giúp tôi.",
+          "english": "Who will help you? ...Mr. Miller will help me."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

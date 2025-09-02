@@ -1,0 +1,41 @@
+[第２６課 (Bài 26)
+1. Động từ dạng ngắn / Tính từ đuôi i / Tính từ đuôi na / Danh từ + んです。 (nhấn mạnh ý muốn nói, muốn hỏi; dùng trong văn nói nhiều)
+    ◦ Cách cấu tạo:
+        ▪ Động từ: V る･V ない･V た (dạng ngắn) + んです.
+        ▪ Tính từ đuôi i: ～い (dạng ngắn) + んです.
+        ▪ Tính từ đuôi na: ～な + んです.
+        ▪ Danh từ: ～な + んです.
+    ◦ Cách sử dụng:
+        ▪ (1). Trong các câu hỏi: 「～んですか。」
+            • a) Dùng trong trường hợp xác nhận lại thông tin xem có đúng như cái mà mình đang nhìn thấy hoặc đang suy đoán không.
+                ◦ Ví dụ: 渡辺さんは ときどき 大阪べんを 使いますね。大阪に 住んでいたんですか。 (Anh watanabe thỉnh thoảng dùng tiếng Osaka nhỉ. Anh đã sống ở Osaka à?)
+                    ▪ …ええ、１５歳まで 大阪に 住んでいました。 (… Vâng, tôi đã sống ở Osaka đến năm 15 tuổi.)
+            • b) Khi người nói hỏi về thông tin mà anh ấy nghe hoặc nhìn thấy.
+                ◦ Ví dụ: いいカメラですね。どこで 買ったんですか。 (Chiếc máy ảnh đẹp quá. Anh mua ở đâu vậy?)
+                    ▪ …日本で 買いました。 (… Tôi mua ở Nhật Bản.)
+            • c) Khi người nói muốn nghe giải thích nguyên nhân, lý do của sự việc mà anh ấy nghe hoặc nhìn thấy.
+                ◦ Ví dụ: どうして 遅れたんですか。 (Tai sao anh lại đến muộn thế?)
+            • Chú ý: Đôi khi 「～んですか」biểu thị sự ngạc nhiên, mối nghi ngờ hay sự tò mò sâu sắc. Tuy nhiên, nếu không dùng đúng thì có thể làm tổn thương người nghe. Vì thế nên cẩn thận khi dùng.
+        ▪ (2) Trong câu trần thuật: 「～んです。」
+            • a) Khi trả lời câu hỏi tại sao giống như ý C ở phần trên. (phía sau không còn 「から」nữa).
+                ◦ Ví dụ: どうして 遅れたんですか。 (Tai sao anh lại đến muộn?)
+                    ▪ …バスが 来なかったんです。 (… Tại vì xe buýt không đến.)
+            • b) Khi người nói trình bày thêm nguyên nhân, lý do. (phía sau không còn 「から」nữa).
+                ◦ Ví dụ: 毎朝、新聞を 読みますか。 (Hàng sáng anh có đọc báo không?)
+                    ▪ …いいえ。時間が ないんです。 (… Không. Vì tôi không có thời gian.)
+            • Chú ý: Không được dùng 「～んです」để diễn tả sự thật đơn thuần.
+2. ～んですが、V ていただけませんか。 (cách yêu cầu, đề nghị ai làm gì giúp mình 1 cách lịch sự)
+    ◦ Ý nghĩa: mong (ai đó) làm gì giúp được không?.
+    ◦ Cách dùng: Dùng để yêu cầu, nhờ ai đó làm gì giúp mình nhưng có ý nghĩa yêu cầu, nhờ vả lịch sự hơn 「V てください」rất nhiều.
+    ◦ Chú ý: 「～ていただけませんか」chứ không phải là 「～ていただきませんか」.
+    ◦ Ví dụ:
+        ▪ 日本語で 手紙を 書いたんですが、見て いただけませんか。 (Tôi đã viết 1 bức thư bằng tiếng Nhật, anh/chị xem giúp tôi được không ạ?)
+        ▪ コピー機の 使い方が 分からないんですが、教えて いただけませんか。 (Tôi không biết cách sử dụng máy photo, anh/chị chỉ giúp tôi được không ạ?)
+3. ～んですが、V たらいいですか。 (cách hỏi cách làm, xin lời khuyên, sự chỉ dẫn)
+    ◦ Ý nghĩa: làm thế nào … thì được nhỉ?; nên làm thế nào nhỉ?....
+    ◦ Cách dùng: Dùng khi muốn được người nghe cho lời khuyên hoặc hướng dẫn phải làm gì.
+    ◦ Ví dụ:
+        ▪ 日本語を 勉強したいんですが、どうしたら いいですか。 (Tôi muốn học tiếng Nhật, vậy thì nên làm thế nào nhỉ?)
+            • …FPT 大学で 勉強したら いいと思います。 (… Tôi nghĩ anh nên học tiếng Nhật ở Đại học FPT.)
+        ▪ 試験の予定を 知りたいんですが、だれに 聞いたら いいですか。 (Tôi muốn biết kế hoạch thi, vậy tôi nên hỏi ai bây giờ?)
+            • …試験部の Nga さんに 聞いて ください。 (… Anh/chị hãy hỏi chị Nga phòng khảo thí.)

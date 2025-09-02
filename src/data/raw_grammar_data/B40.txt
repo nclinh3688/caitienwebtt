@@ -1,0 +1,36 @@
+第４０課 (Dai Yonjukkka)
+1. 疑問助詞 「～か」 (Trợ từ nghi vấn 「～か」)
+* Ý nghĩa: Trợ từ nghi vấn ～か thường được đặt ở cuối câu nghi vấn. Tuy nhiên, trong bài này, か được sử dụng để biến câu hỏi có từ để hỏi thành một thành phần của câu khác.
+* Cách dùng:
+    * Khi câu hỏi có từ để hỏi (Ví dụ: いつ、なに、どこ、だれ、どう) được sử dụng làm một phần của câu khác, nó sẽ được kết thúc bằng か và động từ, tính từ, danh từ đứng trước か sẽ ở thể thông thường.
+    * Ví dụ:
+        * 会議は 何時に終わるか、分かりません。 (Không biết mấy giờ thì cuộc họp kết thúc.)
+        * どうしたらいいか、考えてください。 (Hãy suy nghĩ xem nên làm thế nào thì tốt.)
+        * 神戸は どんな町か、しりません。 (Không biết Kobe là thành phố như thế nào.)
+    * Lưu ý sự khác nhau giữa なにか và どこか:
+        * 箱の中身は なにか、調べてください。(Hãy kiểm tra xem trong hộp có cái gì.) (Hỏi về nội dung cụ thể trong hộp)
+        * のどがかわきましたから、なにか 飲みたいですね。(Vì khát nước nên muốn uống cái gì đó quá nhỉ.) (Muốn uống một cái gì đó không xác định)
+        * お手洗いは どこか、わかりません。(Không biết nhà vệ sinh ở đâu.) (Hỏi về vị trí cụ thể của nhà vệ sinh)
+        * 今日はいい天気ですね。どこか 行きますか。(Hôm nay trời đẹp quá. Bạn có đi đâu đó không?) (Đi đến một nơi nào đó không xác định)
+2. 「～かどうか」 (Có ~ hay không)
+* Ý nghĩa: ～かどうか được sử dụng khi một câu văn nghi vấn không có từ nghi vấn được sử dụng làm thành phần trong câu khác. Nó có nghĩa là "là A, hay không phải là A".
+* Cách dùng: Tương tự như ～か、～, mệnh đề trước かどうか sẽ ở thể thông thường.
+* Ví dụ:
+    * リーさんは 来るかどうか、分かりません。(Không biết ông Lee có đến không.)
+    * 間違いが ないかどうか、調べてください。(Hãy kiểm tra xem có lỗi sai không.)
+    * Lưu ý: Ví dụ thứ hai sử dụng ないかどうか thay vì あるかどうか vì người nói hy vọng không có nhầm lẫn.
+3. 「V て みます」 (Thử làm việc gì đó)
+* Ý nghĩa: Diễn đạt ai đó muốn thử làm việc gì để xem kết quả thế nào.
+* Cách dùng: Động từ đứng trước みます chia ở thể て. みます cũng chia như các động từ khác.
+* Ví dụ:
+    * 日本のお酒を 飲んでみたいです。(Tôi muốn uống thử rượu của Nhật.)
+    * ちょっとこの店に 入ってみよう。(Chúng ta hãy thử vào quán này một chút đi.)
+    * このズボンに 入ってみてもいいですか。(Tôi có thể mặc thử chiếc quần này không?)
+4. Tính từ 「A い  A さ」
+* Ý nghĩa: Biến một tính từ đuôi い thành danh từ trừu tượng miêu tả tính chất, trạng thái.
+* Cách dùng: Đổi đuôi い thành さ.
+* Ví dụ:
+    * 高い (cao)  高さ (độ cao)
+    * 新しい (mới)  新しさ (sự mới, cái mới)
+    * Đặc biệt: いい (tốt)  よさ (cái tốt)
+    * 山の高さは どうやって はかるか、知っていますか。(Bạn có biết làm thế nào để đo được độ cao của núi không?)

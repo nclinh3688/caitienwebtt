@@ -1,0 +1,37 @@
+第１４課 (Bài 14)
+1. Các nhóm của động từ
+    ◦ Động từ trong tiếng Nhật được chia làm 3 nhóm theo cách chia sang các thể của chúng.
+    ◦ (1) Nhóm 1: Bao gồm các động từ đứng trước đuôi 「ます」là các chữ cái thuộc hàng “i”.
+        ▪ Ví dụ: かきます, のみます.
+    ◦ (2) Nhóm 2: Hầu hết các động từ thuộc nhóm này có dạng đứng trước đuôi 「ます」là các chữ cái thuộc hàng “e”. Tuy nhiên cũng có một số động từ đứng trước đuôi 「ます」là các chữ cái thuộc hàng “i”.
+        ▪ Ví dụ: たべます, みせます, みます, おきます.
+    ◦ (3) Nhóm 3: Bao gồm 2 động từ: します(làm), きます(đến).
+2. Thể て của động từ
+    ◦ Các động từ kết thúc bằng 「て、で」được gọi là thể て. Cách chia của thể て phụ thuộc vào các nhóm động từ.
+    ◦ Cách chia (chi tiết bảng trong nguồn):
+        ▪ Nhóm 1: V (i)ます → V いて (ví dụ: かきます → かいて), V ぎます → V いで (ví dụ: いそぎます → いそいで), V みます → V んで (ví dụ: のみます → のんで), V います → V って (ví dụ: かいます → かって), V ります → V って (ví dụ: とります → とって), V ちます → V って (ví dụ: まちます → まって), V します → V して (ví dụ: かします → かして), V びます → V んで (ví dụ: よびます → よんで), V にます → V んで (ví dụ: しにます → しんで), ます → んで (ví dụ: よみます → よんで).
+        ▪ Nhóm 2: V (e)ます → V (e)て (ví dụ: 食べます → 食べて), V (i)ます → V (i)て (ví dụ: みます → みて).
+        ▪ Nhóm 3: します → して (ví dụ: べんきょうします → べんきょうして), きます → きて.
+    ◦ Chú ý: Khi chia sang thể て, ý nghĩa của động từ không thay đổi. Thể て là 1 thể của động từ, dùng để cấu thành các mẫu câu khác nhau.
+3. V てください (Câu nói sai khiến, nhờ vả lịch sự)
+    ◦ Ý nghĩa: Hãy làm ~, Vui lòng làm ~.
+    ◦ Cấu tạo: Động từ để thể て thêm ください.
+    ◦ Cách dùng: Mẫu câu này dùng khi yêu cầu, nhờ ai đó làm gì một cách lịch sự.
+    ◦ Ví dụ:
+        ▪ ちょっと待ってください。 (Vui lòng/Xin hãy chờ một chút.)
+        ▪ 辞書を 貸してください。 (Vui lòng/Hãy cho tôi mượn quyển từ điển.)
+        ▪ ゆっくり 言ってください。 (Vui lòng/Hãy nói chậm lại.)
+4. V ています (Cách thể hiện thời tiếp diễn)
+    ◦ Ý nghĩa: Đang làm ~.
+    ◦ Cấu tạo: Động từ thể て thêm います.
+    ◦ Cách dùng: Mẫu câu này dùng để diễn tả một hành động đang diễn ra tại thời điểm nói.
+    ◦ Ví dụ:
+        ▪ 田中さんは 今 日本語を勉強しています。 (Bạn Tanaka đang học tiếng Nhật.)
+        ▪ 今 雨が 降っています。 (Bây giờ trời đang mưa.)
+5. V（thể ます）しょうか (Cách thể hiện 1 lời đề nghị được làm giúp ai đó việc gì)
+    ◦ Cách dùng: Sử dụng khi người nói ngỏ ý làm gì đó giúp cho người nghe.
+    ◦ Ví dụ:
+        ▪ タクシーを よびましょうか。 (Tôi gọi taxi cho bạn nhé!)
+            • ...すみません。おねがいします。 (… Xin lỗi. Bạn giúp tôi nhé!)
+        ▪ 荷物を 持ちましょうか。 (Tôi cầm hành lý giúp bạn nhé!)
+            • ...いいえ、けっこうです。 (… Không, tôi làm được rồi.)

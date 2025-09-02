@@ -1,0 +1,93 @@
+{
+  "vietnameseTitle": "第４４課 (Bài 44)",
+  "japaneseTitle": "Dai Yonjūyon-ka",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "V, A, Nａ + すぎます",
+      "meaning": "Quá mức",
+      "vietnamese": {
+        "meaning": "(Cái gì đó) quá.",
+        "usage": "Diễn đạt ý vượt quá một mức độ nào đó của động tác, tác dụng, trạng thái, tình trạng. Thường dùng trong trường hợp có ý xấu, nằm ngoài mong đợi.",
+        "usagePoints": [
+          "Động từ: Bỏ ます thêm すぎます.",
+          "Tính từ đuôi い: Bỏ い thêm すぎます.",
+          "Tính từ đuôi な: Bỏ な thêm すぎます."
+        ],
+        "note": ""
+      },
+      "explanation": "Dùng để diễn tả một hành động hoặc trạng thái vượt quá mức độ bình thường, thường mang ý nghĩa tiêu cực.",
+      "examples": [
+        { "japanese": "昨日のお酒を飲みすぎました。", "kanji": "昨日のお酒を飲みすぎました。", "vietnamese": "Tối qua, tôi đã uống quá nhiều rượu.", "english": "I drank too much alcohol last night." },
+        { "japanese": "このシャツは大きすぎます。", "kanji": "このシャツは大きすぎます。", "vietnamese": "Cái áo sơ mi này quá to.", "english": "This shirt is too big." },
+        { "japanese": "試験の問題は複雑すぎて、何もわかりませんでした。", "kanji": "試験の問題は複雑すぎて、何もわかりませんでした。", "vietnamese": "Bài thi khó quá nên chả hiểu gì cả.", "english": "The exam questions were too complicated, so I didn't understand anything." }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "Vます + やすいです／にくいです",
+      "meaning": "Dễ/Khó làm",
+      "vietnamese": {
+        "meaning": "Dễ (làm gì) / khó (làm gì).",
+        "usage": "Ghép tính từ với động từ để thể hiện mức độ khó hay dễ khi thực hiện hành động nào đó.",
+        "usagePoints": ["Bỏ ます của động từ thêm やすいです hoặc にくいです."],
+        "note": "Cả cụm mang tính chất của tính từ đuôi い."
+      },
+      "explanation": "Dùng để diễn tả việc thực hiện một hành động là dễ hay khó.",
+      "examples": [
+        { "japanese": "この薬は飲みやすいです。", "kanji": "この薬は飲みやすいです。", "vietnamese": "Thuốc này dễ uống.", "english": "This medicine is easy to take." },
+        { "japanese": "白いシャツは汚れやすいです。", "kanji": "白いシャツは汚れやすいです。", "vietnamese": "Áo sơ mi trắng dễ bị bẩn.", "english": "White shirts get dirty easily." },
+        { "japanese": "東京は住みにくいです。", "kanji": "東京は住みにくいです。", "vietnamese": "Tokyo khó sống.", "english": "Tokyo is a difficult place to live." },
+        { "japanese": "このコップは割れにくいです。", "kanji": "このコップは割れにくいです。", "vietnamese": "Cốc này khó bị vỡ.", "english": "This cup is hard to break." }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP3",
+      "pattern": "Aい／Nａ／Ｎに します",
+      "meaning": "Làm cho ~ trở thành",
+      "vietnamese": {
+        "meaning": "Làm cho ~ trở thành.",
+        "usage": "Diễn tả việc làm thay đổi một cái gì đó sang một trạng thái khác, hoàn toàn do ý chí của người nói (khác với ～なります diễn tả sự thay đổi tự nhiên).",
+        "usagePoints": [
+          "Tính từ đuôi い: Bỏ い thêm くします.",
+          "Tính từ đuôi な: Bỏ な thêm にします.",
+          "Danh từ: Thêm にします."
+        ],
+        "note": ""
+      },
+      "explanation": "Dùng để diễn tả hành động có chủ ý làm thay đổi trạng thái của một vật hoặc sự việc.",
+      "examples": [
+        { "japanese": "音を大きくします。", "kanji": "音を大きくします。", "vietnamese": "Tôi vặn tiếng to hơn (làm cho to hơn).", "english": "I'll turn up the volume (make it louder)." },
+        { "japanese": "髪を短くします。", "kanji": "髪を短くします。", "vietnamese": "Tôi sẽ cắt tóc (làm cho tóc ngắn).", "english": "I will cut my hair (make my hair short)." },
+        { "japanese": "部屋をきれいにします。", "kanji": "部屋をきれいにします。", "vietnamese": "Tôi dọn cho phòng sạch hơn (làm cho phòng sạch).", "english": "I will clean the room (make the room clean)." }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP4",
+      "pattern": "Nに します",
+      "meaning": "Chọn, Quyết định",
+      "vietnamese": {
+        "meaning": "Chọn, quyết định (làm).",
+        "usage": "Biểu thị quyết định và lựa chọn có ý chí của con người.",
+        "usagePoints": [],
+        "note": ""
+      },
+      "explanation": "Dùng để diễn tả sự lựa chọn hoặc quyết định.",
+      "examples": [
+        { "japanese": "会議は明日にします。", "kanji": "会議は明日にします。", "vietnamese": "Để đến mai họp (quyết định dời buổi học sang ngày mai).", "english": "Let's have the meeting tomorrow (decide to postpone the meeting to tomorrow)." },
+        { "japanese": "晩ご飯は寿司にします。", "kanji": "晩ご飯は寿司にします。", "vietnamese": "Bữa tối tôi chọn sushi (chọn món sushi để ăn).", "english": "I'll have sushi for dinner (choose sushi for dinner)." },
+        { "japanese": "ホテルはどこにしますか。", "kanji": "ホテルはどこにしますか。", "vietnamese": "Bạn chọn khách sạn nào?", "english": "Which hotel will you choose?" },
+        { "japanese": "ハノイホテルにします。", "kanji": "ハノイホテルにします。", "vietnamese": "Tôi chọn khách sạn Hà nội.", "english": "I'll choose the Hanoi Hotel." }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

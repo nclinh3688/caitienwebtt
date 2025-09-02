@@ -348,7 +348,7 @@ export default function QuizSystem({ questions, timeLimit, onComplete, onClose }
                   onClick={() => handleAnswerSelect(currentQuestion.id, option)}
                   className={`w-full p-4 border-2 rounded-xl text-left transition-all ${
                     selectedAnswers[currentQuestion.id] === option
-                      ? 'border-blue-500 bg-blue-50'
+                      ? 'bg-blue-50'
                       : 'border-gray-200 hover:border-blue-300 hover:bg-blue-50'
                   }`}
                 >
@@ -375,7 +375,7 @@ export default function QuizSystem({ questions, timeLimit, onComplete, onClose }
                   onClick={() => handleAnswerSelect(currentQuestion.id, option)}
                   className={`p-4 border-2 rounded-xl text-center transition-all ${
                     selectedAnswers[currentQuestion.id] === option
-                      ? 'border-blue-500 bg-blue-50'
+                      ? 'bg-blue-50'
                       : 'border-gray-200 hover:border-blue-300 hover:bg-blue-50'
                   }`}
                 >
@@ -392,7 +392,7 @@ export default function QuizSystem({ questions, timeLimit, onComplete, onClose }
                 placeholder="Nhập câu trả lời của bạn..."
                 value={selectedAnswers[currentQuestion.id] as string || ''}
                 onChange={(e) => handleAnswerSelect(currentQuestion.id, e.target.value)}
-                className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:outline-none"
+                className="w-full p-4 border-2 border-gray-200 rounded-xl focus:outline-none"
               />
             </div>
           )}

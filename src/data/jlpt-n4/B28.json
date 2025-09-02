@@ -1,0 +1,104 @@
+{
+  "vietnameseTitle": "第２８課 (Bài 28)",
+  "japaneseTitle": "",
+  "estimatedTime": "",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "V てあります / N１ に N２ が V てあります / N２は N１に V てあります",
+      "meaning": "Diễn tả trạng thái, kết quả hành động với tha động từ",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Mẫu câu 「～てあります」dùng để diễn tả trạng thái của sự vật như là kết quả của hành động được ai đó thực hiện trước đó với mục đích hay ý đồ gì đó",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Sử dụng tha động từ (động từ chỉ động tác của con người)",
+          "• Diễn tả trạng thái kết quả của hành động",
+          "• Thường dùng để nói về sự chuẩn bị"
+        ],
+        "note": "Lưu ý: Khác với ～ています, ～てあります nhấn mạnh kết quả"
+      },
+      "explanation": "Mẫu câu này thường sử dụng tha động từ, tức là những động từ chỉ động tác của con người",
+      "examples": [
+        {
+          "japanese": "テーブルの上に花が飾ってあります。",
+          "kanji": "テーブルの上に花が飾ってあります",
+          "vietnamese": "Trên bàn có hoa được trang trí sẵn",
+          "english": ""
+        },
+        {
+          "japanese": "壁に絵が掛けてあります。",
+          "kanji": "壁に絵が掛けてあります",
+          "vietnamese": "Trên tường có tranh được treo sẵn",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "V ておきます",
+      "meaning": "Chuẩn bị trước hoặc giữ nguyên trạng thái",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả việc chuẩn bị trước hoặc giữ nguyên trạng thái",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể て + おきます",
+          "• Dùng để chuẩn bị trước cho tương lai",
+          "• Hoặc giữ nguyên trạng thái hiện tại"
+        ],
+        "note": "Lưu ý: Thường dùng để nói về sự chuẩn bị"
+      },
+      "explanation": "Sử dụng để diễn tả việc chuẩn bị trước hoặc giữ nguyên trạng thái",
+      "examples": [
+        {
+          "japanese": "明日の会議の資料を準備しておきます。",
+          "kanji": "明日の会議の資料を準備しておきます",
+          "vietnamese": "Tôi sẽ chuẩn bị tài liệu cho cuộc họp ngày mai",
+          "english": ""
+        },
+        {
+          "japanese": "このままにしておきます。",
+          "kanji": "このままにしておきます",
+          "vietnamese": "Tôi sẽ để nguyên như thế này",
+          "english": ""
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP3",
+      "pattern": "V てしまいます",
+      "meaning": "Hoàn thành hành động hoặc diễn tả sự nuối tiếc",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Diễn tả việc hoàn thành hành động hoặc sự nuối tiếc",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• Động từ thể て + しまいます",
+          "• Dùng để nói về việc hoàn thành",
+          "• Hoặc diễn tả sự nuối tiếc, hối hận"
+        ],
+        "note": "Lưu ý: Có thể mang ý nghĩa tích cực hoặc tiêu cực"
+      },
+      "explanation": "Sử dụng để diễn tả việc hoàn thành hoặc sự nuối tiếc",
+      "examples": [
+        {
+          "japanese": "宿題を全部終わらせてしまいました。",
+          "kanji": "宿題を全部終わらせてしまいました",
+          "vietnamese": "Tôi đã hoàn thành tất cả bài tập về nhà",
+          "english": ""
+        },
+        {
+          "japanese": "大切な書類を無くしてしまいました。",
+          "kanji": "大切な書類を無くしてしまいました",
+          "vietnamese": "Tôi đã làm mất tài liệu quan trọng",
+          "english": ""
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}

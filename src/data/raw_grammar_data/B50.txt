@@ -1,0 +1,32 @@
+第５０課 (Dai Gojukkka)
+「謙譲語」 (Khiêm nhường ngữ)
+Khiêm nhường ngữ là cách nói khiêm tốn, nhún nhường dùng cho những hành động của người nói hoặc người "trong" của mình đối với người nghe hoặc người được nhắc tới. Tuyệt đối không dùng cho hành vi của người thuộc quan hệ "ngoài".
+1. 「おＶします」 (Khiêm nhường ngữ của động từ)
+* Ý nghĩa: Thể hiện sự nhún nhường, hạ mình của người nói.
+* Cách cấu tạo: Bỏ ます của động từ thêm おＶします.
+    * Nhóm I: 持ちます → お持ちします.
+    * Nhóm II: 調べます → お調べします.
+    * Nhóm III: 案内します → ご案内します (trường hợp đặc biệt, dùng ご).
+* Lưu ý:
+    * Chỉ dùng khi hành động của người nói liên quan đến người nghe hoặc người được nhắc tới.
+    * Không dùng với động từ 1 âm tiết (ví dụ: 来ます → まいります, 見ます → はいけんします, います → おります).
+2. Khiêm nhường ngữ của danh động từ 「ご N します」
+* Cách ghép: Các danh động từ (N します) thường là từ gốc Hán, ghép ご và tạo thành ご N します. (Không áp dụng với 勉強します, 実習します, 結婚します).
+* Ví dụ:
+    * 江戸東京博物館へご案内します。(Tôi xin hướng dẫn tới Nhà bảo tàng Edo Tokyo.)
+    * 今日の予定をご説明します。(Tôi xin giải thích về dự định của ngày hôm nay.)
+3. Động từ khiêm nhường ngữ đặc biệt:
+* Ví dụ (xem bảng kính ngữ đặc biệt ở Bài 49):
+    * いきます, きます → まいります.
+    * います → おります.
+    * たべます, のみます → いただきます.
+    * します → いたします.
+    * いいます → もうします.
+    * しっています → ぞんじております.
+    * みます → はいけんします.
+4. Thể lịch sự (丁寧語)
+* Cách dùng: Sử dụng khi người nói muốn bày tỏ sự kính trọng với người nghe.
+* Các thể lịch sự hay dùng:
+    * ございます (lịch sự của あります). Ví dụ: 電話は階段の横にございます。(Điện thoại có ở bên cạnh cầu thang ạ.)
+    * ～でございます (lịch sự của ～です). Ví dụ: はい、IMCでございます。(Vâng, IMC xin nghe.)
+    * よろしいでしょうか (lịch sự của いいですか). Ví dụ: お飲み物は何がよろしいでしょうか。(Ngài sẽ dùng đồ uống gì ạ?)

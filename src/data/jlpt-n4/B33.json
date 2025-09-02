@@ -1,0 +1,78 @@
+{
+  "vietnameseTitle": "第３３課 (Bài 33)",
+  "japaneseTitle": "",
+  "estimatedTime": "60 phút",
+  "difficulty": "N4",
+  "grammarPatterns": [
+    {
+      "id": "GP1",
+      "pattern": "Động từ thể mệnh lệnh (命令形)",
+      "meaning": "Ra lệnh (Làm đi!)",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Dùng để ra lệnh hoặc yêu cầu ai đó thực hiện một hành động một cách mạnh mẽ. Đây là cách nói không lịch sự.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "**1. Cách chia:**",
+          "  • **Nhóm I:** Chuyển đuôi cột「い」sang cột「え」. (例: かきます → かけ)",
+          "  • **Nhóm II:** Bỏ「ます」thêm「ろ」. (例: たべます → たべろ)",
+          "  • **Nhóm III:** します → しろ, きます → こい",
+          "**2. Trường hợp sử dụng:**",
+          "  • Cấp trên nói với cấp dưới, bố mẹ nói với con cái.",
+          "  • Trong quân đội, khi huấn luyện.",
+          "  • Trong các tình huống khẩn cấp (ví dụ: 「逃げろ！」- Chạy đi!).",
+          "  • Khi cổ vũ thể thao."
+        ],
+        "note": "Lưu ý: Thể mệnh lệnh rất mạnh và không được dùng trong các cuộc hội thoại thông thường, lịch sự."
+      },
+      "explanation": "Thể mệnh lệnh là một cách ra lệnh trực tiếp và mạnh mẽ. Nó thể hiện quyền uy của người nói và yêu cầu người nghe phải thực hiện hành động ngay lập tức. Do tính chất mạnh mẽ, nó chỉ được dùng trong những ngữ cảnh rất hạn chế.",
+      "examples": [
+        {
+          "japanese": "はやく ねろ。",
+          "kanji": "早く 寝ろ。",
+          "vietnamese": "Ngủ nhanh!",
+          "english": "Go to sleep now!"
+        },
+        {
+          "japanese": "もっと べんきょうしろ。",
+          "kanji": "もっと 勉強しろ。",
+          "vietnamese": "Học nhiều vào!",
+          "english": "Study more!"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "GP2",
+      "pattern": "Động từ thể cấm đoán (禁止形)",
+      "meaning": "Cấm làm gì đó (Cấm!)",
+      "vietnamese": {
+        "meaning": "Ý nghĩa: Dùng để ra lệnh cấm một cách mạnh mẽ, yêu cầu ai đó không được làm một hành động nào đó.",
+        "usage": "Cách dùng:",
+        "usagePoints": [
+          "• **Cách chia:** Động từ thể từ điển (Vる) + な.",
+          "• Được sử dụng trong các ngữ cảnh tương tự như thể mệnh lệnh."
+        ],
+        "note": "Lưu ý: Đây cũng là một cách nói rất mạnh và không được dùng trong giao tiếp thông thường."
+      },
+      "explanation": "Thể cấm đoán là cách ra lệnh cấm trực tiếp và mạnh mẽ nhất. Nó thường được thấy trên các biển báo hoặc trong các tình huống yêu cầu sự tuân thủ tuyệt đối.",
+      "examples": [
+        {
+          "japanese": "おさけを のむな。",
+          "kanji": "お酒を 飲むな。",
+          "vietnamese": "Cấm uống rượu!",
+          "english": "Do not drink alcohol!"
+        },
+        {
+          "japanese": "しんぱいするな。",
+          "kanji": "心配するな。",
+          "vietnamese": "Đừng lo lắng!",
+          "english": "Don't worry!"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "exercises": [],
+  "summary": {},
+  "culturalNotes": []
+}
